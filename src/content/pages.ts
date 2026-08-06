@@ -393,7 +393,7 @@ const preRollsPage: PageContent = {
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
         [
           { text: "The broader " },
-          { text: "Presidential pre-roll format page", href: `${MAIN}/presidential-prerolls` },
+          { text: "Presidential pre-roll catalog path", href: `${MAIN}/moon-rocks/presidential-prerolls` },
           { text: " provides another official route into the category. The Oklahoma site remains focused on what local patients and retailers need most: format recognition, honest availability language, and direct paths to exact product records." },
         ],
       ],
@@ -416,7 +416,6 @@ const preRollsPage: PageContent = {
   ],
   sources: [
     { label: "Official Presidential Pre-Rolls collection", href: `${MAIN}/moon-rocks/presidential-prerolls` },
-    { label: "Official Presidential pre-roll format page", href: `${MAIN}/presidential-prerolls` },
     { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };

@@ -43,3 +43,9 @@
 - Status: External DNS action pending; Vercel deployment is live.
 - Finding: Both `presidentialthcoklahoma.com` and `www.presidentialthcoklahoma.com` are attached to the Vercel project, but the domain still uses GoDaddy nameservers and does not yet have the Vercel record requested by the platform.
 - Action: Vercel reports the required record as `A 76.76.21.21` for the apex and for `www`. The project already contains the permanent `www`-to-apex redirect; it will take effect when DNS reaches Vercel. The stable public deployment remains available at `https://presidential-thc-oklahoma.vercel.app` meanwhile.
+
+## 2026-08-06 — Assumed pre-roll format URL returned 404
+
+- Status: Resolved; corrected before closeout.
+- Finding: `https://presidentialmoonrocks.com/presidential-prerolls` returned HTTP 404 during the required source-resolution inventory. The canonical collection at `/moon-rocks/presidential-prerolls` returns HTTP 200.
+- Action: Repointed the second contextual pre-roll link to the canonical collection path with distinct anchor text and removed the failing URL from the page’s source list.
