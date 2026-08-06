@@ -31,3 +31,15 @@
 - Status: Resolved; build continuing.
 - Finding: The revised brief cuts the regulatory-first page set and replaces it with twelve product-first routes.
 - Action: Preserved the existing visual system and held source material while replacing only the active information architecture, page content, navigation, and image manifest required by 6142.
+
+## 2026-08-06 — First Vercel deployment was protected and misclassified
+
+- Status: Resolved; production redeployed.
+- Finding: Vercel created the new project with its default Authentication protection and framework preset `Other`. The first build completed, but generated deployment aliases returned Vercel-level `NOT_FOUND` after protection was removed.
+- Action: Disabled Vercel Authentication for this public product site through the documented project API, set the framework preset to `nextjs`, and redeployed. The stable Vercel alias and all twelve page routes now return HTTP 200.
+
+## 2026-08-06 — Custom-domain DNS is not pointed to Vercel
+
+- Status: External DNS action pending; Vercel deployment is live.
+- Finding: Both `presidentialthcoklahoma.com` and `www.presidentialthcoklahoma.com` are attached to the Vercel project, but the domain still uses GoDaddy nameservers and does not yet have the Vercel record requested by the platform.
+- Action: Vercel reports the required record as `A 76.76.21.21` for the apex and for `www`. The project already contains the permanent `www`-to-apex redirect; it will take effect when DNS reaches Vercel. The stable public deployment remains available at `https://presidential-thc-oklahoma.vercel.app` meanwhile.

@@ -106,7 +106,10 @@ for (const asset of manifest) {
   await pipeline.webp({ quality: 84, alphaQuality: 90, effort: 5 }).toFile(output);
 }
 
-await copyFile(heroSource, path.join(publicImageRoot, "ok-hero.webp"));
+await sharp(heroSource)
+  .resize({ width: 1920, withoutEnlargement: true })
+  .webp({ quality: 80, effort: 5 })
+  .toFile(path.join(publicImageRoot, "ok-hero.webp"));
 
 await sharp(crestSource)
   .resize({ width: 512, height: 512, fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
