@@ -9,10 +9,10 @@ import "./globals.css";
 
 const clashDisplay = localFont({
   src: [
-    { path: "../../public/fonts/clash-display-400.woff2", weight: "400" },
-    { path: "../../public/fonts/clash-display-500.woff2", weight: "500" },
-    { path: "../../public/fonts/clash-display-600.woff2", weight: "600" },
-    { path: "../../public/fonts/clash-display-700.woff2", weight: "700" },
+    // Match the main Presidential site: Semibold owns the 400–600 range so
+    // unweighted display text, including locator zeros, stays deliberately robust.
+    { path: "../../public/fonts/clash-display-semibold.woff2", weight: "400 600" },
+    { path: "../../public/fonts/clash-display-bold.woff2", weight: "700 900" },
   ],
   display: "swap",
   variable: "--font-clash-display",
