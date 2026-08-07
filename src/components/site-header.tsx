@@ -12,13 +12,13 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
       <div className="site-header__inner">
         <Link className="brand-lockup" href="/" aria-label="Presidential THC Oklahoma home">
           <Image
-            className="brand-crest"
-            src="/images/presidential-crest.webp"
-            width={512}
-            height={512}
-            sizes="(max-width: 640px) 62px, 78px"
+            className="brand-banner"
+            src="/images/presidential-banner.webp"
+            width={1839}
+            height={604}
+            sizes="(max-width: 640px) 82px, 116px"
             priority
-            alt="Presidential crest"
+            alt="Presidential"
           />
           <span className="brand-lockup__text">
             <span className="brand-lockup__name">Presidential THC Oklahoma</span>
@@ -26,10 +26,13 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
           </span>
         </Link>
 
-        <a className="official-header-link" href={MAIN_SITE_URL} rel="nofollow">
-          <span className="official-header-link__full">Official </span>
-          Presidential <span aria-hidden="true">↗</span>
-        </a>
+        <Link className="store-header-link" href="/find" aria-label="Find a store in Oklahoma">
+          <svg aria-hidden="true" viewBox="0 0 24 24">
+            <path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z" />
+            <circle cx="12" cy="9" r="2.5" />
+          </svg>
+          <span className="store-header-link__text">FIND A STORE</span>
+        </Link>
 
         <nav className="primary-nav" aria-label="Primary navigation">
           {primaryNavigation.map((item) => {
@@ -41,6 +44,11 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
             );
           })}
         </nav>
+
+        <a className="official-header-link" href={MAIN_SITE_URL} rel="nofollow">
+          <span className="official-header-link__full">OFFICIAL PRESIDENTIAL</span>
+          <span className="official-header-link__short">PRESIDENTIAL</span>
+        </a>
       </div>
     </header>
   );

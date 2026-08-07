@@ -9,6 +9,7 @@ const manifestPath = path.join(projectRoot, "src", "content", "assets.json");
 const productSourceRoot = "J:\\presidential-official\\sources\\client\\google-drive-drop\\_EXTRACTED\\Product Graphics-20260703T032133Z-3-001\\Product Graphics";
 const heroSource = "J:\\presidential-official\\web\\public\\media\\states\\ok-hero.webp";
 const crestSource = "J:\\presidential-official\\sources\\vercel-draft\\assets\\img\\crest.png";
+const bannerSource = "J:\\presidential-official\\web\\public\\media\\brand\\presidential-banner.png";
 const clashSourceRoot = "J:\\presidential-thc-net\\public\\fonts";
 const productOutputRoot = path.join(projectRoot, "public", "images", "products");
 const publicImageRoot = path.join(projectRoot, "public", "images");
@@ -115,6 +116,10 @@ await sharp(crestSource)
   .resize({ width: 512, height: 512, fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
   .webp({ quality: 92, alphaQuality: 95 })
   .toFile(path.join(publicImageRoot, "presidential-crest.webp"));
+
+await sharp(bannerSource)
+  .webp({ quality: 90, alphaQuality: 95 })
+  .toFile(path.join(publicImageRoot, "presidential-banner.webp"));
 
 for (const weight of [400, 500, 600, 700]) {
   await copyFile(

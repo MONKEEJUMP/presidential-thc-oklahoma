@@ -6,6 +6,7 @@ import type { ContentImage, ContentParagraph, PageContent } from "@/content/type
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
 
 import { ContentFigure } from "./content-figure";
+import { RetailerLocator } from "./retailer-locator";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
 
@@ -172,6 +173,8 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
       <main id="main-content">
         <PageHero page={page} />
         <article className={`publication publication--${page.kind}`}>
+          {page.path === "/find" ? <RetailerLocator /> : null}
+
           <div className="article-lead">
             {page.intro.map((paragraph, index) => <RichParagraph paragraph={paragraph} key={`intro-${index}`} />)}
           </div>
