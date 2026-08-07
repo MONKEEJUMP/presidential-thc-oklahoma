@@ -91,7 +91,7 @@ export function RetailerLocator() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [inboundSearch]);
 
-  async function runSearch(payload: SearchPayload, loadingMessage: string) {
+  async function runSearch(requestPayload: SearchPayload, loadingMessage: string) {
     setSearchState("loading");
     setMessage(loadingMessage);
     setResults([]);
@@ -100,19 +100,19 @@ export function RetailerLocator() {
       const response = await fetch("/api/retailers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...payload, state: "OK", limit: 25 }),
+        body: JSON.stringify({ ...requestPayload, state: "OK", limit: 25 }),
       });
-      const payload = (await response.json()) as {
+      const responsePayload = (await response.json()) as {
         results?: Retailer[];
         error?: string;
       };
 
       if (!response.ok) {
-        throw new Error(payload.error || "The retailer search is temporarily unavailable.");
+        throw new Error(responsePayload.error || "The retailer search is temporarily unavailable.");
       }
 
-      const nearest = Array.isArray(payload.results)
-        ? [...payload.results].sort(
+      const nearest = Array.isArray(responsePayload.results)
+        ? [...responsePayload.results].sort(
             (left, right) =>
               (left.distance ?? Number.POSITIVE_INFINITY) -
               (right.distance ?? Number.POSITIVE_INFINITY),
