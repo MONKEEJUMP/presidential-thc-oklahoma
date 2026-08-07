@@ -1,6 +1,7 @@
 "use client";
 
-import { FormEvent, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import { FormEvent, useEffect, useRef, useState } from "react";
 
 type Retailer = {
   name: string;
@@ -14,8 +15,14 @@ type Retailer = {
 };
 
 type SearchState = "idle" | "loading" | "success" | "empty" | "error";
+type SearchPayload =
+  | { zip: string }
+  | { latitude: number; longitude: number };
 
 export function RetailerLocator() {
+  const searchParams = useSearchParams();
+  const inboundSearch = searchParams.toString();
+  const inboundSearchKey = useRef("");
   const [zip, setZip] = useState("");
   const [count, setCount] = useState(194);
   const [results, setResults] = useState<Retailer[]>([]);
@@ -35,7 +42,7 @@ export function RetailerLocator() {
           setCount(Number(payload.count));
         }
       } catch {
-        // Keep the verified launch count visible if the live request is interrupted.
+        // Keep the verified Oklahoma count visible if the live request is interrupted.
       }
     }
 
@@ -43,13 +50,58 @@ export function RetailerLocator() {
     return () => controller.abort();
   }, []);
 
-  async function runSearch(path: string, loadingMessage: string) {
+  useEffect(() => {
+    if (!inboundSearch || inboundSearchKey.current === inboundSearch) return;
+    inboundSearchKey.current = inboundSearch;
+
+    const params = new URLSearchParams(inboundSearch);
+    const requestedState = params.get("state");
+    if (requestedState && requestedState !== "OK") return;
+
+    const inboundZip = params.get("zip") ?? "";
+    if (/^\d{5}$/.test(inboundZip)) {
+      setZip(inboundZip);
+      void runSearch(
+        { zip: inboundZip },
+        "Searching verified Oklahoma retailers…",
+      );
+      return;
+    }
+
+    const rawLat = params.get("lat");
+    const rawLng = params.get("lng");
+    if (rawLat === null || rawLng === null) return;
+
+    const lat = Number(rawLat);
+    const lng = Number(rawLng);
+    if (
+      Number.isFinite(lat) &&
+      Number.isFinite(lng) &&
+      lat >= -90 &&
+      lat <= 90 &&
+      lng >= -180 &&
+      lng <= 180
+    ) {
+      void runSearch(
+        { latitude: lat, longitude: lng },
+        "Finding retailers near your current location…",
+      );
+    }
+    // runSearch is intentionally keyed by the validated URL search string.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [inboundSearch]);
+
+  async function runSearch(payload: SearchPayload, loadingMessage: string) {
     setSearchState("loading");
     setMessage(loadingMessage);
     setResults([]);
 
     try {
-      const response = await fetch(path);
+      const response = await fetch("/api/retailers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...payload, state: "OK", limit: 25 }),
+      });
       const payload = (await response.json()) as {
         results?: Retailer[];
         error?: string;
@@ -99,7 +151,7 @@ export function RetailerLocator() {
     }
 
     void runSearch(
-      `/api/retailers?zip=${encodeURIComponent(normalized)}&limit=25`,
+      { zip: normalized },
       "Searching verified Oklahoma retailers…",
     );
   }
@@ -118,7 +170,7 @@ export function RetailerLocator() {
     navigator.geolocation.getCurrentPosition(
       ({ coords }) => {
         void runSearch(
-          `/api/retailers?lat=${encodeURIComponent(coords.latitude)}&lng=${encodeURIComponent(coords.longitude)}&limit=25`,
+          { latitude: coords.latitude, longitude: coords.longitude },
           "Finding retailers near your current location…",
         );
       },
@@ -140,7 +192,7 @@ export function RetailerLocator() {
   const busy = searchState === "loading";
 
   return (
-    <section className="retailer-locator" aria-labelledby="retailer-locator-title">
+    <section className="retailer-locator" aria-labelledby="retailer-locator-title" id="retailer-locator">
       <div className="retailer-locator__masthead">
         <div>
           <p className="retailer-locator__eyebrow">VERIFIED LICENSED RETAIL</p>
@@ -153,60 +205,81 @@ export function RetailerLocator() {
 
       <div className="retailer-locator__rule" aria-hidden="true" />
 
-      <form className="retailer-locator__form" onSubmit={submitZip} aria-busy={busy}>
-        <p className="retailer-locator__form-title">SEARCH OKLAHOMA</p>
-        <label htmlFor="retailer-zip">ENTER YOUR ZIP CODE HERE</label>
-        <div className="retailer-locator__search-row">
-          <input
-            id="retailer-zip"
-            value={zip}
-            onChange={(event) => setZip(event.target.value.replace(/\D/g, "").slice(0, 5))}
-            placeholder="00000"
-            inputMode="numeric"
-            autoComplete="postal-code"
-            maxLength={5}
-            disabled={busy}
-          />
-          <button className="retailer-locator__go" type="submit" disabled={busy}>
-            GO!
-          </button>
-        </div>
-        <div className="retailer-locator__actions">
-          <button type="button" onClick={clearSearch} disabled={busy}>
-            CLEAR
-          </button>
-          <button type="button" onClick={useLocation} disabled={busy}>
-            USE MY LOCATION
-          </button>
-        </div>
-      </form>
+      <p className="retailer-locator__form-title">SEARCH OKLAHOMA</p>
+      <div className="retailer-locator__control-grid">
+        <div className="retailer-locator__console">
+          <form className="retailer-locator__form" onSubmit={submitZip} aria-busy={busy}>
+            <label htmlFor="retailer-zip">ENTER YOUR ZIP CODE HERE</label>
+            <div className="retailer-locator__search-row">
+              <input
+                id="retailer-zip"
+                value={zip}
+                onChange={(event) => {
+                  setZip(event.target.value.replace(/\D/g, "").slice(0, 5));
+                  setMessage("");
+                }}
+                placeholder="00000"
+                inputMode="numeric"
+                autoComplete="postal-code"
+                maxLength={5}
+                disabled={busy}
+              />
+              <button className="retailer-locator__go" type="submit" disabled={busy} aria-label="Go — search dispensaries">
+                GO!
+              </button>
+            </div>
+          </form>
 
-      <div className="retailer-locator__feedback" aria-live="polite">
-        {message ? <p>{message}</p> : null}
-      </div>
+          <div className="retailer-locator__actions">
+            <button type="button" onClick={clearSearch} disabled={busy}>
+              CLEAR
+            </button>
+            <button type="button" onClick={useLocation} disabled={busy}>
+              USE MY LOCATION
+            </button>
+          </div>
 
-      {results.length > 0 ? (
+          <p className="retailer-locator__repeat">ENTER YOUR ZIP CODE HERE</p>
+          <div className="retailer-locator__feedback" aria-live="polite">
+            {message ? <p>{message}</p> : null}
+          </div>
+        </div>
+
         <div className="retailer-results">
-          <h3>NEAREST VERIFIED RETAILERS</h3>
-          <ol>
-            {results.map((retailer, index) => (
-              <li key={`${retailer.name}-${retailer.address}-${index}`}>
-                <div>
-                  <h4>{retailer.name}</h4>
-                  <address>
-                    {retailer.address}
-                    <br />
-                    {retailer.city}, {retailer.state} {retailer.zip}
-                  </address>
-                </div>
-                <p className="retailer-results__distance">
-                  {retailer.distance === null ? "NEARBY" : `${retailer.distance.toFixed(1)} mi`}
-                </p>
-              </li>
-            ))}
-          </ol>
+          {busy ? (
+            <div className="retailer-results__radar" aria-label="Scanning for nearby retailers" role="status">
+              <span className="retailer-results__beam" />
+              <span className="retailer-results__ping" />
+            </div>
+          ) : null}
+
+          {!busy && results.length > 0 ? (
+            <>
+              <div className="retailer-results__heading">
+                <p>SIGNAL ACQUIRED</p>
+                <span>{results.length} LOCATIONS</span>
+              </div>
+              <ol>
+                {results.map((retailer, index) => (
+                  <li key={`${retailer.name}-${retailer.address}-${index}`}>
+                    <div>
+                      <h3>{retailer.name}</h3>
+                      <address>
+                        {retailer.address}
+                        <br />
+                        {retailer.city}, {retailer.state} {retailer.zip}
+                      </address>
+                    </div>
+                    <span className="retailer-results__distance">
+                      {retailer.distance === null ? "NEARBY" : `${retailer.distance.toFixed(1)} MI`}
+                    </span>
+                  </li>
+                ))}
+              </ol>
+            </>
+          ) : null}
         </div>
-      ) : null}
+      </div>
     </section>
   );
 }

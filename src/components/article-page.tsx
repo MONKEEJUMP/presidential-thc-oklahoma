@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment, Suspense } from "react";
 
 import type { ContentImage, ContentParagraph, PageContent } from "@/content/types";
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
@@ -22,6 +22,30 @@ function RichParagraph({ paragraph }: { paragraph: ContentParagraph }) {
 }
 
 function PageHero({ page }: { page: PageContent }) {
+  if (page.path === "/find") {
+    return (
+      <header className="find-page-hero">
+        <Image
+          className="find-page-hero__image"
+          src="/images/ok-hero.webp"
+          fill
+          sizes="100vw"
+          priority
+          alt="Oklahoma landscape beneath a wide evening sky"
+        />
+        <div className="find-page-hero__top-scrim" aria-hidden="true" />
+        <div className="find-page-hero__bottom-scrim" aria-hidden="true" />
+        <div className="find-page-hero__content">
+          <nav className="breadcrumbs" aria-label="Breadcrumb">
+            <Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">{page.h1}</span>
+          </nav>
+          <h1>{page.h1}</h1>
+          <p>{page.description}</p>
+        </div>
+      </header>
+    );
+  }
+
   if (page.kind === "pillar") {
     return (
       <header className="home-hero">
@@ -173,7 +197,11 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
       <main id="main-content">
         <PageHero page={page} />
         <article className={`publication publication--${page.kind}`}>
-          {page.path === "/find" ? <RetailerLocator /> : null}
+          {page.path === "/find" ? (
+            <Suspense fallback={null}>
+              <RetailerLocator />
+            </Suspense>
+          ) : null}
 
           <div className="article-lead">
             {page.intro.map((paragraph, index) => <RichParagraph paragraph={paragraph} key={`intro-${index}`} />)}

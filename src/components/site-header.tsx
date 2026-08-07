@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import { MAIN_SITE_URL, primaryNavigation } from "@/lib/site";
 
+import { HeaderStoreFinder } from "./header-store-finder";
+
 export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
   return (
     <header className="site-header">
@@ -26,13 +28,7 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
           </span>
         </Link>
 
-        <Link className="store-header-link" href="/find" aria-label="Find a store in Oklahoma">
-          <svg aria-hidden="true" viewBox="0 0 24 24">
-            <path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z" />
-            <circle cx="12" cy="9" r="2.5" />
-          </svg>
-          <span className="store-header-link__text">FIND A STORE</span>
-        </Link>
+        <HeaderStoreFinder />
 
         <nav className="primary-nav" aria-label="Primary navigation">
           {primaryNavigation.map((item) => {

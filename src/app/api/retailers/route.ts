@@ -43,6 +43,10 @@ function safeNumber(value: unknown) {
   return Number.isFinite(parsed) ? parsed : null;
 }
 
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return Boolean(value && typeof value === "object" && !Array.isArray(value));
+}
+
 function sanitizeRetailer(record: UpstreamRetailer) {
   return {
     name: safeText(record.name),
@@ -145,5 +149,29 @@ export async function GET(request: NextRequest) {
     return json({ state: "OK", results });
   } catch {
     return json({ error: "The retailer locator could not connect. Please try again shortly." }, 502);
+  }
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = (await request.json()) as unknown;
+    if (!isRecord(body)) {
+      return json({ error: "Enter an Oklahoma ZIP code or share your location." }, 400);
+    }
+
+    if (body.state !== undefined && body.state !== "OK") {
+      return json({ error: "Only Oklahoma retailer searches are supported." }, 400);
+    }
+
+    const url = new URL(request.url);
+    if (typeof body.zip === "string") url.searchParams.set("zip", body.zip);
+    if (typeof body.latitude === "number") url.searchParams.set("lat", String(body.latitude));
+    if (typeof body.longitude === "number") url.searchParams.set("lng", String(body.longitude));
+    if (typeof body.limit === "number") url.searchParams.set("limit", String(body.limit));
+    if (body.offset !== undefined) url.searchParams.set("offset", String(body.offset));
+
+    return GET(new NextRequest(url));
+  } catch {
+    return json({ error: "The retailer search request was not valid JSON." }, 400);
   }
 }
