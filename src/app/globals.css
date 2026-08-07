@@ -13,6 +13,58 @@
   --display: var(--font-clash-display), Arial, sans-serif;
   --serif: var(--font-source-serif), Georgia, serif;
   --content: 86rem;
+  --po-color-canvas: #ffffff;
+  --po-color-soft: #f8fafc;
+  --po-color-ink: #09090b;
+  --po-color-body: #3f3f46;
+  --po-color-muted: #52525b;
+  --po-color-subtle: #a1a1aa;
+  --po-color-line: #e4e4e7;
+  --po-color-brand: #58c3b6;
+  --po-color-brand-hover: #38decb;
+  --po-color-brand-strong: #3e706a;
+  --po-color-brand-ink: #2a524c;
+  --po-color-brand-soft: #eef9f7;
+  --po-color-brand-line: #bde7e0;
+  --po-color-gold: #fbbf24;
+  --po-color-gold-soft: #fef3c7;
+  --po-color-gold-ink: #78350f;
+  --po-color-silver: #e5e7eb;
+  --po-color-rose-gold: #f4c7b8;
+  --po-gold-thread-stops:
+    #f4e3a1 0%,
+    #d4b96a 48%,
+    #8f6b24 100%;
+  --po-gold-thread-inlay: linear-gradient(180deg, var(--po-gold-thread-stops));
+  --po-color-on-dark: #ffffff;
+  --po-color-on-dark-muted: #d4d4d8;
+  --po-font-display: var(--display);
+  --po-font-body: var(--serif);
+}
+
+@theme inline {
+  --color-po-canvas: var(--po-color-canvas);
+  --color-po-soft: var(--po-color-soft);
+  --color-po-ink: var(--po-color-ink);
+  --color-po-body: var(--po-color-body);
+  --color-po-muted: var(--po-color-muted);
+  --color-po-subtle: var(--po-color-subtle);
+  --color-po-line: var(--po-color-line);
+  --color-po-brand: var(--po-color-brand);
+  --color-po-brand-hover: var(--po-color-brand-hover);
+  --color-po-brand-strong: var(--po-color-brand-strong);
+  --color-po-brand-ink: var(--po-color-brand-ink);
+  --color-po-brand-soft: var(--po-color-brand-soft);
+  --color-po-brand-line: var(--po-color-brand-line);
+  --color-po-gold: var(--po-color-gold);
+  --color-po-gold-soft: var(--po-color-gold-soft);
+  --color-po-gold-ink: var(--po-color-gold-ink);
+  --color-po-silver: var(--po-color-silver);
+  --color-po-rose-gold: var(--po-color-rose-gold);
+  --color-po-on-dark: var(--po-color-on-dark);
+  --color-po-on-dark-muted: var(--po-color-on-dark-muted);
+  --font-sans: var(--po-font-body);
+  --font-display: var(--po-font-display);
 }
 
 * {
@@ -47,6 +99,22 @@ a:hover {
 :focus-visible {
   outline: 2px solid var(--gold-light);
   outline-offset: 4px;
+}
+
+.po-gold-thread-inlay {
+  position: relative;
+}
+
+.po-gold-thread-inlay::before {
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: var(--po-gold-thread-inlay);
+  content: "";
+  pointer-events: none;
 }
 
 .skip-link {

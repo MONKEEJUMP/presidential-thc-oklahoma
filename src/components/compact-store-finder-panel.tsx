@@ -31,10 +31,9 @@ export function CompactStoreFinderPanel({ onRoute }: CompactStoreFinderPanelProp
   const [locating, setLocating] = useState(false);
 
   function routeToFinder(params: URLSearchParams) {
-    params.set("state", "OK");
     setMessage("");
     onRoute?.();
-    router.push(`/find?${params.toString()}#retailer-locator`);
+    router.push(`/find?${params.toString()}#presidential-locator-console`);
   }
 
   function submitZip(event: FormEvent<HTMLFormElement>) {
@@ -60,8 +59,8 @@ export function CompactStoreFinderPanel({ onRoute }: CompactStoreFinderPanelProp
         setLocating(false);
         routeToFinder(
           new URLSearchParams({
-            lat: coords.latitude.toFixed(6),
-            lng: coords.longitude.toFixed(6),
+            latitude: coords.latitude.toFixed(6),
+            longitude: coords.longitude.toFixed(6),
           }),
         );
       },

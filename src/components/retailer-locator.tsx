@@ -1,285 +1,374 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { FormEvent, useEffect, useRef, useState } from "react";
+import { FormEvent, useEffect, useId, useMemo, useRef, useState } from "react";
 
-type Retailer = {
+import { STATE } from "@/config/state";
+
+import styles from "./locator-console.module.css";
+
+type SearchPayload =
+  | { zip: string }
+  | { latitude: number; longitude: number };
+
+type LocatorResult = Readonly<{
+  id: number;
   name: string;
   address: string;
   city: string;
   state: string;
   zip: string;
-  latitude: number | null;
-  longitude: number | null;
-  distance: number | null;
-};
+  phone: string | null;
+  website: string | null;
+  distance_miles: number;
+}>;
 
-type SearchState = "idle" | "loading" | "success" | "empty" | "error";
-type SearchPayload =
-  | { zip: string }
-  | { latitude: number; longitude: number };
+type LocatorApiResponse = Readonly<{ results: readonly LocatorResult[] }>;
+type LocatorApiError = Readonly<{ error: string }>;
+type LocatorInitialSearch = SearchPayload;
+
+function delay(milliseconds: number) {
+  return new Promise((resolve) => window.setTimeout(resolve, milliseconds));
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function isNonEmptyString(value: unknown): value is string {
+  return typeof value === "string" && value.length > 0;
+}
+
+function isNullablePhone(value: unknown): value is string | null {
+  return (
+    value === null ||
+    (typeof value === "string" && /^\+?[0-9().\s-]{7,24}$/.test(value))
+  );
+}
+
+function isLocatorResult(value: unknown): value is LocatorResult {
+  if (!isRecord(value)) return false;
+
+  return (
+    Number.isSafeInteger(value.id) &&
+    Number(value.id) > 0 &&
+    isNonEmptyString(value.name) &&
+    isNonEmptyString(value.address) &&
+    isNonEmptyString(value.city) &&
+    isNonEmptyString(value.state) &&
+    typeof value.zip === "string" &&
+    /^\d{5}$/.test(value.zip) &&
+    isNullablePhone(value.phone) &&
+    (value.website === null || isNonEmptyString(value.website)) &&
+    typeof value.distance_miles === "number" &&
+    Number.isFinite(value.distance_miles) &&
+    value.distance_miles >= 0
+  );
+}
+
+function parseLocatorApiPayload(
+  value: unknown,
+): LocatorApiResponse | LocatorApiError | undefined {
+  if (!isRecord(value)) return undefined;
+
+  if (typeof value.error === "string" && value.error.trim().length > 0) {
+    return { error: value.error };
+  }
+
+  if (
+    Array.isArray(value.results) &&
+    value.results.length <= 25 &&
+    value.results.every(
+      (result) => isLocatorResult(result) && result.state === STATE.code,
+    )
+  ) {
+    return { results: value.results };
+  }
+
+  return undefined;
+}
+
+function parseInitialSearch(query: string): LocatorInitialSearch | undefined {
+  const params = new URLSearchParams(query);
+  const zip = params.get("zip");
+  const latitude = params.get("latitude");
+  const longitude = params.get("longitude");
+
+  if (zip && /^\d{5}$/.test(zip) && latitude === null && longitude === null) {
+    return { zip };
+  }
+
+  if (zip !== null || latitude === null || longitude === null) {
+    return undefined;
+  }
+
+  const parsedLatitude = Number(latitude);
+  const parsedLongitude = Number(longitude);
+  if (
+    !Number.isFinite(parsedLatitude) ||
+    !Number.isFinite(parsedLongitude) ||
+    parsedLatitude < -90 ||
+    parsedLatitude > 90 ||
+    parsedLongitude < -180 ||
+    parsedLongitude > 180
+  ) {
+    return undefined;
+  }
+
+  return { latitude: parsedLatitude, longitude: parsedLongitude };
+}
+
+function LocatorReadout({
+  results,
+  searching,
+}: {
+  readonly results: readonly LocatorResult[];
+  readonly searching: boolean;
+}) {
+  return (
+    <div className={styles.readout}>
+      {searching ? (
+        <div
+          aria-label="Scanning for nearby retailers"
+          className={styles.radar}
+          role="status"
+        >
+          <span className={styles.radarBeam} />
+          <span className={styles.radarPing} />
+        </div>
+      ) : null}
+
+      {!searching && results.length > 0 ? (
+        <div>
+          <div className={styles.resultsHeading}>
+            <p>Signal acquired</p>
+            <span>{results.length} locations</span>
+          </div>
+          <ol className={styles.resultsList}>
+            {results.map((result) => (
+              <li className={styles.resultCard} key={result.id}>
+                <div>
+                  <h2>{result.name}</h2>
+                  <address>
+                    {result.address}
+                    <br />
+                    {result.city}, {result.state} {result.zip}
+                  </address>
+                  {result.phone ? (
+                    <a href={`tel:${result.phone}`}>{result.phone}</a>
+                  ) : null}
+                </div>
+                <span className={styles.distance}>
+                  {result.distance_miles.toFixed(1)} MI
+                </span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ) : null}
+    </div>
+  );
+}
 
 export function RetailerLocator() {
   const searchParams = useSearchParams();
-  const inboundSearch = searchParams.toString();
-  const inboundSearchKey = useRef("");
-  const [zip, setZip] = useState("");
-  const [count, setCount] = useState(194);
-  const [results, setResults] = useState<Retailer[]>([]);
-  const [searchState, setSearchState] = useState<SearchState>("idle");
+  const query = searchParams.toString();
+  const initialSearch = useMemo(() => parseInitialSearch(query), [query]);
+  const zipInputId = useId();
+  const messageId = useId();
+  const [zip, setZip] = useState(() =>
+    initialSearch && "zip" in initialSearch ? initialSearch.zip : "",
+  );
+  const [results, setResults] = useState<readonly LocatorResult[]>([]);
+  const [searching, setSearching] = useState(false);
   const [message, setMessage] = useState("");
+  const [reducedMotion, setReducedMotion] = useState(false);
+  const autoSearchKey = useRef("");
+  const inboundSearchKey = useRef("");
+  const requestNumber = useRef(0);
 
   useEffect(() => {
-    const controller = new AbortController();
-
-    async function loadCount() {
-      try {
-        const response = await fetch("/api/retailers?mode=count", {
-          signal: controller.signal,
-        });
-        const payload = (await response.json()) as { count?: number };
-        if (response.ok && Number.isFinite(payload.count)) {
-          setCount(Number(payload.count));
-        }
-      } catch {
-        // Keep the verified Oklahoma count visible if the live request is interrupted.
-      }
-    }
-
-    void loadCount();
-    return () => controller.abort();
+    const media = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => setReducedMotion(media.matches);
+    update();
+    media.addEventListener("change", update);
+    return () => media.removeEventListener("change", update);
   }, []);
 
+  async function locate(payload: SearchPayload) {
+    const currentRequest = ++requestNumber.current;
+    setSearching(true);
+    setMessage("");
+    const request = fetch("/api/retailers", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...payload, state: STATE.code }),
+    });
+
+    try {
+      const [response] = await Promise.all([
+        request,
+        reducedMotion ? Promise.resolve() : delay(800),
+      ]);
+      const data = parseLocatorApiPayload(await response.json());
+      if (currentRequest !== requestNumber.current) return;
+      if (!data) {
+        setResults([]);
+        setMessage("Locator service is temporarily unavailable.");
+      } else if (!response.ok || "error" in data) {
+        setResults([]);
+        setMessage(
+          "error" in data
+            ? data.error
+            : "Locator service is temporarily unavailable.",
+        );
+      } else if (data.results.length === 0) {
+        setResults([]);
+        setMessage("Nearest retailers are unavailable for this location.");
+      } else {
+        setResults(data.results);
+      }
+    } catch {
+      if (currentRequest === requestNumber.current) {
+        setResults([]);
+        setMessage("Locator service is temporarily unavailable.");
+      }
+    } finally {
+      if (currentRequest === requestNumber.current) setSearching(false);
+    }
+  }
+
   useEffect(() => {
-    if (!inboundSearch || inboundSearchKey.current === inboundSearch) return;
-    inboundSearchKey.current = inboundSearch;
+    if (!initialSearch) return;
 
-    const params = new URLSearchParams(inboundSearch);
-    const requestedState = params.get("state");
-    if (requestedState && requestedState !== "OK") return;
-
-    const inboundZip = params.get("zip") ?? "";
-    if (/^\d{5}$/.test(inboundZip)) {
-      setZip(inboundZip);
-      void runSearch(
-        { zip: inboundZip },
-        "Searching verified Oklahoma retailers…",
-      );
+    if ("zip" in initialSearch) {
+      const key = `${STATE.code}:zip:${initialSearch.zip}`;
+      if (inboundSearchKey.current === key) return;
+      inboundSearchKey.current = key;
+      autoSearchKey.current = "";
+      setZip(initialSearch.zip);
+      setMessage("");
       return;
     }
 
-    const rawLat = params.get("lat");
-    const rawLng = params.get("lng");
-    if (rawLat === null || rawLng === null) return;
-
-    const lat = Number(rawLat);
-    const lng = Number(rawLng);
-    if (
-      Number.isFinite(lat) &&
-      Number.isFinite(lng) &&
-      lat >= -90 &&
-      lat <= 90 &&
-      lng >= -180 &&
-      lng <= 180
-    ) {
-      void runSearch(
-        { latitude: lat, longitude: lng },
-        "Finding retailers near your current location…",
-      );
-    }
-    // runSearch is intentionally keyed by the validated URL search string.
+    const key = `${STATE.code}:coords:${initialSearch.latitude}:${initialSearch.longitude}`;
+    if (inboundSearchKey.current === key) return;
+    inboundSearchKey.current = key;
+    void locate(initialSearch);
+    // locate is intentionally keyed by the validated inbound search values.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [inboundSearch]);
+  }, [initialSearch]);
 
-  async function runSearch(requestPayload: SearchPayload, loadingMessage: string) {
-    setSearchState("loading");
-    setMessage(loadingMessage);
-    setResults([]);
-
-    try {
-      const response = await fetch("/api/retailers", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...requestPayload, state: "OK", limit: 25 }),
-      });
-      const responsePayload = (await response.json()) as {
-        results?: Retailer[];
-        error?: string;
-      };
-
-      if (!response.ok) {
-        throw new Error(responsePayload.error || "The retailer search is temporarily unavailable.");
-      }
-
-      const nearest = Array.isArray(responsePayload.results)
-        ? [...responsePayload.results].sort(
-            (left, right) =>
-              (left.distance ?? Number.POSITIVE_INFINITY) -
-              (right.distance ?? Number.POSITIVE_INFINITY),
-          )
-        : [];
-
-      setResults(nearest);
-      if (nearest.length === 0) {
-        setSearchState("empty");
-        setMessage(
-          "No nearby retailers appeared for that search yet. Try a neighboring Oklahoma ZIP to widen the search.",
-        );
-      } else {
-        setSearchState("success");
-        setMessage(`${nearest.length} nearby retailer${nearest.length === 1 ? "" : "s"} found.`);
-      }
-    } catch (error) {
-      setSearchState("error");
-      setMessage(
-        error instanceof Error
-          ? error.message
-          : "The retailer locator could not connect. Please try again shortly.",
-      );
-    }
-  }
+  useEffect(() => {
+    const key = `${STATE.code}:${zip}`;
+    if (zip.length !== 5 || autoSearchKey.current === key) return;
+    const timer = window.setTimeout(() => {
+      autoSearchKey.current = key;
+      void locate({ zip });
+    }, 120);
+    return () => window.clearTimeout(timer);
+    // locate is intentionally keyed by the stable search inputs only.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [zip]);
 
   function submitZip(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const normalized = zip.trim();
-
-    if (!/^\d{5}$/.test(normalized)) {
-      setSearchState("error");
-      setResults([]);
-      setMessage("Enter a valid five-digit ZIP code to search Oklahoma.");
+    if (!/^\d{5}$/.test(zip)) {
+      setMessage("Enter a valid five-digit ZIP code.");
       return;
     }
-
-    void runSearch(
-      { zip: normalized },
-      "Searching verified Oklahoma retailers…",
-    );
+    autoSearchKey.current = `${STATE.code}:${zip}`;
+    void locate({ zip });
   }
 
   function useLocation() {
-    if (!navigator.geolocation) {
-      setSearchState("error");
-      setMessage("Location access is not available in this browser. Search by ZIP instead.");
+    setMessage("");
+    if (!("geolocation" in navigator)) {
+      setMessage("Location is unavailable. Enter a ZIP code instead.");
       return;
     }
-
-    setSearchState("loading");
-    setResults([]);
-    setMessage("Finding retailers near your current location…");
-
     navigator.geolocation.getCurrentPosition(
-      ({ coords }) => {
-        void runSearch(
-          { latitude: coords.latitude, longitude: coords.longitude },
-          "Finding retailers near your current location…",
-        );
-      },
-      () => {
-        setSearchState("error");
-        setMessage("We could not access your location. Search by Oklahoma ZIP instead.");
-      },
-      { enableHighAccuracy: false, timeout: 10_000, maximumAge: 300_000 },
+      ({ coords }) =>
+        void locate({
+          latitude: coords.latitude,
+          longitude: coords.longitude,
+        }),
+      () =>
+        setMessage(
+          "Location permission was not available. Enter a ZIP code instead.",
+        ),
+      { enableHighAccuracy: false, maximumAge: 300000, timeout: 10000 },
     );
   }
 
-  function clearSearch() {
+  function clearFinder() {
+    requestNumber.current += 1;
+    autoSearchKey.current = "";
     setZip("");
     setResults([]);
-    setSearchState("idle");
+    setSearching(false);
     setMessage("");
   }
 
-  const busy = searchState === "loading";
-
   return (
-    <section className="retailer-locator" aria-labelledby="retailer-locator-title" id="retailer-locator">
-      <div className="retailer-locator__masthead">
-        <div>
-          <p className="retailer-locator__eyebrow">VERIFIED LICENSED RETAIL</p>
-          <h2 id="retailer-locator-title">FIND PRESIDENTIAL IN OKLAHOMA</h2>
-        </div>
-        <p className="retailer-locator__count">
-          <strong>{count}</strong> LIVE RETAILER DOORS
-        </p>
-      </div>
-
-      <div className="retailer-locator__rule" aria-hidden="true" />
-
-      <p className="retailer-locator__form-title">SEARCH OKLAHOMA</p>
-      <div className="retailer-locator__control-grid">
-        <div className="retailer-locator__console">
-          <form className="retailer-locator__form" onSubmit={submitZip} aria-busy={busy}>
-            <label htmlFor="retailer-zip">ENTER YOUR ZIP CODE HERE</label>
-            <div className="retailer-locator__search-row">
+    <div>
+      <div className={styles.controlGrid}>
+        <div className={styles.console}>
+          <form className={styles.searchForm} onSubmit={submitZip}>
+            <label htmlFor={zipInputId}>ENTER YOUR ZIP CODE HERE</label>
+            <div className={styles.inputRow}>
               <input
-                id="retailer-zip"
-                value={zip}
+                aria-describedby={messageId}
+                autoComplete="postal-code"
+                id={zipInputId}
+                inputMode="numeric"
+                maxLength={5}
                 onChange={(event) => {
                   setZip(event.target.value.replace(/\D/g, "").slice(0, 5));
                   setMessage("");
                 }}
+                pattern="[0-9]{5}"
                 placeholder="00000"
-                inputMode="numeric"
-                autoComplete="postal-code"
-                maxLength={5}
-                disabled={busy}
+                type="text"
+                value={zip}
               />
-              <button className="retailer-locator__go" type="submit" disabled={busy} aria-label="Go — search dispensaries">
+              <button
+                aria-label="Go — search dispensaries"
+                disabled={searching}
+                type="submit"
+              >
                 GO!
               </button>
             </div>
           </form>
 
-          <div className="retailer-locator__actions">
-            <button type="button" onClick={clearSearch} disabled={busy}>
-              CLEAR
+          <div className={styles.actionRow}>
+            <button
+              className={styles.locationButton}
+              onClick={clearFinder}
+              type="button"
+            >
+              Clear
             </button>
-            <button type="button" onClick={useLocation} disabled={busy}>
-              USE MY LOCATION
+            <button
+              className={styles.locationButton}
+              disabled={searching}
+              onClick={useLocation}
+              type="button"
+            >
+              Use My Location
             </button>
           </div>
 
-          <p className="retailer-locator__repeat">ENTER YOUR ZIP CODE HERE</p>
-          <div className="retailer-locator__feedback" aria-live="polite">
-            {message ? <p>{message}</p> : null}
-          </div>
+          <p className={styles.repeatCta}>ENTER YOUR ZIP CODE HERE</p>
+
+          <p aria-live="polite" className={styles.message} id={messageId}>
+            {message}
+          </p>
         </div>
 
-        <div className="retailer-results">
-          {busy ? (
-            <div className="retailer-results__radar" aria-label="Scanning for nearby retailers" role="status">
-              <span className="retailer-results__beam" />
-              <span className="retailer-results__ping" />
-            </div>
-          ) : null}
-
-          {!busy && results.length > 0 ? (
-            <>
-              <div className="retailer-results__heading">
-                <p>SIGNAL ACQUIRED</p>
-                <span>{results.length} LOCATIONS</span>
-              </div>
-              <ol>
-                {results.map((retailer, index) => (
-                  <li key={`${retailer.name}-${retailer.address}-${index}`}>
-                    <div>
-                      <h3>{retailer.name}</h3>
-                      <address>
-                        {retailer.address}
-                        <br />
-                        {retailer.city}, {retailer.state} {retailer.zip}
-                      </address>
-                    </div>
-                    <span className="retailer-results__distance">
-                      {retailer.distance === null ? "NEARBY" : `${retailer.distance.toFixed(1)} MI`}
-                    </span>
-                  </li>
-                ))}
-              </ol>
-            </>
-          ) : null}
-        </div>
+        <LocatorReadout results={results} searching={searching} />
       </div>
-    </section>
+    </div>
   );
 }

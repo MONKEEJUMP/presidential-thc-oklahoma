@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { MAIN_SITE_URL, primaryNavigation } from "@/lib/site";
+import { STATE } from "@/config/state";
+import { MAIN_SITE_URL, primaryNavigation, SITE_NAME } from "@/lib/site";
 
 import { HeaderStoreFinder } from "./header-store-finder";
 
@@ -12,7 +13,7 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
         Skip to the page
       </a>
       <div className="site-header__inner">
-        <Link className="brand-lockup" href="/" aria-label="Presidential THC Oklahoma home">
+        <Link className="brand-lockup" href="/" aria-label={`${SITE_NAME} home`}>
           <Image
             className="brand-banner"
             src="/images/presidential-banner.webp"
@@ -23,7 +24,7 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
             alt="Presidential"
           />
           <span className="brand-lockup__text">
-            <span className="brand-lockup__name">Presidential THC Oklahoma</span>
+            <span className="brand-lockup__name">{SITE_NAME}</span>
             <span className="brand-lockup__tagline">The Official Presidential Site</span>
           </span>
         </Link>
@@ -46,6 +47,7 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
           href={MAIN_SITE_URL}
           rel="nofollow"
           aria-label="Official Presidential"
+          data-state={STATE.code}
         >
           <span className="official-header-link__label" aria-hidden="true" />
         </a>

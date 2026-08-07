@@ -1,9 +1,10 @@
 import type { ContentImage, PageContent } from "@/content/types";
+import { STATE } from "@/config/state";
 
-export const SITE_NAME = "Presidential THC Oklahoma";
-export const SITE_URL = "https://presidentialthcoklahoma.com";
+export const SITE_NAME = `Presidential THC ${STATE.name}`;
+export const SITE_URL = `https://${STATE.domain}`;
 export const MAIN_SITE_URL = "https://presidentialmoonrocks.com";
-export const DEFAULT_OG_IMAGE = "/images/ok-hero.webp";
+export const DEFAULT_OG_IMAGE = STATE.heroImage;
 
 export const primaryNavigation = [
   { href: "/moon-rocks", label: "Moon Rocks" },
@@ -11,7 +12,7 @@ export const primaryNavigation = [
   { href: "/pre-rolls", label: "Pre-Rolls" },
   { href: "/minis", label: "Minis" },
   { href: "/silver", label: "Series" },
-  { href: "/find", label: "Find It" },
+  { href: "/find", label: "Find Us" },
 ] as const;
 
 export const footerProductLinks = [

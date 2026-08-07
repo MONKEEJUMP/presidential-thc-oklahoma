@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { MouseEvent, useEffect, useId, useRef, useState } from "react";
 
+import { STATE } from "@/config/state";
+
 import { CompactStoreFinderPanel, LocationPin } from "./compact-store-finder-panel";
 
 const HOVER_INTENT_MS = 150;
@@ -120,7 +122,7 @@ export function HeaderStoreFinder() {
         aria-controls={panelId}
         aria-expanded={open}
         aria-haspopup="dialog"
-        aria-label="Find a store in Oklahoma"
+        aria-label={`Find a store in ${STATE.name}`}
         className="store-header-link"
         href="/find"
         onClick={togglePanel}

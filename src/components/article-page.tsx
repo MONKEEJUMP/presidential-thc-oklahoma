@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fragment, Suspense } from "react";
 
+import { FindUsNationwideVideo } from "@/components/presidential/media/find-us-nationwide-video";
+import { STATE } from "@/config/state";
 import type { ContentImage, ContentParagraph, PageContent } from "@/content/types";
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
 
@@ -24,25 +26,47 @@ function RichParagraph({ paragraph }: { paragraph: ContentParagraph }) {
 function PageHero({ page }: { page: PageContent }) {
   if (page.path === "/find") {
     return (
-      <header className="find-page-hero">
-        <Image
-          className="find-page-hero__image"
-          src="/images/ok-hero.webp"
-          fill
-          sizes="100vw"
-          priority
-          alt="Oklahoma landscape beneath a wide evening sky"
-        />
-        <div className="find-page-hero__top-scrim" aria-hidden="true" />
-        <div className="find-page-hero__bottom-scrim" aria-hidden="true" />
-        <div className="find-page-hero__content">
-          <nav className="breadcrumbs" aria-label="Breadcrumb">
-            <Link href="/">Home</Link><span aria-hidden="true">/</span><span aria-current="page">{page.h1}</span>
+      <section
+        aria-labelledby="presidential-route-title"
+        className="relative isolate overflow-hidden bg-po-ink text-po-on-dark [container-type:inline-size]"
+      >
+        <div className="mx-auto w-full max-w-[80rem] px-[clamp(1.25rem,4vw,4rem)] pb-[clamp(2rem,4vw,3rem)] pt-[clamp(3rem,8vw,7rem)]">
+          <nav
+            aria-label="Breadcrumb"
+            className="mb-[clamp(2rem,4vw,3rem)] font-display text-[0.78rem] uppercase text-po-on-dark-muted"
+          >
+            <ol className="flex flex-wrap items-center gap-2.5">
+              <li className="flex items-center gap-2.5">
+                <Link
+                  className="font-semibold text-po-brand underline-offset-4 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-po-brand"
+                  href="/"
+                >
+                  Presidential
+                </Link>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <span aria-hidden="true" className="text-po-on-dark-muted">/</span>
+                <span aria-current="page" className="font-semibold text-po-on-dark">
+                  Find Presidential Near You
+                </span>
+              </li>
+            </ol>
           </nav>
-          <h1>{page.h1}</h1>
-          <p>{page.description}</p>
+
+          <div className="w-full">
+            <FindUsNationwideVideo />
+          </div>
+
+          <h1 className="sr-only" id="presidential-route-title">
+            {page.h1}
+          </h1>
         </div>
-      </header>
+
+        <span
+          aria-hidden="true"
+          className="po-gold-thread-inlay absolute inset-x-0 bottom-0 h-0"
+        />
+      </section>
     );
   }
 
@@ -51,17 +75,17 @@ function PageHero({ page }: { page: PageContent }) {
       <header className="home-hero">
         <Image
           className="home-hero__image"
-          src="/images/ok-hero.webp"
+          src={STATE.heroImage}
           fill
           sizes="100vw"
           priority
-          alt="Oklahoma landscape beneath a wide evening sky"
+          alt={`${STATE.name} landscape beneath a wide evening sky`}
         />
         <div className="home-hero__overlay" aria-hidden="true" />
         <div className="home-hero__content">
           <p className="home-hero__eyebrow">THE OFFICIAL</p>
           <h1>{page.h1}</h1>
-          <p className="home-hero__line">The Sooner The Better. A Presidential High.</p>
+          <p className="home-hero__line">{STATE.tagline}</p>
         </div>
       </header>
     );
@@ -92,10 +116,10 @@ function TableOfContents({ page }: { page: PageContent }) {
 
 function LinkDirectory({ page }: { page: PageContent }) {
   return (
-    <aside className="link-directory" aria-label="Continue through the Oklahoma reference">
+    <aside className="link-directory" aria-label={`Continue through the ${STATE.name} reference`}>
       {page.childLinks?.length ? (
         <section>
-          <p className="link-directory__label">The full Oklahoma reference</p>
+          <p className="link-directory__label">The full {STATE.name} reference</p>
           <div className="link-directory__grid">
             {page.childLinks.map((link) => (
               <Link className="editorial-link" href={link.href} key={link.href}>
@@ -167,7 +191,7 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
       "@type": "Organization",
       "@id": `${SITE_URL}/#organization`,
       name: "Presidential",
-      alternateName: "Presidential THC Oklahoma",
+      alternateName: `Presidential THC ${STATE.name}`,
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
       url: SITE_URL,
@@ -196,13 +220,20 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
       <SiteHeader currentPath={page.path} />
       <main id="main-content">
         <PageHero page={page} />
+        {page.path === "/find" ? (
+          <section
+            aria-label="Find a dispensary"
+            className="po-gold-thread-inlay bg-po-ink text-po-on-dark"
+            id="presidential-locator-console"
+          >
+            <div className="mx-auto w-full max-w-7xl px-[clamp(1.25rem,4vw,4rem)] py-[clamp(2rem,4vw,3.5rem)]">
+              <Suspense fallback={null}>
+                <RetailerLocator />
+              </Suspense>
+            </div>
+          </section>
+        ) : null}
         <article className={`publication publication--${page.kind}`}>
-          {page.path === "/find" ? (
-            <Suspense fallback={null}>
-              <RetailerLocator />
-            </Suspense>
-          ) : null}
-
           <div className="article-lead">
             {page.intro.map((paragraph, index) => <RichParagraph paragraph={paragraph} key={`intro-${index}`} />)}
           </div>

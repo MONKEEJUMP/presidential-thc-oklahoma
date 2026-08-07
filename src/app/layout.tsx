@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Source_Serif_4 } from "next/font/google";
 import localFont from "next/font/local";
 
+import { STATE } from "@/config/state";
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
 import "./globals.css";
@@ -38,7 +39,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: SITE_NAME,
-  description: "The official Presidential site for Oklahoma.",
+  description: `The official Presidential site for ${STATE.name}.`,
   robots: { index: true, follow: true },
   openGraph: { siteName: SITE_NAME, type: "website", images: [DEFAULT_OG_IMAGE] },
   twitter: { card: "summary_large_image", images: [DEFAULT_OG_IMAGE] },

@@ -1,14 +1,17 @@
 import { NextRequest, NextResponse } from "next/server";
 
+import { STATE } from "@/config/state";
+
 export const dynamic = "force-dynamic";
 
 const SEARCH_UPSTREAM =
   "https://presidentialmoonrocks.com/api/dispensaries/search";
 const COUNT_UPSTREAM =
-  "https://presidentialmoonrocks.com/api/dispensaries?state=OK";
+  `https://presidentialmoonrocks.com/api/dispensaries?state=${STATE.code}`;
 const REQUEST_TIMEOUT_MS = 8_000;
 
 type UpstreamRetailer = {
+  id?: unknown;
   name?: unknown;
   address?: unknown;
   city?: unknown;
@@ -17,6 +20,9 @@ type UpstreamRetailer = {
   latitude?: unknown;
   longitude?: unknown;
   distance?: unknown;
+  distance_miles?: unknown;
+  phone?: unknown;
+  website?: unknown;
 };
 
 function json(body: unknown, status = 200) {
@@ -47,16 +53,29 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return Boolean(value && typeof value === "object" && !Array.isArray(value));
 }
 
-function sanitizeRetailer(record: UpstreamRetailer) {
+function sanitizeRetailer(record: UpstreamRetailer, index: number) {
+  const sourceId = safeNumber(record.id);
+  const id = sourceId !== null && Number.isSafeInteger(sourceId) && sourceId > 0
+    ? sourceId
+    : index + 1;
+  const distanceMiles = safeNumber(record.distance_miles) ?? safeNumber(record.distance) ?? 0;
+  const phone = typeof record.phone === "string" && /^\+?[0-9().\s-]{7,24}$/.test(record.phone)
+    ? record.phone
+    : null;
+  const website = typeof record.website === "string" && record.website.length > 0
+    ? record.website
+    : null;
+
   return {
+    id,
     name: safeText(record.name),
     address: safeText(record.address),
     city: safeText(record.city),
-    state: safeText(record.state),
+    state: STATE.code,
     zip: safeText(record.zip),
-    latitude: safeNumber(record.latitude),
-    longitude: safeNumber(record.longitude),
-    distance: safeNumber(record.distance),
+    phone,
+    website,
+    distance_miles: distanceMiles,
   };
 }
 
@@ -84,7 +103,7 @@ export async function GET(request: NextRequest) {
         return json({ error: "The live retailer count is temporarily unavailable." }, 502);
       }
 
-      return json({ state: "OK", count });
+      return json({ state: STATE.code, count });
     }
 
     if (params.has("offset")) {
@@ -98,7 +117,7 @@ export async function GET(request: NextRequest) {
     const hasCoordinates = lat !== null || lng !== null;
 
     if (hasZip === hasCoordinates) {
-      return json({ error: "Enter an Oklahoma ZIP code or share your location." }, 400);
+      return json({ error: `Enter a ${STATE.name} ZIP code or share your location.` }, 400);
     }
 
     if (hasZip && !/^\d{5}$/.test(zip)) {
@@ -115,7 +134,7 @@ export async function GET(request: NextRequest) {
     const requestedLimit = finiteNumber(params.get("limit"));
     const limit = Math.min(25, Math.max(1, Math.trunc(requestedLimit ?? 10)));
     const upstreamUrl = new URL(SEARCH_UPSTREAM);
-    upstreamUrl.searchParams.set("state", "OK");
+    upstreamUrl.searchParams.set("state", STATE.code);
     upstreamUrl.searchParams.set("limit", String(limit));
 
     if (hasZip) {
@@ -144,9 +163,9 @@ export async function GET(request: NextRequest) {
     const results = records
       .filter((record): record is UpstreamRetailer => Boolean(record && typeof record === "object"))
       .map(sanitizeRetailer)
-      .sort((left, right) => (left.distance ?? Number.POSITIVE_INFINITY) - (right.distance ?? Number.POSITIVE_INFINITY));
+      .sort((left, right) => left.distance_miles - right.distance_miles);
 
-    return json({ state: "OK", results });
+    return json({ state: STATE.code, results });
   } catch {
     return json({ error: "The retailer locator could not connect. Please try again shortly." }, 502);
   }
@@ -156,11 +175,11 @@ export async function POST(request: NextRequest) {
   try {
     const body = (await request.json()) as unknown;
     if (!isRecord(body)) {
-      return json({ error: "Enter an Oklahoma ZIP code or share your location." }, 400);
+      return json({ error: `Enter a ${STATE.name} ZIP code or share your location.` }, 400);
     }
 
-    if (body.state !== undefined && body.state !== "OK") {
-      return json({ error: "Only Oklahoma retailer searches are supported." }, 400);
+    if (body.state !== undefined && body.state !== STATE.code) {
+      return json({ error: `Only ${STATE.name} retailer searches are supported.` }, 400);
     }
 
     const url = new URL(request.url);

@@ -1,3 +1,5 @@
+import { STATE } from "@/config/state";
+
 import type { PageContent, PageLink } from "./types";
 
 const MAIN = "https://presidentialmoonrocks.com";
@@ -1096,7 +1098,7 @@ const aboutPage: PageContent = {
   ],
 };
 
-export const pages: PageContent[] = [
+const pageRecords: PageContent[] = [
   homePage,
   moonRocksPage,
   bluntsPage,
@@ -1110,4 +1112,57 @@ export const pages: PageContent[] = [
   oklahomaPage,
   aboutPage,
 ];
+
+function stateStructuralText(value: string): string {
+  return value
+    .replaceAll("Oklahoma", STATE.name)
+    .replace(/\bOK\b/g, STATE.code);
+}
+
+function stateLink(link: PageLink): PageLink {
+  return {
+    ...link,
+    href: link.href === `${MAIN}/find-us/ok` ? STATE.locatorPath : link.href,
+    label: stateStructuralText(link.label),
+    description: link.description
+      ? stateStructuralText(link.description)
+      : undefined,
+  };
+}
+
+export const pages: PageContent[] = pageRecords.map((page) => ({
+  ...page,
+  h1: stateStructuralText(page.h1),
+  title: stateStructuralText(page.title),
+  description: stateStructuralText(page.description),
+  intro: page.intro.map((paragraph) =>
+    typeof paragraph === "string"
+      ? paragraph
+      : paragraph.map((part) => ({
+          ...part,
+          href: part.href === `${MAIN}/find-us/ok` ? STATE.locatorPath : part.href,
+        })),
+  ),
+  sections: page.sections.map((section) => ({
+    ...section,
+    heading: stateStructuralText(section.heading),
+    paragraphs: section.paragraphs.map((paragraph) =>
+      typeof paragraph === "string"
+        ? paragraph
+        : paragraph.map((part) => ({
+            ...part,
+            href: part.href === `${MAIN}/find-us/ok` ? STATE.locatorPath : part.href,
+          })),
+    ),
+  })),
+  productRoster: page.productRoster?.map(stateLink),
+  childLinks: page.childLinks?.map(stateLink),
+  relatedLinks: page.relatedLinks?.map(stateLink),
+  sources: page.sources.map((source) => ({
+    ...source,
+    href: source.href === `${MAIN}/find-us/ok` ? STATE.locatorPath : source.href,
+    label: stateStructuralText(source.label),
+  })),
+}));
+
 export const pagesByPath = new Map(pages.map((page) => [page.path, page]));
