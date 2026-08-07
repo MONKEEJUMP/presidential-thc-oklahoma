@@ -97,6 +97,7 @@ a:hover {
 .brand-lockup {
   display: inline-flex;
   align-items: center;
+  flex: 1 1 0;
   min-width: 0;
   gap: 0.65rem;
   color: var(--paper);
@@ -117,19 +118,24 @@ a:hover {
 .brand-lockup__text {
   display: grid;
   min-width: 0;
+  overflow: hidden;
   line-height: 1;
 }
 
 .brand-lockup__name {
+  display: block;
+  overflow: hidden;
   font-family: var(--display);
-  font-size: clamp(0.92rem, 2.9vw, 1.4rem);
+  font-size: clamp(0.92rem, 1.15vw, 1.15rem);
   font-weight: 600;
   letter-spacing: -0.025em;
+  text-overflow: ellipsis;
   text-transform: uppercase;
   white-space: nowrap;
 }
 
 .brand-lockup__tagline {
+  display: none;
   margin-top: 0.3rem;
   color: var(--teal);
   font-family: var(--serif);
@@ -213,6 +219,9 @@ a:hover {
 .primary-nav {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  flex: 1 0 100%;
+  min-width: 0;
   width: 100%;
   gap: 0.65rem 1.1rem;
   overflow-x: auto;
@@ -231,8 +240,10 @@ a:hover {
 }
 
 .primary-nav a {
+  flex: 0 0 auto;
   color: var(--paper);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .primary-nav a:hover,
@@ -1031,6 +1042,10 @@ a:hover {
 }
 
 @media (min-width: 48rem) {
+  .primary-nav {
+    justify-content: center;
+  }
+
   .retailer-locator__masthead {
     grid-template-columns: minmax(0, 1.5fr) minmax(15rem, 0.65fr);
   }
@@ -1073,19 +1088,27 @@ a:hover {
 
 @media (min-width: 64rem) {
   .site-header__inner {
-    display: grid;
-    grid-template-columns: auto auto minmax(0, 1fr) auto;
+    flex-wrap: nowrap;
     gap: 0.75rem 1rem;
   }
 
-  .official-header-link {
-    display: inline-flex;
+  .brand-lockup {
+    flex: 0 1 auto;
   }
 
   .primary-nav {
+    flex: 1 1 auto;
     justify-content: flex-end;
+    min-width: 0;
     width: auto;
-    overflow: visible;
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 72rem) {
+  .official-header-link {
+    display: inline-flex;
+    flex: 0 0 auto;
   }
 }
 
@@ -1096,6 +1119,10 @@ a:hover {
 
   .primary-nav {
     gap: 1.25rem;
+  }
+
+  .brand-lockup__tagline {
+    display: block;
   }
 
   .official-header-link__label::before {
