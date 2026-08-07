@@ -45,9 +45,13 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
           })}
         </nav>
 
-        <a className="official-header-link" href={MAIN_SITE_URL} rel="nofollow">
-          <span className="official-header-link__full">OFFICIAL PRESIDENTIAL</span>
-          <span className="official-header-link__short">PRESIDENTIAL</span>
+        <a
+          className="official-header-link"
+          href={MAIN_SITE_URL}
+          rel="nofollow"
+          aria-label="Official Presidential"
+        >
+          <span className="official-header-link__label" aria-hidden="true" />
         </a>
       </div>
     </header>
