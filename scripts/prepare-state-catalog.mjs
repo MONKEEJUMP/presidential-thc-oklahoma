@@ -63,7 +63,8 @@ function parseCsv(input) {
     rows.push(row);
   }
 
-  const [headers, ...records] = rows;
+  const [rawHeaders, ...records] = rows;
+  const headers = rawHeaders.map((header, index) => index === 0 ? header.replace(/^\uFEFF/, "") : header);
   return records.map((record) => Object.fromEntries(headers.map((header, index) => [header, record[index] ?? ""])));
 }
 
@@ -172,6 +173,8 @@ async function prepareCatalog() {
     }
 
     const live = liveBySlug.get(slug);
+    if (!row["asset-id"]) throw new Error(`Missing asset id for ${stem}`);
+
     return {
       id: row["asset-id"],
       name: live.name,

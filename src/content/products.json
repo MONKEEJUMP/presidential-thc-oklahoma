@@ -1,5 +1,6 @@
 [
   {
+    "id": "001",
     "name": "24K",
     "slug": "24k",
     "format": "blunt",
@@ -12,6 +13,7 @@
     "liveTitle": "24K Moon Rocks | Presidential Gold"
   },
   {
+    "id": "002",
     "name": "24K",
     "slug": "24k",
     "format": "pre-roll",
@@ -24,6 +26,7 @@
     "liveTitle": "24K Moon Rocks | Presidential Gold"
   },
   {
+    "id": "003",
     "name": "Apricotti",
     "slug": "presidential-line-apricotti",
     "format": "blunt",
@@ -36,6 +39,7 @@
     "liveTitle": "Apricotti Moon Rocks | Presidential Line"
   },
   {
+    "id": "004",
     "name": "Blue Dream",
     "slug": "blue-dream",
     "format": "blunt",
@@ -48,6 +52,7 @@
     "liveTitle": "Blue Dream Moon Rocks | Presidential Gold"
   },
   {
+    "id": "005",
     "name": "Blue Dream",
     "slug": "blue-dream",
     "format": "blunt",
@@ -60,6 +65,7 @@
     "liveTitle": "Blue Dream Moon Rocks | Presidential Gold"
   },
   {
+    "id": "006",
     "name": "Blue Dream",
     "slug": "blue-dream",
     "format": "pre-roll",
@@ -72,6 +78,7 @@
     "liveTitle": "Blue Dream Moon Rocks | Presidential Gold"
   },
   {
+    "id": "007",
     "name": "Blue Dream",
     "slug": "blue-dream",
     "format": "pre-roll",
@@ -84,6 +91,7 @@
     "liveTitle": "Blue Dream Moon Rocks | Presidential Gold"
   },
   {
+    "id": "008",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "blunt",
@@ -96,6 +104,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "009",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "mini",
@@ -108,6 +117,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "010",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "mini",
@@ -120,6 +130,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "011",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "pre-roll",
@@ -132,6 +143,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "012",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "blunt",
@@ -144,6 +156,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "013",
     "name": "Blue Raspberry",
     "slug": "blue-raspberry",
     "format": "pre-roll",
@@ -156,6 +169,7 @@
     "liveTitle": "Blue Raspberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "014",
     "name": "Cap Junky",
     "slug": "cap-junky",
     "format": "blunt",
@@ -168,6 +182,7 @@
     "liveTitle": "Cap Junky Moon Rocks | Presidential Gold"
   },
   {
+    "id": "015",
     "name": "Cap Junky",
     "slug": "cap-junky",
     "format": "blunt",
@@ -180,6 +195,7 @@
     "liveTitle": "Cap Junky Moon Rocks | Presidential Gold"
   },
   {
+    "id": "016",
     "name": "Cap Junky",
     "slug": "cap-junky",
     "format": "mini",
@@ -192,6 +208,7 @@
     "liveTitle": "Cap Junky Moon Rocks | Presidential Gold"
   },
   {
+    "id": "017",
     "name": "Cap Junky",
     "slug": "cap-junky",
     "format": "mini",
@@ -204,6 +221,7 @@
     "liveTitle": "Cap Junky Moon Rocks | Presidential Gold"
   },
   {
+    "id": "018",
     "name": "Cap Junky",
     "slug": "cap-junky",
     "format": "pre-roll",
@@ -216,6 +234,7 @@
     "liveTitle": "Cap Junky Moon Rocks | Presidential Gold"
   },
   {
+    "id": "019",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "blunt",
@@ -228,6 +247,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "020",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "blunt",
@@ -240,6 +260,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "021",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "mini",
@@ -252,6 +273,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "022",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "mini",
@@ -264,6 +286,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "023",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "moon-rock",
@@ -276,6 +299,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "024",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "moon-rock",
@@ -288,6 +312,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "025",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "mini",
@@ -300,6 +325,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "026",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "mini",
@@ -312,6 +338,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "027",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "moon-rock",
@@ -324,6 +351,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "028",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "pre-roll",
@@ -336,6 +364,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "029",
     "name": "Cherry Gelato",
     "slug": "cherry-gelato",
     "format": "pre-roll",
@@ -348,6 +377,7 @@
     "liveTitle": "Cherry Gelato Moon Rocks | Presidential Gold"
   },
   {
+    "id": "030",
     "name": "Crescendo",
     "slug": "crescendo",
     "format": "blunt",
@@ -360,6 +390,7 @@
     "liveTitle": "Crescendo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "031",
     "name": "Crescendo",
     "slug": "crescendo",
     "format": "mini",
@@ -372,6 +403,7 @@
     "liveTitle": "Crescendo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "032",
     "name": "Crescendo",
     "slug": "crescendo",
     "format": "mini",
@@ -384,6 +416,7 @@
     "liveTitle": "Crescendo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "033",
     "name": "Daniel LaRusso",
     "slug": "presidential-line-daniel-larusso",
     "format": "blunt",
@@ -396,6 +429,7 @@
     "liveTitle": "Daniel LaRusso Moon Rocks | Presidential Line"
   },
   {
+    "id": "034",
     "name": "Daniel LaRusso",
     "slug": "presidential-line-daniel-larusso",
     "format": "blunt",
@@ -408,6 +442,7 @@
     "liveTitle": "Daniel LaRusso Moon Rocks | Presidential Line"
   },
   {
+    "id": "035",
     "name": "Daniel LaRusso",
     "slug": "presidential-line-daniel-larusso",
     "format": "moon-rock",
@@ -420,6 +455,7 @@
     "liveTitle": "Daniel LaRusso Moon Rocks | Presidential Line"
   },
   {
+    "id": "036",
     "name": "Daniel LaRusso",
     "slug": "presidential-line-daniel-larusso",
     "format": "moon-rock",
@@ -432,6 +468,7 @@
     "liveTitle": "Daniel LaRusso Moon Rocks | Presidential Line"
   },
   {
+    "id": "037",
     "name": "Galactic Gas",
     "slug": "galactic-gas",
     "format": "blunt",
@@ -444,6 +481,7 @@
     "liveTitle": "Galactic Gas Moon Rocks | Presidential Gold"
   },
   {
+    "id": "038",
     "name": "Galactic Gas",
     "slug": "galactic-gas",
     "format": "pre-roll",
@@ -456,6 +494,7 @@
     "liveTitle": "Galactic Gas Moon Rocks | Presidential Gold"
   },
   {
+    "id": "039",
     "name": "Galactic Gas",
     "slug": "galactic-gas",
     "format": "pre-roll",
@@ -468,6 +507,7 @@
     "liveTitle": "Galactic Gas Moon Rocks | Presidential Gold"
   },
   {
+    "id": "040",
     "name": "Garlic Cookies",
     "slug": "presidential-line-garlic-cookies",
     "format": "blunt",
@@ -480,6 +520,7 @@
     "liveTitle": "Garlic Cookies Moon Rocks | Presidential Line"
   },
   {
+    "id": "041",
     "name": "Garlic Cookies",
     "slug": "presidential-line-garlic-cookies",
     "format": "blunt",
@@ -492,6 +533,7 @@
     "liveTitle": "Garlic Cookies Moon Rocks | Presidential Line"
   },
   {
+    "id": "042",
     "name": "Garlic Cookies",
     "slug": "presidential-line-garlic-cookies",
     "format": "pre-roll",
@@ -504,6 +546,7 @@
     "liveTitle": "Garlic Cookies Moon Rocks | Presidential Line"
   },
   {
+    "id": "043",
     "name": "Garlic Cookies",
     "slug": "presidential-line-garlic-cookies",
     "format": "moon-rock",
@@ -516,6 +559,7 @@
     "liveTitle": "Garlic Cookies Moon Rocks | Presidential Line"
   },
   {
+    "id": "044",
     "name": "Garlic Cookies",
     "slug": "presidential-line-garlic-cookies",
     "format": "pre-roll",
@@ -528,6 +572,7 @@
     "liveTitle": "Garlic Cookies Moon Rocks | Presidential Line"
   },
   {
+    "id": "045",
     "name": "Ghost Haze Train",
     "slug": "presidential-line-ghost-haze-train",
     "format": "blunt",
@@ -540,6 +585,7 @@
     "liveTitle": "Ghost Haze Train Moon Rocks | Presidential Line"
   },
   {
+    "id": "046",
     "name": "Ghost Haze Train",
     "slug": "presidential-line-ghost-haze-train",
     "format": "pre-roll",
@@ -552,6 +598,7 @@
     "liveTitle": "Ghost Haze Train Moon Rocks | Presidential Line"
   },
   {
+    "id": "047",
     "name": "Ghost Haze Train",
     "slug": "presidential-line-ghost-haze-train",
     "format": "blunt",
@@ -564,6 +611,7 @@
     "liveTitle": "Ghost Haze Train Moon Rocks | Presidential Line"
   },
   {
+    "id": "048",
     "name": "Ghost Haze Train",
     "slug": "presidential-line-ghost-haze-train",
     "format": "moon-rock",
@@ -576,6 +624,7 @@
     "liveTitle": "Ghost Haze Train Moon Rocks | Presidential Line"
   },
   {
+    "id": "049",
     "name": "Ghost Haze Train",
     "slug": "presidential-line-ghost-haze-train",
     "format": "pre-roll",
@@ -588,6 +637,7 @@
     "liveTitle": "Ghost Haze Train Moon Rocks | Presidential Line"
   },
   {
+    "id": "050",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "blunt",
@@ -600,6 +650,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "051",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "blunt",
@@ -612,6 +663,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "052",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "moon-rock",
@@ -624,6 +676,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "053",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "mini",
@@ -636,6 +689,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "054",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "mini",
@@ -648,6 +702,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "055",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "moon-rock",
@@ -660,6 +715,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "056",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "mini",
@@ -672,6 +728,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "057",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "moon-rock",
@@ -684,6 +741,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "058",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "pre-roll",
@@ -696,6 +754,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "059",
     "name": "Gorilla Goo",
     "slug": "gorilla-goo",
     "format": "pre-roll",
@@ -708,6 +767,7 @@
     "liveTitle": "Gorilla Goo Moon Rocks | Presidential Gold"
   },
   {
+    "id": "060",
     "name": "Grape",
     "slug": "grape",
     "format": "blunt",
@@ -720,6 +780,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "061",
     "name": "Grape",
     "slug": "grape",
     "format": "mini",
@@ -732,6 +793,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "062",
     "name": "Grape",
     "slug": "grape",
     "format": "pre-roll",
@@ -744,6 +806,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "063",
     "name": "Grape",
     "slug": "grape",
     "format": "moon-rock",
@@ -756,6 +819,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "064",
     "name": "Grape",
     "slug": "grape",
     "format": "blunt",
@@ -768,6 +832,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "065",
     "name": "Grape",
     "slug": "grape",
     "format": "mini",
@@ -780,6 +845,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "066",
     "name": "Grape",
     "slug": "grape",
     "format": "mini",
@@ -792,6 +858,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "067",
     "name": "Grape",
     "slug": "grape",
     "format": "moon-rock",
@@ -804,6 +871,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "068",
     "name": "Grape",
     "slug": "grape",
     "format": "pre-roll",
@@ -816,6 +884,7 @@
     "liveTitle": "Grape Moon Rocks | Presidential Silver"
   },
   {
+    "id": "069",
     "name": "Guava Haze",
     "slug": "presidential-line-guava-haze",
     "format": "blunt",
@@ -828,6 +897,7 @@
     "liveTitle": "Guava Haze Moon Rocks | Presidential Line"
   },
   {
+    "id": "070",
     "name": "Head Cheese",
     "slug": "presidential-line-head-cheese",
     "format": "blunt",
@@ -840,6 +910,7 @@
     "liveTitle": "Head Cheese Moon Rocks | Presidential Line"
   },
   {
+    "id": "071",
     "name": "Head Cheese",
     "slug": "presidential-line-head-cheese",
     "format": "pre-roll",
@@ -852,6 +923,7 @@
     "liveTitle": "Head Cheese Moon Rocks | Presidential Line"
   },
   {
+    "id": "072",
     "name": "Iced Lemon",
     "slug": "presidential-line-iced-lemon",
     "format": "blunt",
@@ -864,6 +936,7 @@
     "liveTitle": "Iced Lemon Moon Rocks | Presidential Line"
   },
   {
+    "id": "073",
     "name": "King Louis",
     "slug": "king-louis",
     "format": "blunt",
@@ -876,6 +949,7 @@
     "liveTitle": "King Louis Moon Rocks | Presidential Gold"
   },
   {
+    "id": "074",
     "name": "King Louis",
     "slug": "king-louis",
     "format": "blunt",
@@ -888,6 +962,7 @@
     "liveTitle": "King Louis Moon Rocks | Presidential Gold"
   },
   {
+    "id": "075",
     "name": "King Louis",
     "slug": "king-louis",
     "format": "pre-roll",
@@ -900,6 +975,7 @@
     "liveTitle": "King Louis Moon Rocks | Presidential Gold"
   },
   {
+    "id": "076",
     "name": "King Louis",
     "slug": "king-louis",
     "format": "pre-roll",
@@ -912,6 +988,7 @@
     "liveTitle": "King Louis Moon Rocks | Presidential Gold"
   },
   {
+    "id": "077",
     "name": "Laura Charles",
     "slug": "presidential-line-laura-charles",
     "format": "blunt",
@@ -924,6 +1001,7 @@
     "liveTitle": "Laura Charles Moon Rocks | Presidential Line"
   },
   {
+    "id": "078",
     "name": "Laura Charles",
     "slug": "presidential-line-laura-charles",
     "format": "blunt",
@@ -936,6 +1014,7 @@
     "liveTitle": "Laura Charles Moon Rocks | Presidential Line"
   },
   {
+    "id": "079",
     "name": "Laura Charles",
     "slug": "presidential-line-laura-charles",
     "format": "moon-rock",
@@ -948,6 +1027,7 @@
     "liveTitle": "Laura Charles Moon Rocks | Presidential Line"
   },
   {
+    "id": "080",
     "name": "Laura Charles",
     "slug": "presidential-line-laura-charles",
     "format": "moon-rock",
@@ -960,6 +1040,7 @@
     "liveTitle": "Laura Charles Moon Rocks | Presidential Line"
   },
   {
+    "id": "081",
     "name": "Nino Brown",
     "slug": "presidential-line-nino-brown",
     "format": "blunt",
@@ -972,6 +1053,7 @@
     "liveTitle": "Nino Brown Moon Rocks | Presidential Line"
   },
   {
+    "id": "082",
     "name": "Nino Brown",
     "slug": "presidential-line-nino-brown",
     "format": "blunt",
@@ -984,6 +1066,7 @@
     "liveTitle": "Nino Brown Moon Rocks | Presidential Line"
   },
   {
+    "id": "083",
     "name": "Nino Brown",
     "slug": "presidential-line-nino-brown",
     "format": "moon-rock",
@@ -996,6 +1079,7 @@
     "liveTitle": "Nino Brown Moon Rocks | Presidential Line"
   },
   {
+    "id": "084",
     "name": "Nino Brown",
     "slug": "presidential-line-nino-brown",
     "format": "moon-rock",
@@ -1008,6 +1092,7 @@
     "liveTitle": "Nino Brown Moon Rocks | Presidential Line"
   },
   {
+    "id": "085",
     "name": "NYC Diesel",
     "slug": "nyc-diesel",
     "format": "blunt",
@@ -1020,6 +1105,7 @@
     "liveTitle": "NYC Diesel Moon Rocks | Presidential Gold"
   },
   {
+    "id": "086",
     "name": "NYC Diesel",
     "slug": "nyc-diesel",
     "format": "blunt",
@@ -1032,6 +1118,7 @@
     "liveTitle": "NYC Diesel Moon Rocks | Presidential Gold"
   },
   {
+    "id": "087",
     "name": "NYC Diesel",
     "slug": "nyc-diesel",
     "format": "pre-roll",
@@ -1044,6 +1131,7 @@
     "liveTitle": "NYC Diesel Moon Rocks | Presidential Gold"
   },
   {
+    "id": "088",
     "name": "NYC Diesel",
     "slug": "nyc-diesel",
     "format": "pre-roll",
@@ -1056,6 +1144,7 @@
     "liveTitle": "NYC Diesel Moon Rocks | Presidential Gold"
   },
   {
+    "id": "089",
     "name": "Orange Push Pop",
     "slug": "orange-push-pop",
     "format": "blunt",
@@ -1068,6 +1157,7 @@
     "liveTitle": "Orange Push Pop Moon Rocks | Presidential Gold"
   },
   {
+    "id": "090",
     "name": "Orange Push Pop",
     "slug": "orange-push-pop",
     "format": "blunt",
@@ -1080,6 +1170,7 @@
     "liveTitle": "Orange Push Pop Moon Rocks | Presidential Gold"
   },
   {
+    "id": "091",
     "name": "Orange Push Pop",
     "slug": "orange-push-pop",
     "format": "mini",
@@ -1092,6 +1183,7 @@
     "liveTitle": "Orange Push Pop Moon Rocks | Presidential Gold"
   },
   {
+    "id": "092",
     "name": "Orange Push Pop",
     "slug": "orange-push-pop",
     "format": "pre-roll",
@@ -1104,6 +1196,7 @@
     "liveTitle": "Orange Push Pop Moon Rocks | Presidential Gold"
   },
   {
+    "id": "093",
     "name": "Papaya Punch",
     "slug": "papaya-punch",
     "format": "blunt",
@@ -1116,6 +1209,7 @@
     "liveTitle": "Papaya Punch Moon Rocks | Presidential Gold"
   },
   {
+    "id": "094",
     "name": "Papaya Punch",
     "slug": "papaya-punch",
     "format": "blunt",
@@ -1128,6 +1222,7 @@
     "liveTitle": "Papaya Punch Moon Rocks | Presidential Gold"
   },
   {
+    "id": "095",
     "name": "Papaya Punch",
     "slug": "papaya-punch",
     "format": "pre-roll",
@@ -1140,6 +1235,7 @@
     "liveTitle": "Papaya Punch Moon Rocks | Presidential Gold"
   },
   {
+    "id": "096",
     "name": "Papaya Punch",
     "slug": "papaya-punch",
     "format": "pre-roll",
@@ -1152,6 +1248,7 @@
     "liveTitle": "Papaya Punch Moon Rocks | Presidential Gold"
   },
   {
+    "id": "097",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "blunt",
@@ -1164,6 +1261,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "098",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "mini",
@@ -1176,6 +1274,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "099",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "pre-roll",
@@ -1188,6 +1287,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "100",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "mini",
@@ -1200,6 +1300,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "101",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "mini",
@@ -1212,6 +1313,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "102",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "moon-rock",
@@ -1224,6 +1326,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "103",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "blunt",
@@ -1236,6 +1339,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "104",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "mini",
@@ -1248,6 +1352,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "105",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "moon-rock",
@@ -1260,6 +1365,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "106",
     "name": "Peach Mango",
     "slug": "peach-mango",
     "format": "pre-roll",
@@ -1272,6 +1378,7 @@
     "liveTitle": "Peach Mango Moon Rocks | Presidential Silver"
   },
   {
+    "id": "107",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "blunt",
@@ -1284,6 +1391,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "108",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "pre-roll",
@@ -1296,6 +1404,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "109",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "mini",
@@ -1308,6 +1417,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "110",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "mini",
@@ -1320,6 +1430,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "111",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "blunt",
@@ -1332,6 +1443,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "112",
     "name": "Pineapple",
     "slug": "pineapple",
     "format": "pre-roll",
@@ -1344,6 +1456,7 @@
     "liveTitle": "Pineapple Moon Rocks | Presidential Silver"
   },
   {
+    "id": "113",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "blunt",
@@ -1356,6 +1469,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "114",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "blunt",
@@ -1368,6 +1482,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "115",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "moon-rock",
@@ -1380,6 +1495,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "116",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "mini",
@@ -1392,6 +1508,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "117",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "mini",
@@ -1404,6 +1521,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "118",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "moon-rock",
@@ -1416,6 +1534,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "119",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "mini",
@@ -1428,6 +1547,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "120",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "moon-rock",
@@ -1440,6 +1560,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "121",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "pre-roll",
@@ -1452,6 +1573,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "122",
     "name": "Pink Cookies",
     "slug": "pink-cookies",
     "format": "pre-roll",
@@ -1464,6 +1586,7 @@
     "liveTitle": "Pink Cookies Moon Rocks | Presidential Gold"
   },
   {
+    "id": "123",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "blunt",
@@ -1476,6 +1599,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "124",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "pre-roll",
@@ -1488,6 +1612,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "125",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "mini",
@@ -1500,6 +1625,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "126",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "mini",
@@ -1512,6 +1638,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "127",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "moon-rock",
@@ -1524,6 +1651,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "128",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "blunt",
@@ -1536,6 +1664,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "129",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "mini",
@@ -1548,6 +1677,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "130",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "mini",
@@ -1560,6 +1690,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "131",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "moon-rock",
@@ -1572,6 +1703,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "132",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "pre-roll",
@@ -1584,6 +1716,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "133",
     "name": "Presidential OG",
     "slug": "presidential-og",
     "format": "moon-rock",
@@ -1596,6 +1729,7 @@
     "liveTitle": "Presidential OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "134",
     "name": "Presidential x THC Design",
     "slug": "presidential-x-thc-design",
     "format": "moon-rock",
@@ -1608,6 +1742,7 @@
     "liveTitle": "Presidential x THC Design | Presidential Moon Rocks"
   },
   {
+    "id": "135",
     "name": "Rainbow Belts",
     "slug": "rainbow-belts",
     "format": "blunt",
@@ -1620,6 +1755,7 @@
     "liveTitle": "Rainbow Belts Moon Rocks | Presidential Gold"
   },
   {
+    "id": "136",
     "name": "Rainbow Belts",
     "slug": "rainbow-belts",
     "format": "blunt",
@@ -1632,6 +1768,7 @@
     "liveTitle": "Rainbow Belts Moon Rocks | Presidential Gold"
   },
   {
+    "id": "137",
     "name": "Rainbow Belts",
     "slug": "rainbow-belts",
     "format": "pre-roll",
@@ -1644,6 +1781,7 @@
     "liveTitle": "Rainbow Belts Moon Rocks | Presidential Gold"
   },
   {
+    "id": "138",
     "name": "Rainbow Belts",
     "slug": "rainbow-belts",
     "format": "pre-roll",
@@ -1656,6 +1794,7 @@
     "liveTitle": "Rainbow Belts Moon Rocks | Presidential Gold"
   },
   {
+    "id": "139",
     "name": "SFV OG",
     "slug": "sfv-og",
     "format": "blunt",
@@ -1668,6 +1807,7 @@
     "liveTitle": "SFV OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "140",
     "name": "SFV OG",
     "slug": "sfv-og",
     "format": "blunt",
@@ -1680,6 +1820,7 @@
     "liveTitle": "SFV OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "141",
     "name": "SFV OG",
     "slug": "sfv-og",
     "format": "moon-rock",
@@ -1692,6 +1833,7 @@
     "liveTitle": "SFV OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "142",
     "name": "SFV OG",
     "slug": "sfv-og",
     "format": "pre-roll",
@@ -1704,6 +1846,7 @@
     "liveTitle": "SFV OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "143",
     "name": "SFV OG",
     "slug": "sfv-og",
     "format": "pre-roll",
@@ -1716,6 +1859,7 @@
     "liveTitle": "SFV OG Moon Rocks | Presidential Gold"
   },
   {
+    "id": "144",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "blunt",
@@ -1728,6 +1872,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "145",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "blunt",
@@ -1740,6 +1885,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "146",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "moon-rock",
@@ -1752,6 +1898,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "147",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "moon-rock",
@@ -1764,6 +1911,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "148",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "moon-rock",
@@ -1776,6 +1924,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "149",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "mini",
@@ -1788,6 +1937,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "150",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "mini",
@@ -1800,6 +1950,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "151",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "mini",
@@ -1812,6 +1963,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "152",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "mini",
@@ -1824,6 +1976,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "153",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "moon-rock",
@@ -1836,6 +1989,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "154",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "pre-roll",
@@ -1848,6 +2002,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "155",
     "name": "Skywalker",
     "slug": "skywalker",
     "format": "pre-roll",
@@ -1860,6 +2015,7 @@
     "liveTitle": "Skywalker Moon Rocks | Presidential Gold"
   },
   {
+    "id": "156",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "blunt",
@@ -1872,6 +2028,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "157",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "moon-rock",
@@ -1884,6 +2041,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "158",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "blunt",
@@ -1896,6 +2054,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "159",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "mini",
@@ -1908,6 +2067,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "160",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "mini",
@@ -1920,6 +2080,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "161",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "pre-roll",
@@ -1932,6 +2093,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "162",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "mini",
@@ -1944,6 +2106,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "163",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "mini",
@@ -1956,6 +2119,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "164",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "moon-rock",
@@ -1968,6 +2132,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "165",
     "name": "Strawberry",
     "slug": "strawberry",
     "format": "pre-roll",
@@ -1980,6 +2145,7 @@
     "liveTitle": "Strawberry Moon Rocks | Presidential Silver"
   },
   {
+    "id": "166",
     "name": "Tropical",
     "slug": "tropical",
     "format": "blunt",
@@ -1992,6 +2158,7 @@
     "liveTitle": "Tropical Moon Rocks | Presidential Silver"
   },
   {
+    "id": "167",
     "name": "Tropical",
     "slug": "tropical",
     "format": "blunt",
@@ -2004,6 +2171,7 @@
     "liveTitle": "Tropical Moon Rocks | Presidential Silver"
   },
   {
+    "id": "168",
     "name": "Tropical",
     "slug": "tropical",
     "format": "blunt",
@@ -2016,6 +2184,7 @@
     "liveTitle": "Tropical Moon Rocks | Presidential Silver"
   },
   {
+    "id": "169",
     "name": "Tropical",
     "slug": "tropical",
     "format": "pre-roll",
@@ -2028,6 +2197,7 @@
     "liveTitle": "Tropical Moon Rocks | Presidential Silver"
   },
   {
+    "id": "170",
     "name": "Head Cheese",
     "slug": "presidential-line-head-cheese",
     "format": "pre-roll",
@@ -2040,6 +2210,7 @@
     "liveTitle": "Head Cheese Moon Rocks | Presidential Line"
   },
   {
+    "id": "171",
     "name": "Head Cheese",
     "slug": "presidential-line-head-cheese",
     "format": "blunt",
@@ -2052,6 +2223,7 @@
     "liveTitle": "Head Cheese Moon Rocks | Presidential Line"
   },
   {
+    "id": "172",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "blunt",
@@ -2064,6 +2236,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "173",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "blunt",
@@ -2076,6 +2249,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "174",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "moon-rock",
@@ -2088,6 +2262,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "175",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "pre-roll",
@@ -2100,6 +2275,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "176",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "mini",
@@ -2112,6 +2288,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "177",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "mini",
@@ -2124,6 +2301,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "178",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "mini",
@@ -2136,6 +2314,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "179",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "mini",
@@ -2148,6 +2327,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "180",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "moon-rock",
@@ -2160,6 +2340,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "181",
     "name": "Watermelon",
     "slug": "watermelon",
     "format": "pre-roll",
@@ -2172,6 +2353,7 @@
     "liveTitle": "Watermelon Moon Rocks | Presidential Silver"
   },
   {
+    "id": "182",
     "name": "Waui",
     "slug": "waui",
     "format": "blunt",
@@ -2184,6 +2366,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "183",
     "name": "Waui",
     "slug": "waui",
     "format": "moon-rock",
@@ -2196,6 +2379,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "184",
     "name": "Waui",
     "slug": "waui",
     "format": "moon-rock",
@@ -2208,6 +2392,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "185",
     "name": "Waui",
     "slug": "waui",
     "format": "mini",
@@ -2220,6 +2405,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "186",
     "name": "Waui",
     "slug": "waui",
     "format": "mini",
@@ -2232,6 +2418,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "187",
     "name": "Waui",
     "slug": "waui",
     "format": "moon-rock",
@@ -2244,6 +2431,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "188",
     "name": "Waui",
     "slug": "waui",
     "format": "mini",
@@ -2256,6 +2444,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "189",
     "name": "Waui",
     "slug": "waui",
     "format": "mini",
@@ -2268,6 +2457,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "190",
     "name": "Waui",
     "slug": "waui",
     "format": "moon-rock",
@@ -2280,6 +2470,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "191",
     "name": "Waui",
     "slug": "waui",
     "format": "pre-roll",
@@ -2292,6 +2483,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "192",
     "name": "Waui",
     "slug": "waui",
     "format": "pre-roll",
@@ -2304,6 +2496,7 @@
     "liveTitle": "Waui Moon Rocks | Presidential Gold"
   },
   {
+    "id": "193",
     "name": "Whoa Si Whoa",
     "slug": "presidential-line-whoa-si-whoa",
     "format": "blunt",
@@ -2316,6 +2509,7 @@
     "liveTitle": "Whoa Si Whoa Moon Rocks | Presidential Line"
   },
   {
+    "id": "194",
     "name": "Whoa Si Whoa",
     "slug": "presidential-line-whoa-si-whoa",
     "format": "blunt",
@@ -2328,6 +2522,7 @@
     "liveTitle": "Whoa Si Whoa Moon Rocks | Presidential Line"
   },
   {
+    "id": "195",
     "name": "Whoa Si Whoa",
     "slug": "presidential-line-whoa-si-whoa",
     "format": "moon-rock",
@@ -2340,6 +2535,7 @@
     "liveTitle": "Whoa Si Whoa Moon Rocks | Presidential Line"
   },
   {
+    "id": "196",
     "name": "Whoa Si Whoa",
     "slug": "presidential-line-whoa-si-whoa",
     "format": "moon-rock",
@@ -2352,6 +2548,7 @@
     "liveTitle": "Whoa Si Whoa Moon Rocks | Presidential Line"
   },
   {
+    "id": "197",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "blunt",
@@ -2364,6 +2561,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "198",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "blunt",
@@ -2376,6 +2574,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "199",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "moon-rock",
@@ -2388,6 +2587,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "200",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "mini",
@@ -2400,6 +2600,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "201",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "mini",
@@ -2412,6 +2613,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "202",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "moon-rock",
@@ -2424,6 +2626,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "203",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "pre-roll",
@@ -2436,6 +2639,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "204",
     "name": "XJ-13",
     "slug": "xj-13",
     "format": "pre-roll",
@@ -2448,6 +2652,7 @@
     "liveTitle": "XJ-13 Moon Rocks | Presidential Gold"
   },
   {
+    "id": "205",
     "name": "XXX",
     "slug": "xxx",
     "format": "blunt",
@@ -2460,6 +2665,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "206",
     "name": "XXX",
     "slug": "xxx",
     "format": "blunt",
@@ -2472,6 +2678,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "207",
     "name": "XXX",
     "slug": "xxx",
     "format": "blunt",
@@ -2484,6 +2691,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "208",
     "name": "XXX",
     "slug": "xxx",
     "format": "moon-rock",
@@ -2496,6 +2704,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "209",
     "name": "XXX",
     "slug": "xxx",
     "format": "mini",
@@ -2508,6 +2717,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "210",
     "name": "XXX",
     "slug": "xxx",
     "format": "mini",
@@ -2520,6 +2730,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "211",
     "name": "XXX",
     "slug": "xxx",
     "format": "mini",
@@ -2532,6 +2743,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "212",
     "name": "XXX",
     "slug": "xxx",
     "format": "pre-roll",
@@ -2544,6 +2756,7 @@
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
   },
   {
+    "id": "213",
     "name": "XXX",
     "slug": "xxx",
     "format": "pre-roll",
