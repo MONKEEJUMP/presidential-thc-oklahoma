@@ -1,5 +1,11 @@
 # DEFECTS
 
+## 2026-08-07 — The 213 source composites map to only 37 live product URLs
+
+- Status: Source-contract conflict contained and documented.
+- Finding: The supplied `source-map.csv` contains 213 unique asset IDs and composite pairs, but only 37 distinct `sitemap-product-slug` values. Several format/series pages must therefore show multiple distinct approved package composites that resolve to the same live product page. It is impossible to place every one of the 213 supplied products on its required format/series page while also having no repeated destination URL on those pages.
+- Action: Preserved the higher-priority all-213 placement requirement, kept each asset ID once per page, linked every asset to the exact supplied official slug, and removed avoidable repeated URLs from the five broad-selection pages. The required report distinguishes zero duplicate asset placements from the unavoidable repeated live destinations on format/series pages.
+
 ## 2026-08-06 — Brief milestone conflicts with official record
 
 - Status: Contained; build continuing.

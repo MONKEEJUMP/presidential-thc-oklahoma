@@ -2,7 +2,6 @@ import { copyFile, mkdir, readFile, readdir, writeFile } from "node:fs/promises"
 import path from "node:path";
 
 const projectRoot = path.resolve(import.meta.dirname, "..");
-const stateName = "Oklahoma";
 const stateSlug = "oklahoma";
 const sourceRoot = `J:\\presidential-state-images\\${stateSlug}`;
 const sourceMapPath = "J:\\presidential-state-images\\_manifest\\source-map.csv";
@@ -124,23 +123,39 @@ function stableHash(value) {
 }
 
 function broadSelection(products, count, offset) {
-  const perFormat = Math.floor(count / formatOrder.length);
-  const remainder = count % formatOrder.length;
-  const selected = [];
-
-  formatOrder.forEach((format, formatIndex) => {
-    const take = perFormat + (formatIndex < remainder ? 1 : 0);
+  const pools = new Map(formatOrder.map((format, formatIndex) => {
     const pool = products
       .filter((product) => product.format === format)
       .sort((left, right) => stableHash(left.squareFilename) - stableHash(right.squareFilename));
-    selected.push(...pool.slice(offset, offset + take));
-  });
+    return [format, {
+      pool,
+      cursor: (offset * (formatIndex + 1)) % pool.length,
+    }];
+  }));
+  const selected = [];
+  const usedHrefs = new Set();
 
-  return selected.sort((left, right) => {
-    const leftRound = selected.filter((product) => product.format === left.format).indexOf(left);
-    const rightRound = selected.filter((product) => product.format === right.format).indexOf(right);
-    return leftRound - rightRound || formatOrder.indexOf(left.format) - formatOrder.indexOf(right.format);
-  });
+  while (selected.length < count) {
+    let addedThisRound = 0;
+    for (const format of formatOrder) {
+      if (selected.length >= count) break;
+      const state = pools.get(format);
+      let attempts = 0;
+      while (attempts < state.pool.length) {
+        const product = state.pool[state.cursor % state.pool.length];
+        state.cursor += 1;
+        attempts += 1;
+        if (usedHrefs.has(product.productHref)) continue;
+        selected.push(product);
+        usedHrefs.add(product.productHref);
+        addedThisRound += 1;
+        break;
+      }
+    }
+    if (addedThisRound === 0) throw new Error(`Could not select ${count} unique product links`);
+  }
+
+  return selected;
 }
 
 function productsForPage(products, pagePath) {

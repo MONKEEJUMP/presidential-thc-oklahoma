@@ -62,6 +62,7 @@ const pageRows = plans.map((plan) => {
     sectionImages,
     gridImages: pageProducts.length - sectionImages,
     duplicateProducts: pageProducts.length - new Set(plan.productIds).size,
+    duplicateProductLinks: pageProducts.length - new Set(pageProducts.map((product) => product.productHref)).size,
   };
 });
 
