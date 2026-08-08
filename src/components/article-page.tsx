@@ -4,6 +4,7 @@ import { Fragment, Suspense } from "react";
 
 import { FindUsNationwideVideo } from "@/components/presidential/media/find-us-nationwide-video";
 import { STATE } from "@/config/state";
+import { pageCatalogHeadings } from "@/content/assets";
 import type { ContentImage, ContentParagraph, PageContent } from "@/content/types";
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
 
@@ -177,6 +178,37 @@ function ProductRoster({ page }: { page: PageContent }) {
   );
 }
 
+function ProductCatalogGrid({ heading, images }: { heading?: string; images: ContentImage[] }) {
+  if (!heading || images.length === 0) return null;
+  const headingId = `product-catalog-${images[0].page.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "") || "home"}`;
+
+  return (
+    <section className="product-catalog" aria-labelledby={headingId}>
+      <h2 id={headingId}>{heading}</h2>
+      <div className="product-catalog__grid">
+        {images.map((image) => (
+          <a
+            aria-label={`View ${image.alt} on the official Presidential site`}
+            className="product-catalog__link"
+            href={image.productHref}
+            key={image.productId}
+          >
+            <Image
+              alt={image.alt}
+              className="product-catalog__image"
+              height={image.height}
+              loading="lazy"
+              sizes="(max-width: 767px) 92vw, (max-width: 1023px) 44vw, (max-width: 1279px) 29vw, 22vw"
+              src={image.src}
+              width={image.width}
+            />
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function StructuredData({ page, images }: { page: PageContent; images: ContentImage[] }) {
   const graph: Record<string, unknown>[] = images.map((image) => ({
     "@type": "ImageObject",
@@ -214,6 +246,11 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
 
 export function ArticlePage({ page, images }: { page: PageContent; images: ContentImage[] }) {
   let imageIndex = 0;
+  const sectionImageLimit = Math.min(
+    images.length,
+    page.sections.reduce((total, section) => total + (section.imageCount ?? 1), 0),
+  );
+  const gridImages = images.slice(sectionImageLimit);
 
   return (
     <>
@@ -243,6 +280,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           <div className="article-body">
             {page.sections.map((section) => {
               const count = section.imageCount ?? 1;
+              const sectionStart = imageIndex;
               const sectionImages = images.slice(imageIndex, imageIndex + count);
               imageIndex += count;
               return (
@@ -254,7 +292,9 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
                   </div>
                   {sectionImages.length ? (
                     <div className="article-section__media">
-                      {sectionImages.map((image) => <ContentFigure image={image} key={image.src} />)}
+                      {sectionImages.map((image, index) => (
+                        <ContentFigure image={image} key={image.productId} priority={sectionStart === 0 && index === 0} />
+                      ))}
                     </div>
                   ) : null}
                 </section>
@@ -265,6 +305,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           <ProductRoster page={page} />
           <Sources page={page} />
           <LinkDirectory page={page} />
+          <ProductCatalogGrid heading={pageCatalogHeadings[page.path]} images={gridImages} />
         </article>
       </main>
       <StructuredData images={images} page={page} />

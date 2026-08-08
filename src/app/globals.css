@@ -1134,7 +1134,6 @@ a:hover {
 }
 
 .content-figure__link {
-  position: relative;
   display: block;
   color: inherit;
   line-height: 0;
@@ -1148,47 +1147,43 @@ a:hover {
   object-fit: contain;
 }
 
-.content-figure__frame {
-  position: absolute;
-  inset: 16px;
-  display: block;
-  pointer-events: none;
+.product-catalog {
+  margin-top: clamp(5rem, 12vw, 10rem);
+  padding-top: clamp(3rem, 7vw, 5rem);
+  border-top: 3px solid transparent;
+  border-image: var(--champagne) 1;
 }
 
-.content-figure__rule {
-  position: absolute;
-  inset: 0;
+.product-catalog h2 {
+  max-width: 18ch;
+  margin: 0 0 clamp(2rem, 5vw, 4rem);
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: clamp(2.35rem, 5.5vw, 4.6rem);
+  font-weight: 600;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+}
+
+.product-catalog__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: clamp(1.25rem, 3vw, 2.25rem);
+}
+
+.product-catalog__link {
+  display: block;
+  min-width: 0;
+  color: inherit;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.product-catalog__image {
   display: block;
   width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
-.content-figure__ornament {
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  display: block;
-  width: min(40%, 12rem);
   height: auto;
-  aspect-ratio: 10 / 1;
-  overflow: visible;
-  pointer-events: none;
-}
-
-.content-figure__ornament--top {
-  top: 0;
-  transform: translate(-50%, -50%);
-}
-
-.content-figure__ornament--bottom {
-  bottom: 0;
-  transform: translate(-50%, 50%) scaleY(-1);
-}
-
-.content-figure__link:hover .content-figure__image,
-.content-figure__link:focus-visible .content-figure__image {
-  opacity: 0.9;
+  object-fit: contain;
 }
 
 .sources,
@@ -1424,10 +1419,6 @@ a:hover {
   .brand-lockup__tagline {
     display: none;
   }
-
-  .content-figure__ornament {
-    display: none;
-  }
 }
 
 @media (min-width: 40rem) {
@@ -1451,6 +1442,10 @@ a:hover {
 }
 
 @media (min-width: 48rem) {
+  .product-catalog__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .primary-nav {
     justify-content: center;
   }
@@ -1500,6 +1495,10 @@ a:hover {
 }
 
 @media (min-width: 64rem) {
+  .product-catalog__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .site-header__inner {
     flex-wrap: nowrap;
     gap: 0.75rem 1rem;
@@ -1526,6 +1525,10 @@ a:hover {
 }
 
 @media (min-width: 80rem) {
+  .product-catalog__grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .site-header__inner {
     gap: 1rem 1.5rem;
   }

@@ -41,11 +41,36 @@ export type PageContent = {
 };
 
 export type ContentImage = {
+  productId: string;
   page: string;
   filename: string;
+  portraitFilename: string;
   src: string;
+  portraitSrc: string;
   width: number;
   height: number;
+  portraitWidth: number;
+  portraitHeight: number;
   alt: string;
   productHref: string;
+};
+
+export type CatalogProduct = {
+  id: string;
+  name: string;
+  slug: string;
+  format: "moon-rock" | "blunt" | "pre-roll" | "mini";
+  series: "silver" | "gold" | "rose-gold" | null;
+  variant: number;
+  squareFilename: string;
+  portraitFilename: string;
+  productHref: string;
+  liveStatus: number;
+  liveTitle: string;
+};
+
+export type PageImagePlan = {
+  page: string;
+  heading: string;
+  productIds: string[];
 };
