@@ -461,5 +461,23 @@
     "page": "/rose-gold",
     "heading": "The Presidential Rose Gold Collection for Oklahoma",
     "productIds": []
+  },
+  {
+    "page": "/find",
+    "heading": "Featured Presidential Products Near Oklahoma",
+    "productIds": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
   }
 ]
