@@ -51,6 +51,7 @@ At commit `015d539`, `src/content/assets.json` held **84** active product-image 
 - Composite pairs: **213**.
 - Files copied: **426**.
 - Missing copied files: **0**.
+- SHA-256 source-to-public mismatches: **0 of 426**; every copied composite is byte-identical to the read-only Oklahoma source.
 - Square dimensions: **213 at 1,200×1,200**.
 - Portrait dimensions: **213 at 1,080×1,350**.
 - Missing sitemap slugs in the source manifest: **0**.
