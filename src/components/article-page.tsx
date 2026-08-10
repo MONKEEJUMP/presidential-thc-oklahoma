@@ -9,6 +9,7 @@ import type { ContentImage, ContentParagraph, PageContent } from "@/content/type
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
 
 import { ContentFigure } from "./content-figure";
+import { HomepageLocatorConsole } from "./homepage-locator-console";
 import { RetailerLocator } from "./retailer-locator";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
@@ -257,6 +258,41 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
       <SiteHeader currentPath={page.path} />
       <main id="main-content">
         <PageHero page={page} />
+        {page.path === "/" ? (
+          <>
+            <section
+              aria-labelledby="presidential-homepage-locator-heading"
+              className="bg-po-ink text-po-on-dark"
+              id="presidential-homepage-locator"
+            >
+              <div className="mx-auto w-full max-w-7xl px-[clamp(1.25rem,4vw,4rem)] py-[clamp(3rem,7vw,6rem)]">
+                <div className="mb-[clamp(2rem,4vw,3rem)] text-center">
+                  <p className="text-xs font-black uppercase text-po-brand">
+                    Coast to coast
+                  </p>
+                  <h2
+                    className="mt-2 font-display text-4xl uppercase leading-[0.92] text-po-on-dark sm:text-6xl lg:text-7xl"
+                    id="presidential-homepage-locator-heading"
+                  >
+                    Find Presidential Near You
+                  </h2>
+                </div>
+
+                <HomepageLocatorConsole layout="stacked" />
+              </div>
+            </section>
+
+            <section
+              aria-label="Nationwide Presidential map"
+              className="bg-po-ink px-[clamp(1.25rem,4vw,4rem)] pb-[clamp(3rem,7vw,6rem)] text-po-on-dark"
+              id="presidential-homepage-map"
+            >
+              <div className="mx-auto w-full max-w-7xl">
+                <FindUsNationwideVideo />
+              </div>
+            </section>
+          </>
+        ) : null}
         {page.path === "/find" ? (
           <section
             aria-label="Find a dispensary"
