@@ -57,6 +57,17 @@
   color: var(--paper);
 }
 
+.sourcingLine {
+  max-width: 56rem;
+  margin: clamp(2rem, 5vw, 3rem) 0 0;
+  color: var(--paper-muted);
+  font-size: 0.95rem;
+}
+
+.sourcingLine a {
+  font-weight: 600;
+}
+
 .jumpLinks {
   max-width: 70rem;
   margin-block: clamp(4rem, 10vw, 8rem);

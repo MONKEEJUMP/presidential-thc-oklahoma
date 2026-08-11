@@ -187,6 +187,10 @@ export default function DispensariesPage() {
             <p>For adults 21+ where legal.</p>
           </section>
 
+          <p className={styles.sourcingLine}>
+            Every retailer on this page is a licensed Oklahoma dispensary that carries <Link href="/about">Presidential</Link>, supplied directly by our own retail partners.
+          </p>
+
           <nav aria-label="Oklahoma dispensary regions" className={styles.jumpLinks}>
             <p>Jump to a region</p>
             <ul>
