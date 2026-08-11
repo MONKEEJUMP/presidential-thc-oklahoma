@@ -130,7 +130,7 @@ const homePage: PageContent = {
     },
     {
       id: "find-it",
-      heading: "Find it",
+      heading: "Find Us",
       imageCount: 1,
       paragraphs: [
         "Presidential is available through close to two hundred licensed Oklahoma retail doors, written as a statewide footprint rather than a frozen address list. Retail participation and store inventory can change, so this site does not copy the protected retailer table into static HTML or claim that every product is present at every location.",
