@@ -65,6 +65,7 @@ type DirectoryRetailer = Readonly<{
   name: string;
   address: string;
   city: string;
+  zip?: string;
 }>;
 
 type Retailer = DirectoryRetailer & Readonly<{
@@ -123,6 +124,20 @@ function groupByCity(retailers: readonly DirectoryRetailer[]) {
     }));
 }
 
+function googleMapsSearchUrl(retailer: DirectoryRetailer) {
+  const locality = retailer.zip
+    ? `${retailer.city}, OK ${retailer.zip}`
+    : `${retailer.city}, OK`;
+  const query = `${retailer.name}, ${retailer.address}, ${locality}`;
+  const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+
+  if (url.length > 2048) {
+    throw new Error(`Google Maps URL exceeds 2048 characters for ${retailer.name}`);
+  }
+
+  return url;
+}
+
 function RetailerDirectory({ retailers }: { retailers: readonly DirectoryRetailer[] }) {
   return (
     <div className={styles.cityDirectory}>
@@ -133,7 +148,19 @@ function RetailerDirectory({ retailers }: { retailers: readonly DirectoryRetaile
             {cityRetailers.map((retailer) => (
               <li key={`${retailer.name}-${retailer.address}`}>
                 <h4>{retailer.name}</h4>
-                <address data-retailer-address>{retailer.address}</address>
+                <a
+                  className={styles.addressLink}
+                  href={googleMapsSearchUrl(retailer)}
+                  rel="noopener"
+                  target="_blank"
+                >
+                  <address data-retailer-address>
+                    <span>{retailer.address}</span>
+                    <span>
+                      {retailer.city}, OK{retailer.zip ? ` ${retailer.zip}` : ""}
+                    </span>
+                  </address>
+                </a>
               </li>
             ))}
           </ul>

@@ -233,12 +233,35 @@
   text-transform: uppercase;
 }
 
-.cityGroup address {
-  margin-top: 0.32rem;
+.addressLink {
+  display: block;
+  width: fit-content;
   color: var(--paper-muted);
+  text-decoration-color: rgba(88, 195, 182, 0.72);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.addressLink:hover {
+  color: var(--gold-light);
+}
+
+.addressLink:focus-visible {
+  border-radius: 0.15rem;
+  outline: 2px solid var(--teal);
+  outline-offset: 0.25rem;
+}
+
+.addressLink address {
+  margin-top: 0.32rem;
+  color: inherit;
   font-size: 0.95rem;
   font-style: normal;
   line-height: 1.45;
+}
+
+.addressLink address span {
+  display: block;
 }
 
 .elsewhereSection .regionCopy {
