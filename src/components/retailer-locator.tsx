@@ -121,9 +121,11 @@ function parseInitialSearch(query: string): LocatorInitialSearch | undefined {
 function LocatorReadout({
   results,
   searching,
+  showPhone,
 }: {
   readonly results: readonly LocatorResult[];
   readonly searching: boolean;
+  readonly showPhone: boolean;
 }) {
   return (
     <div className={styles.readout}>
@@ -154,7 +156,7 @@ function LocatorReadout({
                     <br />
                     {result.city}, {result.state} {result.zip}
                   </address>
-                  {result.phone ? (
+                  {showPhone && result.phone ? (
                     <a href={`tel:${result.phone}`}>{result.phone}</a>
                   ) : null}
                 </div>
@@ -170,7 +172,7 @@ function LocatorReadout({
   );
 }
 
-export function RetailerLocator() {
+export function RetailerLocator({ showPhone = true }: { readonly showPhone?: boolean }) {
   const searchParams = useSearchParams();
   const query = searchParams.toString();
   const initialSearch = useMemo(() => parseInitialSearch(query), [query]);
@@ -367,7 +369,7 @@ export function RetailerLocator() {
           </p>
         </div>
 
-        <LocatorReadout results={results} searching={searching} />
+        <LocatorReadout results={results} searching={searching} showPhone={showPhone} />
       </div>
     </div>
   );

@@ -13,6 +13,7 @@ export const primaryNavigation = [
   { href: "/minis", label: "Minis" },
   { href: "/silver", label: "Series" },
   { href: "/find", label: "Find Us" },
+  { href: "/dispensaries", label: "Dispensaries" },
 ] as const;
 
 export const footerProductLinks = [
