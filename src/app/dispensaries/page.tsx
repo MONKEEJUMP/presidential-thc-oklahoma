@@ -167,7 +167,7 @@ export default function DispensariesPage() {
           <nav aria-label="Breadcrumb" className={styles.breadcrumbs}>
             <Link href="/">Home</Link>
             <span aria-hidden="true">/</span>
-            <span aria-current="page">Dispensaries</span>
+            <span aria-current="page">{PAGE_TITLE}</span>
           </nav>
           <h1>{PAGE_TITLE}</h1>
         </header>
