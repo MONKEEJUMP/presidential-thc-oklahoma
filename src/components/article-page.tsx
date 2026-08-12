@@ -85,7 +85,7 @@ function PageHero({ page }: { page: PageContent }) {
         />
         <div className="home-hero__overlay" aria-hidden="true" />
         <div className="home-hero__content">
-          <p className="home-hero__eyebrow">THE OFFICIAL</p>
+          <p className="home-hero__eyebrow">THE OFFICIAL HOME OF</p>
           <h1>{page.h1}</h1>
           <p className="home-hero__line">{STATE.tagline}</p>
         </div>

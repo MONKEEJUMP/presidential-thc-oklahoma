@@ -1,10 +1,23 @@
+import { existsSync } from "node:fs";
+import { join } from "node:path";
+
 import Image from "next/image";
 import Link from "next/link";
 
-import { STATE } from "@/config/state";
-import { MAIN_SITE_URL, primaryNavigation, SITE_NAME } from "@/lib/site";
+import { primaryNavigation } from "@/lib/site";
 
 import { HeaderStoreFinder } from "./header-store-finder";
+import { ProductsMenu } from "./products-menu";
+
+const headerNavigation = primaryNavigation.filter(
+  (item) => item.href === "/silver" || item.href === "/find",
+);
+
+function hasDispensariesRoute() {
+  return existsSync(
+    join(process.cwd(), "src", "app", "dispensaries", "page.tsx"),
+  );
+}
 
 export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
   return (
@@ -13,7 +26,10 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
         Skip to the page
       </a>
       <div className="site-header__inner">
-        <Link className="brand-lockup" href="/" aria-label={`${SITE_NAME} home`}>
+        <Link className="brand-lockup" href="/" aria-label="Presidential home">
+          <span className="brand-lockup__real" aria-hidden="true">
+            THE REAL
+          </span>
           <Image
             className="brand-banner"
             src="/images/presidential-banner.webp"
@@ -21,18 +37,21 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
             height={604}
             sizes="(max-width: 640px) 82px, 116px"
             priority
-            alt="Presidential"
+            alt=""
           />
           <span className="brand-lockup__text">
-            <span className="brand-lockup__name">{SITE_NAME}</span>
-            <span className="brand-lockup__tagline">The Official Presidential Site</span>
+            <span className="brand-lockup__tagline" aria-hidden="true">
+              <span>The Official</span>
+              <span>Presidential Site</span>
+            </span>
           </span>
         </Link>
 
         <HeaderStoreFinder />
 
         <nav className="primary-nav" aria-label="Primary navigation">
-          {primaryNavigation.map((item) => {
+          <ProductsMenu currentPath={currentPath} />
+          {headerNavigation.map((item) => {
             const current = currentPath === item.href;
             return (
               <Link href={item.href} key={item.href} aria-current={current ? "page" : undefined}>
@@ -40,17 +59,15 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
               </Link>
             );
           })}
+          {hasDispensariesRoute() ? (
+            <Link
+              href="/dispensaries"
+              aria-current={currentPath === "/dispensaries" ? "page" : undefined}
+            >
+              Dispensaries
+            </Link>
+          ) : null}
         </nav>
-
-        <a
-          className="official-header-link"
-          href={MAIN_SITE_URL}
-          rel="nofollow"
-          aria-label="Official Presidential"
-          data-state={STATE.code}
-        >
-          <span className="official-header-link__label" aria-hidden="true" />
-        </a>
       </div>
     </header>
   );
