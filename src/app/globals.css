@@ -1558,9 +1558,6 @@ a:hover {
     display: block;
   }
 
-  .official-header-link__label::before {
-    content: "OFFICIAL PRESIDENTIAL";
-  }
 }
 
 @media (max-width: 29.99rem) {
@@ -1583,10 +1580,6 @@ a:hover {
 
   .brand-banner {
     width: 4rem;
-  }
-
-  .brand-lockup__name {
-    font-size: 0.72rem;
   }
 
   .brand-lockup__tagline {
