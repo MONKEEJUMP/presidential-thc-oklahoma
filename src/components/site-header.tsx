@@ -26,28 +26,38 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
         Skip to the page
       </a>
       <div className="site-header__inner">
-        <Link className="brand-lockup" href="/" aria-label="Presidential home">
-          <span className="brand-lockup__real" aria-hidden="true">
-            THE REAL
-          </span>
-          <Image
-            className="brand-banner"
-            src="/images/presidential-banner.webp"
-            width={1839}
-            height={604}
-            sizes="(max-width: 640px) 82px, 116px"
-            priority
-            alt=""
-          />
-          <span className="brand-lockup__text">
-            <span className="brand-lockup__tagline" aria-hidden="true">
-              <span>The Official</span>
-              <span>Presidential Site</span>
+        <div className="brand-lockup">
+          <Link
+            aria-label="Presidential home"
+            className="brand-lockup__home"
+            href="/"
+          >
+            <span className="brand-lockup__real" aria-hidden="true">
+              THE REAL
             </span>
-          </span>
-        </Link>
-
-        <HeaderStoreFinder />
+            <Image
+              className="brand-banner"
+              src="/images/presidential-banner.webp"
+              width={1839}
+              height={604}
+              sizes="(max-width: 640px) 82px, 116px"
+              priority
+              alt=""
+            />
+          </Link>
+          <a
+            aria-label="The official Presidential site"
+            className="brand-lockup__tagline-link"
+            href="https://presidentialmoonrocks.com"
+          >
+            <span className="brand-lockup__text">
+              <span className="brand-lockup__tagline">
+                <span>The Official</span>
+                <span>Presidential Site</span>
+              </span>
+            </span>
+          </a>
+        </div>
 
         <nav className="primary-nav" aria-label="Primary navigation">
           <ProductsMenu currentPath={currentPath} />
@@ -68,6 +78,8 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
             </Link>
           ) : null}
         </nav>
+
+        <HeaderStoreFinder />
       </div>
     </header>
   );
