@@ -31,6 +31,9 @@ const pageAltLabels: Record<string, string> = {
 
 function placementAlt(product: CatalogProduct, page: string): string {
   const variant = product.variant > 1 ? ` variant ${product.variant}` : "";
+  if (product.series === "rose-gold") {
+    return `${product.name} Presidential Rose Gold Moon Rock Blunt for ${pageAltLabels[page]}`;
+  }
   return `${product.name} Presidential ${formatLabels[product.format]}${variant} for ${pageAltLabels[page]}`;
 }
 

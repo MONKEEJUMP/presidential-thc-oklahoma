@@ -690,7 +690,7 @@ const roseGoldPage: PageContent = {
   description: "Meet all five refined Presidential Rose Gold products and follow every official name to its canonical product record.",
   intro: [
     "The Presidential Rose Gold Connoisseur Series is a deliberately edited five-product collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
-    "Every official Rose Gold product appears in the roster below with its exact main-site link. The official product pages currently state that photography is in production, so this Oklahoma property uses clearly labeled brand artwork placeholders rather than inventing packaging or presenting generated compositions as product photography.",
+    "Every official Rose Gold product appears in the roster below with its exact main-site link. This Oklahoma property now presents all five real package designs in square and portrait state-specific compositions, keeping the product, series, and destination aligned.",
   ],
   sections: [
     {
@@ -716,9 +716,9 @@ const roseGoldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the five-product set. The apostrophe in God’s Gift is preserved in the visible name, while the official URL uses the confirmed `gods-gift` slug from the live main-site sitemap.",
-        "Each name receives a direct follow link in the complete roster below. That directness matters while photography is still being produced: a visitor can distinguish an honest placeholder from the canonical product record and move to the official destination without passing through an unrelated generic page.",
-        "The eight artworks on this page cover five named portrait treatments and three square variations. Each file is unique, carries the product name, and visibly says that official photography is in production. None depicts a fictional jar, pouch, roll, label, or physical product that could be mistaken for released packaging.",
-        "When official photography arrives, the manifest can replace each placeholder one-for-one without changing URLs, dimensions, alt-text responsibilities, page structure, or product destinations. The temporary art is a truthful bridge, not a substitute catalog invented by the Oklahoma site.",
+        "Each name receives a direct follow link in the complete roster below. The package gallery makes that path visual: a visitor can identify the exact Rose Gold blunt and move to its canonical product record without passing through an unrelated generic page.",
+        "The ten artworks on this page pair a square and portrait composition for each of the five names. Every file preserves the full real package, carries accurate Rose Gold alt text, and links to the matching official product page.",
+        "The manifest records each source package, deterministic Oklahoma backdrop, output filename, dimensions, byte size, and hash. That trace keeps the visual catalog accountable without changing the established page structure or product destinations.",
       ],
     },
     {
@@ -733,16 +733,16 @@ const roseGoldPage: PageContent = {
     },
     {
       id: "rose-gold-presentation",
-      heading: "A transparent visual presentation",
+      heading: "A complete visual presentation",
       imageCount: 2,
       paragraphs: [
-        "Product sites should be generous with imagery, but they should also be honest about what the imagery is. The Rose Gold gallery meets both responsibilities. It gives the page eight strong, series-specific visuals while labeling every one as placeholder artwork and avoiding any claim that a generated scene is released product photography.",
-        "The black, deep teal, champagne, and rose-metal palette fits the existing Oklahoma design system. Ornamental rings provide a craft motif, the official product name is the focal point, and ‘official photography in production’ stays visible inside the artwork. The page copy repeats that status so the visual cannot be mistaken for an accidental final package reveal.",
-        "Every placeholder still functions as product navigation. Selecting Cereal Milk goes to Cereal Milk. Selecting Cosmic Cookies goes to Cosmic Cookies. The same one-to-one rule applies to God’s Gift, Wedding Cake, and White Walker, including the square variant images that repeat a product name using a different unique source artwork.",
+        "Product sites should be generous with imagery and precise about what each image represents. The Rose Gold gallery meets both responsibilities with five real package designs shown in ten state-specific compositions.",
+        "The black, deep teal, champagne, and rose-metal package language sits clearly against the Oklahoma backdrops. The full blunt package remains uncropped and undistorted, while a restrained shadow and gold frame give each design enough separation to read cleanly.",
+        "Every image functions as exact product navigation. Selecting Cereal Milk goes to Cereal Milk. Selecting Cosmic Cookies goes to Cosmic Cookies. The same one-to-one rule applies to God’s Gift, Wedding Cake, and White Walker in both square and portrait placements.",
         [
           { text: "Use the " },
           { text: "complete official Rose Gold collection", href: `${MAIN}/moon-rocks/rose-gold` },
-          { text: " as the definitive visual source as photography comes online. The Oklahoma page will remain accurate because its destination and product roster already match that canonical structure." },
+          { text: " as the definitive catalog source for product details. The Oklahoma page remains accurate because its destination and product roster match that canonical structure." },
         ],
       ],
     },

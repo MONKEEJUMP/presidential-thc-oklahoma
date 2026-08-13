@@ -2767,5 +2767,70 @@
     "productHref": "https://presidentialmoonrocks.com/moon-rocks/xxx",
     "liveStatus": 200,
     "liveTitle": "XXX Moon Rocks | Presidential Gold"
+  },
+  {
+    "id": "214",
+    "name": "Wedding Cake",
+    "slug": "wedding-cake",
+    "format": "blunt",
+    "series": "rose-gold",
+    "variant": 1,
+    "squareFilename": "presidential-wedding-cake-rose-gold-oklahoma.webp",
+    "portraitFilename": "presidential-wedding-cake-rose-gold-oklahoma-portrait.webp",
+    "productHref": "https://presidentialmoonrocks.com/moon-rocks/wedding-cake",
+    "liveStatus": 200,
+    "liveTitle": "Wedding Cake Moon Rocks | Presidential Rose Gold"
+  },
+  {
+    "id": "215",
+    "name": "God's Gift",
+    "slug": "gods-gift",
+    "format": "blunt",
+    "series": "rose-gold",
+    "variant": 1,
+    "squareFilename": "presidential-gods-gift-rose-gold-oklahoma.webp",
+    "portraitFilename": "presidential-gods-gift-rose-gold-oklahoma-portrait.webp",
+    "productHref": "https://presidentialmoonrocks.com/moon-rocks/gods-gift",
+    "liveStatus": 200,
+    "liveTitle": "God's Gift Moon Rocks | Presidential Rose Gold"
+  },
+  {
+    "id": "216",
+    "name": "White Walker",
+    "slug": "white-walker",
+    "format": "blunt",
+    "series": "rose-gold",
+    "variant": 1,
+    "squareFilename": "presidential-white-walker-rose-gold-oklahoma.webp",
+    "portraitFilename": "presidential-white-walker-rose-gold-oklahoma-portrait.webp",
+    "productHref": "https://presidentialmoonrocks.com/moon-rocks/white-walker",
+    "liveStatus": 200,
+    "liveTitle": "White Walker Moon Rocks | Presidential Rose Gold"
+  },
+  {
+    "id": "217",
+    "name": "Cereal Milk",
+    "slug": "cereal-milk",
+    "format": "blunt",
+    "series": "rose-gold",
+    "variant": 1,
+    "squareFilename": "presidential-cereal-milk-rose-gold-oklahoma.webp",
+    "portraitFilename": "presidential-cereal-milk-rose-gold-oklahoma-portrait.webp",
+    "productHref": "https://presidentialmoonrocks.com/moon-rocks/cereal-milk",
+    "liveStatus": 200,
+    "liveTitle": "Cereal Milk Moon Rocks | Presidential Rose Gold"
+  },
+  {
+    "id": "218",
+    "name": "Cosmic Cookies",
+    "slug": "cosmic-cookies",
+    "format": "blunt",
+    "series": "rose-gold",
+    "variant": 1,
+    "squareFilename": "presidential-cosmic-cookies-rose-gold-oklahoma.webp",
+    "portraitFilename": "presidential-cosmic-cookies-rose-gold-oklahoma-portrait.webp",
+    "productHref": "https://presidentialmoonrocks.com/moon-rocks/cosmic-cookies",
+    "liveStatus": 200,
+    "liveTitle": "Cosmic Cookies Moon Rocks | Presidential Rose Gold"
   }
 ]
