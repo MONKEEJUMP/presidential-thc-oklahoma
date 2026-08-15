@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const social = image ? { url: imageUrl(image), width: image.width, height: image.height, alt: image.alt } : { url: absoluteUrl(DEFAULT_OG_IMAGE), width: 1600, height: 900, alt: `${STATE.name} landscape beneath an evening sky` };
 
   return {
+    ...(path === "/" ? { metadataBase: null } : {}),
     title: page.title,
     description: page.description,
     alternates: { canonical },
