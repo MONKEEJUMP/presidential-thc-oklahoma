@@ -182,7 +182,11 @@ const moonRocksPage: PageContent = {
       heading: "The flagship Presidential format",
       imageCount: 2,
       paragraphs: [
-        "Moon Rocks sit at the beginning of the Presidential story because the construction is both visible and memorable. Flower supplies the foundation. Cannabis concentrate carries across that foundation. Kief completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source.",
+        [
+          { text: "Moon Rocks sit at the beginning of the Presidential story because the construction is both visible and memorable. Flower supplies the foundation. " },
+          { text: "Cannabis concentrate carries across that foundation", href: `${MAIN}/presidential-thc` },
+          { text: ". Kief completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source." },
+        ],
         "The layers matter more than any dramatic promise around them. This site does not use medical language, guarantee an effect, or reduce a product to a single unsupported potency line. It explains what can be responsibly described: the components, the order of construction, the identity on the package, and the licensed Oklahoma channel where the product is sold.",
         "That material clarity gives the flagship unusual visual weight. A Moon Rock package can lead a shelf block, anchor a broader collection, or introduce a patient to the logic behind the rolled formats. Even when the product name changes, the Presidential crest and format language keep the family recognizable.",
         [
