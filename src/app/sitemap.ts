@@ -4,6 +4,14 @@ import { pages } from "@/content";
 import { absoluteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const dispensaryRegionPaths = [
+    "/dispensaries/frontier-country",
+    "/dispensaries/green-country",
+    "/dispensaries/great-plains-country",
+    "/dispensaries/choctaw-country",
+    "/dispensaries/chickasaw-country",
+  ];
+
   return [
     ...pages.map((page) => ({
       url: absoluteUrl(page.path),
@@ -15,5 +23,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.9,
     },
+    ...dispensaryRegionPaths.map((path) => ({
+      url: absoluteUrl(path),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
   ];
 }
