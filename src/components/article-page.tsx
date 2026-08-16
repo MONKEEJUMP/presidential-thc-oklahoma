@@ -222,13 +222,13 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
   if (page.kind === "pillar") {
     graph.unshift({
       "@type": "Organization",
-      "@id": `${SITE_URL}/#organization`,
+      "@id": "https://presidentialmoonrocks.com/#organization",
       name: "Presidential",
       alternateName: `Presidential THC ${STATE.name}`,
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
-      url: SITE_URL,
-      logo: { "@type": "ImageObject", url: absoluteUrl("/images/presidential-crest.webp") },
+      url: "https://presidentialmoonrocks.com",
+      logo: undefined,
       // No verified social profile URLs were supplied; never invent sameAs entries.
       sameAs: [],
     });
