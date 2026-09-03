@@ -13,6 +13,14 @@ const TARGET_BYTES = 200 * 1024;
 const START_QUALITY = 82;
 const MIN_QUALITY = 76;
 
+const ROSE_GOLD_PRODUCTS = [
+  { assetId: "214", name: "Wedding Cake", slug: "wedding-cake" },
+  { assetId: "215", name: "God's Gift", slug: "gods-gift" },
+  { assetId: "216", name: "White Walker", slug: "white-walker" },
+  { assetId: "217", name: "Cereal Milk", slug: "cereal-milk" },
+  { assetId: "218", name: "Cosmic Cookies", slug: "cosmic-cookies" },
+];
+
 const FORMAT_SPECS = {
   square: {
     width: 1200,
@@ -192,6 +200,25 @@ async function assertSourceInsideRoot(sourceFile, sourceRoot) {
   const root = `${path.win32.resolve(sourceRoot).replace(/[\\/]+$/, "")}\\`.toLowerCase();
   if (!source.startsWith(root)) throw new Error(`Source is outside the approved read-only root: ${sourceFile}`);
   await fs.access(sourceFile);
+}
+
+async function roseGoldRecords(libraryRoot) {
+  const sourceRoot = path.join(libraryRoot, "_rose-gold-packs");
+  return Promise.all(ROSE_GOLD_PRODUCTS.map(async ({ assetId, name, slug }) => {
+    const sourceFile = path.join(
+      sourceRoot,
+      `presidential-${slug}-rose-gold-moon-rock-blunt.png`,
+    );
+    await assertSourceInsideRoot(sourceFile, sourceRoot);
+    return {
+      "asset-id": assetId,
+      "source-file": sourceFile,
+      "source-hash": sha256(await fs.readFile(sourceFile)),
+      "output-stem": `presidential-${slug}-rose-gold`,
+      "product-name": name,
+      "series": "rose-gold",
+    };
+  }));
 }
 
 function safeAreaFor(spec) {
@@ -453,11 +480,12 @@ async function writeComparisonSheet(records, beforeDirectory, stagingDirectory, 
 async function validateContract(records, stateDirectory, state) {
   const currentNames = await listWebpFiles(stateDirectory);
   const expectedNames = records.flatMap((record) => Object.values(outputNames(record, state))).sort(naturalCompare);
-  if (expectedNames.length !== 426 || new Set(expectedNames).size !== 426) {
-    throw new Error("The source map does not resolve to 426 unique paired filenames.");
+  const expectedCount = records.length * 2;
+  if (records.length !== 218 || expectedNames.length !== expectedCount || new Set(expectedNames).size !== expectedCount) {
+    throw new Error(`The source set does not resolve to ${expectedCount} unique paired filenames.`);
   }
   if (currentNames.length !== expectedNames.length || currentNames.some((name, index) => name !== expectedNames[index])) {
-    throw new Error("The current state library does not match the exact 426-filename contract.");
+    throw new Error(`The current state library does not match the exact ${expectedCount}-filename contract.`);
   }
   return { currentNames, expectedNames };
 }
@@ -599,9 +627,11 @@ async function loadContext(options, paths) {
     if (!(await exists(required))) throw new Error(`Required path unavailable: ${required}`);
   }
   await fs.mkdir(paths.manifestDirectory, { recursive: true });
-  const { records } = parseCsv(await fs.readFile(paths.manifestPath, "utf8"));
-  if (records.length !== 213) throw new Error(`Expected 213 source rows; found ${records.length}`);
-  for (const record of records) await assertSourceInsideRoot(record["source-file"], options.sourceRoot);
+  const { records: mappedRecords } = parseCsv(await fs.readFile(paths.manifestPath, "utf8"));
+  if (mappedRecords.length !== 213) throw new Error(`Expected 213 source-map rows; found ${mappedRecords.length}`);
+  for (const record of mappedRecords) await assertSourceInsideRoot(record["source-file"], options.sourceRoot);
+  const records = [...mappedRecords, ...(await roseGoldRecords(options.libraryRoot))];
+  if (records.length !== 218) throw new Error(`Expected 218 total product sources; found ${records.length}`);
   const contract = await validateContract(records, paths.stateDirectory, options.state);
   return { records, contract };
 }
@@ -704,13 +734,13 @@ async function runComposites(options, paths, records, contract) {
     }
     trace.push({ record, cropIndex: cropIndex + 1, outputs });
     if ((index + 1) % 10 === 0 || index + 1 === records.length) {
-      process.stdout.write(`Generated ${index + 1}/${records.length} products (${(index + 1) * 2}/426 files)\n`);
+      process.stdout.write(`Generated ${index + 1}/${records.length} products (${(index + 1) * 2}/${records.length * 2} files)\n`);
     }
   }
 
   const stagedNames = await listWebpFiles(paths.stagingDirectory);
   if (stagedNames.length !== contract.expectedNames.length || stagedNames.some((name, index) => name !== contract.expectedNames[index])) {
-    throw new Error("The staged composite set does not match the exact 426-filename contract.");
+    throw new Error(`The staged composite set does not match the exact ${contract.expectedNames.length}-filename contract.`);
   }
   if (cropUsage.size !== CROP_COUNT) throw new Error(`Expected all 8 crop IDs to be used; observed ${cropUsage.size}`);
 

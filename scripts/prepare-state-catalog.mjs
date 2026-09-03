@@ -10,6 +10,14 @@ const productCatalogPath = path.join(projectRoot, "src", "content", "products.js
 const pagePlanPath = path.join(projectRoot, "src", "content", "assets.json");
 const officialProductRoot = "https://presidentialmoonrocks.com/moon-rocks";
 
+const ROSE_GOLD_PRODUCTS = [
+  { id: "214", slug: "wedding-cake", stem: "presidential-wedding-cake-rose-gold" },
+  { id: "215", slug: "gods-gift", stem: "presidential-gods-gift-rose-gold" },
+  { id: "216", slug: "white-walker", stem: "presidential-white-walker-rose-gold" },
+  { id: "217", slug: "cereal-milk", stem: "presidential-cereal-milk-rose-gold" },
+  { id: "218", slug: "cosmic-cookies", stem: "presidential-cosmic-cookies-rose-gold" },
+];
+
 const pageSpecs = {
   "/": { heading: "The Oklahoma Presidential Product Collection", kind: "broad", count: 24, offset: 0 },
   "/moon-rocks": { heading: "The Complete Oklahoma Moon Rock Collection", kind: "format", value: "moon-rock" },
@@ -169,11 +177,14 @@ function productsForPage(products, pagePath) {
 async function prepareCatalog() {
   const sourceRows = parseCsv(await readFile(sourceMapPath, "utf8"));
   const sourceFiles = new Set(await readdir(sourceRoot));
-  const uniqueSlugs = [...new Set(sourceRows.map((row) => row["sitemap-product-slug"]))];
+  const uniqueSlugs = [...new Set([
+    ...sourceRows.map((row) => row["sitemap-product-slug"]),
+    ...ROSE_GOLD_PRODUCTS.map((product) => product.slug),
+  ])];
   const liveEntries = await Promise.all(uniqueSlugs.map(async (slug) => [slug, await fetchLiveProduct(slug)]));
   const liveBySlug = new Map(liveEntries);
   const variants = new Map();
-  const products = sourceRows.map((row) => {
+  const mappedProducts = sourceRows.map((row) => {
     const stem = row["output-stem"];
     const slug = row["sitemap-product-slug"];
     const squareFilename = `${stem}-${stateSlug}.webp`;
@@ -205,8 +216,33 @@ async function prepareCatalog() {
     };
   });
 
-  if (products.length !== 213 || sourceFiles.size !== 426) {
-    throw new Error(`Expected 213 products and 426 source files; found ${products.length} and ${sourceFiles.size}`);
+  const roseGoldProducts = ROSE_GOLD_PRODUCTS.map(({ id, slug, stem }) => {
+    const squareFilename = `${stem}-${stateSlug}.webp`;
+    const portraitFilename = `${stem}-${stateSlug}-portrait.webp`;
+    if (!sourceFiles.has(squareFilename) || !sourceFiles.has(portraitFilename)) {
+      throw new Error(`Missing approved Rose Gold composite pair for ${stem}`);
+    }
+
+    const live = liveBySlug.get(slug);
+    return {
+      id,
+      name: live.name,
+      slug,
+      format: "blunt",
+      series: "rose-gold",
+      variant: 1,
+      squareFilename,
+      portraitFilename,
+      productHref: live.productHref,
+      liveStatus: live.liveStatus,
+      liveTitle: live.liveTitle,
+    };
+  });
+
+  const products = [...mappedProducts, ...roseGoldProducts];
+
+  if (products.length !== 218 || sourceFiles.size !== 436) {
+    throw new Error(`Expected 218 products and 436 source files; found ${products.length} and ${sourceFiles.size}`);
   }
 
   await mkdir(publicImageRoot, { recursive: true });
