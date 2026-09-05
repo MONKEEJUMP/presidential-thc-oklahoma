@@ -220,7 +220,7 @@ const moonRocksPage: PageContent = {
       heading: "Finding Moon Rocks in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential sells wholesale through licensed retailers. Close to two hundred Oklahoma doors carry the brand, but each dispensary chooses its own product mix and reorder timing. A store with Presidential on the shelf may carry selected Moon Rocks rather than the complete catalog, and the assortment may change between visits.",
+        "Presidential sells wholesale through licensed retailers. Participating Oklahoma dispensaries choose their own product mix and reorder timing. A store with Presidential on the shelf may carry selected Moon Rocks rather than the complete catalog, and the assortment may change between visits.",
         "Start with the official Oklahoma locator, identify licensed participating retailers in the relevant region, and confirm the exact product before traveling. Use the package name and series when asking. ‘Presidential Moon Rocks’ identifies the format; ‘Blue Raspberry Silver Moon Rocks’ or ‘24K Gold Moon Rocks’ gives the retailer the fuller identity needed to check inventory.",
         "A current OMMA patient or visitor license is part of the purchase path. An out-of-state medical card alone is not the credential used at an Oklahoma dispensary. The Cannabis in Oklahoma page keeps those licensing and possession details in one place so this format page can stay centered on product recognition and licensed availability.",
       ],
@@ -306,7 +306,7 @@ const bluntsPage: PageContent = {
       heading: "Finding blunts in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential reaches Oklahoma through licensed dispensaries only. Close to two hundred retail doors carry the brand statewide, but wholesale distribution gives each store control of its own mix. Some doors may carry both full-size and mini blunts; others may focus on one size, selected series, or a small number of recognizable names.",
+        "Presidential reaches Oklahoma through licensed dispensaries only, and wholesale distribution gives each store control of its own mix. Some retailers may carry both full-size and mini blunts; others may focus on one size, selected series, or a small number of recognizable names.",
         "Use the official Oklahoma locator for the current participating field, then ask the retailer about the exact product. Naming the format, size, series, and product is more useful than asking only whether the store carries Presidential. The package art on this page can help confirm that identity before the call or visit.",
         "A purchase also requires the proper active Oklahoma medical credential. Eligible out-of-state patients use the 30-day OMMA visitor-license route; their home-state card by itself does not work as the dispensary credential in Oklahoma. The dedicated Oklahoma page explains the complete route and the state’s possession framework together.",
       ],
@@ -483,7 +483,7 @@ const minisPage: PageContent = {
       heading: "Finding minis in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Close to two hundred licensed Oklahoma retail doors carry Presidential, but mini inventory varies by store. A dispensary may favor mini blunts, mini pre-rolls, selected Silver names, selected Gold names, or a compact mix. A static list cannot reliably describe those local purchasing decisions.",
+        "Presidential mini inventory varies across participating Oklahoma retailers. A dispensary may favor mini blunts, mini pre-rolls, selected Silver names, selected Gold names, or a compact mix. A static count cannot reliably describe those local purchasing decisions.",
         "Use the official Oklahoma locator to identify participating licensed retailers, then confirm the exact product and format. Say whether you are asking for a mini blunt or mini pre-roll and include the official product name. That specificity gives the store a useful inventory question instead of a broad brand query.",
         "Purchases remain inside Oklahoma’s medical program and require the appropriate active OMMA patient or visitor license. The Cannabis in Oklahoma page consolidates the credential, possession, cultivation, and market details. This page can therefore do one job well: present Presidential’s compact formats as real product architecture, not filler between larger packages.",
       ],
@@ -569,7 +569,7 @@ const silverPage: PageContent = {
       heading: "Finding Silver in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential sells Silver products wholesale through licensed Oklahoma dispensaries. Close to two hundred doors carry the brand statewide, but each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry the full flavor story; another may focus on two or three recognized identities.",
+        "Presidential sells Silver products wholesale through licensed Oklahoma dispensaries, and each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry a broad flavor selection; another may focus on a few recognized identities.",
         "Use the official Oklahoma locator to identify participating retailers, then ask for the exact combination shown on the product record—for example, Presidential, Silver, Blue Raspberry, and the intended format. That level of detail is more useful than a general brand inquiry and helps the store check current inventory accurately.",
         "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with all seven names visible and linked.",
       ],
@@ -655,7 +655,7 @@ const goldPage: PageContent = {
       heading: "Finding Gold in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Gold reaches Oklahoma through licensed dispensaries as part of Presidential’s wholesale network. Close to two hundred doors carry the brand, but nineteen names and multiple formats create many possible local assortments. A participating retailer may carry a focused Gold selection rather than the complete series.",
+        "Gold reaches Oklahoma through licensed dispensaries as part of Presidential’s wholesale network. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
         "Use the official Oklahoma locator to identify current participating doors, then confirm the product by its exact name and intended format. Asking for ‘Gold’ alone describes the series. Asking for ‘Presidential Gold Skywalker pre-rolls’ gives the retailer a specific inventory check tied to a recognizable package.",
         "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with nineteen names, direct product links, and packaging designed to remain coherent at scale.",
       ],
@@ -742,7 +742,7 @@ const roseGoldPage: PageContent = {
       heading: "Finding Rose Gold in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential distributes through licensed Oklahoma dispensaries only. Close to two hundred doors carry the brand, but a five-product connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry all five names or every available format.",
+        "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format.",
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
         "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: five named products, refined presentation, honest imagery status, and direct canonical links.",
       ],
@@ -767,7 +767,7 @@ const findPage: PageContent = {
   title: "Find Presidential THC in Oklahoma | Retailer Guide",
   description: "Use the official Oklahoma locator to find licensed retailers carrying Presidential, then confirm the exact product before visiting.",
   intro: [
-    "Presidential reaches Oklahoma patients through licensed dispensaries only. Close to two hundred licensed doors carry the brand across the state, making Oklahoma the second-largest Presidential market by door count and creating meaningful coverage without turning any one store’s shelf into a statewide inventory promise.",
+    "Presidential reaches Oklahoma patients through licensed dispensaries only. Participating locations and current products change over time, so the official locator and the retailer—not a fixed statewide count—provide the current availability record.",
     "This page does not publish retailer addresses, rebuild a locator, or expose a copied table as static HTML. The complete retailer data on the main site is deliberately protected from enumeration. The right path is the live official Oklahoma locator, followed by a direct inventory check with the participating licensed store.",
   ],
   sections: [
@@ -793,9 +793,9 @@ const findPage: PageContent = {
       heading: "A statewide wholesale footprint",
       imageCount: 1,
       paragraphs: [
-        "Close to two hundred licensed Oklahoma retail doors carry Presidential. The count is written as prose because a wholesale network moves as stores order, pause, restock, or change status. The scale remains clear without presenting a bare number as a permanent guarantee.",
+        "Presidential appears through participating licensed Oklahoma retailers. The network changes as stores order, pause, restock, or change status, so the official locator remains the current source instead of a fixed number in evergreen copy.",
         "The footprint is densest around Oklahoma’s larger population centers, where more licensed dispensaries create more possible shelf combinations. Regional markets extend that reach beyond one metropolitan corridor. This page stops at regions and density by design; it does not hand over the protected retailer dataset in a second public format.",
-        "Oklahoma’s position as the second-largest Presidential market by door count reflects that geographic spread. It also explains why this official state property carries a deep product gallery. Patients need a way to recognize package art before checking local availability, and retailers need a canonical brand destination to support those conversations.",
+        "Oklahoma's statewide retail geography explains why this official state property carries a deep product gallery. Patients need a way to recognize package art before checking local availability, and retailers need a canonical brand destination to support those conversations.",
       ],
     },
     {
@@ -901,7 +901,7 @@ const retailersPage: PageContent = {
       paragraphs: [
         "Oklahoma’s moratorium on new grower, processor, and dispensary licenses changes the competitive context for existing shops. HB 2095 extended the moratorium in 2023, and HB 3143 extended its endpoint again in 2026. Current licensees can renew, while transfer activity requires OMMA approval and now carries additional restrictions.",
         "The practical retail result is a mature field in which existing licensed dispensaries compete hard for many of the same patients. A buyer cannot rely on a steady stream of new storefront novelty to create distinction. Assortment, staff familiarity, package visibility, responsible promotion, and dependable wholesale relationships carry more of the work.",
-        "Presidential offers a catalog large enough to curate and structured enough to remain legible. Four formats create physical variety. Six groupings create visual and naming variety. Close to two hundred Oklahoma doors already carry the brand, giving it statewide recognition without implying that every retailer should hold the same assortment.",
+        "Presidential offers a catalog structured for licensed-retail selection. Moon Rocks, blunts, pre-rolls, and minis create physical variety, while the named collections organize visual and product identity. Participating Oklahoma retailers can carry focused assortments without implying that every store holds the same products.",
         [
           { text: "Review the " },
           { text: "full official Presidential catalog", href: `${MAIN}/moon-rocks` },
@@ -1072,7 +1072,7 @@ const aboutPage: PageContent = {
       heading: "Wholesale through licensed Oklahoma retail",
       imageCount: 1,
       paragraphs: [
-        "Presidential sells wholesale through licensed retailers. Close to two hundred Oklahoma dispensary doors carry the brand, making the state its second-largest market by door count. Individual stores choose their own assortment, so current availability is confirmed through the official Oklahoma locator and the licensed retailer.",
+        "Presidential sells wholesale through licensed retailers. Individual Oklahoma stores choose their own assortment, so current availability is confirmed through the official Oklahoma locator and the licensed retailer rather than a fixed door-count claim.",
         "This site does not sell product, publish a copied retailer address table, or impersonate a neutral review outlet. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
         [
           { text: "Explore the " },
