@@ -392,9 +392,13 @@ const preRollsPage: PageContent = {
       heading: "Finding pre-rolls in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential products reach Oklahoma through licensed dispensaries, not direct online sale. Close to two hundred licensed doors carry the brand, but no store is assumed to stock every pre-roll, size, pack, or series. Wholesale ordering creates local variation, and current inventory belongs to the retailer.",
+        [
+          { text: "People searching for Presidential pre rolls near me should begin with the " },
+          { text: "official Oklahoma locator", href: `${MAIN}/find-us/ok` },
+          { text: ". Presidential products reach Oklahoma through licensed dispensaries, not direct online sale, and current inventory belongs to each retailer." },
+        ],
         "Begin with the official Oklahoma locator and then confirm the precise item. A complete request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the official record can narrow the check further. Package art on this page gives a visual reference when names are close.",
-        "Purchasing requires an active OMMA patient or visitor license. Out-of-state cardholders do not simply present their home-state card at an Oklahoma dispensary; eligible visitors apply for Oklahoma’s 30-day visitor license. The consolidated Oklahoma page explains that route along with possession limits and the medical market framework.",
+        "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority. The consolidated Oklahoma page keeps state-program information together while this page stays focused on Presidential pre-roll products and licensed availability.",
       ],
     },
   ],
