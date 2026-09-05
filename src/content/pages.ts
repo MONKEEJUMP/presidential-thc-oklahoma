@@ -61,8 +61,7 @@ const homePage: PageContent = {
   title: "Presidential THC Oklahoma | Official Product Guide",
   description: "The official Presidential product guide for Moon Rocks, blunts, infused pre-rolls, minis, and licensed Oklahoma retail.",
   intro: [
-    "Presidential THC Oklahoma is the official state home for Presidential products. It brings the packages, formats, series, and Oklahoma retail path into one product-first guide, then connects every featured item to its canonical record on the main Presidential site. The purpose is simple: recognize what you want, understand where it sits in the collection, and find it through a licensed Oklahoma dispensary.",
-    "This is a brand property, not a neutral publication and not a second storefront. Presidential sells wholesale through licensed retailers. Oklahoma patients buy from those retailers, while this site keeps the product family legible—from the flagship Moon Rocks construction to tobacco-free blunts, infused pre-rolls, compact minis, and six distinct catalog groupings.",
+    "Presidential THC Oklahoma is the official state guide to Presidential Moon Rocks, tobacco-free blunts, infused pre-rolls, minis, and licensed Oklahoma retail. This is a brand reference—not a storefront—and current product availability belongs to the licensed retailer.",
   ],
   sections: [
     {
@@ -70,11 +69,8 @@ const homePage: PageContent = {
       heading: "Presidential in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Oklahoma has become one of Presidential’s most important markets. Close to two hundred licensed retail doors carry the brand across the state, making Oklahoma the second-largest Presidential market by door count. That scale matters because the state is not being treated as a small satellite campaign. It supports a dedicated official property, a broad product assortment, and a statewide path from package discovery to licensed retail.",
-        "The footprint reaches major population centers and regional communities, but wholesale distribution means the assortment changes from door to door. One dispensary may build its Presidential shelf around Silver flavors and minis; another may carry a deeper Gold strain selection, larger blunts, or the core House Line. A broad network creates opportunity without turning any one store’s inventory into a universal promise.",
-        "Presidential’s role is to make the catalog recognizable wherever it appears. The crest, black ground, vivid illustrated packaging, and series colors hold the family together. Oklahoma retailers decide what they carry, and patients can confirm current availability before visiting. That division keeps the product story ambitious while respecting how a licensed wholesale market actually works.",
-        "A dedicated Oklahoma property also gives the state room to speak in its own voice. The landscape hero and Sooner line establish place, but the site does not turn regional pride into a second brand. Presidential remains the unmistakable subject, Oklahoma remains the licensed market, and the main site remains the destination behind every product image. That hierarchy keeps local relevance and national brand authority working together.",
-        "It also gives patients and buyers a shorter path from statewide context to the exact package they recognize.",
+        "Presidential serves Oklahoma through licensed cannabis retailers. Assortments can vary by dispensary, so this state guide explains the product family while the retailer controls current local inventory.",
+        "The Presidential crest, series names, format labels, and package artwork connect each Oklahoma listing to the same national brand. Use those cues to identify a product, then confirm its availability before visiting a licensed dispensary.",
       ],
     },
     {
@@ -82,14 +78,12 @@ const homePage: PageContent = {
       heading: "What Presidential THC is",
       imageCount: 1,
       paragraphs: [
-        "Presidential began in Los Angeles in 2012 with a construction that is direct enough to describe in one line and distinctive enough to build a catalog around: flower carried through with cannabis concentrate, then finished in kief. Three visible layers give Moon Rocks their identity and establish the material language that carries into the infused formats around them.",
-        "The point is construction, not an invented effects promise. Presidential does not need medical language or exaggerated potency claims to explain the product. Flower, concentrate, and kief create a tangible sequence. Packaging, format, and product name then organize that sequence for the shelf, whether the result appears as a flagship Moon Rock, a rolled pre-roll, a hemp-wrapped blunt, or a smaller mini.",
+        "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis.",
         [
           { text: "The " },
           { text: "official Presidential catalog", href: `${MAIN}/moon-rocks` },
-          { text: " carries the canonical product records, individual names, and current collection structure. This Oklahoma property gives those products room to lead visually, and each package image acts as a direct route to the matching record instead of sending visitors through a generic landing page." },
+          { text: " carries the canonical product records and collection structure. This Oklahoma guide adds state context without creating a second catalog or making unsupported effects or potency promises." },
         ],
-        "That approach protects clarity. Product art shows the identity in frame; the surrounding copy explains the format and series; the linked official record provides the specific destination. No duplicate store, competing catalog, or unsupported promise is needed. The product remains the center of the experience from the first image onward.",
       ],
     },
     {
@@ -97,12 +91,8 @@ const homePage: PageContent = {
       heading: "The four formats",
       imageCount: 2,
       paragraphs: [
-        "Moon Rocks are the flagship. They present the three-layer construction in its most recognizable form: flower as the foundation, cannabis concentrate carried across it, and kief completing the exterior. The format makes the method visible and gives the brand its name, its iconography, and the reference point for everything else in the collection.",
-        "Blunts take Presidential material into a tobacco-free hemp wrap. The wrap gives the product a larger rolled profile and creates an exterior that distinguishes a blunt from a paper pre-roll. Full-size and mini options let the same product family occupy more than one physical scale without losing the identity of the format.",
-        "Pre-rolls organize the infused material in paper, ready as singles or packs depending on the product. They preserve the core idea in a familiar rolled shape and give series artwork a tall package surface. The product page identifies the exact item; the package communicates Presidential, series, and format at a glance.",
-        "Minis bring both blunt and pre-roll thinking into compact formats. They are not a seventh series or a separate material claim. They are a size and pack architecture spanning smaller hemp-wrapped blunts and smaller paper pre-rolls, with package systems designed to keep several pieces orderly and recognizable.",
-        "Each format has its own page on this site because each deserves more than a label in a menu. The format pages explain construction, package cues, representative product names, and the route to licensed Oklahoma retail. Their images remain format-specific, so blunt art appears with blunts and mini packages appear with minis rather than serving as generic decoration.",
-        "The four pages also make comparison practical without flattening the products. A visitor can move from flagship construction to wrap choice, from paper rolls to compact packs, and back to the complete product family through the homepage. That link structure mirrors how people actually browse: sometimes by name, sometimes by series, and sometimes by the physical format they already know they want.",
+        "Moon Rocks show the flower, concentrate, and kief construction directly. Blunts place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis bring the rolled formats into a smaller package.",
+        "Each format has a dedicated page covering construction, package cues, representative products, and the path to licensed Oklahoma retail. Use those pages for detail instead of treating every format as interchangeable.",
       ],
     },
     {
@@ -110,12 +100,8 @@ const homePage: PageContent = {
       heading: "The six series",
       imageCount: 3,
       paragraphs: [
-        "Silver is the Flavor Series: seven vivid, fruit-forward identities named Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Color and fruit language make the set immediate. Each name has its own official product record, and the Silver page presents the complete seven-product roster together.",
-        "Gold is the Strain Series and the deepest grouping in the catalog, with nineteen official products. Its naming is cannabis-first, ranging from 24K and Blue Dream through Presidential OG, Rainbow Belts, Skywalker, Waui, XJ-13, and XXX. Illustrated identities keep that breadth expressive while gold series language binds it into one shelf family.",
-        "Rose Gold is the five-product Connoisseur Series: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Its position is refined, intentional, and centered on solventless craftsmanship. The Oklahoma page names the full set without trying to explain which extract sits behind which series; that separate technical subject is not the purpose of this property.",
-        "The Presidential Line gives ten individual product identities a home outside the three color groupings: Apricotti, Daniel Larusso, Garlic Cookies, Ghost Haze Train, Guava Haze, Head Cheese, Iced Lemon, Laura Charles, Nino Brown, and Whoa Si Whoa. The names and artwork lead while the Presidential crest keeps the line connected.",
-        "The Presidential House Line states the core formats plainly through Moon Rocks, pre-rolls, and blunts. It is the brand-first anchor of the catalog: recognizable construction, direct format names, and the house visual system without needing a flavor or strain identity to do the work.",
-        "Presidential x THC Design is the collaboration grouping across those key formats. Estate-grown flower cultivated by THC Design gives the partnership a clear source relationship, while the co-branded package makes collaboration visible at shelf level. Together, the six series create range without dissolving into a loose list: fruit-forward Silver, strain-led Gold, refined Rose Gold, character-rich Presidential Line, core House Line, and a focused THC Design collaboration.",
+        "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
+        "Flavor names, cannabis cultivar names, house formats, and collaboration packaging serve different jobs. Keeping those groupings distinct helps Oklahoma shoppers recognize Presidential products without relying on fixed product counts or assumed inventory.",
       ],
     },
     {
@@ -123,9 +109,8 @@ const homePage: PageContent = {
       heading: "Buying in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Oklahoma remains a medical cannabis state. A lawful retail purchase starts with the appropriate active OMMA patient or visitor license and takes place through an OMMA-licensed dispensary. An out-of-state medical card by itself is not accepted as the purchase credential inside an Oklahoma dispensary; eligible visitors use Oklahoma’s 30-day visitor license route.",
-        "Patients should treat a product page and a retailer shelf as two connected but different sources. The official product record identifies the item. The dispensary controls current local inventory, ordering, and restocking. Calling ahead about a specific format or product can save a trip when an assortment changes between wholesale orders.",
-        "The consolidated Cannabis in Oklahoma page covers the program, license timing and fees, visitor route, possession and cultivation allowances, commercial market, tracking, excise tax, and the state’s current medical status. Keeping that material on one page lets the rest of this site stay focused on products without scattering legal summaries across every format and series.",
+        "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority and purchase only through an appropriately licensed dispensary.",
+        "The official product record identifies the item; the retailer controls current inventory. The Cannabis in Oklahoma page keeps program information together so product and format pages can remain focused.",
       ],
     },
     {
@@ -133,11 +118,10 @@ const homePage: PageContent = {
       heading: "Find Us",
       imageCount: 1,
       paragraphs: [
-        "Presidential is available through close to two hundred licensed Oklahoma retail doors, written as a statewide footprint rather than a frozen address list. Retail participation and store inventory can change, so this site does not copy the protected retailer table into static HTML or claim that every product is present at every location.",
         [
           { text: "Use the " },
           { text: "official Oklahoma store locator", href: `${MAIN}/find-us/ok` },
-          { text: " to begin with the current participating network, then confirm the desired product with the licensed dispensary. The state path is the dependable route; there is no ZIP query to preserve, expose, or accidentally drop." },
+          { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change." },
         ],
       ],
     },
@@ -146,8 +130,7 @@ const homePage: PageContent = {
       heading: "For dispensaries",
       imageCount: 1,
       paragraphs: [
-        "Oklahoma dispensary owners and buyers have their own page because a wholesale shelf decision is different from a patient search. The retailer proposition covers recognizable formats, six coordinated groupings, consistent raw goods, package presence, and brand support through activations, promotions, and samples—without publishing unverified pricing, margins, or commercial terms.",
-        "In a moratorium market, existing shops compete hard for the same patients. A product family that reads clearly across a shelf can help a buyer build distinction without assembling an incoherent mix. The retailer page explains how Presidential can work as a block, a focused format set, or a selected series assortment inside licensed Oklahoma retail.",
+        "Oklahoma dispensary owners and buyers have a dedicated retailer page because wholesale assortment decisions differ from consumer searches. It explains the formats and coordinated product groupings without publishing unverified pricing, margins, inventory, or commercial terms.",
       ],
     },
   ],
