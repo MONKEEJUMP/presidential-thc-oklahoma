@@ -927,6 +927,11 @@ const retailersPage: PageContent = {
     upLink,
     { href: "/find", label: "Finding Presidential", description: "See how the public locator routes patients to licensed retail." },
     { href: "/oklahoma", label: "Cannabis in Oklahoma", description: "Review the medical program and current moratorium context." },
+    { href: "/dispensaries/frontier-country", label: "Frontier Country retailers", description: "Review licensed Presidential retailers across central Oklahoma." },
+    { href: "/dispensaries/green-country", label: "Green Country retailers", description: "Review licensed Presidential retailers across northeastern Oklahoma." },
+    { href: "/dispensaries/great-plains-country", label: "Great Plains Country retailers", description: "Review licensed Presidential retailers across southwestern Oklahoma." },
+    { href: "/dispensaries/choctaw-country", label: "Choctaw Country retailers", description: "Review licensed Presidential retailers across southeastern Oklahoma." },
+    { href: "/dispensaries/chickasaw-country", label: "Chickasaw Country retailers", description: "Review licensed Presidential retailers across south-central Oklahoma." },
   ],
   sources: [
     { label: "Official Presidential product catalog", href: `${MAIN}/moon-rocks` },
