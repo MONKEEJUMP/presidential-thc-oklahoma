@@ -16,9 +16,9 @@ import {
 } from "./dispensary-directory";
 import styles from "./dispensaries.module.css";
 
-const PAGE_TITLE = "Oklahoma Dispensaries by Region";
+const PAGE_TITLE = "Presidential Dispensaries Across Oklahoma Regions";
 const PAGE_DESCRIPTION =
-  "Browse licensed Oklahoma retailers carrying Presidential across the state's six tourism regions.";
+  "Browse 194 Presidential retailer listings across Oklahoma's regions and confirm current product availability with each licensed dispensary.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,

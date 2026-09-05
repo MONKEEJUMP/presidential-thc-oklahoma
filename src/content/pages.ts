@@ -58,7 +58,7 @@ const homePage: PageContent = {
   path: "/",
   kind: "pillar",
   h1: "Presidential THC Oklahoma",
-  title: "Presidential THC Oklahoma | Official Presidential Products in Oklahoma",
+  title: "Presidential THC Oklahoma | Official Product Guide",
   description: "The official Presidential product guide for Moon Rocks, blunts, infused pre-rolls, minis, and licensed Oklahoma retail.",
   intro: [
     "Presidential THC Oklahoma is the official state home for Presidential products. It brings the packages, formats, series, and Oklahoma retail path into one product-first guide, then connects every featured item to its canonical record on the main Presidential site. The purpose is simple: recognize what you want, understand where it sits in the collection, and find it through a licensed Oklahoma dispensary.",
@@ -518,7 +518,7 @@ const silverPage: PageContent = {
   path: "/silver",
   kind: "article",
   h1: "The Presidential Silver Flavor Series in Oklahoma",
-  title: "Presidential Silver Flavor Series in Oklahoma | Official Guide",
+  title: "Presidential Silver Series Oklahoma | Official Guide",
   description: "Meet all seven vibrant, fruit-forward Presidential Silver Flavor Series products and follow each one to its official product record.",
   intro: [
     "The Presidential Silver Flavor Series is a complete seven-product set built around direct fruit identity: Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Bright names and vivid packaging make the series easy to read as one family, even when the products appear across different Presidential formats.",
@@ -690,7 +690,7 @@ const roseGoldPage: PageContent = {
   path: "/rose-gold",
   kind: "article",
   h1: "The Presidential Rose Gold Connoisseur Series in Oklahoma",
-  title: "Presidential Rose Gold Connoisseur Series in Oklahoma | Official Guide",
+  title: "Presidential Rose Gold Oklahoma | Official Guide",
   description: "Meet all five refined Presidential Rose Gold products and follow every official name to its canonical product record.",
   intro: [
     "The Presidential Rose Gold Connoisseur Series is a deliberately edited five-product collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
@@ -777,7 +777,7 @@ const findPage: PageContent = {
   path: "/find",
   kind: "article",
   h1: "Finding Presidential in Oklahoma",
-  title: "Finding Presidential in Oklahoma | Official Store Locator Route",
+  title: "Find Presidential THC in Oklahoma | Retailer Guide",
   description: "Use the official Oklahoma locator to find licensed retailers carrying Presidential, then confirm the exact product before visiting.",
   intro: [
     "Presidential reaches Oklahoma patients through licensed dispensaries only. Close to two hundred licensed doors carry the brand across the state, making Oklahoma the second-largest Presidential market by door count and creating meaningful coverage without turning any one store’s shelf into a statewide inventory promise.",
@@ -1049,7 +1049,7 @@ const oklahomaPage: PageContent = {
 const aboutPage: PageContent = {
   path: "/about",
   kind: "about",
-  h1: "About Presidential",
+  h1: "About Presidential THC Oklahoma",
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [

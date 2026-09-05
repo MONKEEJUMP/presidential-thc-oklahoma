@@ -37,6 +37,7 @@ export type RegionDefinition = Readonly<{
   image: string;
   imageAlt: string;
   copy: string;
+  metaDescription: string;
 }>;
 
 const data = retailerData as unknown as RetailerData;
@@ -56,6 +57,8 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
       "Frontier Country prairie, rural road and Oklahoma City skyline under a blue sky",
     copy:
       "Frontier Country covers central Oklahoma and the state capital region. One hundred licensed retailers carry Presidential here, more than half the statewide network, concentrated through Oklahoma City, Edmond and Norman. Every store listed below is independently owned and licensed, and each one sets its own selection. Availability varies by retailer, so the store nearest you is the fastest way to find what is on the shelf today.",
+    metaDescription:
+      "Find 100 Presidential retailers in Frontier Country across Oklahoma City, Edmond, Norman and nearby communities; confirm current product availability.",
   },
   {
     name: "Green Country",
@@ -65,6 +68,8 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
       "Green Country lake, forest, highway and Tulsa skyline under a blue sky",
     copy:
       "Green Country runs across northeastern Oklahoma and takes its name from the wooded, lake-filled country around Tulsa. Fifty-one licensed retailers carry Presidential across the region, and Tulsa is the densest single market outside the capital. Each store is independently owned and licensed and stocks for its own customers, so selection differs from shelf to shelf.",
+    metaDescription:
+      "Find 51 Presidential retailers across Green Country and the Tulsa region, then confirm current product availability with each licensed dispensary.",
   },
   {
     name: "Great Plains Country",
@@ -74,6 +79,8 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
       "Great Plains Country granite mountains, bison and red Oklahoma earth under a wide sky",
     copy:
       "Great Plains Country covers southwestern Oklahoma, from the Wichita Mountains out toward the Texas line. Fourteen licensed retailers carry Presidential across the region, anchored by Lawton. Distances run longer here than in the metros, so the map link beside each address is the quickest route to the door.",
+    metaDescription:
+      "Find 14 Presidential retailers across Great Plains Country, including Lawton and southwestern Oklahoma, and confirm current product availability.",
   },
   {
     name: "Choctaw Country",
@@ -83,6 +90,8 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
       "Choctaw Country pine forest, clear lake, mountain foothills and a cabin",
     copy:
       "Choctaw Country covers southeastern Oklahoma, the forest, lake and river country along the Arkansas and Texas borders. Fourteen licensed retailers carry Presidential here, spread through small towns rather than clustered in one city. Each address below links straight to directions.",
+    metaDescription:
+      "Find 14 Presidential retailers across Choctaw Country in southeastern Oklahoma and confirm current product availability with each licensed dispensary.",
   },
   {
     name: "Chickasaw Country",
@@ -92,6 +101,8 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
       "Chickasaw Country waterfall, turquoise spring creek, oak woodland and pasture",
     copy:
       "Chickasaw Country runs through south central Oklahoma, between the capital region and the Red River. Eleven licensed retailers carry Presidential across the region. The network here reaches across a wide area with most towns served by a single store, so check the closest address before making the drive.",
+    metaDescription:
+      "Find 11 Presidential retailers across Chickasaw Country in south-central Oklahoma and confirm current product availability before visiting.",
   },
 ];
 

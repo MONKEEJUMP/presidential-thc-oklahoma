@@ -36,8 +36,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   const path = `/dispensaries/${region.slug}`;
-  const title = `${region.name} Dispensaries | Presidential THC Oklahoma`;
-  const description = region.copy;
+  const title = `${region.name} Dispensaries | Presidential THC`;
+  const description = region.metaDescription;
 
   return {
     title,
@@ -92,7 +92,7 @@ export default async function DispensaryRegionPage({ params }: PageProps) {
             <span aria-hidden="true">/</span>
             <span aria-current="page">{region.name}</span>
           </nav>
-          <h1>{region.name}</h1>
+          <h1>Presidential Dispensaries in {region.name}</h1>
         </header>
 
         <div className={styles.pageShell}>

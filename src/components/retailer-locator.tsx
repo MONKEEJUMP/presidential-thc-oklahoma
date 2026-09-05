@@ -174,7 +174,7 @@ function LocatorReadout({
 
 export function RetailerLocator({ showPhone = true }: { readonly showPhone?: boolean }) {
   const searchParams = useSearchParams();
-  const query = searchParams.toString();
+  const query = searchParams?.toString() ?? "";
   const initialSearch = useMemo(() => parseInitialSearch(query), [query]);
   const zipInputId = useId();
   const messageId = useId();
