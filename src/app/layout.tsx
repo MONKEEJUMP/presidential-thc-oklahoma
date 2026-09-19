@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Source_Serif_4 } from "next/font/google";
 import localFont from "next/font/local";
 
+import { AgeGate } from "@/components/age-gate";
 import { STATE } from "@/config/state";
 import { DEFAULT_OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -46,5 +47,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en" className={`${clashDisplay.variable} ${sourceSerif.variable}`}><body>{children}</body></html>;
+  return <html lang="en" className={`${clashDisplay.variable} ${sourceSerif.variable}`}><body><AgeGate siteName={SITE_NAME}>{children}</AgeGate></body></html>;
 }
