@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const AGE_GATE_STORAGE_KEY = "presidential-age-gate-approved";
+const AGE_GATE_STORAGE_KEY = "presidential-age-gate-v2-approved";
 
 export function AgeGate({ children, siteName }: Readonly<{ children: React.ReactNode; siteName: string }>) {
   const [approved, setApproved] = useState(false);
