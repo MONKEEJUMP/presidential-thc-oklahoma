@@ -114,6 +114,30 @@ export default function DispensariesPage() {
               <RetailerDirectory retailers={redCarpetRetailers} />
             </section>
           </div>
+
+          <section aria-labelledby="dispensary-products-heading" className={styles.closingBlock}>
+            <div className={styles.closingCopy}>
+              <h2 id="dispensary-products-heading">Which Presidential products do these dispensaries carry?</h2>
+              <p>
+                Presidential is a wholesale brand, and these licensed dispensaries stock it in four formats:{" "}
+                <Link href="/moon-rocks">Moon Rocks</Link>, the flagship three-layer build of flower, cannabis
+                concentrate, and kief; <Link href="/pre-rolls">infused pre-rolls</Link> in paper; tobacco-free
+                hemp-wrap <Link href="/blunts">blunts</Link> in full and mini sizes; and{" "}
+                <Link href="/minis">minis</Link>, the compact blunt and pre-roll family.
+              </p>
+              <p>
+                Across those formats, the Silver Flavor Series carries seven fruit-forward identities, the Gold
+                Strain Series nineteen cannabis-first strain names, and the Rose Gold Connoisseur Series five
+                solventless craft identities, alongside the Presidential Line and House Line.
+              </p>
+              <p>
+                Every store listed here is independently owned and licensed and chooses its own mix of formats,
+                series, and sizes, so a listing does not mean a store has every product. Ask for Presidential, the
+                product name, the format, and the size, and bring a current{" "}
+                <Link href="/oklahoma">OMMA patient or visitor license</Link>.
+              </p>
+            </div>
+          </section>
         </div>
       </main>
       <script
