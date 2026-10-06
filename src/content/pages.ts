@@ -1,6 +1,6 @@
 import { STATE } from "@/config/state";
 
-import type { PageContent, PageLink } from "./types";
+import type { PageContent, PageLink, RosterItem } from "./types";
 
 const MAIN = "https://presidentialmoonrocks.com";
 const OMMA = "https://oklahoma.gov/omma.html";
@@ -35,24 +35,24 @@ const seriesLinks: PageLink[] = [
   { href: "/rose-gold", label: "Rose Gold Connoisseur Series", description: "Five refined, solventless craft identities." },
 ];
 
-const silverRoster: PageLink[] = [
+const silverRoster: RosterItem[] = [
   ["Blue Raspberry", "blue-raspberry"], ["Grape", "grape"], ["Peach Mango", "peach-mango"],
   ["Pineapple", "pineapple"], ["Strawberry", "strawberry"], ["Tropical", "tropical"], ["Watermelon", "watermelon"],
-].map(([label, slug]) => ({ label, href: `${MAIN}/moon-rocks/${slug}` }));
+].map(([label]) => ({ label }));
 
-const goldRoster: PageLink[] = [
+const goldRoster: RosterItem[] = [
   ["24K", "24k"], ["Blue Dream", "blue-dream"], ["Cap Junky", "cap-junky"],
   ["Cherry Gelato", "cherry-gelato"], ["Crescendo", "crescendo"], ["Galactic Gas", "galactic-gas"],
   ["Gorilla Goo", "gorilla-goo"], ["King Louis", "king-louis"], ["NYC Diesel", "nyc-diesel"],
   ["Orange Push Pop", "orange-push-pop"], ["Papaya Punch", "papaya-punch"], ["Pink Cookies", "pink-cookies"],
   ["Presidential OG", "presidential-og"], ["Rainbow Belts", "rainbow-belts"], ["SFV OG", "sfv-og"],
   ["Skywalker", "skywalker"], ["Waui", "waui"], ["XJ-13", "xj-13"], ["XXX", "xxx"],
-].map(([label, slug]) => ({ label, href: `${MAIN}/moon-rocks/${slug}` }));
+].map(([label]) => ({ label }));
 
-const roseGoldRoster: PageLink[] = [
+const roseGoldRoster: RosterItem[] = [
   ["Cereal Milk", "cereal-milk"], ["Cosmic Cookies", "cosmic-cookies"], ["God’s Gift", "gods-gift"],
   ["Wedding Cake", "wedding-cake"], ["White Walker", "white-walker"],
-].map(([label, slug]) => ({ label, href: `${MAIN}/moon-rocks/${slug}` }));
+].map(([label]) => ({ label }));
 
 const homePage: PageContent = {
   path: "/",
@@ -81,7 +81,7 @@ const homePage: PageContent = {
         "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis.",
         [
           { text: "The " },
-          { text: "official Presidential catalog", href: `${MAIN}/moon-rocks` },
+          { text: "official Presidential catalog" },
           { text: " carries the canonical product records and collection structure. This Oklahoma guide adds state context without creating a second catalog or making unsupported effects or potency promises." },
         ],
       ],
@@ -120,7 +120,7 @@ const homePage: PageContent = {
       paragraphs: [
         [
           { text: "Use the " },
-          { text: "official Oklahoma store locator", href: `${MAIN}/find-us/ok` },
+          { text: "official Oklahoma store locator" },
           { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change." },
         ],
       ],
@@ -143,8 +143,6 @@ const homePage: PageContent = {
     { href: "/about", label: "About Presidential", description: "The original brand, founded in Los Angeles in 2012." },
   ],
   sources: [
-    { label: "Official Presidential product catalog", href: `${MAIN}/moon-rocks` },
-    { label: "Official Presidential story", href: `${MAIN}/our-story` },
     { label: "Oklahoma Medical Marijuana Authority", href: OMMA },
   ],
 };
@@ -167,14 +165,14 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         [
           { text: "Moon Rocks sit at the beginning of the Presidential story because the construction is both visible and memorable. Flower supplies the foundation. " },
-          { text: "Cannabis concentrate carries across that foundation", href: `${MAIN}/presidential-thc` },
+          { text: "Cannabis concentrate carries across that foundation" },
           { text: ". Kief completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source." },
         ],
         "The layers matter more than any dramatic promise around them. This site does not use medical language, guarantee an effect, or reduce a product to a single unsupported potency line. It explains what can be responsibly described: the components, the order of construction, the identity on the package, and the licensed Oklahoma channel where the product is sold.",
         "That material clarity gives the flagship unusual visual weight. A Moon Rock package can lead a shelf block, anchor a broader collection, or introduce a patient to the logic behind the rolled formats. Even when the product name changes, the Presidential crest and format language keep the family recognizable.",
         [
           { text: "The " },
-          { text: "official Presidential Moon Rocks hub", href: `${MAIN}/moon-rocks/presidential-moon-rocks` },
+          { text: "official Presidential Moon Rocks hub" },
           { text: " is the canonical destination for the flagship format. Product art on this page goes deeper still, linking each image to the exact named product rather than forcing every visitor back through one generic doorway." },
         ],
       ],
@@ -210,7 +208,7 @@ const moonRocksPage: PageContent = {
         "On this page, the artwork is functional navigation. Every product image opens the matching official product record in the same tab. Alt text describes the package in frame without becoming a visible caption, and the ornamental gold frame keeps the gallery consistent while allowing each package to remain the visual subject.",
         [
           { text: "Browse the broader " },
-          { text: "official Moon Rocks collection", href: `${MAIN}/moon-rocks` },
+          { text: "official Moon Rocks collection" },
           { text: " when you want to move across series and individual names. The Oklahoma site provides the format story; the main catalog remains the definitive product destination." },
         ],
       ],
@@ -232,9 +230,6 @@ const moonRocksPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Move from product recognition to the official Oklahoma locator." },
   ],
   sources: [
-    { label: "Official Presidential Moon Rocks hub", href: `${MAIN}/moon-rocks/presidential-moon-rocks` },
-    { label: "Official Presidential product catalog", href: `${MAIN}/moon-rocks` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -259,7 +254,7 @@ const bluntsPage: PageContent = {
         "Hemp wrap also creates a different physical presence from paper. It gives the blunt a larger, more substantial silhouette and makes the full-size package easy to distinguish from a pre-roll pack. The mini version retains the format identity while changing scale and package organization.",
         [
           { text: "The " },
-          { text: "official Presidential Blunts collection", href: `${MAIN}/moon-rocks/presidential-blunts` },
+          { text: "official Presidential Blunts collection" },
           { text: " holds the canonical blunt records. Every package image on this Oklahoma page follows through to a specific product page, so the artwork is a working catalog path rather than background decoration." },
         ],
       ],
@@ -296,7 +291,7 @@ const bluntsPage: PageContent = {
         "That consistency helps a buyer build a deliberate block. A Silver run can create a vivid fruit-led section. A Gold selection can prioritize recognized strain identities. House Line can anchor the blunt category in the core brand, while THC Design adds a visible collaboration point. The store controls the assortment; the brand architecture keeps it coherent.",
         [
           { text: "See how blunt construction sits inside the wider " },
-          { text: "Presidential blunt format story", href: `${MAIN}/presidential-blunts` },
+          { text: "Presidential blunt format story" },
           { text: ". The Oklahoma presentation stays original in its writing while using the official product pages as the destination for exact names and current catalog context." },
         ],
       ],
@@ -318,9 +313,6 @@ const bluntsPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Use the official Oklahoma locator and confirm current inventory." },
   ],
   sources: [
-    { label: "Official Presidential Blunts collection", href: `${MAIN}/moon-rocks/presidential-blunts` },
-    { label: "Official Presidential blunt format page", href: `${MAIN}/presidential-blunts` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -345,7 +337,7 @@ const preRollsPage: PageContent = {
         "The infused construction connects pre-rolls to the flagship Moon Rocks idea without pretending the physical formats are identical. Moon Rocks present the layers in their original form. Pre-rolls organize material into a ready rolled format. Shared product identities and brand artwork create continuity between them.",
         [
           { text: "The " },
-          { text: "official Presidential Pre-Rolls collection", href: `${MAIN}/moon-rocks/presidential-prerolls` },
+          { text: "official Presidential Pre-Rolls collection" },
           { text: " carries the canonical records for this format. Every product image here opens its specific official page in the same tab, making the package itself the deepest and most useful link." },
         ],
       ],
@@ -382,7 +374,7 @@ const preRollsPage: PageContent = {
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
         [
           { text: "The broader " },
-          { text: "Presidential pre-roll catalog path", href: `${MAIN}/moon-rocks/presidential-prerolls` },
+          { text: "Presidential pre-roll catalog path" },
           { text: " provides another official route into the category. The Oklahoma site remains focused on what local patients and retailers need most: format recognition, honest availability language, and direct paths to exact product records." },
         ],
       ],
@@ -394,7 +386,7 @@ const preRollsPage: PageContent = {
       paragraphs: [
         [
           { text: "People searching for Presidential pre rolls near me should begin with the " },
-          { text: "official Oklahoma locator", href: `${MAIN}/find-us/ok` },
+          { text: "official Oklahoma locator" },
           { text: ". Presidential products reach Oklahoma through licensed dispensaries, not direct online sale, and current inventory belongs to each retailer." },
         ],
         "Begin with the official Oklahoma locator and then confirm the precise item. A complete request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the official record can narrow the check further. Package art on this page gives a visual reference when names are close.",
@@ -408,8 +400,6 @@ const preRollsPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Check the official locator, then confirm the exact pre-roll." },
   ],
   sources: [
-    { label: "Official Presidential Pre-Rolls collection", href: `${MAIN}/moon-rocks/presidential-prerolls` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -445,7 +435,7 @@ const minisPage: PageContent = {
         "Silver fruit identities are particularly visible in mini blunt artwork because bold color and direct names can organize a set quickly. Gold strain identities add another layer of variety. House Line and individual Presidential identities keep the mini blunt category connected to the wider brand rather than isolating it as a novelty.",
         [
           { text: "The " },
-          { text: "official Presidential Blunts collection", href: `${MAIN}/moon-rocks/presidential-blunts` },
+          { text: "official Presidential Blunts collection" },
           { text: " provides the canonical format context for both full-size and compact hemp-wrapped products. Each mini-blunt image on this page links to the matching named product record, keeping visual discovery precise." },
         ],
         "A mini package should not be read as proof that the same name is available in every size at a particular Oklahoma store. Product range and retailer inventory are different questions. The catalog defines what exists; the licensed dispensary confirms what is on its shelf now.",
@@ -473,7 +463,7 @@ const minisPage: PageContent = {
         "On this site, every mini image sits in the same champagne ornamental frame used across the product guide. The frame belongs to the Oklahoma design system; the art inside remains unique to one page. No image source is reused elsewhere, and each linked image is matched to its official product destination.",
         [
           { text: "For the paper-rolled side of the range, continue through the " },
-          { text: "official Presidential Pre-Rolls collection", href: `${MAIN}/moon-rocks/presidential-prerolls` },
+          { text: "official Presidential Pre-Rolls collection" },
           { text: ". The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place." },
         ],
       ],
@@ -495,9 +485,6 @@ const minisPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Use the official Oklahoma locator for current licensed retail." },
   ],
   sources: [
-    { label: "Official Presidential Blunts collection", href: `${MAIN}/moon-rocks/presidential-blunts` },
-    { label: "Official Presidential Pre-Rolls collection", href: `${MAIN}/moon-rocks/presidential-prerolls` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -523,7 +510,7 @@ const silverPage: PageContent = {
         "Silver’s direct naming also helps across formats. A patient who first notices Watermelon on Moon Rocks can recognize the same identity when approved artwork appears on a pre-roll or mini package. The fruit name becomes the stable thread, while the format page explains what physically changes around it. That is practical brand continuity, not a claim that every presentation is interchangeable.",
         [
           { text: "The " },
-          { text: "official Silver Flavor Series hub", href: `${MAIN}/moon-rocks/silver` },
+          { text: "official Silver Flavor Series hub" },
           { text: " is the canonical collection source. The roster on this page mirrors its seven names and exact slugs, while each approved artwork links to the matching product rather than a generic catalog page." },
         ],
       ],
@@ -559,7 +546,7 @@ const silverPage: PageContent = {
         "This page strengthens that shelf behavior by making every image a functional link. The gold ornamental frame belongs to the Oklahoma site, but the image inside belongs to one official product identity. Selecting it goes directly to that product in the main catalog, with no popup, nested link, or competing destination.",
         [
           { text: "Review the complete " },
-          { text: "Silver collection on the main Presidential site", href: `${MAIN}/moon-rocks/silver` },
+          { text: "Silver collection on the main Presidential site" },
           { text: " whenever a canonical series check is needed. This Oklahoma guide supplies original product-focused context and sends authority back to the official collection generously." },
         ],
       ],
@@ -582,8 +569,6 @@ const silverPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Locate participating Oklahoma retailers and confirm Silver inventory." },
   ],
   sources: [
-    { label: "Official Silver Flavor Series", href: `${MAIN}/moon-rocks/silver` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -609,7 +594,7 @@ const goldPage: PageContent = {
         "Depth also rewards return browsing. A Gold customer can recognize the shared series before learning every illustration, and a staff member can introduce another official name without leaving the visual system the patient already understands. The collection feels expansive because it contains real variety, yet orderly because each package still answers the same brand, series, product, and format questions.",
         [
           { text: "The " },
-          { text: "official Gold Strain Series hub", href: `${MAIN}/moon-rocks/gold` },
+          { text: "official Gold Strain Series hub" },
           { text: " is the source for the complete collection. This page mirrors every name and slug from that official structure, and each image goes to its exact product record in the same tab." },
         ],
       ],
@@ -645,7 +630,7 @@ const goldPage: PageContent = {
         "The ornamental champagne frame never becomes a caption. It creates continuity with the Presidential Oklahoma design system while alt text remains available to assistive technology. The image itself is linked directly to its official product record, so a visual choice becomes an exact catalog action.",
         [
           { text: "Return to the " },
-          { text: "complete Gold collection", href: `${MAIN}/moon-rocks/gold` },
+          { text: "complete Gold collection" },
           { text: " whenever you want the canonical series view. The Oklahoma property celebrates the artwork generously but never competes with the main site for product authority." },
         ],
       ],
@@ -668,8 +653,6 @@ const goldPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Locate participating retailers and confirm a specific Gold product." },
   ],
   sources: [
-    { label: "Official Gold Strain Series", href: `${MAIN}/moon-rocks/gold` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -696,7 +679,7 @@ const roseGoldPage: PageContent = {
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
         [
           { text: "The " },
-          { text: "official Rose Gold Connoisseur Series hub", href: `${MAIN}/moon-rocks/rose-gold` },
+          { text: "official Rose Gold Connoisseur Series hub" },
           { text: " is the canonical collection source. Its five names and slugs govern the roster here, preventing local filenames or visual assumptions from inventing series membership." },
         ],
       ],
@@ -732,7 +715,7 @@ const roseGoldPage: PageContent = {
         "Every image functions as exact product navigation. Selecting Cereal Milk goes to Cereal Milk. Selecting Cosmic Cookies goes to Cosmic Cookies. The same one-to-one rule applies to God’s Gift, Wedding Cake, and White Walker in both square and portrait placements.",
         [
           { text: "Use the " },
-          { text: "complete official Rose Gold collection", href: `${MAIN}/moon-rocks/rose-gold` },
+          { text: "complete official Rose Gold collection" },
           { text: " as the definitive catalog source for product details. The Oklahoma page remains accurate because its destination and product roster match that canonical structure." },
         ],
       ],
@@ -755,8 +738,6 @@ const roseGoldPage: PageContent = {
     { href: "/find", label: "Find Presidential", description: "Locate licensed retailers and ask for a specific Rose Gold name." },
   ],
   sources: [
-    { label: "Official Rose Gold Connoisseur Series", href: `${MAIN}/moon-rocks/rose-gold` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -778,7 +759,7 @@ const findPage: PageContent = {
       paragraphs: [
         [
           { text: "Open the " },
-          { text: "official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
+          { text: "official Presidential Oklahoma locator" },
           { text: " to see the current participating retail field. That exact state path is the dependable route. A `?zip=` query is not used because the main site drops it, and this guide does not publish a fragile shortcut that appears more precise than it really is." },
         ],
         "The locator is intentionally the main action. It keeps changing retailer participation in the system designed to hold it and avoids creating a stale duplicate directory on another domain. A static address list could remain online after a store stops carrying the brand, changes status, or moves through an inventory cycle.",
@@ -816,7 +797,7 @@ const findPage: PageContent = {
         "Presidential does not sell directly through this site. Oklahoma purchases take place through OMMA-licensed dispensaries and require an active Oklahoma patient or visitor license. An out-of-state medical card by itself is not accepted as the dispensary credential; eligible visitors use OMMA’s 30-day visitor-license process.",
         [
           { text: "Return to the " },
-          { text: "Oklahoma locator on the official Presidential site", href: `${MAIN}/find-us/ok` },
+          { text: "Oklahoma locator on the official Presidential site" },
           { text: " whenever you are ready to move from product research to participating retail. The page is intentionally prominent, direct, and free of copied addresses." },
         ],
         "The Cannabis in Oklahoma guide covers the license, visitor route, possession and cultivation allowances, market history, tracking, and excise tax together. Here the operating rule stays simple: use the official locator, choose a licensed retailer, confirm the exact product, and purchase only with the proper active credential.",
@@ -829,7 +810,6 @@ const findPage: PageContent = {
     { href: "/retailers", label: "For Oklahoma retailers", description: "The wholesale proposition for licensed dispensary owners and buyers." },
   ],
   sources: [
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
     { label: "OMMA patient license information", href: PATIENTS },
     { label: "OMMA rules and legislation", href: OMMA_RULES },
   ],
@@ -856,7 +836,7 @@ const retailersPage: PageContent = {
         "That continuity is part of why the products can move as a shelf proposition. The catalog gives staff names and formats they can identify, gives the buyer multiple levels of assortment, and gives the patient a visual trail from previous recognition to a new product. It does not ask a retailer to manufacture the brand story at the point of sale.",
         [
           { text: "The " },
-          { text: "official Presidential brand site", href: MAIN },
+          { text: "official Presidential brand site" },
           { text: " is the canonical destination behind that recognition. Oklahoma product images link directly to exact records, allowing staff and patients to move from package art to the named item without a competing third-party catalog in between." },
         ],
       ],
@@ -904,7 +884,7 @@ const retailersPage: PageContent = {
         "Presidential offers a catalog structured for licensed-retail selection. Moon Rocks, blunts, pre-rolls, and minis create physical variety, while the named collections organize visual and product identity. Participating Oklahoma retailers can carry focused assortments without implying that every store holds the same products.",
         [
           { text: "Review the " },
-          { text: "full official Presidential catalog", href: `${MAIN}/moon-rocks` },
+          { text: "full official Presidential catalog" },
           { text: " to see the current products behind the proposition. A commercial conversation can follow through the appropriate wholesale channel; this public page stays where it should—clear about the brand, honest about the market, and silent on unverified deal economics." },
         ],
       ],
@@ -921,7 +901,6 @@ const retailersPage: PageContent = {
     { href: "/dispensaries/chickasaw-country", label: "Chickasaw Country retailers", description: "Review licensed Presidential retailers across south-central Oklahoma." },
   ],
   sources: [
-    { label: "Official Presidential product catalog", href: `${MAIN}/moon-rocks` },
     { label: "OMMA dispensary license information", href: DISPENSARY },
     { label: "Oklahoma Legislature HB 2095", href: HB2095 },
     { label: "Oklahoma Legislature HB 3143", href: HB3143 },
@@ -971,7 +950,7 @@ const oklahomaPage: PageContent = {
         "The out-of-state license is valid for 30 days. OMMA lists a $100 nonrefundable application fee plus its processing fee, with no reduced temporary-patient rate. Timing matters because approval is not instantaneous and the Oklahoma license must be active for the dispensary purchase.",
         [
           { text: "After the proper Oklahoma credential is active, the " },
-          { text: "official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
+          { text: "official Presidential Oklahoma locator" },
           { text: " can identify participating licensed retailers. The locator is not a substitute for the license, and a home-state card is not a shortcut around OMMA’s visitor process." },
         ],
       ],
@@ -1008,7 +987,7 @@ const oklahomaPage: PageContent = {
         "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details.",
         [
           { text: "The " },
-          { text: "official Presidential product catalog", href: `${MAIN}/moon-rocks` },
+          { text: "official Presidential product catalog" },
           { text: " remains the destination for exact product records, while this Oklahoma guide keeps state requirements consolidated. Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
         ],
         "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the official product page for the item; and use the licensed retailer for local inventory. That three-source approach is more durable than a scattered set of legal footnotes across twelve product pages.",
@@ -1052,7 +1031,7 @@ const aboutPage: PageContent = {
         "From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today.",
         [
           { text: "The " },
-          { text: "official Presidential story", href: `${MAIN}/our-story` },
+          { text: "official Presidential story" },
           { text: " carries the broader company history. This site narrows the view to Oklahoma while keeping the crest, product art, and canonical main-site relationship unmistakably official." },
         ],
       ],
@@ -1076,7 +1055,7 @@ const aboutPage: PageContent = {
         "This site does not sell product, publish a copied retailer address table, or impersonate a neutral review outlet. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
         [
           { text: "Explore the " },
-          { text: "complete official Presidential catalog", href: `${MAIN}/moon-rocks` },
+          { text: "complete official Presidential catalog" },
           { text: " for the canonical product collection. This Oklahoma property remains focused: original in its writing, official in its identity, product-first in its design, and connected to lawful licensed retail rather than direct online sale." },
         ],
       ],
@@ -1088,9 +1067,6 @@ const aboutPage: PageContent = {
     { href: "/retailers", label: "For Oklahoma retailers", description: "Read the wholesale shelf proposition for licensed buyers." },
   ],
   sources: [
-    { label: "Official Presidential story", href: `${MAIN}/our-story` },
-    { label: "Official Presidential product catalog", href: `${MAIN}/moon-rocks` },
-    { label: "Official Presidential Oklahoma locator", href: `${MAIN}/find-us/ok` },
   ],
 };
 
@@ -1151,7 +1127,7 @@ export const pages: PageContent[] = pageRecords.map((page) => ({
           })),
     ),
   })),
-  productRoster: page.productRoster?.map(stateLink),
+  productRoster: page.productRoster?.map((item) => ({ label: stateStructuralText(item.label) })),
   childLinks: page.childLinks?.map(stateLink),
   relatedLinks: page.relatedLinks?.map(stateLink),
   sources: page.sources.map((source) => ({

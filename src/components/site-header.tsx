@@ -45,18 +45,12 @@ export function SiteHeader({ currentPath = "/" }: { currentPath?: string }) {
               alt=""
             />
           </Link>
-          <a
-            aria-label="The official Presidential site"
-            className="brand-lockup__tagline-link"
-            href="https://presidentialmoonrocks.com"
-          >
-            <span className="brand-lockup__text">
-              <span className="brand-lockup__tagline">
-                <span>The Official</span>
-                <span>Presidential Site</span>
-              </span>
+          <span className="brand-lockup__text">
+            <span className="brand-lockup__tagline">
+              <span>The Official</span>
+              <span>Presidential Site</span>
             </span>
-          </a>
+          </span>
         </div>
 
         <nav className="primary-nav" aria-label="Primary navigation">

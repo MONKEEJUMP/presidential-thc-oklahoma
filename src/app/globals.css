@@ -1292,7 +1292,7 @@ a:hover {
   margin-top: 1.75rem;
 }
 
-.product-roster__grid a {
+.product-roster__grid > div {
   display: grid;
   grid-template-columns: 2.4rem minmax(0, 1fr);
   gap: 0.75rem;
@@ -1302,10 +1302,6 @@ a:hover {
   color: var(--paper);
   font-family: var(--display);
   text-decoration: none;
-}
-
-.product-roster__grid a:hover {
-  color: var(--gold-light);
 }
 
 .product-roster__grid small {

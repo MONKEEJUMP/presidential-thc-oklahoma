@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { STATE } from "@/config/state";
-import { footerProductLinks, MAIN_SITE_URL, SITE_NAME } from "@/lib/site";
+import { SITE_NAME } from "@/lib/site";
 
 export function SiteFooter() {
   return (
@@ -21,15 +21,6 @@ export function SiteFooter() {
             <small>The official Presidential site</small>
           </span>
         </Link>
-
-        <nav className="footer-link-block" aria-label="Official Presidential links">
-          <p>Official Presidential</p>
-          <a href={MAIN_SITE_URL} rel="nofollow">The main site</a>
-          <a href={STATE.locatorPath} rel="nofollow">{STATE.name} locator</a>
-          {footerProductLinks.map((link) => (
-            <a href={link.href} rel="nofollow" key={link.href}>{link.label}</a>
-          ))}
-        </nav>
 
         <nav className="footer-site-nav" aria-label={`${STATE.name} site links`}>
           <p>{STATE.name} collection</p>

@@ -26,6 +26,10 @@ export type ContentSection = {
   imageCount?: number;
 };
 
+export type RosterItem = {
+  label: string;
+};
+
 export type PageContent = {
   path: string;
   kind: PageKind;
@@ -34,7 +38,7 @@ export type PageContent = {
   description: string;
   intro: ContentParagraph[];
   sections: ContentSection[];
-  productRoster?: PageLink[];
+  productRoster?: RosterItem[];
   childLinks?: PageLink[];
   relatedLinks?: PageLink[];
   sources: SourceLink[];

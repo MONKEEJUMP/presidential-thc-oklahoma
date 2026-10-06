@@ -148,6 +148,8 @@ function LinkDirectory({ page }: { page: PageContent }) {
 }
 
 function Sources({ page }: { page: PageContent }) {
+  if (!page.sources.length) return null;
+
   return (
     <aside className="sources" aria-labelledby="sources-heading">
       <p className="sources__label" id="sources-heading">Official sources</p>
@@ -169,10 +171,10 @@ function ProductRoster({ page }: { page: PageContent }) {
       <h2 id="product-roster-heading">Every product in the series</h2>
       <div className="product-roster__grid">
         {page.productRoster.map((product, index) => (
-          <a href={product.href} key={product.href}>
+          <div key={product.label}>
             <small>{String(index + 1).padStart(2, "0")}</small>
             <span>{product.label}</span>
-          </a>
+          </div>
         ))}
       </div>
     </aside>
@@ -188,22 +190,16 @@ function ProductCatalogGrid({ heading, images }: { heading?: string; images: Con
       <h2 id={headingId}>{heading}</h2>
       <div className="product-catalog__grid">
         {images.map((image) => (
-          <a
-            aria-label={`View ${image.alt} on the official Presidential site`}
-            className="product-catalog__link"
-            href={image.productHref}
+          <Image
+            alt={image.alt}
+            className="product-catalog__image"
+            height={image.height}
             key={image.productId}
-          >
-            <Image
-              alt={image.alt}
-              className="product-catalog__image"
-              height={image.height}
-              loading="lazy"
-              sizes="(max-width: 767px) 92vw, (max-width: 1023px) 44vw, (max-width: 1279px) 29vw, 22vw"
-              src={image.src}
-              width={image.width}
-            />
-          </a>
+            loading="lazy"
+            sizes="(max-width: 767px) 92vw, (max-width: 1023px) 44vw, (max-width: 1279px) 29vw, 22vw"
+            src={image.src}
+            width={image.width}
+          />
         ))}
       </div>
     </section>
