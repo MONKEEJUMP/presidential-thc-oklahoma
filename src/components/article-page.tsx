@@ -218,12 +218,12 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
   if (page.kind === "pillar") {
     graph.unshift({
       "@type": "Organization",
-      "@id": "https://presidentialmoonrocks.com/#organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "Presidential",
       alternateName: `Presidential THC ${STATE.name}`,
       foundingDate: "2012",
       foundingLocation: { "@type": "Place", name: "Los Angeles, California" },
-      url: "https://presidentialmoonrocks.com",
+      url: SITE_URL,
       logo: undefined,
       // No verified social profile URLs were supplied; never invent sameAs entries.
       sameAs: [],

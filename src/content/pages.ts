@@ -120,7 +120,7 @@ const homePage: PageContent = {
       paragraphs: [
         [
           { text: "Use the " },
-          { text: "official Oklahoma store locator" },
+          { text: "store locator above" },
           { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change." },
         ],
       ],
@@ -173,7 +173,7 @@ const moonRocksPage: PageContent = {
         [
           { text: "The " },
           { text: "official Presidential Moon Rocks hub" },
-          { text: " is the canonical destination for the flagship format. Product art on this page goes deeper still, linking each image to the exact named product rather than forcing every visitor back through one generic doorway." },
+          { text: " is the canonical destination for the flagship format." },
         ],
       ],
     },
@@ -205,12 +205,8 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         "A Presidential Moon Rocks package has several jobs at once. It must identify Presidential, distinguish the named product, signal its series or collaboration, and make the Moon Rocks format legible. The crest creates the first point of recognition. Color, illustration, typography, and product naming do the finer sorting.",
         "Silver packages lean into vibrant fruit identity. Gold gives strain names strong illustrated worlds within a coordinated series. Rose Gold uses a more restrained connoisseur position. The Presidential Line makes individual character art prominent, while House Line and THC Design use direct brand and collaboration cues. Those differences help a retailer build variety without making the shelf look unrelated.",
-        "On this page, the artwork is functional navigation. Every product image opens the matching official product record in the same tab. Alt text describes the package in frame without becoming a visible caption, and the ornamental gold frame keeps the gallery consistent while allowing each package to remain the visual subject.",
-        [
-          { text: "Browse the broader " },
-          { text: "official Moon Rocks collection" },
-          { text: " when you want to move across series and individual names. The Oklahoma site provides the format story; the main catalog remains the definitive product destination." },
-        ],
+        "Alt text describes the package in frame without becoming a visible caption, and the ornamental gold frame keeps the gallery consistent while allowing each package to remain the visual subject.",
+        "The Oklahoma site provides the format story; the main catalog remains the definitive product destination.",
       ],
     },
     {
@@ -255,7 +251,7 @@ const bluntsPage: PageContent = {
         [
           { text: "The " },
           { text: "official Presidential Blunts collection" },
-          { text: " holds the canonical blunt records. Every package image on this Oklahoma page follows through to a specific product page, so the artwork is a working catalog path rather than background decoration." },
+          { text: " holds the canonical blunt records." },
         ],
       ],
     },
@@ -277,7 +273,7 @@ const bluntsPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "Presidential Blunts appear through several official catalog groupings. Silver fruit identities give the format bright package color. Gold strain identities bring cannabis-first names and illustrated worlds. Selected Presidential Line products introduce character-led artwork, while the House Line states the core blunt directly and THC Design packaging makes the collaboration unmistakable.",
-        "The range visible in approved Presidential artwork includes names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, Watermelon, 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official product identities. The exact linked record—not a guessed filename—is the authority for each image on this page.",
+        "The range visible in approved Presidential artwork includes names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, Watermelon, 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official product identities. The exact record—not a guessed filename—is the authority for each image on this page.",
         "A name appearing in the wider product catalog is not treated as a promise that every size and format is currently present at every Oklahoma retailer. This site matches the approved blunt artwork it has to official product destinations and lets each licensed dispensary answer the real-time inventory question.",
       ],
     },
@@ -289,11 +285,7 @@ const bluntsPage: PageContent = {
         "The hemp wrap defines the blunt physically; the package defines it at the shelf. Before opening anything, a patient needs to recognize the brand, exact name, format, and relevant series. Presidential packaging handles those layers with a strong crest, black structural ground, vivid product art, and clear naming rather than a wall of undifferentiated copy.",
         "Full-size packages can emphasize the single format and product art. Mini packages must also communicate multiplicity and compact scale. Both benefit from a consistent brand frame because a dispensary may place them together, separate them by size, or merchandise them beside matching names from other formats.",
         "That consistency helps a buyer build a deliberate block. A Silver run can create a vivid fruit-led section. A Gold selection can prioritize recognized strain identities. House Line can anchor the blunt category in the core brand, while THC Design adds a visible collaboration point. The store controls the assortment; the brand architecture keeps it coherent.",
-        [
-          { text: "See how blunt construction sits inside the wider " },
-          { text: "Presidential blunt format story" },
-          { text: ". The Oklahoma presentation stays original in its writing while using the official product pages as the destination for exact names and current catalog context." },
-        ],
+        "The Oklahoma presentation stays original in its writing.",
       ],
     },
     {
@@ -338,7 +330,7 @@ const preRollsPage: PageContent = {
         [
           { text: "The " },
           { text: "official Presidential Pre-Rolls collection" },
-          { text: " carries the canonical records for this format. Every product image here opens its specific official page in the same tab, making the package itself the deepest and most useful link." },
+          { text: " carries the canonical records for this format." },
         ],
       ],
     },
@@ -361,7 +353,7 @@ const preRollsPage: PageContent = {
       paragraphs: [
         "The approved Presidential pre-roll artwork spans fruit-forward Silver names, strain-led Gold names, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
-        "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration. This site displays only approved local artwork and matches each filename to an exact `/moon-rocks/` product slug from the official sitemap before it becomes a linked image.",
+        "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration. This site displays only approved local artwork and matches each filename to an exact `/moon-rocks/` product slug from the official sitemap.",
       ],
     },
     {
@@ -372,11 +364,7 @@ const preRollsPage: PageContent = {
         "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away.",
         "Series architecture creates order across that variety. A run of Silver packages can read as a bright flavor set. Gold can create a broader strain wall with consistent hierarchy. The Line can introduce strong one-off character art. House Line gives the shelf a simple core, and THC Design creates a collaboration marker without asking the retailer to explain it from scratch.",
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
-        [
-          { text: "The broader " },
-          { text: "Presidential pre-roll catalog path" },
-          { text: " provides another official route into the category. The Oklahoma site remains focused on what local patients and retailers need most: format recognition, honest availability language, and direct paths to exact product records." },
-        ],
+        "The Oklahoma site remains focused on what local patients and retailers need most: format recognition and honest availability language.",
       ],
     },
     {
@@ -436,7 +424,7 @@ const minisPage: PageContent = {
         [
           { text: "The " },
           { text: "official Presidential Blunts collection" },
-          { text: " provides the canonical format context for both full-size and compact hemp-wrapped products. Each mini-blunt image on this page links to the matching named product record, keeping visual discovery precise." },
+          { text: " provides the canonical format context for both full-size and compact hemp-wrapped products." },
         ],
         "A mini package should not be read as proof that the same name is available in every size at a particular Oklahoma store. Product range and retailer inventory are different questions. The catalog defines what exists; the licensed dispensary confirms what is on its shelf now.",
         "For staff, the full-size and mini distinction creates a useful educational moment without requiring a complicated script. The wrap identifies the blunt family, the package identifies the exact product, and the size language identifies the presentation. Three clear facts do more work than a vague superlative and keep the conversation grounded in what the customer can verify.",
@@ -460,12 +448,8 @@ const minisPage: PageContent = {
       paragraphs: [
         "Smaller products do not require smaller branding. Presidential mini packages still need room for the crest, exact product name, format, series cues, and package facts. The strongest designs keep that hierarchy legible while allowing vivid illustration and color to do the attention work.",
         "Multipack organization also becomes part of the shelf signal. A buyer can recognize a compact group without opening the package, and a patient can distinguish it from a single full-size presentation. That makes the exterior more than decoration: it is the practical interface between catalog, shelf, and official product record.",
-        "On this site, every mini image sits in the same champagne ornamental frame used across the product guide. The frame belongs to the Oklahoma design system; the art inside remains unique to one page. No image source is reused elsewhere, and each linked image is matched to its official product destination.",
-        [
-          { text: "For the paper-rolled side of the range, continue through the " },
-          { text: "official Presidential Pre-Rolls collection" },
-          { text: ". The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place." },
-        ],
+        "On this site, every mini image sits in the same champagne ornamental frame used across the product guide. The frame belongs to the Oklahoma design system; the art inside remains unique to one page. No image source is reused elsewhere.",
+        "The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place.",
       ],
     },
     {
@@ -496,7 +480,7 @@ const silverPage: PageContent = {
   description: "Meet all seven vibrant, fruit-forward Presidential Silver Flavor Series products and follow each one to its official product record.",
   intro: [
     "The Presidential Silver Flavor Series is a complete seven-product set built around direct fruit identity: Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Bright names and vivid packaging make the series easy to read as one family, even when the products appear across different Presidential formats.",
-    "Silver is flavor-first in position and bold in presentation. That describes the product identity and package language; it is not an effects or medical promise. Every official name appears below with a direct link to its exact product page, while eight unique approved artworks show how the series carries color into the Oklahoma shelf.",
+    "Silver is flavor-first in position and bold in presentation. That describes the product identity and package language; it is not an effects or medical promise. Every official name appears below, while eight unique approved artworks show how the series carries color into the Oklahoma shelf.",
   ],
   sections: [
     {
@@ -511,7 +495,7 @@ const silverPage: PageContent = {
         [
           { text: "The " },
           { text: "official Silver Flavor Series hub" },
-          { text: " is the canonical collection source. The roster on this page mirrors its seven names and exact slugs, while each approved artwork links to the matching product rather than a generic catalog page." },
+          { text: " is the canonical collection source. The roster on this page mirrors its seven names." },
         ],
       ],
     },
@@ -522,7 +506,7 @@ const silverPage: PageContent = {
       paragraphs: [
         "Blue Raspberry opens the set with a name that naturally supports cool blue package language. Grape moves into a deep purple world. Peach Mango combines two fruit cues in one identity, creating a warmer visual bridge between the single-fruit products and the wider Tropical name.",
         "Pineapple brings a sharp golden fruit signal. Strawberry provides an unmistakable red identity. Tropical gives the artwork room to communicate a blended, expansive fruit world without inventing a product beyond the official name. Watermelon completes the roster with strong green and pink cues.",
-        "Those are all seven names shown by the current official sitemap under the Silver series. Nothing is added, renamed, or pulled from a filename guess. The visible complete-series roster below links Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon to their exact `/moon-rocks/` records.",
+        "Those are all seven names shown by the current official sitemap under the Silver series. Nothing is added, renamed, or pulled from a filename guess. The visible complete-series roster below lists Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon.",
         "The page uses eight images because the brief calls for a product-heavy eight-to-ten-image series presentation. Seven products receive a representative place in the art set, and one official Silver identity appears in a second unique format treatment. The second image is a different source file, not a reused duplicate.",
       ],
     },
@@ -533,7 +517,7 @@ const silverPage: PageContent = {
       paragraphs: [
         "Silver identity can travel across Moon Rocks, infused pre-rolls, tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family.",
         "Moon Rocks give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. Blunts emphasize the hemp-wrapped format, while mini packs organize smaller pieces. Each page on this site separates those format stories so the Silver page can concentrate on the complete series.",
-        "Availability by format is still a product-specific and retailer-specific question. A name in the Silver roster should not be treated as a guarantee that every possible size or format is currently at every Oklahoma dispensary. The linked official page and current retailer inventory remain the two reliable sources.",
+        "Availability by format is still a product-specific and retailer-specific question. A name in the Silver roster should not be treated as a guarantee that every possible size or format is currently at every Oklahoma dispensary. The official page and current retailer inventory remain the two reliable sources.",
       ],
     },
     {
@@ -543,12 +527,8 @@ const silverPage: PageContent = {
       paragraphs: [
         "For a dispensary buyer, Silver offers a ready-made color story. A complete run creates a vivid brand block; a smaller selection can still read coherently because the crest and Silver structure remain consistent. The retailer can choose depth without needing to invent a merchandising language from scratch.",
         "For a patient, the package creates a quick recognition sequence: Presidential first, Silver next, fruit identity after that, and format or pack facts alongside it. The hierarchy helps separate a Grape mini blunt from a Grape pre-roll or Moon Rocks package while keeping all three visibly related.",
-        "This page strengthens that shelf behavior by making every image a functional link. The gold ornamental frame belongs to the Oklahoma site, but the image inside belongs to one official product identity. Selecting it goes directly to that product in the main catalog, with no popup, nested link, or competing destination.",
-        [
-          { text: "Review the complete " },
-          { text: "Silver collection on the main Presidential site" },
-          { text: " whenever a canonical series check is needed. This Oklahoma guide supplies original product-focused context and sends authority back to the official collection generously." },
-        ],
+        "The gold ornamental frame belongs to the Oklahoma site, but the image inside belongs to one official product identity.",
+        "This Oklahoma guide supplies original product-focused context.",
       ],
     },
     {
@@ -558,7 +538,7 @@ const silverPage: PageContent = {
       paragraphs: [
         "Presidential sells Silver products wholesale through licensed Oklahoma dispensaries, and each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry a broad flavor selection; another may focus on a few recognized identities.",
         "Use the official Oklahoma locator to identify participating retailers, then ask for the exact combination shown on the product record—for example, Presidential, Silver, Blue Raspberry, and the intended format. That level of detail is more useful than a general brand inquiry and helps the store check current inventory accurately.",
-        "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with all seven names visible and linked.",
+        "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with all seven names visible.",
       ],
     },
   ],
@@ -580,7 +560,7 @@ const goldPage: PageContent = {
   description: "Meet all nineteen cannabis-first Presidential Gold Strain Series products and follow every name to its official product record.",
   intro: [
     "The Presidential Gold Strain Series is the largest named grouping in the current catalog: nineteen cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
-    "Every official Gold name appears in the complete roster below with its exact product link. Eight unique approved artworks provide a representative product gallery within the requested image range; the linked roster ensures the full nineteen-product series remains visible without inventing names, slugs, or format availability.",
+    "Every official Gold name appears in the complete roster below. Eight unique approved artworks provide a representative product gallery within the requested image range; the roster ensures the full nineteen-product series remains visible without inventing names, slugs, or format availability.",
   ],
   sections: [
     {
@@ -595,7 +575,7 @@ const goldPage: PageContent = {
         [
           { text: "The " },
           { text: "official Gold Strain Series hub" },
-          { text: " is the source for the complete collection. This page mirrors every name and slug from that official structure, and each image goes to its exact product record in the same tab." },
+          { text: " is the source for the complete collection. This page mirrors every name from that official structure." },
         ],
       ],
     },
@@ -606,7 +586,7 @@ const goldPage: PageContent = {
       paragraphs: [
         "The Gold roster begins with 24K, Blue Dream, Cap Junky, Cherry Gelato, Crescendo, and Galactic Gas. Gorilla Goo, King Louis, and NYC Diesel continue the set. Orange Push Pop, Papaya Punch, and Pink Cookies bring three more distinct official identities into the middle of the collection.",
         "Presidential OG gives the series an unmistakable brand-named anchor. Rainbow Belts, SFV OG, Skywalker, Waui, XJ-13, and XXX complete the nineteen-product official grouping. The names are reproduced exactly from the live main-site sitemap and collection structure, including capitalization and the hyphen in XJ-13.",
-        "The complete roster below turns each name into a direct follow link. A visitor does not have to infer which illustrated package belongs to which URL, and a product without a representative gallery image is still present as a named official destination. That keeps the page complete while honoring the eight-to-ten-image brief.",
+        "In the complete roster below, a product without a representative gallery image is still present by name. That keeps the page complete while honoring the eight-to-ten-image brief.",
         "No product is assigned to Gold because a local asset happened to use a gold color. Series membership comes from the official main-site structure. That rule protects the catalog from creative guesswork and makes the Oklahoma page useful as a dependable brand guide rather than a decorative collage.",
       ],
     },
@@ -627,12 +607,8 @@ const goldPage: PageContent = {
       paragraphs: [
         "Gold package art gives nineteen names room to be memorable. Some identities arrive with a long cultural history; others feel current and graphic. Illustration lets each one claim a visual territory while the gold structure prevents the collection from looking like nineteen separate brands sharing a shelf by accident.",
         "The eight artworks on this page are representatives, not a ranked list. Each comes from a unique approved source file and appears nowhere else on the Oklahoma site. Square or portrait output preserves a product-art proportion, explicit dimensions stabilize layout, and WebP delivery keeps the page practical despite the image-heavy design.",
-        "The ornamental champagne frame never becomes a caption. It creates continuity with the Presidential Oklahoma design system while alt text remains available to assistive technology. The image itself is linked directly to its official product record, so a visual choice becomes an exact catalog action.",
-        [
-          { text: "Return to the " },
-          { text: "complete Gold collection" },
-          { text: " whenever you want the canonical series view. The Oklahoma property celebrates the artwork generously but never competes with the main site for product authority." },
-        ],
+        "The ornamental champagne frame never becomes a caption. It creates continuity with the Presidential Oklahoma design system while alt text remains available to assistive technology.",
+        "The Oklahoma property celebrates the artwork generously but never competes with the main site for product authority.",
       ],
     },
     {
@@ -642,7 +618,7 @@ const goldPage: PageContent = {
       paragraphs: [
         "Gold reaches Oklahoma through licensed dispensaries as part of Presidential’s wholesale network. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
         "Use the official Oklahoma locator to identify current participating doors, then confirm the product by its exact name and intended format. Asking for ‘Gold’ alone describes the series. Asking for ‘Presidential Gold Skywalker pre-rolls’ gives the retailer a specific inventory check tied to a recognizable package.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with nineteen names, direct product links, and packaging designed to remain coherent at scale.",
+        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with nineteen names and packaging designed to remain coherent at scale.",
       ],
     },
   ],
@@ -664,7 +640,7 @@ const roseGoldPage: PageContent = {
   description: "Meet all five refined Presidential Rose Gold products and follow every official name to its canonical product record.",
   intro: [
     "The Presidential Rose Gold Connoisseur Series is a deliberately edited five-product collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
-    "Every official Rose Gold product appears in the roster below with its exact main-site link. This Oklahoma property now presents all five real package designs in square and portrait state-specific compositions, keeping the product, series, and destination aligned.",
+    "Every official Rose Gold product appears in the roster below. This Oklahoma property now presents all five real package designs in square and portrait state-specific compositions, keeping the product and series aligned.",
   ],
   sections: [
     {
@@ -690,8 +666,8 @@ const roseGoldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the five-product set. The apostrophe in God’s Gift is preserved in the visible name, while the official URL uses the confirmed `gods-gift` slug from the live main-site sitemap.",
-        "Each name receives a direct follow link in the complete roster below. The package gallery makes that path visual: a visitor can identify the exact Rose Gold blunt and move to its canonical product record without passing through an unrelated generic page.",
-        "The ten artworks on this page pair a square and portrait composition for each of the five names. Every file preserves the full real package, carries accurate Rose Gold alt text, and links to the matching official product page.",
+        "Each name appears in the complete roster below. The package gallery makes that visual: a visitor can identify the exact Rose Gold blunt.",
+        "The ten artworks on this page pair a square and portrait composition for each of the five names. Every file preserves the full real package and carries accurate Rose Gold alt text.",
         "The manifest records each source package, deterministic Oklahoma backdrop, output filename, dimensions, byte size, and hash. That trace keeps the visual catalog accountable without changing the established page structure or product destinations.",
       ],
     },
@@ -712,11 +688,10 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Product sites should be generous with imagery and precise about what each image represents. The Rose Gold gallery meets both responsibilities with five real package designs shown in ten state-specific compositions.",
         "The black, deep teal, champagne, and rose-metal package language sits clearly against the Oklahoma backdrops. The full blunt package remains uncropped and undistorted, while a restrained shadow and gold frame give each design enough separation to read cleanly.",
-        "Every image functions as exact product navigation. Selecting Cereal Milk goes to Cereal Milk. Selecting Cosmic Cookies goes to Cosmic Cookies. The same one-to-one rule applies to God’s Gift, Wedding Cake, and White Walker in both square and portrait placements.",
         [
           { text: "Use the " },
           { text: "complete official Rose Gold collection" },
-          { text: " as the definitive catalog source for product details. The Oklahoma page remains accurate because its destination and product roster match that canonical structure." },
+          { text: " as the definitive catalog source for product details. The Oklahoma page remains accurate because its product roster matches that canonical structure." },
         ],
       ],
     },
@@ -727,7 +702,7 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format.",
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: five named products, refined presentation, honest imagery status, and direct canonical links.",
+        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: five named products, refined presentation, and honest imagery status.",
       ],
     },
   ],
@@ -758,9 +733,9 @@ const findPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         [
-          { text: "Open the " },
-          { text: "official Presidential Oklahoma locator" },
-          { text: " to see the current participating retail field. That exact state path is the dependable route. A `?zip=` query is not used because the main site drops it, and this guide does not publish a fragile shortcut that appears more precise than it really is." },
+          { text: "Use the " },
+          { text: "locator above" },
+          { text: " to see the current participating retail field." },
         ],
         "The locator is intentionally the main action. It keeps changing retailer participation in the system designed to hold it and avoids creating a stale duplicate directory on another domain. A static address list could remain online after a store stops carrying the brand, changes status, or moves through an inventory cycle.",
         "Once the locator identifies relevant doors, contact the licensed dispensary before traveling when a specific item matters. Ask for Presidential, the exact product name, the series when relevant, and the intended format. A store that carries the brand may not carry every product, size, pack, or format on the same day.",
@@ -785,7 +760,7 @@ const findPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "A productive inventory check names more than the brand. Moon Rocks, blunts, pre-rolls, and minis are different formats. Silver, Gold, and Rose Gold are different series. Blue Raspberry, Presidential OG, Cereal Milk, and the other names are individual product identities. Combining those details gives the store something exact to verify.",
-        "Every product image on this site helps with that step. It links to the matching official product record and uses unique alt text describing the artwork. The image does not open a competing store or an Oklahoma duplicate listing. It takes the visitor to the main Presidential site, where the product remains canonical.",
+        "Every product image on this site helps with that step. It uses unique alt text describing the artwork.",
         "Availability can still change after a product has been identified. Licensed retailers choose their own wholesale mix and replenish on their own schedules. A quick call close to the visit is the practical final check, especially when a particular series, format, or pack is the goal.",
       ],
     },
@@ -797,7 +772,7 @@ const findPage: PageContent = {
         "Presidential does not sell directly through this site. Oklahoma purchases take place through OMMA-licensed dispensaries and require an active Oklahoma patient or visitor license. An out-of-state medical card by itself is not accepted as the dispensary credential; eligible visitors use OMMA’s 30-day visitor-license process.",
         [
           { text: "Return to the " },
-          { text: "Oklahoma locator on the official Presidential site" },
+          { text: "Oklahoma locator" },
           { text: " whenever you are ready to move from product research to participating retail. The page is intentionally prominent, direct, and free of copied addresses." },
         ],
         "The Cannabis in Oklahoma guide covers the license, visitor route, possession and cultivation allowances, market history, tracking, and excise tax together. Here the operating rule stays simple: use the official locator, choose a licensed retailer, confirm the exact product, and purchase only with the proper active credential.",
@@ -837,7 +812,7 @@ const retailersPage: PageContent = {
         [
           { text: "The " },
           { text: "official Presidential brand site" },
-          { text: " is the canonical destination behind that recognition. Oklahoma product images link directly to exact records, allowing staff and patients to move from package art to the named item without a competing third-party catalog in between." },
+          { text: " is the canonical destination behind that recognition." },
         ],
       ],
     },
@@ -882,11 +857,7 @@ const retailersPage: PageContent = {
         "Oklahoma’s moratorium on new grower, processor, and dispensary licenses changes the competitive context for existing shops. HB 2095 extended the moratorium in 2023, and HB 3143 extended its endpoint again in 2026. Current licensees can renew, while transfer activity requires OMMA approval and now carries additional restrictions.",
         "The practical retail result is a mature field in which existing licensed dispensaries compete hard for many of the same patients. A buyer cannot rely on a steady stream of new storefront novelty to create distinction. Assortment, staff familiarity, package visibility, responsible promotion, and dependable wholesale relationships carry more of the work.",
         "Presidential offers a catalog structured for licensed-retail selection. Moon Rocks, blunts, pre-rolls, and minis create physical variety, while the named collections organize visual and product identity. Participating Oklahoma retailers can carry focused assortments without implying that every store holds the same products.",
-        [
-          { text: "Review the " },
-          { text: "full official Presidential catalog" },
-          { text: " to see the current products behind the proposition. A commercial conversation can follow through the appropriate wholesale channel; this public page stays where it should—clear about the brand, honest about the market, and silent on unverified deal economics." },
-        ],
+        "A commercial conversation can follow through the appropriate wholesale channel; this public page stays where it should—clear about the brand, honest about the market, and silent on unverified deal economics.",
       ],
     },
   ],
@@ -1042,7 +1013,7 @@ const aboutPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "The current catalog contains 47 products across six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
-        "Moon Rocks, blunts, pre-rolls, and minis give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate, while unique linked artwork sends every featured package to its matching official product record.",
+        "Moon Rocks, blunts, pre-rolls, and minis give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate.",
         "The catalog is broad without becoming anonymous. Fruit names, strain names, character-led products, core house formats, and a cultivation collaboration all have a defined place. That architecture lets Presidential add range while keeping one crest and one official source visible across every choice.",
       ],
     },
@@ -1053,11 +1024,7 @@ const aboutPage: PageContent = {
       paragraphs: [
         "Presidential sells wholesale through licensed retailers. Individual Oklahoma stores choose their own assortment, so current availability is confirmed through the official Oklahoma locator and the licensed retailer rather than a fixed door-count claim.",
         "This site does not sell product, publish a copied retailer address table, or impersonate a neutral review outlet. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
-        [
-          { text: "Explore the " },
-          { text: "complete official Presidential catalog" },
-          { text: " for the canonical product collection. This Oklahoma property remains focused: original in its writing, official in its identity, product-first in its design, and connected to lawful licensed retail rather than direct online sale." },
-        ],
+        "This Oklahoma property remains focused: original in its writing, official in its identity, product-first in its design, and connected to lawful licensed retail rather than direct online sale.",
       ],
     },
   ],
