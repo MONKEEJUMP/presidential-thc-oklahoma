@@ -4,7 +4,8 @@ import Link from "next/link";
 
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
-import { absoluteUrl, SITE_NAME } from "@/lib/site";
+import { schemaEntitiesFor } from "@/content/schema-entities";
+import { absoluteUrl, escapeJsonLd, SITE_NAME } from "@/lib/site";
 
 import {
   HUB_COPY,
@@ -115,6 +116,20 @@ export default function DispensariesPage() {
           </div>
         </div>
       </main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: escapeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "@id": absoluteUrl("/dispensaries"),
+            url: absoluteUrl("/dispensaries"),
+            name: PAGE_TITLE,
+            description: PAGE_DESCRIPTION,
+            ...schemaEntitiesFor("/dispensaries"),
+          }),
+        }}
+      />
       <SiteFooter />
     </>
   );

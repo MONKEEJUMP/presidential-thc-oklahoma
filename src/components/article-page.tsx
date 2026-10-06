@@ -5,6 +5,7 @@ import { Fragment, Suspense } from "react";
 import { FindUsNationwideVideo } from "@/components/presidential/media/find-us-nationwide-video";
 import { STATE } from "@/config/state";
 import { pageCatalogHeadings } from "@/content/assets";
+import { schemaEntitiesFor } from "@/content/schema-entities";
 import type { ContentImage, ContentParagraph, PageContent } from "@/content/types";
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
 
@@ -233,9 +234,11 @@ function StructuredData({ page, images }: { page: PageContent; images: ContentIm
   graph.unshift({
     "@type": "WebPage",
     "@id": absoluteUrl(page.path),
+    url: absoluteUrl(page.path),
     name: page.title,
     description: page.description,
     primaryImageOfPage: imageUrl(images[0]),
+    ...schemaEntitiesFor(page.path),
   });
 
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd({ "@context": "https://schema.org", "@graph": graph }) }} />;
