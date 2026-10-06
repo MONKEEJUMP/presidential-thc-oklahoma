@@ -348,6 +348,16 @@ const preRollsPage: PageContent = {
   ],
   sections: [
     {
+      id: "what-is-a-presidential-pre-roll",
+      heading: "What is a Presidential pre-roll?",
+      imageCount: 0,
+      paragraphs: [
+        "A Presidential pre-roll is an infused roll in paper: the brand’s flower, concentrate, and kief language carried into a ready rolled format. It is one of four Presidential formats in Oklahoma, beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis, and the paper is what separates it from a blunt on the shelf.",
+        "Every package names the product, its series, and the count or size. Silver pre-rolls carry fruit-forward flavor names such as Watermelon and Blue Raspberry, Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and the Presidential Line and House Line add brand-first identities. Singles, multipacks, and mini packs keep the same paper format at different scales.",
+        "Presidential pre-rolls are sold through licensed Oklahoma dispensaries, not online. Ask the store for Presidential, the product name, and the pre-roll format, and treat the package and the retailer’s current inventory as the record of what is on the shelf.",
+      ],
+    },
+    {
       id: "infused-pre-rolls",
       heading: "The infused pre-roll format",
       imageCount: 2,
@@ -431,7 +441,11 @@ const minisPage: PageContent = {
   description: "Explore compact Presidential mini blunts and mini pre-rolls, official product identities, package systems, and Oklahoma retail availability.",
   intro: [
     "Presidential Minis bring two rolled formats into a compact scale: tobacco-free hemp-wrap mini blunts and paper mini pre-rolls. Size is the organizing idea. The products remain tied to their official names, series, and wrap categories while smaller pieces and multipack structures create a distinct shelf proposition.",
-    "The format works because it stays easy to read. A mini blunt is still identified by its hemp wrap; a mini pre-roll remains a paper format. Presidential artwork, count information, and package shape then help an Oklahoma patient or dispensary buyer tell the two compact families apart.",
+    [
+      { text: "The format works because it stays easy to read. A mini blunt is still identified by its hemp wrap; a mini pre-roll remains a paper format. Presidential artwork, count information, and package shape then help an Oklahoma patient or " },
+      { text: "dispensary buyer", href: "/dispensaries" },
+      { text: " tell the two compact families apart." },
+    ],
   ],
   sections: [
     {
@@ -853,7 +867,11 @@ const retailersPage: PageContent = {
   title: "Carrying Presidential in Oklahoma | For Licensed Retailers",
   description: "A product-first wholesale overview for Oklahoma dispensary owners and buyers considering Presidential formats, series, and in-store support.",
   intro: [
-    "This page is for Oklahoma dispensary owners and buyers. Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, four clear formats, six coordinated groupings, and package art built to hold attention across a shelf.",
+    [
+      { text: "This page is for Oklahoma " },
+      { text: "dispensary owners and buyers", href: "/dispensaries" },
+      { text: ". Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, four clear formats, six coordinated groupings, and package art built to hold attention across a shelf." },
+    ],
     [
       { text: "No pricing, margin figure, term, or guaranteed sell-through claim appears here because those details have not been supplied or verified. The useful conversation is the brand proposition: " },
       { text: "what Presidential is", href: "/about" },
