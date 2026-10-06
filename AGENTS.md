@@ -6,14 +6,14 @@
 
 - Name: Presidential THC Oklahoma
 - Canonical source: GitHub `MONKEEJUMP/presidential-thc-oklahoma` (`main`), local clone `C:\Users\DJ PAULIEWOOD\presidential-thc-oklahoma-gh`. `J:\presidential-thc-oklahoma` is stale.
-- Product mission: Publish the official Presidential property for Oklahoma and direct licensed patients to `presidentialmoonrocks.com`.
+- Product mission: Publish the official Presidential property for Oklahoma and direct licensed patients to Oklahoma retailers via the site's own locator.
 - Current phase: Build and deploy the twelve-page product-first launch site defined by brief 6142.
 
 ## Non-Negotiables
 
 - Work only in the GitHub clone above. The J-drive folder is stale and is not a working home.
 - The property is official and pro-Presidential, never neutral or publication-like.
-- Keep product packaging visible throughout; every product image links to its matching product detail page on the main site.
+- Keep product packaging visible throughout. Product images are not linked to other domains, and cross-domain links to the sister Presidential sites are forbidden.
 - Do not build a locator, publish retailer addresses, add a CMS, age gate, video, news feed, dropdown, parallax, scroll animation, or smooth scrolling.
 - Do not make medical, effects, or unsupported potency claims.
 - Do not invent facts, dates, figures, sources, social URLs, or current patient/dispensary counts.
