@@ -1,15 +1,17 @@
 # Presidential THC Oklahoma
 
+> **WARNING: deploy from GitHub `main` only.** Source of truth: MONKEEJUMP/presidential-thc-oklahoma, worked from `C:\Users\DJ PAULIEWOOD\presidential-thc-oklahoma-gh`. Vercel project `presidential-thc-oklahoma` is Git-connected: open a PR, merge it to `main`, and Vercel auto-deploys. `J:\presidential-thc-oklahoma` is STALE (frozen at 7a721f9 on 2026-10-06) and must NEVER be used for `vercel --prod`; deploying from it would overwrite live with old code.
+
 ## Project Identity
 
 - Name: Presidential THC Oklahoma
-- Canonical root: `J:\presidential-thc-oklahoma`
+- Canonical source: GitHub `MONKEEJUMP/presidential-thc-oklahoma` (`main`), local clone `C:\Users\DJ PAULIEWOOD\presidential-thc-oklahoma-gh`. `J:\presidential-thc-oklahoma` is stale.
 - Product mission: Publish the official Presidential property for Oklahoma and direct licensed patients to `presidentialmoonrocks.com`.
 - Current phase: Build and deploy the twelve-page product-first launch site defined by brief 6142.
 
 ## Non-Negotiables
 
-- This J-drive folder is the only forward working home.
+- Work only in the GitHub clone above. The J-drive folder is stale and is not a working home.
 - The property is official and pro-Presidential, never neutral or publication-like.
 - Keep product packaging visible throughout; every product image links to its matching product detail page on the main site.
 - Do not build a locator, publish retailer addresses, add a CMS, age gate, video, news feed, dropdown, parallax, scroll animation, or smooth scrolling.
@@ -33,7 +35,7 @@
 - Prepare approved media: `npm run assets`
 - Develop: `npm run dev`
 - Production build: `npm run build`
-- Deploy: `vercel --prod`
+- Deploy: GitHub `main` only. Open a PR, merge it, and Vercel auto-deploys. Never run `vercel --prod`, and never deploy from `J:\presidential-thc-oklahoma`.
 
 ## Verification Exception
 
