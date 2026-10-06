@@ -368,12 +368,25 @@ const preRollsPage: PageContent = {
           { text: "tobacco-free hemp wrap", href: "/blunts" },
           { text: ". That difference shapes the roll, package silhouette, and merchandising category. It also gives a visitor an easy first filter: choose the paper pre-roll family here, or move to the blunt page when the hemp-wrapped format is the intended destination." },
         ],
-        "The infused construction connects pre-rolls to the flagship Moon Rocks idea without pretending the physical formats are identical. Moon Rocks present the layers in their original form. Pre-rolls organize material into a ready rolled format. Shared product identities and brand artwork create continuity between them.",
+        [
+          { text: "The infused construction connects pre-rolls to the flagship Moon Rocks idea without pretending the physical formats are identical. Moon Rocks present the layers in their original form. Pre-rolls organize material into a ready rolled format. Shared product identities and " },
+          { text: "brand artwork", href: "/about" },
+          { text: " create continuity between them." },
+        ],
         [
           { text: "The " },
           { text: "official Presidential Pre-Rolls collection" },
           { text: " carries the canonical records for this format." },
         ],
+      ],
+    },
+    {
+      id: "pre-roll-or-blunt-wrap",
+      heading: "Paper pre-roll or blunt wrap: what changes?",
+      imageCount: 0,
+      paragraphs: [
+        "The material around the roll. A Presidential pre-roll uses rolling paper, while a Presidential blunt uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and finished with kief.",
+        "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On Presidential cannabis products, the package names the format, series, and product, so read that line first when comparing a pre-roll with a blunt.",
       ],
     },
     {
@@ -470,7 +483,11 @@ const minisPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Mini blunts use a tobacco-free hemp wrap at a smaller scale than the full-size blunt. The wrap is the category-defining exterior, while the multipiece package gives the mini presentation its own visual rhythm. Approved Presidential art makes that construction recognizable without rendering alt text as a caption or covering the product with editorial labels.",
-        "Silver fruit identities are particularly visible in mini blunt artwork because bold color and direct names can organize a set quickly. Gold strain identities add another layer of variety. House Line and individual Presidential identities keep the mini blunt category connected to the wider brand rather than isolating it as a novelty.",
+        [
+          { text: "Silver fruit identities are particularly visible in mini blunt artwork because bold color and direct names can organize a set quickly. Gold strain identities add another layer of variety. House Line and individual Presidential identities keep the mini blunt category connected to the " },
+          { text: "wider brand", href: "/about" },
+          { text: " rather than isolating it as a novelty." },
+        ],
         [
           { text: "The " },
           { text: "official Presidential Blunts collection" },
@@ -498,7 +515,11 @@ const minisPage: PageContent = {
       paragraphs: [
         "Smaller products do not require smaller branding. Presidential mini packages still need room for the crest, exact product name, format, series cues, and package facts. The strongest designs keep that hierarchy legible while allowing vivid illustration and color to do the attention work.",
         "Multipack organization also becomes part of the shelf signal. A buyer can recognize a compact group without opening the package, and a patient can distinguish it from a single full-size presentation. That makes the exterior more than decoration: it is the practical interface between catalog, shelf, and official product record.",
-        "On this site, every mini image sits in the same champagne ornamental frame used across the product guide. The frame belongs to the Oklahoma design system; the art inside remains unique to one page. No image source is reused elsewhere.",
+        [
+          { text: "On this site, every mini image sits in the same champagne ornamental frame used across the " },
+          { text: "product guide", href: "/" },
+          { text: ". The frame belongs to the Oklahoma design system; the art inside remains unique to one page. No image source is reused elsewhere." },
+        ],
         "The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place.",
       ],
     },
@@ -541,7 +562,11 @@ const silverPage: PageContent = {
         "Silver begins with names people can recognize immediately. No decoding is required to understand the visual territory of Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, or Watermelon. Each identity creates its own palette and illustration opportunities while the Silver label and Presidential crest keep the group connected.",
         "That balance is what makes the series stronger than seven unrelated packages. Fruit identity gives every product a distinct face. Shared hierarchy tells a patient or buyer that the faces belong together. On a shelf, the result can read as a vibrant block from a distance and as seven individual choices at closer range.",
         "The series position should remain concrete. ‘Flavor-first’ and ‘fruit-forward’ describe naming, artwork, and catalog organization. They do not promise a particular experience or replace the official package record. This site avoids medical language and lets the product page carry the exact identity.",
-        "Silver’s direct naming also helps across formats. A patient who first notices Watermelon on Moon Rocks can recognize the same identity when approved artwork appears on a pre-roll or mini package. The fruit name becomes the stable thread, while the format page explains what physically changes around it. That is practical brand continuity, not a claim that every presentation is interchangeable.",
+        [
+          { text: "Silver’s direct naming also helps across formats. A patient who first notices Watermelon on Moon Rocks can recognize the same identity when approved artwork appears on a pre-roll or mini package. The fruit name becomes the stable thread, while the format page explains what physically changes around it. That is practical " },
+          { text: "brand continuity", href: "/about" },
+          { text: ", not a claim that every presentation is interchangeable." },
+        ],
         [
           { text: "The " },
           { text: "official Silver Flavor Series hub" },
@@ -624,7 +649,11 @@ const goldPage: PageContent = {
       paragraphs: [
         "Gold leads with strain identity rather than fruit-series identity. That distinction gives the product name the first word and lets illustration build a visual world around it. ‘Cannabis-first’ describes how the catalog is organized; ‘balanced’ describes the relationship between individuality and shared series structure, not a promised personal outcome.",
         "Nineteen products could easily become visually noisy. Gold avoids that by repeating a clear hierarchy: Presidential crest, Gold series cue, exact product name, format information, and a strong illustration. The art changes enough to reward browsing while the frame around it tells a buyer that the products can merchandise together.",
-        "The series can support both a small curated order and a deeper shelf. A retailer can choose recognized strain names, build around local demand, or create a broad Gold block. The site does not claim pricing, margins, or deal terms. The proposition is visible in the catalog depth and package consistency themselves.",
+        [
+          { text: "The series can support both a small curated order and a deeper shelf. A " },
+          { text: "retailer", href: "/retailers" },
+          { text: " can choose recognized strain names, build around local demand, or create a broad Gold block. The site does not claim pricing, margins, or deal terms. The proposition is visible in the catalog depth and package consistency themselves." },
+        ],
         "Depth also rewards return browsing. A Gold customer can recognize the shared series before learning every illustration, and a staff member can introduce another official name without leaving the visual system the patient already understands. The collection feels expansive because it contains real variety, yet orderly because each package still answers the same brand, series, product, and format questions.",
         [
           { text: "The " },
@@ -739,7 +768,11 @@ const roseGoldPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "A connoisseur series can communicate care through product selection and presentation without predicting an outcome for the patient. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language. The copy stops there rather than making potency, health, or experience claims that the official record does not support.",
-        "That discipline keeps the series premium and credible at the same time. A dispensary buyer can understand the shelf position. A patient can recognize the five-product family. The official product page remains available for exact item context, and the licensed retailer remains the source for current Oklahoma inventory.",
+        [
+          { text: "That discipline keeps the series premium and credible at the same time. A " },
+          { text: "dispensary buyer", href: "/retailers" },
+          { text: " can understand the shelf position. A patient can recognize the five-product family. The official product page remains available for exact item context, and the licensed retailer remains the source for current Oklahoma inventory." },
+        ],
         "The result is a useful distinction from the other color series. Rose Gold does not need Silver’s fruit-led immediacy or Gold’s catalog depth. Its role is curation: five identities, one refined visual world, and a clear craft-centered position within the larger Presidential collection.",
       ],
     },
