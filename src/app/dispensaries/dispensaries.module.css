@@ -1,0 +1,323 @@
+.hero,
+.pageShell {
+  width: min(calc(100% - 2rem), var(--content));
+  margin-inline: auto;
+}
+
+.hero {
+  padding-block: clamp(4rem, 10vw, 8rem) clamp(3rem, 7vw, 5rem);
+}
+
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+  margin-bottom: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--paper-muted);
+  font-family: var(--display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+}
+
+.hero h1 {
+  max-width: 14ch;
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(3.25rem, 9vw, 8.75rem);
+  font-weight: 600;
+  letter-spacing: -0.055em;
+  line-height: 0.86;
+  text-transform: uppercase;
+}
+
+.pageShell {
+  padding-bottom: clamp(5rem, 12vw, 10rem);
+}
+
+.intro {
+  max-width: 56rem;
+  font-size: clamp(1.15rem, 1.05rem + 0.35vw, 1.4rem);
+}
+
+.intro p,
+.regionCopy p,
+.closingCopy p {
+  margin-block: 0 1.3em;
+}
+
+.intro strong,
+.regionCopy strong {
+  color: var(--paper);
+}
+
+.sourcingLine {
+  max-width: 56rem;
+  margin: clamp(2rem, 5vw, 3rem) 0 0;
+  color: var(--paper-muted);
+  font-size: 0.95rem;
+}
+
+.sourcingLine a {
+  font-weight: 600;
+}
+
+.jumpLinks {
+  max-width: 70rem;
+  margin-block: clamp(4rem, 10vw, 8rem);
+  border-top: 3px solid transparent;
+  border-image: var(--champagne) 1;
+}
+
+.jumpLinks > p {
+  margin: 1.15rem 0 0.5rem;
+  color: var(--teal);
+  font-family: var(--display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.jumpLinks ul {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jumpLinks li {
+  border-bottom: 1px solid rgba(212, 185, 106, 0.32);
+}
+
+.jumpLinks a {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-block: 0.95rem;
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.jumpLinks a:hover {
+  color: var(--gold-light);
+}
+
+.jumpLinks strong {
+  color: var(--teal);
+  font-size: 0.85em;
+  font-variant-numeric: tabular-nums;
+}
+
+.regionStack {
+  border-top: 3px solid transparent;
+  border-image: var(--champagne) 1;
+}
+
+.regionSection {
+  padding-block: clamp(4rem, 10vw, 8rem);
+  border-bottom: 1px solid rgba(212, 185, 106, 0.3);
+  scroll-margin-top: 7rem;
+}
+
+.regionHeader {
+  margin-bottom: clamp(2rem, 5vw, 3.5rem);
+}
+
+.regionHeader p {
+  margin: 0 0 0.55rem;
+  color: var(--teal);
+  font-family: var(--display);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.regionHeader h2,
+.closingCopy h2 {
+  max-width: 16ch;
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2.75rem, 7vw, 6.5rem);
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
+.regionImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: clamp(2.5rem, 7vw, 5rem);
+  object-fit: cover;
+}
+
+.regionCopy {
+  max-width: 68ch;
+}
+
+.regionCount {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: baseline;
+  margin: clamp(3rem, 7vw, 5rem) 0 clamp(2rem, 5vw, 3.5rem);
+  color: var(--teal);
+  font-family: var(--display);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.regionCount strong {
+  color: var(--paper);
+  font-size: clamp(3.75rem, 8vw, 7rem);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.06em;
+  line-height: 0.8;
+}
+
+.cityDirectory {
+  display: grid;
+  gap: clamp(2rem, 5vw, 3.5rem);
+}
+
+.cityGroup {
+  min-width: 0;
+}
+
+.cityGroup h3,
+.unresolvedRetailers > h3 {
+  margin: 0 0 0.7rem;
+  color: var(--teal);
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.cityGroup ul {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(88, 195, 182, 0.38);
+  list-style: none;
+}
+
+.cityGroup li {
+  padding-block: 1rem;
+  border-bottom: 1px solid rgba(255, 253, 244, 0.14);
+}
+
+.cityGroup h4 {
+  margin: 0;
+  color: var(--paper);
+  font-family: var(--display);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.addressLink {
+  display: block;
+  width: fit-content;
+  color: var(--paper-muted);
+  text-decoration-color: rgba(88, 195, 182, 0.72);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.addressLink:hover {
+  color: var(--gold-light);
+}
+
+.addressLink:focus-visible {
+  border-radius: 0.15rem;
+  outline: 2px solid var(--teal);
+  outline-offset: 0.25rem;
+}
+
+.addressLink address {
+  margin-top: 0.32rem;
+  color: inherit;
+  font-size: 0.95rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+.addressLink address span {
+  display: block;
+}
+
+.elsewhereSection .regionCopy {
+  max-width: 60ch;
+}
+
+.closingBlock {
+  padding-top: clamp(5rem, 12vw, 10rem);
+  scroll-margin-top: 7rem;
+}
+
+.closingCopy {
+  max-width: 60rem;
+}
+
+.closingCopy h2 {
+  margin-bottom: clamp(2rem, 5vw, 3rem);
+}
+
+.unresolvedRetailers {
+  margin-top: clamp(3rem, 7vw, 5rem);
+  padding-top: 2rem;
+  border-top: 1px solid rgba(212, 185, 106, 0.35);
+}
+
+.locator {
+  margin-top: clamp(3rem, 8vw, 6rem);
+  padding-top: clamp(3rem, 7vw, 5rem);
+  border-top: 3px solid transparent;
+  border-image: var(--champagne) 1;
+}
+
+@media (min-width: 40rem) {
+  .jumpLinks ul,
+  .cityDirectory {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: clamp(2rem, 5vw, 4rem);
+  }
+}
+
+@media (min-width: 64rem) {
+  .cityDirectory {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .regionCopy {
+    columns: 2;
+    column-gap: clamp(3rem, 6vw, 5rem);
+    max-width: none;
+  }
+
+  .regionCopy p {
+    break-inside: avoid;
+  }
+
+  .elsewhereSection .regionCopy {
+    columns: 1;
+  }
+}
