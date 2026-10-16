@@ -283,6 +283,23 @@ const moonRocksPage: PageContent = {
           { text: " to shape different assortments while patients retain a consistent visual system for recognizing the brand." },
         ],
       ],
+      subsections: [
+        {
+          id: "moon-rocks-other-formats",
+          heading: "Do Moon Rocks names come in other Presidential formats?",
+          paragraphs: [
+            [
+              { text: "Yes. A Presidential identity can travel across Moon Rocks, " },
+              { text: "infused pre-rolls", href: "/pre-rolls" },
+              { text: ", " },
+              { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
+              { text: ", and compact " },
+              { text: "minis", href: "/minis" },
+              { text: ". The physical package changes with the format, but the product name, series cue, and core artwork preserve recognition. Moon Rocks remain the flagship construction: flower, concentrate, and kief." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "package-recognition",
@@ -683,6 +700,23 @@ const silverPage: PageContent = {
         "Pineapple brings a sharp golden fruit signal. Strawberry provides an unmistakable red identity. Tropical gives the artwork room to communicate a blended, expansive fruit world without inventing a product beyond the official name. Watermelon completes the roster with strong green and pink cues.",
         "Those are all seven names shown by the current official sitemap under the Silver series. Nothing is added, renamed, or pulled from a filename guess. The visible complete-series roster below lists Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon.",
         "The page uses eight images because the brief calls for a product-heavy eight-to-ten-image series presentation. Seven products receive a representative place in the art set, and one official Silver identity appears in a second unique format treatment. The second image is a different source file, not a reused duplicate.",
+      ],
+      subsections: [
+        {
+          id: "silver-vs-gold-rose-gold",
+          heading: "How is Silver different from Gold and Rose Gold?",
+          paragraphs: [
+            [
+              { text: "Silver is the flavor-first series: seven fruit-forward identities from Blue Raspberry to Watermelon. The " },
+              { text: "Gold Strain Series", href: "/gold" },
+              { text: " organizes nineteen cannabis-first strain identities, and the " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: " adds five refined, solventless craft identities. The crest and series label keep every package connected to the same official Presidential family, including " },
+              { text: "Presidential Moon Rocks", href: "/moon-rocks" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
