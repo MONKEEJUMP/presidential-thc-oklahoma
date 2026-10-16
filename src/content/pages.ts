@@ -339,6 +339,21 @@ const moonRocksPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "how-do-silver-gold-and-rose-gold-moon-rocks-diff",
+          heading: "How do Silver, Gold, and Rose Gold Moon Rocks differ?",
+          paragraphs: [
+            [
+              { text: "Silver is the flavor-first series, with fruit-forward names from Blue Raspberry to Watermelon. Gold leads with strain identity, so a name such as Presidential OG or King Louis comes first on the pack. Rose Gold is the smaller connoisseur series, set apart by restrained design and solventless craft language. The three-layer construction is the same in all three. Keep reading with " },
+              { text: "Silver Flavor Series names", href: "/silver" },
+              { text: ", " },
+              { text: "Gold Strain Series names", href: "/gold" },
+              { text: ", or " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
