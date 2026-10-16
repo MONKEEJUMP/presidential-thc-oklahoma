@@ -119,6 +119,11 @@ export default function DispensariesPage() {
             <div className={styles.closingCopy}>
               <h2 id="dispensary-products-heading">Which Presidential products do these dispensaries carry?</h2>
               <p>
+                Presidential is a brand, not a dispensary itself: it reaches patients through licensed Oklahoma
+                dispensaries, and the <Link href="/retailers">For Oklahoma retailers</Link> page explains how stores
+                carry it.
+              </p>
+              <p>
                 Presidential is a wholesale brand, and these licensed dispensaries stock it in four formats:{" "}
                 <Link href="/moon-rocks">Moon Rocks</Link>, the flagship three-layer build of flower, cannabis
                 concentrate, and kief; <Link href="/pre-rolls">infused pre-rolls</Link> in paper; tobacco-free
