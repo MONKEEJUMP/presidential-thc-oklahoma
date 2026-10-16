@@ -72,6 +72,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
+// One contextual link per region page: the first "licensed retailers" goes to the retailer page.
+function linkedRegionCopy(copy: string) {
+  const anchor = "licensed retailers";
+  const at = copy.indexOf(anchor);
+  if (at < 0) return copy;
+  return (
+    <>
+      {copy.slice(0, at)}
+      <Link href="/retailers">{anchor}</Link>
+      {copy.slice(at + anchor.length)}
+    </>
+  );
+}
+
 export default async function DispensaryRegionPage({ params }: PageProps) {
   const { region: slug } = await params;
   const region = regionForSlug(slug);
@@ -107,7 +121,7 @@ export default async function DispensaryRegionPage({ params }: PageProps) {
               width={1280}
             />
             <div className={styles.regionCopy}>
-              <p>{region.copy}</p>
+              <p>{linkedRegionCopy(region.copy)}</p>
             </div>
             <RegionCount count={retailers.length} />
             <RetailerDirectory retailers={retailers} />
