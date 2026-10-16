@@ -225,6 +225,19 @@ const moonRocksPage: PageContent = {
           { text: " is the canonical destination for the flagship format." },
         ],
       ],
+      subsections: [
+        {
+          id: "official-oklahoma-moon-rocks-guide",
+          heading: "Is this the official Presidential Moon Rocks guide for Oklahoma?",
+          paragraphs: [
+            [
+              { text: "Yes. Presidential THC Oklahoma is the official state property for the original Presidential brand, and Presidential appears through participating licensed Oklahoma retailers. Read " },
+              { text: "About Presidential", href: "/about" },
+              { text: " for the brand behind this guide." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "three-layer-construction",
@@ -236,14 +249,32 @@ const moonRocksPage: PageContent = {
         "The series should not be confused with a public extract chart. This Oklahoma property does not explain which extract sits behind each collection, because another official property owns that technical subject. Here the useful questions are simpler: Which product is this? Which series does its official record place it in? Which package should an Oklahoma patient recognize at licensed retail?",
         "Keeping the explanation at that level also keeps the page honest. Materials and package identity can be stated directly. Effects vary by person and are not promised. Product details belong to the official record, current local availability belongs to the retailer, and Oklahoma medical-program rules belong together on the dedicated state page.",
       ],
+      subsections: [
+        {
+          id: "what-is-presidential-thc-flower",
+          heading: "What is Presidential THC flower?",
+          paragraphs: [
+            "Presidential THC flower is the Moon Rocks format. Flower is selected as the physical core, concentrate is applied so it stays with that core, and kief provides the final exterior. The package identifies the exact product and series.",
+          ],
+        },
+      ],
     },
     {
       id: "moon-rock-names",
       heading: "Which names come as Moon Rocks",
       imageCount: 1,
       paragraphs: [
-        "The official catalog gives Moon Rocks a broad field of names. Silver includes Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Gold reaches from 24K, Blue Dream, and Cap Junky through Presidential OG, Rainbow Belts, Skywalker, Waui, XJ-13, and XXX, with many more strain identities between them.",
-        "Rose Gold contributes Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. The Presidential Line adds character-led names including Apricotti, Daniel Larusso, Garlic Cookies, Ghost Haze Train, Guava Haze, Head Cheese, Iced Lemon, Laura Charles, Nino Brown, and Whoa Si Whoa.",
+        [
+          { text: "The official catalog gives Moon Rocks a broad field of names. " },
+          { text: "Silver", href: "/silver" },
+          { text: " includes Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. " },
+          { text: "Gold", href: "/gold" },
+          { text: " reaches from 24K, Blue Dream, and Cap Junky through Presidential OG, Rainbow Belts, Skywalker, Waui, XJ-13, and XXX, with many more strain identities between them." },
+        ],
+        [
+          { text: "Rose Gold", href: "/rose-gold" },
+          { text: " contributes Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. The Presidential Line adds character-led names including Apricotti, Daniel Larusso, Garlic Cookies, Ghost Haze Train, Guava Haze, Head Cheese, Iced Lemon, Laura Charles, Nino Brown, and Whoa Si Whoa." },
+        ],
         [
           { text: "House Line Moon Rocks state the core product directly, while Presidential x THC Design makes the collaboration visible. That breadth does not mean every name is guaranteed at every Oklahoma dispensary. It means the canonical catalog has enough range for " },
           { text: "licensed retailers", href: "/retailers" },
