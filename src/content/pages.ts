@@ -605,6 +605,23 @@ const preRollsPage: PageContent = {
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
         "The Oklahoma site remains focused on what local patients and retailers need most: format recognition and honest availability language.",
       ],
+      subsections: [
+        {
+          id: "how-do-you-read-a-pre-roll-package",
+          heading: "How do you read a pre-roll package?",
+          paragraphs: [
+            [
+              { text: "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. The package and canonical product record identify how flower, concentrate, and kief appear in that specific item. Read the crest, the exact product name, the series, and the size: a single emphasizes one roll, while a multipack organizes several pieces under one name. Keep reading with " },
+              { text: "Presidential retailer guide", href: "/retailers" },
+              { text: ", " },
+              { text: "find a participating dispensary", href: "/find" },
+              { text: ", or " },
+              { text: "about the Presidential brand", href: "/about" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "pre-rolls-in-oklahoma",
@@ -1567,6 +1584,23 @@ const aboutPage: PageContent = {
       imageCount: 0,
       paragraphs: [
         "The Presidential logo is the crest. It appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, where it connects each named product to the same official brand.",
+      ],
+      subsections: [
+        {
+          id: "where-does-the-crest-appear",
+          heading: "Where does the crest appear?",
+          paragraphs: [
+            [
+              { text: "The crest appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, connecting each named product to the same official brand. That shared mark makes the three-layer construction that began in Los Angeles in 2012 recognizable in every format: flower carried through with cannabis concentrate and finished in kief. Series and product names then sit beneath the crest to identify the exact release. Keep reading with " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "tobacco-free blunt formats", href: "/blunts" },
+              { text: ", or " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
