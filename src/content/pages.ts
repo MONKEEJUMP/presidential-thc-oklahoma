@@ -514,6 +514,23 @@ const preRollsPage: PageContent = {
         "Minis receive their own site page because compact pre-rolls share useful comparisons with mini blunts. The current page keeps the complete pre-roll family together, from larger single presentations through smaller multipacks, so paper-rolled options remain easy to understand as one format.",
         "That breadth also gives stores a way to build progression within one recognizable category. A focused order might begin with a small number of strong names in one pack style, then expand into additional sizes or series as local demand becomes clear. The catalog offers room to grow without demanding that every shelf begin at maximum depth.",
       ],
+      subsections: [
+        {
+          id: "series-as-pre-rolls",
+          heading: "Which series appear as pre-rolls?",
+          paragraphs: [
+            [
+              { text: "Presidential pre-roll artwork spans fruit-forward " },
+              { text: "Silver", href: "/silver" },
+              { text: " names, " },
+              { text: "Gold", href: "/gold" },
+              { text: " names drawn from cannabis strains, Presidential Line identities, the House Line, and the THC Design collaboration. A " },
+              { text: "mini", href: "/minis" },
+              { text: " pack reduces the scale while keeping the paper format." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "pre-roll-names",
@@ -1415,6 +1432,30 @@ const aboutPage: PageContent = {
           { text: " give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate." },
         ],
         "The catalog is broad without becoming anonymous. Fruit names, strain names, character-led products, core house formats, and a cultivation collaboration all have a defined place. That architecture lets Presidential add range while keeping one crest and one official source visible across every choice.",
+      ],
+      subsections: [
+        {
+          id: "six-groupings",
+          heading: "How are the six groupings organized?",
+          paragraphs: [
+            [
+              { text: "Silver", href: "/silver" },
+              { text: " has seven fruit-forward identities, " },
+              { text: "Gold", href: "/gold" },
+              { text: " has nineteen strain-led identities, and " },
+              { text: "Rose Gold", href: "/rose-gold" },
+              { text: " has five connoisseur identities. The Presidential Line, House Line, and Presidential x THC Design complete the 47-product catalog, available as " },
+              { text: "Moon Rocks", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "blunts", href: "/blunts" },
+              { text: ", " },
+              { text: "pre-rolls", href: "/pre-rolls" },
+              { text: ", and " },
+              { text: "minis", href: "/minis" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
