@@ -836,6 +836,27 @@ const goldPage: PageContent = {
         "In the complete roster below, a product without a representative gallery image is still present by name. That keeps the page complete while honoring the eight-to-ten-image brief.",
         "No product is assigned to Gold because a local asset happened to use a gold color. Series membership comes from the official main-site structure. That rule protects the catalog from creative guesswork and makes the Oklahoma page useful as a dependable brand guide rather than a decorative collage.",
       ],
+      subsections: [
+        {
+          id: "gold-vs-silver-rose-gold",
+          heading: "How is Gold different from Silver and Rose Gold?",
+          paragraphs: [
+            [
+              { text: "Gold leads with strain identity: nineteen cannabis-first names from 24K to XXX. " },
+              { text: "Silver", href: "/silver" },
+              { text: " is the seven-product, fruit-forward Flavor Series, and " },
+              { text: "Rose Gold", href: "/rose-gold" },
+              { text: " is the five-product Connoisseur Series. Gold names also appear across " },
+              { text: "Moon Rocks", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "blunts", href: "/blunts" },
+              { text: ", and " },
+              { text: "minis", href: "/minis" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "gold-across-formats",
@@ -1160,6 +1181,23 @@ const retailersPage: PageContent = {
         "The Presidential Line adds ten character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging. Together, the six groupings prevent the catalog from depending on one naming convention.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The complete series pages on this Oklahoma property name every official Silver, Gold, and Rose Gold product from the current main-site sitemap. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
+      ],
+      subsections: [
+        {
+          id: "easy-to-explain",
+          heading: "What makes Presidential easy to explain at the counter?",
+          paragraphs: [
+            [
+              { text: "The construction is simple and factual: flower carried through with cannabis concentrate and finished in kief. " },
+              { text: "Moon Rocks", href: "/moon-rocks" },
+              { text: " anchor the block, while " },
+              { text: "blunts", href: "/blunts" },
+              { text: " and " },
+              { text: "minis", href: "/minis" },
+              { text: " extend the same idea into rolled formats. Exact product name, series, and format give staff a precise way to answer a request." },
+            ],
+          ],
+        },
       ],
     },
     {
