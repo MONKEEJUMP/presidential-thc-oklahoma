@@ -958,6 +958,21 @@ const goldPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "how-do-gold-names-carry-across-formats",
+          heading: "How do Gold names carry across formats?",
+          paragraphs: [
+            [
+              { text: "Gold identities can appear as flagship Gold Moon Rocks, paper infused pre-rolls, tobacco-free hemp-wrap blunts, and Gold minis. The package shape changes with each format, but the exact strain name and the Gold architecture keep the product recognizable. Gold leads with strain identity rather than fruit-series identity, so names such as Presidential OG, Blue Dream, or King Louis come first on the pack. A participating dispensary may carry a focused Gold selection rather than the full roster. Keep reading with " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "tobacco-free Presidential blunts", href: "/blunts" },
+              { text: ", or " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
@@ -1202,6 +1217,21 @@ const findPage: PageContent = {
               { text: "Gold" },
               { text: ", and " },
               { text: "Rose Gold", href: "/rose-gold" },
+              { text: "." },
+            ],
+          ],
+        },
+        {
+          id: "how-do-you-name-the-product-you-want",
+          heading: "How do you name the product you want?",
+          paragraphs: [
+            [
+              { text: "Name the brand, the format, the series, and the product, for example: Presidential, Moon Rocks, Silver, Blue Raspberry. Moon Rocks, blunts, pre-rolls, and minis are different formats, and Silver, Gold, and Rose Gold are different series. The official locator shows the current participating retail field, and the dispensary confirms what it has on hand. Keep reading with " },
+              { text: "Silver Flavor Series names", href: "/silver" },
+              { text: ", " },
+              { text: "Gold Strain Series names", href: "/gold" },
+              { text: ", or " },
+              { text: "Presidential retailer guide", href: "/retailers" },
               { text: "." },
             ],
           ],
