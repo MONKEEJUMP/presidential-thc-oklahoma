@@ -905,6 +905,19 @@ const silverPage: PageContent = {
         "The gold ornamental frame belongs to the Oklahoma site, but the image inside belongs to one official product identity.",
         "This Oklahoma guide supplies original product-focused context.",
       ],
+      subsections: [
+        {
+          id: "silver-is-the-distillate-series",
+          heading: "Silver is the distillate series",
+          paragraphs: [
+            [
+              { text: "Silver is the Presidential distillate series, organized by fruit name. Ask for the exact name and format, then check the " },
+              { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "silver-in-oklahoma",
