@@ -15,6 +15,7 @@ import {
   retailersFor,
 } from "../dispensary-directory";
 import styles from "../dispensaries.module.css";
+import { IntroH3, REGION_INTROS } from "@/components/r17-intro";
 
 type PageProps = { params: Promise<{ region: string }> };
 
@@ -123,6 +124,7 @@ export default async function DispensaryRegionPage({ params }: PageProps) {
             <div className={styles.regionCopy}>
               <p>{linkedRegionCopy(region.copy)}</p>
             </div>
+            {REGION_INTROS[region.slug] ? <IntroH3 {...REGION_INTROS[region.slug]!} /> : null}
             <RegionCount count={retailers.length} />
             <RetailerDirectory retailers={retailers} />
           </section>
