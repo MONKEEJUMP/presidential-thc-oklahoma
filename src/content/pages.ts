@@ -661,7 +661,9 @@ const silverPage: PageContent = {
         [
           { text: "Moon Rocks give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. " },
           { text: "Blunts", href: "/blunts" },
-          { text: " emphasize the hemp-wrapped format, while mini packs organize smaller pieces. Each page on this site separates those format stories so the Silver page can concentrate on the complete series." },
+          { text: " emphasize the hemp-wrapped format, while " },
+          { text: "mini blunts and mini pre-rolls", href: "/minis" },
+          { text: " organize smaller pieces into packs. Each page on this site separates those format stories so the Silver page can concentrate on the complete series." },
         ],
         "Availability by format is still a product-specific and retailer-specific question. A name in the Silver roster should not be treated as a guarantee that every possible size or format is currently at every Oklahoma dispensary. The official page and current retailer inventory remain the two reliable sources.",
       ],
@@ -748,7 +750,9 @@ const goldPage: PageContent = {
         [
           { text: "Gold identities can appear across flagship Moon Rocks, paper infused pre-rolls, " },
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
-          { text: ", and compact minis. Package shape changes with each format, but the exact strain name and Gold architecture preserve continuity. A patient can recognize the family while still distinguishing the physical product." },
+          { text: ", and " },
+          { text: "Gold minis", href: "/minis" },
+          { text: ". Package shape changes with each format, but the exact strain name and Gold architecture preserve continuity. A patient can recognize the family while still distinguishing the physical product." },
         ],
         "That format breadth creates useful shelf relationships. A retailer might place all Gold products together, build a blunt or pre-roll block that mixes series, or carry one identity across multiple formats when the current wholesale catalog and local demand support it. The brand system can handle all three approaches.",
         "The official product record is the authority for any exact item. A name in this series does not guarantee every format, size, or pack, and it does not guarantee that a specific Oklahoma dispensary has it today. This guide names the collection accurately and directs availability questions to the licensed store.",
@@ -1005,7 +1009,9 @@ const retailersPage: PageContent = {
         ],
         [
           { text: "Tobacco-free hemp-wrap blunts", href: "/blunts" },
-          { text: " create a larger rolled profile in full-size and mini expressions. Paper pre-rolls offer singles, packs, and compact options depending on the product. Minis bring smaller hemp-wrapped and paper formats together as a size strategy while preserving the construction distinction between a blunt and a pre-roll." },
+          { text: " create a larger rolled profile in full-size and mini expressions. Paper pre-rolls offer singles, packs, and compact options depending on the product. " },
+          { text: "The Oklahoma minis line", href: "/minis" },
+          { text: " brings smaller hemp-wrapped and paper formats together as a size strategy while preserving the construction distinction between a blunt and a pre-roll." },
         ],
         "A buyer can merchandise by format, by series, or as a selected brand block. Format-first organization makes physical choices easy to compare. Series-first organization gives color and identity the lead. A mixed Presidential block can use the crest and black structural packaging to hold several choices together.",
         "The four-format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
@@ -1219,7 +1225,11 @@ const aboutPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "The current catalog contains 47 products across six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
-        "Moon Rocks, blunts, pre-rolls, and minis give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate.",
+        [
+          { text: "Moon Rocks, blunts, pre-rolls, and " },
+          { text: "Presidential minis", href: "/minis" },
+          { text: " give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate." },
+        ],
         "The catalog is broad without becoming anonymous. Fruit names, strain names, character-led products, core house formats, and a cultivation collaboration all have a defined place. That architecture lets Presidential add range while keeping one crest and one official source visible across every choice.",
       ],
     },
