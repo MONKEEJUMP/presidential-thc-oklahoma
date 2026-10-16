@@ -69,3 +69,6 @@ export function escapeXml(value: string): string {
     .replace(/\"/g, "&quot;")
     .replace(/'/g, "&apos;");
 }
+
+// No cross-domain links between Presidential sites (Sitebulb R8 / chief ruling).
+export const isOffSite = (href?: string) => !!href && /^https?:\/\/(www\.)?presidentialmoonrocks\.com/i.test(href);
