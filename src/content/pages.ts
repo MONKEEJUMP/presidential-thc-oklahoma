@@ -140,7 +140,9 @@ const homePage: PageContent = {
         [
           { text: "Use the " },
           { text: "store locator above" },
-          { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change." },
+          { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change. The dispensary directory starts with " },
+          { text: "Frontier Country", href: "/dispensaries/frontier-country" },
+          { text: ", home to the state capital region." },
         ],
       ],
     },
@@ -688,7 +690,11 @@ const silverPage: PageContent = {
       heading: "Silver across Presidential formats",
       imageCount: 1,
       paragraphs: [
-        "Silver identity can travel across Moon Rocks, infused pre-rolls, tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family.",
+        [
+          { text: "Silver identity can travel across Moon Rocks, " },
+          { text: "infused pre-rolls", href: "/pre-rolls" },
+          { text: ", tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family." },
+        ],
         [
           { text: "Presidential Moon Rocks", href: "/moon-rocks" },
           { text: " give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. " },
@@ -716,7 +722,11 @@ const silverPage: PageContent = {
       heading: "Finding Silver in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential sells Silver products wholesale through licensed Oklahoma dispensaries, and each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry a broad flavor selection; another may focus on a few recognized identities.",
+        [
+          { text: "Presidential sells Silver products wholesale through " },
+          { text: "licensed Oklahoma dispensaries", href: "/dispensaries" },
+          { text: ", and each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry a broad flavor selection; another may focus on a few recognized identities." },
+        ],
         "Use the official Oklahoma locator to identify participating retailers, then ask for the exact combination shown on the product record—for example, Presidential, Silver, Blue Raspberry, and the intended format. That level of detail is more useful than a general brand inquiry and helps the store check current inventory accurately.",
         "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with all seven names visible.",
       ],
@@ -953,7 +963,19 @@ const findPage: PageContent = {
       heading: "A statewide wholesale footprint",
       imageCount: 1,
       paragraphs: [
-        "Presidential appears through participating licensed Oklahoma retailers. The network changes as stores order, pause, restock, or change status, so the official locator remains the current source instead of a fixed number in evergreen copy.",
+        [
+          { text: "Presidential appears through participating licensed Oklahoma retailers. The network changes as stores order, pause, restock, or change status, so the official locator remains the current source instead of a fixed number in evergreen copy. Retailers are listed by region, including " },
+          { text: "Frontier Country", href: "/dispensaries/frontier-country" },
+          { text: ", " },
+          { text: "Green Country", href: "/dispensaries/green-country" },
+          { text: ", " },
+          { text: "Great Plains Country", href: "/dispensaries/great-plains-country" },
+          { text: ", " },
+          { text: "Choctaw Country", href: "/dispensaries/choctaw-country" },
+          { text: ", and " },
+          { text: "Chickasaw Country", href: "/dispensaries/chickasaw-country" },
+          { text: "." },
+        ],
         "The footprint is densest around Oklahoma’s larger population centers, where more licensed dispensaries create more possible shelf combinations. Regional markets extend that reach beyond one metropolitan corridor. This page stops at regions and density by design; it does not hand over the protected retailer dataset in a second public format.",
         "Oklahoma's statewide retail geography explains why this official state property carries a deep product gallery. Patients need a way to recognize package art before checking local availability, and retailers need a canonical brand destination to support those conversations.",
       ],
@@ -1174,7 +1196,19 @@ const oklahomaPage: PageContent = {
       heading: "The market",
       imageCount: 1,
       paragraphs: [
-        "Oklahoma’s program grew with exceptional speed. In 2021, OMMA described itself as one of the country’s fastest-growing medical marijuana authorities and reported serving more than 375,000 patients and 12,000 businesses. The 12,000-plus peak-era license environment helped create a dense field of growers, processors, and dispensaries before later enforcement, renewal changes, and market contraction reduced active totals.",
+        [
+          { text: "Oklahoma’s program grew with exceptional speed. In 2021, OMMA described itself as one of the country’s fastest-growing medical marijuana authorities and reported serving more than 375,000 patients and 12,000 businesses. The 12,000-plus peak-era license environment helped create a dense field of growers, processors, and dispensaries before later enforcement, renewal changes, and market contraction reduced active totals. Retailers are listed by region, including " },
+          { text: "Frontier Country", href: "/dispensaries/frontier-country" },
+          { text: ", " },
+          { text: "Green Country", href: "/dispensaries/green-country" },
+          { text: ", " },
+          { text: "Great Plains Country", href: "/dispensaries/great-plains-country" },
+          { text: ", " },
+          { text: "Choctaw Country", href: "/dispensaries/choctaw-country" },
+          { text: ", and " },
+          { text: "Chickasaw Country", href: "/dispensaries/chickasaw-country" },
+          { text: "." },
+        ],
         "The state began a moratorium on new grower, processor, and dispensary licenses in August 2022. HB 2095 extended the endpoint in 2023. HB 3143, approved in May 2026, extended it again to August 1, 2028 unless OMMA’s executive director determines the named licensing-review, inspection, and investigation conditions are complete earlier.",
         "The moratorium does not erase existing licensees. Current businesses can renew, and ownership transfer remains possible only through the required OMMA process. HB 3143 added restrictions around transfer applications and requires written approval; pending administrative actions or appeals can affect whether and when an application may be submitted.",
         "Oklahoma uses Metrc as its seed-to-sale tracking system. Licensed businesses record regulated inventory movement through that system, creating a traceability layer from commercial production into the licensed channel. Tracking does not make a public brand site the inventory authority; the retailer still controls what is actually available on its shelf.",
