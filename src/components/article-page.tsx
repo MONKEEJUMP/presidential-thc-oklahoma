@@ -13,6 +13,7 @@ import { ContentFigure } from "./content-figure";
 import { HomepageLocatorConsole } from "./homepage-locator-console";
 import { RetailerLocator } from "./retailer-locator";
 import { SiteFooter } from "./site-footer";
+import { isOffSite } from "@/lib/site";
 import { SiteHeader } from "./site-header";
 
 function RichParagraph({ paragraph }: { paragraph: ContentParagraph }) {
@@ -20,7 +21,7 @@ function RichParagraph({ paragraph }: { paragraph: ContentParagraph }) {
   return (
     <p>
       {paragraph.map((part, index) =>
-        part.href ? <a href={part.href} key={`${part.text}-${index}`}>{part.text}</a> : <Fragment key={`${part.text}-${index}`}>{part.text}</Fragment>,
+        part.href && !isOffSite(part.href) ? <a href={part.href} key={`${part.text}-${index}`}>{part.text}</a> : <Fragment key={`${part.text}-${index}`}>{part.text}</Fragment>,
       )}
     </p>
   );
