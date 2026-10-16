@@ -467,6 +467,23 @@ const bluntsPage: PageContent = {
         "Use the official Oklahoma locator for the current participating field, then ask the retailer about the exact product. Naming the format, size, series, and product is more useful than asking only whether the store carries Presidential. The package art on this page can help confirm that identity before the call or visit.",
         "A purchase also requires the proper active Oklahoma medical credential. Eligible out-of-state patients use the 30-day OMMA visitor-license route; their home-state card by itself does not work as the dispensary credential in Oklahoma. The dedicated Oklahoma page explains the complete route and the state’s possession framework together.",
       ],
+      subsections: [
+        {
+          id: "blunts-or-pre-rolls-choosing-at-an-oklahoma-disp",
+          heading: "Blunts or pre-rolls: choosing at an Oklahoma dispensary",
+          paragraphs: [
+            [
+              { text: "At an Oklahoma dispensary, the quickest way to tell the formats apart is the wrap. A Presidential Blunt uses a tobacco-free hemp wrap, while a Presidential pre-roll is the familiar paper joint. Both carry infused flower inside. Compare the " },
+              { text: "Oklahoma infused pre-rolls", href: "/pre-rolls" },
+              { text: " and the compact " },
+              { text: "Oklahoma Minis", href: "/minis" },
+              { text: ". For store service from Oklahoma City outward, start with the " },
+              { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: " and confirm stock with the store." },
+            ],
+          ],
+        },
+      ],
     },
   ],
   relatedLinks: [
@@ -806,6 +823,21 @@ const silverPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "how-do-silver-names-appear-across-formats",
+          heading: "How do Silver names appear across formats?",
+          paragraphs: [
+            [
+              { text: "Silver identity can travel across Moon Rocks, infused pre-rolls, tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, the Silver series cue, and the core artwork preserve recognition. A shopper who knows Watermelon or Blue Raspberry in one format can look for the same name in another. Each Oklahoma dispensary chooses its own mix of names, formats, and sizes, so confirm the exact product with the store. Keep reading with " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "Presidential infused pre-rolls", href: "/pre-rolls" },
+              { text: ", or " },
+              { text: "compact Presidential minis", href: "/minis" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
@@ -1019,6 +1051,23 @@ const roseGoldPage: PageContent = {
         ],
         "The ten artworks on this page pair a square and portrait composition for each of the five names. Every file preserves the full real package and carries accurate Rose Gold alt text.",
         "The manifest records each source package, deterministic Oklahoma backdrop, output filename, dimensions, byte size, and hash. That trace keeps the visual catalog accountable without changing the established page structure or product destinations.",
+      ],
+      subsections: [
+        {
+          id: "what-does-solventless-mean-for-the-rose-gold-ser",
+          heading: "What does solventless mean for the Rose Gold series?",
+          paragraphs: [
+            [
+              { text: "Solventless craft is the language that sets Rose Gold apart from flavor-first Silver and the nineteen strain identities of Gold. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language, and the copy stops there rather than predicting an outcome. Five products (Cereal Milk, Cosmic Cookies, God's Gift, Wedding Cake, and White Walker) give each identity more room than a nineteen-name collection would. Keep reading with " },
+              { text: "Silver Flavor Series names", href: "/silver" },
+              { text: ", " },
+              { text: "Gold Strain Series names", href: "/gold" },
+              { text: ", or " },
+              { text: "Presidential blunt formats in Oklahoma", href: "/blunts" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
