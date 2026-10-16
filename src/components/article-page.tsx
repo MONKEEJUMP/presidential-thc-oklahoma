@@ -324,6 +324,12 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
                     <h2>{section.heading}</h2>
                     {section.paragraphs.map((paragraph, index) => <RichParagraph paragraph={paragraph} key={`${section.id}-${index}`} />)}
                     {section.bullets?.length ? <ul>{section.bullets.map((bullet) => <li key={bullet}>{bullet}</li>)}</ul> : null}
+                    {section.subsections?.map((sub) => (
+                      <div id={sub.id} key={sub.id}>
+                        <h3>{sub.heading}</h3>
+                        {sub.paragraphs.map((paragraph, index) => <RichParagraph paragraph={paragraph} key={`${sub.id}-${index}`} />)}
+                      </div>
+                    ))}
                   </div>
                   {sectionImages.length ? (
                     <div className="article-section__media">

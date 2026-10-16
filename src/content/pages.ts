@@ -103,7 +103,9 @@ const homePage: PageContent = {
           { text: "Presidential THC flower (Moon Rocks)", href: "/moon-rocks" },
           { text: " shows the flower, concentrate, and kief construction directly. " },
           { text: "Blunts", href: "/blunts" },
-          { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis bring the rolled formats into a smaller package." },
+          { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis, including " },
+          { text: "Presidential mini blunts", href: "/minis" },
+          { text: ", bring the rolled formats into a smaller package." },
         ],
         "Each format has a dedicated page covering construction, package cues, representative products, and the path to licensed Oklahoma retail. Use those pages for detail instead of treating every format as interchangeable.",
       ],
@@ -319,7 +321,11 @@ const bluntsPage: PageContent = {
         "That larger profile also gives the format a clear visual role in a mixed display, even before a patient reads the individual product name.",
         "Mini blunts translate the same tobacco-free wrap idea into a compact scale. Multiple pieces may be organized as a pack, giving the package a different rhythm and shelf footprint from one full-size blunt. The product remains a blunt because the wrap and construction category remain visible; ‘mini’ describes the size architecture.",
         "This distinction keeps the catalog understandable. A mini is not automatically a separate flavor or strain, and it is not a claim about effects. It is a smaller physical expression that can appear under official product identities already familiar elsewhere in the Presidential range.",
-        "The Minis page brings mini blunts and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces.",
+        [
+          { text: "The Minis page brings " },
+          { text: "Presidential mini blunts", href: "/minis" },
+          { text: " and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces." },
+        ],
       ],
     },
     {
@@ -518,7 +524,7 @@ const minisPage: PageContent = {
     },
     {
       id: "mini-blunts",
-      heading: "Mini blunts",
+      heading: "Presidential mini blunts",
       imageCount: 2,
       paragraphs: [
         "Mini blunts use a tobacco-free hemp wrap at a smaller scale than the full-size blunt. The wrap is the category-defining exterior, while the multipiece package gives the mini presentation its own visual rhythm. Approved Presidential art makes that construction recognizable without rendering alt text as a caption or covering the product with editorial labels.",
@@ -535,6 +541,28 @@ const minisPage: PageContent = {
         "A mini package should not be read as proof that the same name is available in every size at a particular Oklahoma store. Product range and retailer inventory are different questions. The catalog defines what exists; the licensed dispensary confirms what is on its shelf now.",
         "For staff, the full-size and mini distinction creates a useful educational moment without requiring a complicated script. The wrap identifies the blunt family, the package identifies the exact product, and the size language identifies the presentation. Three clear facts do more work than a vague superlative and keep the conversation grounded in what the customer can verify.",
         "The result is a blunt category that stays understandable even as product names, series colors, and package counts expand around it.",
+      ],
+      subsections: [
+        {
+          id: "mini-vs-full-size",
+          heading: "How are Presidential mini blunts different from full-size blunts?",
+          paragraphs: [
+            "A Presidential mini blunt uses the same tobacco-free hemp wrap as the full-size blunt, at a smaller scale. Several mini pieces may be organized as a pack, while a full-size blunt gives one product identity a single-roll presentation. Mini describes physical scale, not a new series, flavor, or strain, and not an effects claim. The package identifies the exact product and its count or size.",
+          ],
+        },
+        {
+          id: "hemp-wrap-vs-paper",
+          heading: "Do mini blunts and mini pre-rolls use the same wrap?",
+          paragraphs: [
+            [
+              { text: "No. Mini " },
+              { text: "blunts", href: "/blunts" },
+              { text: " use a tobacco-free hemp wrap, while mini " },
+              { text: "pre-rolls", href: "/pre-rolls" },
+              { text: " use paper. Both share the compact size idea, but the wrap keeps them in separate families." },
+            ],
+          ],
+        },
       ],
     },
     {
@@ -633,7 +661,9 @@ const silverPage: PageContent = {
         [
           { text: "Moon Rocks give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. " },
           { text: "Blunts", href: "/blunts" },
-          { text: " emphasize the hemp-wrapped format, while mini packs organize smaller pieces. Each page on this site separates those format stories so the Silver page can concentrate on the complete series." },
+          { text: " emphasize the hemp-wrapped format, while " },
+          { text: "mini blunts and mini pre-rolls", href: "/minis" },
+          { text: " organize smaller pieces into packs. Each page on this site separates those format stories so the Silver page can concentrate on the complete series." },
         ],
         "Availability by format is still a product-specific and retailer-specific question. A name in the Silver roster should not be treated as a guarantee that every possible size or format is currently at every Oklahoma dispensary. The official page and current retailer inventory remain the two reliable sources.",
       ],
@@ -720,7 +750,9 @@ const goldPage: PageContent = {
         [
           { text: "Gold identities can appear across flagship Moon Rocks, paper infused pre-rolls, " },
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
-          { text: ", and compact minis. Package shape changes with each format, but the exact strain name and Gold architecture preserve continuity. A patient can recognize the family while still distinguishing the physical product." },
+          { text: ", and " },
+          { text: "Gold minis", href: "/minis" },
+          { text: ". Package shape changes with each format, but the exact strain name and Gold architecture preserve continuity. A patient can recognize the family while still distinguishing the physical product." },
         ],
         "That format breadth creates useful shelf relationships. A retailer might place all Gold products together, build a blunt or pre-roll block that mixes series, or carry one identity across multiple formats when the current wholesale catalog and local demand support it. The brand system can handle all three approaches.",
         "The official product record is the authority for any exact item. A name in this series does not guarantee every format, size, or pack, and it does not guarantee that a specific Oklahoma dispensary has it today. This guide names the collection accurately and directs availability questions to the licensed store.",
@@ -977,7 +1009,9 @@ const retailersPage: PageContent = {
         ],
         [
           { text: "Tobacco-free hemp-wrap blunts", href: "/blunts" },
-          { text: " create a larger rolled profile in full-size and mini expressions. Paper pre-rolls offer singles, packs, and compact options depending on the product. Minis bring smaller hemp-wrapped and paper formats together as a size strategy while preserving the construction distinction between a blunt and a pre-roll." },
+          { text: " create a larger rolled profile in full-size and mini expressions. Paper pre-rolls offer singles, packs, and compact options depending on the product. " },
+          { text: "The Oklahoma minis line", href: "/minis" },
+          { text: " brings smaller hemp-wrapped and paper formats together as a size strategy while preserving the construction distinction between a blunt and a pre-roll." },
         ],
         "A buyer can merchandise by format, by series, or as a selected brand block. Format-first organization makes physical choices easy to compare. Series-first organization gives color and identity the lead. A mixed Presidential block can use the crest and black structural packaging to hold several choices together.",
         "The four-format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
@@ -1191,7 +1225,11 @@ const aboutPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "The current catalog contains 47 products across six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
-        "Moon Rocks, blunts, pre-rolls, and minis give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate.",
+        [
+          { text: "Moon Rocks, blunts, pre-rolls, and " },
+          { text: "Presidential minis", href: "/minis" },
+          { text: " give those identities different physical and package expressions. Series and format pages on this property keep the system easy to navigate." },
+        ],
         "The catalog is broad without becoming anonymous. Fruit names, strain names, character-led products, core house formats, and a cultivation collaboration all have a defined place. That architecture lets Presidential add range while keeping one crest and one official source visible across every choice.",
       ],
     },

@@ -24,6 +24,7 @@ export type ContentSection = {
   paragraphs: ContentParagraph[];
   bullets?: string[];
   imageCount?: number;
+  subsections?: { id: string; heading: string; paragraphs: ContentParagraph[] }[];
 };
 
 export type RosterItem = {
