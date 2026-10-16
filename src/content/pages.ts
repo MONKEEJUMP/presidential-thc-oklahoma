@@ -69,7 +69,11 @@ const homePage: PageContent = {
       heading: "Presidential in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential serves Oklahoma through licensed cannabis retailers. Assortments can vary by dispensary, so this state guide explains the product family while the retailer controls current local inventory.",
+        [
+          { text: "Presidential serves Oklahoma through " },
+          { text: "licensed retailers", href: "/retailers" },
+          { text: ". Assortments can vary by dispensary, so this state guide explains the product family while the retailer controls current local inventory." },
+        ],
         "The Presidential crest, series names, format labels, and package artwork connect each Oklahoma listing to the same national brand. Use those cues to identify a product, then confirm its availability before visiting a licensed dispensary.",
       ],
     },
@@ -104,7 +108,7 @@ const homePage: PageContent = {
       heading: "The six series",
       imageCount: 3,
       paragraphs: [
-        "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
+        "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The Silver Flavor Series carries seven fruit-forward flavors. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
         "Flavor names, cannabis cultivar names, house formats, and collaboration packaging serve different jobs. Keeping those groupings distinct helps Oklahoma shoppers recognize Presidential products without relying on fixed product counts or assumed inventory.",
       ],
     },
@@ -142,6 +146,32 @@ const homePage: PageContent = {
           { text: "Oklahoma dispensary owners and buyers have a " },
           { text: "dedicated retailer page", href: "/retailers" },
           { text: " because wholesale assortment decisions differ from consumer searches. It explains the formats and coordinated product groupings without publishing unverified pricing, margins, inventory, or commercial terms." },
+        ],
+      ],
+    },
+    {
+      id: "what-are-presidential-moon-rocks",
+      heading: "What are Presidential Moon Rocks?",
+      imageCount: 0,
+      paragraphs: [
+        [
+          { text: "Presidential " },
+          { text: "Moon Rocks", href: "/moon-rocks" },
+          { text: " are the flagship format: cannabis flower carried through with concentrate and finished with kief. The packages name the product and its series, and the licensed retailer controls current inventory." },
+        ],
+      ],
+    },
+    {
+      id: "what-formats-in-oklahoma",
+      heading: "What formats does Presidential sell in Oklahoma?",
+      imageCount: 0,
+      paragraphs: [
+        [
+          { text: "Four infused products: Moon Rocks, tobacco-free blunts in a hemp wrap, " },
+          { text: "infused pre-rolls", href: "/pre-rolls" },
+          { text: " in paper, and " },
+          { text: "minis", href: "/minis" },
+          { text: ", which bring the rolled formats into a smaller package. Assortments can vary by dispensary." },
         ],
       ],
     },
@@ -385,7 +415,11 @@ const preRollsPage: PageContent = {
       heading: "Paper pre-roll or blunt wrap: what changes?",
       imageCount: 0,
       paragraphs: [
-        "The material around the roll. A Presidential pre-roll uses rolling paper, while a Presidential blunt uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and finished with kief.",
+        [
+          { text: "The material around the roll. A Presidential pre-roll uses rolling paper, while a " },
+          { text: "Presidential blunt", href: "/blunts" },
+          { text: " uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and finished with kief." },
+        ],
         "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On Presidential cannabis products, the package names the format, series, and product, so read that line first when comparing a pre-roll with a blunt.",
       ],
     },
@@ -403,17 +437,17 @@ const preRollsPage: PageContent = {
     },
     {
       id: "pre-roll-names",
-      heading: "Which product names appear",
+      heading: "Which infused pre-roll names appear",
       imageCount: 1,
       paragraphs: [
-        "The approved Presidential pre-roll artwork spans fruit-forward Silver names, strain-led Gold names, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it.",
+        "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
         "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration. This site displays only approved local artwork and matches each filename to an exact `/moon-rocks/` product slug from the official sitemap.",
       ],
     },
     {
       id: "pre-roll-package-system",
-      heading: "A package system built for the shelf",
+      heading: "A package system for Presidential cannabis products",
       imageCount: 2,
       paragraphs: [
         "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away.",
