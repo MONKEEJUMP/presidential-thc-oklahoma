@@ -127,6 +127,18 @@ export default async function DispensaryRegionPage({ params }: PageProps) {
             <RetailerDirectory retailers={retailers} />
           </section>
 
+          <nav aria-label="Other Oklahoma regions">
+            <p>
+              Other Oklahoma regions:{" "}
+              {REGION_PAGES.filter((other) => other.slug !== region.slug).map((other, index) => (
+                <span key={other.slug}>
+                  {index ? ", " : ""}
+                  <Link href={`/dispensaries/${other.slug}`}>{other.name}</Link>
+                </span>
+              ))}
+            </p>
+          </nav>
+
           <p>
             <Link href="/dispensaries">All Oklahoma regions</Link>
           </p>
