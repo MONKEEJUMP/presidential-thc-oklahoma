@@ -1037,6 +1037,21 @@ const goldPage: PageContent = {
         "The ornamental champagne frame never becomes a caption. It creates continuity with the Presidential Oklahoma design system while alt text remains available to assistive technology.",
         "The Oklahoma property celebrates the artwork generously but never competes with the main site for product authority.",
       ],
+      subsections: [
+        {
+          id: "asking-for-a-gold-product-at-an-oklahoma-dispens",
+          heading: "Asking for a Gold product at an Oklahoma dispensary",
+          paragraphs: [
+            [
+              { text: "Ask by the exact Gold name and format, then confirm the store with the " },
+              { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: " or the " },
+              { text: "Oklahoma store finder", href: "/find" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "gold-in-oklahoma",
