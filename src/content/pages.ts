@@ -260,6 +260,25 @@ const moonRocksPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "finding-moon-rocks-ok",
+          heading: "Finding Presidential Moon Rocks in Oklahoma",
+          paragraphs: [
+            [
+              { text: "Presidential appears in Oklahoma through participating licensed retailers, and stock changes from store to store. The " },
+              { text: "Oklahoma dispensary regions", href: "/dispensaries/frontier-country" },
+              { text: " group the state by country, from Frontier Country to Green Country and Chickasaw Country, so you can start with the region closest to you. Ask the dispensary to confirm what's on the shelf before you make the trip. Each package names its own series. Flavor-led products sit in the " },
+              { text: "Silver Flavor Series", href: "/silver" },
+              { text: ", strain-led products in the " },
+              { text: "Gold Strain Series", href: "/gold" },
+              { text: ", and connoisseur products in the " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: ". For a smaller format, see " },
+              { text: "Presidential Minis in Oklahoma", href: "/minis" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
