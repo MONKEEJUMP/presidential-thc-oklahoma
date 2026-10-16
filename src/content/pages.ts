@@ -118,6 +118,23 @@ const homePage: PageContent = {
         "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The Silver Flavor Series carries seven fruit-forward flavors. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
         "Flavor names, cannabis cultivar names, house formats, and collaboration packaging serve different jobs. Keeping those groupings distinct helps Oklahoma shoppers recognize Presidential products without relying on fixed product counts or assumed inventory.",
       ],
+      subsections: [
+        {
+          id: "what-goes-into-series",
+          heading: "What goes into each series?",
+          paragraphs: [
+            [
+              { text: "The " },
+              { text: "Silver Flavor Series", href: "/silver" },
+              { text: " carries seven fruit-forward flavors. The " },
+              { text: "Gold Strain Series", href: "/gold" },
+              { text: " carries strain-led names, and the " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate and finished with kief." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "buying-in-oklahoma",
@@ -646,6 +663,23 @@ const minisPage: PageContent = {
               { text: " use a tobacco-free hemp wrap, while mini " },
               { text: "pre-rolls", href: "/pre-rolls" },
               { text: " use paper. Both share the compact size idea, but the wrap keeps them in separate families." },
+            ],
+          ],
+        },
+        {
+          id: "series-as-minis",
+          heading: "Which series appear as minis?",
+          paragraphs: [
+            [
+              { text: "A dispensary may carry mini blunts, mini pre-rolls, selected " },
+              { text: "Silver Flavor Series", href: "/silver" },
+              { text: " names, selected " },
+              { text: "Gold Strain Series", href: "/gold" },
+              { text: " names, or a compact mix. Mini describes physical scale, not a new series, so the same series logic applies as in the " },
+              { text: "full-size tobacco-free blunts", href: "/blunts" },
+              { text: " and " },
+              { text: "infused pre-roll range", href: "/pre-rolls" },
+              { text: "." },
             ],
           ],
         },
