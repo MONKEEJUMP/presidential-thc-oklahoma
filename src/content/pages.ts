@@ -745,6 +745,23 @@ const minisPage: PageContent = {
         ],
         "The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place.",
       ],
+      subsections: [
+        {
+          id: "buying-minis-at-an-oklahoma-dispensary",
+          heading: "Buying minis at an Oklahoma dispensary",
+          paragraphs: [
+            [
+              { text: "Minis change the size, not the series, so a Gold mini is labeled indica, sativa or hybrid exactly like its full-size version. At the counter, ask for the exact product name and say whether you want the hemp-wrapped mini blunt or the paper mini pre-roll. Compare the full-size versions in " },
+              { text: "Oklahoma infused blunts", href: "/blunts" },
+              { text: " and " },
+              { text: "Oklahoma infused pre-rolls", href: "/pre-rolls" },
+              { text: ", then find a licensed store in the " },
+              { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "minis-in-oklahoma",
