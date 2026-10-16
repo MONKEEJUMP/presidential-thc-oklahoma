@@ -690,7 +690,8 @@ const silverPage: PageContent = {
       paragraphs: [
         "Silver identity can travel across Moon Rocks, infused pre-rolls, tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family.",
         [
-          { text: "Moon Rocks give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. " },
+          { text: "Presidential Moon Rocks", href: "/moon-rocks" },
+          { text: " give the identity a square or portrait product-art moment around the flagship construction. Pre-roll packaging uses a taller surface for the same name. " },
           { text: "Blunts", href: "/blunts" },
           { text: " emphasize the hemp-wrapped format, while " },
           { text: "mini blunts and mini pre-rolls", href: "/minis" },
@@ -779,7 +780,9 @@ const goldPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Gold identities can appear across flagship Moon Rocks, paper infused pre-rolls, " },
+          { text: "Gold identities can appear across flagship " },
+          { text: "Gold Moon Rocks", href: "/moon-rocks" },
+          { text: ", paper infused pre-rolls, " },
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
           { text: ", and " },
           { text: "Gold minis", href: "/minis" },
