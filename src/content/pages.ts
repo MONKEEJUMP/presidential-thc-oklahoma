@@ -142,7 +142,11 @@ const homePage: PageContent = {
           { text: "store locator above" },
           { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change. The dispensary directory starts with " },
           { text: "Frontier Country", href: "/dispensaries/frontier-country" },
-          { text: ", home to the state capital region." },
+          { text: ", home to the state capital region. " },
+          { text: "Chickasaw Country", href: "/dispensaries/chickasaw-country" },
+          { text: " and " },
+          { text: "Choctaw Country", href: "/dispensaries/choctaw-country" },
+          { text: " also have their own directories." },
         ],
       ],
     },
@@ -376,6 +380,21 @@ const bluntsPage: PageContent = {
           { text: "Presidential mini blunts", href: "/minis" },
           { text: " and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces." },
         ],
+      ],
+      subsections: [
+        {
+          id: "blunt-vs-pre-roll",
+          heading: "How is a blunt different from a pre-roll?",
+          paragraphs: [
+            [
+              { text: "A Presidential blunt uses a tobacco-free hemp wrap, while an infused " },
+              { text: "pre-roll", href: "/pre-rolls" },
+              { text: " uses paper. The wrap is the category-defining exterior, so mini blunts stay in the blunt family and " },
+              { text: "mini pre-rolls", href: "/minis" },
+              { text: " stay in the paper family." },
+            ],
+          ],
+        },
       ],
     },
     {
@@ -1022,6 +1041,31 @@ const findPage: PageContent = {
         "A productive inventory check names more than the brand. Moon Rocks, blunts, pre-rolls, and minis are different formats. Silver, Gold, and Rose Gold are different series. Blue Raspberry, Presidential OG, Cereal Milk, and the other names are individual product identities. Combining those details gives the store something exact to verify.",
         "Every product image on this site helps with that step. It uses unique alt text describing the artwork.",
         "Availability can still change after a product has been identified. Licensed retailers choose their own wholesale mix and replenish on their own schedules. A quick call close to the visit is the practical final check, especially when a particular series, format, or pack is the goal.",
+      ],
+      subsections: [
+        {
+          id: "what-to-ask",
+          heading: "What should I ask for at the dispensary?",
+          paragraphs: [
+            [
+              { text: "Name the brand, the format, the series, and the product. For example: Presidential, Moon Rocks, Silver, Blue Raspberry. Formats are " },
+              { text: "Moon Rocks", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "blunts", href: "/blunts" },
+              { text: ", " },
+              { text: "pre-rolls", href: "/pre-rolls" },
+              { text: ", and " },
+              { text: "minis", href: "/minis" },
+              { text: "; series are " },
+              { text: "Silver", href: "/silver" },
+              { text: ", " },
+              { text: "Gold", href: "/gold" },
+              { text: ", and " },
+              { text: "Rose Gold", href: "/rose-gold" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
