@@ -82,7 +82,11 @@ const homePage: PageContent = {
       heading: "What Presidential THC is",
       imageCount: 1,
       paragraphs: [
-        "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis.",
+        [
+          { text: "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Presidential THC Oklahoma is the Oklahoma guide to the " },
+          { text: "Presidential cannabis brand", href: "/about" },
+          { text: ", founded in Los Angeles in 2012." },
+        ],
         [
           { text: "The " },
           { text: "official Presidential catalog" },
@@ -96,7 +100,8 @@ const homePage: PageContent = {
       imageCount: 2,
       paragraphs: [
         [
-          { text: "Moon Rocks show the flower, concentrate, and kief construction directly. " },
+          { text: "Presidential THC flower (Moon Rocks)", href: "/moon-rocks" },
+          { text: " shows the flower, concentrate, and kief construction directly. " },
           { text: "Blunts", href: "/blunts" },
           { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis bring the rolled formats into a smaller package." },
         ],
@@ -1164,12 +1169,20 @@ const aboutPage: PageContent = {
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
           { text: ", and compact minis." },
         ],
-        "From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today.",
+        "Presidential is a cannabis (weed) brand founded in Los Angeles in 2012. From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today.",
         [
           { text: "The " },
           { text: "official Presidential story" },
           { text: " carries the broader company history. This site narrows the view to Oklahoma while keeping the crest, product art, and canonical main-site relationship unmistakably official." },
         ],
+      ],
+    },
+    {
+      id: "presidential-logo",
+      heading: "What is the Presidential logo?",
+      imageCount: 0,
+      paragraphs: [
+        "The Presidential logo is the crest. It appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, where it connects each named product to the same official brand.",
       ],
     },
     {
