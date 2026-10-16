@@ -103,7 +103,9 @@ const homePage: PageContent = {
           { text: "Presidential THC flower (Moon Rocks)", href: "/moon-rocks" },
           { text: " shows the flower, concentrate, and kief construction directly. " },
           { text: "Blunts", href: "/blunts" },
-          { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis bring the rolled formats into a smaller package." },
+          { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis, including " },
+          { text: "Presidential mini blunts", href: "/minis" },
+          { text: ", bring the rolled formats into a smaller package." },
         ],
         "Each format has a dedicated page covering construction, package cues, representative products, and the path to licensed Oklahoma retail. Use those pages for detail instead of treating every format as interchangeable.",
       ],
@@ -319,7 +321,11 @@ const bluntsPage: PageContent = {
         "That larger profile also gives the format a clear visual role in a mixed display, even before a patient reads the individual product name.",
         "Mini blunts translate the same tobacco-free wrap idea into a compact scale. Multiple pieces may be organized as a pack, giving the package a different rhythm and shelf footprint from one full-size blunt. The product remains a blunt because the wrap and construction category remain visible; ‘mini’ describes the size architecture.",
         "This distinction keeps the catalog understandable. A mini is not automatically a separate flavor or strain, and it is not a claim about effects. It is a smaller physical expression that can appear under official product identities already familiar elsewhere in the Presidential range.",
-        "The Minis page brings mini blunts and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces.",
+        [
+          { text: "The Minis page brings " },
+          { text: "Presidential mini blunts", href: "/minis" },
+          { text: " and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces." },
+        ],
       ],
     },
     {
@@ -518,7 +524,7 @@ const minisPage: PageContent = {
     },
     {
       id: "mini-blunts",
-      heading: "Mini blunts",
+      heading: "Presidential mini blunts",
       imageCount: 2,
       paragraphs: [
         "Mini blunts use a tobacco-free hemp wrap at a smaller scale than the full-size blunt. The wrap is the category-defining exterior, while the multipiece package gives the mini presentation its own visual rhythm. Approved Presidential art makes that construction recognizable without rendering alt text as a caption or covering the product with editorial labels.",
@@ -535,6 +541,28 @@ const minisPage: PageContent = {
         "A mini package should not be read as proof that the same name is available in every size at a particular Oklahoma store. Product range and retailer inventory are different questions. The catalog defines what exists; the licensed dispensary confirms what is on its shelf now.",
         "For staff, the full-size and mini distinction creates a useful educational moment without requiring a complicated script. The wrap identifies the blunt family, the package identifies the exact product, and the size language identifies the presentation. Three clear facts do more work than a vague superlative and keep the conversation grounded in what the customer can verify.",
         "The result is a blunt category that stays understandable even as product names, series colors, and package counts expand around it.",
+      ],
+      subsections: [
+        {
+          id: "mini-vs-full-size",
+          heading: "How are Presidential mini blunts different from full-size blunts?",
+          paragraphs: [
+            "A Presidential mini blunt uses the same tobacco-free hemp wrap as the full-size blunt, at a smaller scale. Several mini pieces may be organized as a pack, while a full-size blunt gives one product identity a single-roll presentation. Mini describes physical scale, not a new series, flavor, or strain, and not an effects claim. The package identifies the exact product and its count or size.",
+          ],
+        },
+        {
+          id: "hemp-wrap-vs-paper",
+          heading: "Do mini blunts and mini pre-rolls use the same wrap?",
+          paragraphs: [
+            [
+              { text: "No. Mini " },
+              { text: "blunts", href: "/blunts" },
+              { text: " use a tobacco-free hemp wrap, while mini " },
+              { text: "pre-rolls", href: "/pre-rolls" },
+              { text: " use paper. Both share the compact size idea, but the wrap keeps them in separate families." },
+            ],
+          ],
+        },
       ],
     },
     {
