@@ -570,6 +570,23 @@ const preRollsPage: PageContent = {
         ],
         "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On Presidential cannabis products, the package names the format, series, and product, so read that line first when comparing a pre-roll with a blunt.",
       ],
+      subsections: [
+        {
+          id: "how-is-a-mini-pre-roll-different-from-a-full-pre",
+          heading: "How is a mini pre-roll different from a full pre-roll?",
+          paragraphs: [
+            [
+              { text: "Size is the difference, not the material. Mini pre-rolls keep paper and bring the format into a compact multipack, while mini blunts keep the tobacco-free hemp wrap. Mini describes physical scale, not a new series and not an effects claim, so the same Silver and Gold names can appear at either size. Keep reading with " },
+              { text: "compact Presidential minis", href: "/minis" },
+              { text: ", " },
+              { text: "tobacco-free blunt formats", href: "/blunts" },
+              { text: ", or " },
+              { text: "Silver Flavor Series names", href: "/silver" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "sizes-and-packs",
@@ -582,30 +599,13 @@ const preRollsPage: PageContent = {
         "Minis receive their own site page because compact pre-rolls share useful comparisons with mini blunts. The current page keeps the complete pre-roll family together, from larger single presentations through smaller multipacks, so paper-rolled options remain easy to understand as one format.",
         "That breadth also gives stores a way to build progression within one recognizable category. A focused order might begin with a small number of strong names in one pack style, then expand into additional sizes or series as local demand becomes clear. The catalog offers room to grow without demanding that every shelf begin at maximum depth.",
       ],
-      subsections: [
-        {
-          id: "series-as-pre-rolls",
-          heading: "Which series appear as pre-rolls?",
-          paragraphs: [
-            [
-              { text: "Presidential pre-roll artwork spans fruit-forward " },
-              { text: "Silver" },
-              { text: " names, " },
-              { text: "Gold" },
-              { text: " names drawn from cannabis strains, Presidential Line identities, the House Line, and the THC Design collaboration. A " },
-              { text: "mini" },
-              { text: " pack reduces the scale while keeping the paper format." },
-            ],
-          ],
-        },
-      ],
     },
     {
       id: "pre-roll-names",
       heading: "Which infused pre-roll names appear",
       imageCount: 1,
       paragraphs: [
-        "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it.",
+        "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it. A mini pack reduces the scale while keeping the paper format.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
         "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration. This site displays only approved local artwork and matches each filename to an exact `/moon-rocks/` product slug from the official sitemap.",
       ],
@@ -615,27 +615,18 @@ const preRollsPage: PageContent = {
       heading: "A package system for Presidential cannabis products",
       imageCount: 2,
       paragraphs: [
-        "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away.",
+        [
+          { text: "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away. The package and canonical product record identify how flower, concentrate, and kief appear in that specific item. Read the crest, the exact product name, the series, and the size: a single emphasizes one roll, while a multipack organizes several pieces under one name. Keep reading with " },
+          { text: "Presidential retailer guide", href: "/retailers" },
+          { text: ", " },
+          { text: "find a participating dispensary", href: "/find" },
+          { text: ", or " },
+          { text: "about the Presidential brand", href: "/about" },
+          { text: "." },
+        ],
         "Series architecture creates order across that variety. A run of Silver packages can read as a bright flavor set. Gold can create a broader strain wall with consistent hierarchy. The Line can introduce strong one-off character art. House Line gives the shelf a simple core, and THC Design creates a collaboration marker without asking the retailer to explain it from scratch.",
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
         "The Oklahoma site remains focused on what local patients and retailers need most: format recognition and honest availability language.",
-      ],
-      subsections: [
-        {
-          id: "how-do-you-read-a-pre-roll-package",
-          heading: "How do you read a pre-roll package?",
-          paragraphs: [
-            [
-              { text: "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. The package and canonical product record identify how flower, concentrate, and kief appear in that specific item. Read the crest, the exact product name, the series, and the size: a single emphasizes one roll, while a multipack organizes several pieces under one name. Keep reading with " },
-              { text: "Presidential retailer guide", href: "/retailers" },
-              { text: ", " },
-              { text: "find a participating dispensary", href: "/find" },
-              { text: ", or " },
-              { text: "about the Presidential brand", href: "/about" },
-              { text: "." },
-            ],
-          ],
-        },
       ],
     },
     {
@@ -880,21 +871,6 @@ const silverPage: PageContent = {
             ],
           ],
         },
-        {
-          id: "how-do-silver-names-appear-across-formats",
-          heading: "How do Silver names appear across formats?",
-          paragraphs: [
-            [
-              { text: "Silver identity can travel across Moon Rocks, infused pre-rolls, tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, the Silver series cue, and the core artwork preserve recognition. A shopper who knows Watermelon or Blue Raspberry in one format can look for the same name in another. Each Oklahoma dispensary chooses its own mix of names, formats, and sizes, so confirm the exact product with the store. Keep reading with " },
-              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
-              { text: ", " },
-              { text: "Presidential infused pre-rolls", href: "/pre-rolls" },
-              { text: ", or " },
-              { text: "compact Presidential minis", href: "/minis" },
-              { text: "." },
-            ],
-          ],
-        },
       ],
     },
     {
@@ -905,7 +881,7 @@ const silverPage: PageContent = {
         [
           { text: "Silver identity can travel across Moon Rocks, " },
           { text: "infused pre-rolls", href: "/pre-rolls" },
-          { text: ", tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family." },
+          { text: ", tobacco-free hemp-wrap blunts, and compact minis. The physical package changes with the format, but the fruit name, Silver series cue, and core artwork preserve recognition. That makes it possible to compare formats without losing track of the product family. A shopper who knows Watermelon or Blue Raspberry in one format can look for the same name in another." },
         ],
         [
           { text: "Presidential Moon Rocks", href: "/moon-rocks" },
@@ -936,6 +912,21 @@ const silverPage: PageContent = {
             [
               { text: "Silver is the Presidential distillate series, organized by fruit name. Ask for the exact name and format, then check the " },
               { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: "." },
+            ],
+          ],
+        },
+        {
+          id: "whats-inside-a-silver-product",
+          heading: "What's inside a Silver product?",
+          paragraphs: [
+            [
+              { text: "Every Silver product uses the Presidential construction: flower carried through with cannabis concentrate and finished with kief. In Silver, that concentrate is distillate, which is why the series is organized by fruit name rather than strain. The format sets the outside: Moon Rocks show the layers directly, pre-rolls use paper, blunts use a tobacco-free hemp wrap, and minis are the compact versions. Keep reading with " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "Presidential infused pre-rolls", href: "/pre-rolls" },
+              { text: ", or " },
+              { text: "Gold Strain Series names", href: "/gold" },
               { text: "." },
             ],
           ],
