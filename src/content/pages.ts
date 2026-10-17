@@ -1103,6 +1103,8 @@ const goldPage: PageContent = {
               { text: "Oklahoma dispensary guide", href: "/dispensaries" },
               { text: " or the " },
               { text: "Oklahoma store finder", href: "/find" },
+              { text: ". Retailers can start at the " },
+              { text: "Oklahoma retailer page", href: "/retailers" },
               { text: "." },
             ],
           ],
