@@ -112,10 +112,10 @@ const homePage: PageContent = {
     },
     {
       id: "six-series",
-      heading: "The six series",
+      heading: "The Presidential series",
       imageCount: 3,
       paragraphs: [
-        "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The Silver Flavor Series carries seven fruit-forward flavors. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
+        "The catalog is organized into Silver Flavor Series, Gold Strain Series, Rose Gold Connoisseur Series, Presidential Line, Presidential House Line, and Presidential x THC Design. The Silver Flavor Series carries fruit-forward flavors. The series and package identify where a product belongs; the canonical product record supplies the current detail.",
         "Flavor names, cannabis cultivar names, house formats, and collaboration packaging serve different jobs. Keeping those groupings distinct helps Oklahoma shoppers recognize Presidential products without relying on fixed product counts or assumed inventory.",
       ],
       subsections: [
@@ -126,7 +126,7 @@ const homePage: PageContent = {
             [
               { text: "The " },
               { text: "Silver Flavor Series", href: "/silver" },
-              { text: " carries seven fruit-forward flavors. The " },
+              { text: " carries fruit-forward flavors. The " },
               { text: "Gold Strain Series", href: "/gold" },
               { text: " carries strain-led names, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
@@ -895,7 +895,7 @@ const silverPage: PageContent = {
     },
     {
       id: "seven-products",
-      heading: "Seven official product identities",
+      heading: "The official Silver product identities",
       imageCount: 2,
       paragraphs: [
         "Blue Raspberry opens the set with a name that naturally supports cool blue package language. Grape moves into a deep purple world. Peach Mango combines two fruit cues in one identity, creating a warmer visual bridge between the single-fruit products and the wider Tropical name.",
@@ -1039,7 +1039,7 @@ const goldPage: PageContent = {
     },
     {
       id: "nineteen-products",
-      heading: "Nineteen official product identities",
+      heading: "The official Gold product identities",
       imageCount: 2,
       paragraphs: [
         "The Gold roster begins with 24K, Blue Dream, Cap Junky, Cherry Gelato, Crescendo, and Galactic Gas. Gorilla Goo, King Louis, and NYC Diesel continue the set. Orange Push Pop, Papaya Punch, and Pink Cookies bring three more distinct official identities into the middle of the collection.",
@@ -1181,7 +1181,7 @@ const roseGoldPage: PageContent = {
     },
     {
       id: "five-products",
-      heading: "Five official product identities",
+      heading: "The official Rose Gold product identities",
       imageCount: 2,
       paragraphs: [
         "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the five-product set. The apostrophe in God’s Gift is preserved in the visible name, while the official URL uses the confirmed `gods-gift` slug from the live main-site sitemap.",
