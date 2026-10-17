@@ -1021,6 +1021,21 @@ const silverPage: PageContent = {
           ],
         },
         {
+          id: "what-oklahoma-menus-call-silver-products",
+          heading: "What do Oklahoma menus call Silver products?",
+          paragraphs: [
+            [
+              { text: "Menus may list them under Presidential THC, Presidential cannabis or Presidential marijuana, but the product is the same: a Silver item from the Presidential distillate series, named by fruit. Ask for the exact name, such as Peach Mango or Watermelon, along with the format: Moon Rocks, an infused pre-roll, a tobacco-free blunt or a mini. Each licensed Oklahoma dispensary chooses its own mix of names, formats and sizes, so confirm with the store before you go. The package confirms the series and the exact name at the counter. Keep reading with " },
+              { text: "find Presidential in Oklahoma", href: "/find" },
+              { text: ", the " },
+              { text: "Oklahoma dispensary guide", href: "/dispensaries" },
+              { text: ", or the " },
+              { text: "Oklahoma Gold Strain Series", href: "/gold" },
+              { text: "." },
+            ],
+          ],
+        },
+        {
           id: "whats-inside-a-silver-product",
           heading: "What's inside a Silver product?",
           paragraphs: [
