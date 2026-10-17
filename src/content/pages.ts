@@ -708,7 +708,7 @@ const minisPage: PageContent = {
       heading: "Presidential mini blunts",
       imageCount: 2,
       paragraphs: [
-        "Mini blunts use a tobacco-free hemp wrap at a smaller scale than the full-size blunt. The wrap is the category-defining exterior, while the multipiece package gives the mini presentation its own visual rhythm. Approved Presidential art makes that construction recognizable without rendering alt text as a caption or covering the product with editorial labels.",
+        "Mini blunts use a tobacco-free hemp wrap at a smaller scale than the full-size blunt. The wrap is the category-defining exterior, while the multipiece package gives the mini presentation its own visual rhythm. Approved Presidential art makes that construction recognizable without rendering alt text as a caption or covering the product with editorial labels. Several mini pieces may be organized as a pack, while a full-size blunt gives one product identity a single-roll presentation. Mini describes physical scale, not a new series, flavor, or strain.",
         [
           { text: "Silver fruit identities are particularly visible in mini blunt artwork because bold color and direct names can organize a set quickly. Gold strain identities add another layer of variety. House Line and individual Presidential identities keep the mini blunt category connected to the " },
           { text: "wider brand", href: "/about" },
@@ -724,13 +724,6 @@ const minisPage: PageContent = {
         "The result is a blunt category that stays understandable even as product names, series colors, and package counts expand around it.",
       ],
       subsections: [
-        {
-          id: "mini-vs-full-size",
-          heading: "How are Presidential mini blunts different from full-size blunts?",
-          paragraphs: [
-            "A Presidential mini blunt uses the same tobacco-free hemp wrap as the full-size blunt, at a smaller scale. Several mini pieces may be organized as a pack, while a full-size blunt gives one product identity a single-roll presentation. Mini describes physical scale, not a new series, flavor, or strain, and not an effects claim. The package identifies the exact product and its count or size.",
-          ],
-        },
         {
           id: "hemp-wrap-vs-paper",
           heading: "Do mini blunts and mini pre-rolls use the same wrap?",
@@ -779,6 +772,23 @@ const minisPage: PageContent = {
         "Mini pre-rolls use paper rather than a hemp wrap. That simple material distinction separates them from mini blunts even when both appear as compact multipacks. Tall or structured package artwork makes product identity visible while count and format details complete the practical comparison.",
         "The same series logic applies here. Silver can build a vibrant fruit-led mini collection. Gold can bring strain-first names into a compact pre-roll package. Presidential Line art can give individual products their own characters, and House Line can keep the category anchored in the core brand.",
         "Because mini pre-rolls and mini blunts share the size idea, this page places them together. Because they do not share the same wrap, it never collapses them into one construction. Visitors can compare compact formats here and then move to the complete pre-roll or blunt page for the larger family story.",
+      ],
+      subsections: [
+        {
+          id: "whats-inside-a-presidential-mini",
+          heading: "What's inside a Presidential mini?",
+          paragraphs: [
+            [
+              { text: "The same construction as the full-size format: flower carried through with cannabis concentrate and finished with kief. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
+              { text: "Silver Flavor Series names", href: "/silver" },
+              { text: ", " },
+              { text: "Gold Strain Series names", href: "/gold" },
+              { text: ", or " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
@@ -1294,29 +1304,6 @@ const findPage: PageContent = {
       ],
       subsections: [
         {
-          id: "what-to-ask",
-          heading: "What should I ask for at the dispensary?",
-          paragraphs: [
-            [
-              { text: "Name the brand, the format, the series, and the product. For example: Presidential, Moon Rocks, Silver, Blue Raspberry. Formats are " },
-              { text: "Moon Rocks", href: "/moon-rocks" },
-              { text: ", " },
-              { text: "blunts" },
-              { text: ", " },
-              { text: "pre-rolls" },
-              { text: ", and " },
-              { text: "minis" },
-              { text: "; series are " },
-              { text: "Silver" },
-              { text: ", " },
-              { text: "Gold" },
-              { text: ", and " },
-              { text: "Rose Gold", href: "/rose-gold" },
-              { text: "." },
-            ],
-          ],
-        },
-        {
           id: "how-do-you-name-the-product-you-want",
           heading: "How do you name the product you want?",
           paragraphs: [
@@ -1325,8 +1312,27 @@ const findPage: PageContent = {
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
+              { text: ", " },
+              { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
+              { text: ", " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
               { text: ", or " },
               { text: "Presidential retailer guide", href: "/retailers" },
+              { text: "." },
+            ],
+          ],
+        },
+        {
+          id: "how-is-the-dispensary-directory-organized",
+          heading: "How is the dispensary directory organized?",
+          paragraphs: [
+            [
+              { text: "The Oklahoma dispensary directory groups participating stores by region, so you can open the part of the state you're shopping in and see licensed locations there. Use it alongside the official locator: the directory gives the regional view, the locator gives the current participating field, and the dispensary confirms what is on its shelf. Keep reading with " },
+              { text: "all Oklahoma dispensary regions", href: "/dispensaries" },
+              { text: ", " },
+              { text: "Presidential retailer guide", href: "/retailers" },
+              { text: ", or " },
+              { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
               { text: "." },
             ],
           ],
