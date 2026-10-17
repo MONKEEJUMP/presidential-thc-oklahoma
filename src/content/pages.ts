@@ -204,6 +204,21 @@ const homePage: PageContent = {
           { text: ", which bring the rolled formats into a smaller package. Assortments can vary by dispensary." },
         ],
       ],
+      subsections: [
+        {
+          id: "does-this-site-list-presidential-prices",
+          heading: "Does this site list Presidential prices?",
+          paragraphs: [
+            [
+              { text: "No. Presidential THC Oklahoma is a brand reference, not a storefront, so it publishes no prices. The licensed dispensary sets its own pricing and controls current inventory. Use the store locator to " },
+              { text: "find Presidential in Oklahoma", href: "/find" },
+              { text: ", then confirm the product, series, and format with them. The package names the product and its series, so it's the most reliable thing to bring to the counter. Dispensaries can start with " },
+              { text: "the Oklahoma dispensary guide for retailers", href: "/retailers" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
   ],
   childLinks: [
@@ -1678,10 +1693,10 @@ const aboutPage: PageContent = {
     },
     {
       id: "the-catalog",
-      heading: "Forty-seven products, one system",
+      heading: "Six groupings, one system",
       imageCount: 1,
       paragraphs: [
-        "The current catalog contains 47 products across six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
+        "The current catalog spans six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
         [
           { text: "Moon Rocks, blunts, pre-rolls, and " },
           { text: "Presidential minis", href: "/minis" },
@@ -1700,7 +1715,7 @@ const aboutPage: PageContent = {
               { text: "Gold" },
               { text: " has nineteen strain-led identities, and " },
               { text: "Rose Gold", href: "/rose-gold" },
-              { text: " has five connoisseur identities. The Presidential Line, House Line, and Presidential x THC Design complete the 47-product catalog, available as " },
+              { text: " has five connoisseur identities. The Presidential Line, House Line, and Presidential x THC Design complete the catalog, available as " },
               { text: "Moon Rocks", href: "/moon-rocks" },
               { text: ", " },
               { text: "blunts" },
