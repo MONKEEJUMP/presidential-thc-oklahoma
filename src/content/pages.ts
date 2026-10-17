@@ -867,7 +867,7 @@ const silverPage: PageContent = {
   kind: "article",
   h1: "The Presidential Silver Flavor Series in Oklahoma",
   title: "Presidential Silver Series Oklahoma | Official Guide",
-  description: "Meet all seven vibrant, fruit-forward Presidential Silver Flavor Series products and follow each one to its official product record.",
+  description: "Oklahoma Silver Flavor Series: meet the vibrant, fruit-forward Presidential Silver products and follow each one to its official product record.",
   intro: [
     "The Presidential Silver Flavor Series is a complete set built around direct fruit identity: Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Bright names and vivid packaging make the series easy to read as one family, even when the products appear across different Presidential formats.",
     "Silver is flavor-first in position and bold in presentation. That describes the product identity and package language; it is not an effects or medical promise. Every official name appears below, while unique approved artworks show how the series carries color into the Oklahoma shelf.",
@@ -1026,7 +1026,7 @@ const goldPage: PageContent = {
   kind: "article",
   h1: "The Presidential Gold Strain Series in Oklahoma",
   title: "Presidential Gold Strain Series in Oklahoma | Official Guide",
-  description: "Meet all nineteen cannabis-first Presidential Gold Strain Series products and follow every name to its official product record.",
+  description: "Oklahoma Gold Strain Series: meet the cannabis-first Presidential Gold products and follow every name to its official product record.",
   intro: [
     "The Presidential Gold Strain Series is the largest named grouping in the current catalog: cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
     "Every official Gold name appears in the complete roster below. Unique approved artworks provide a representative product gallery; the roster ensures the full series remains visible without inventing names, slugs, or format availability.",
@@ -1171,7 +1171,7 @@ const roseGoldPage: PageContent = {
   kind: "article",
   h1: "The Presidential Rose Gold Connoisseur Series in Oklahoma",
   title: "Presidential Rose Gold Oklahoma | Official Guide",
-  description: "Meet all five refined Presidential Rose Gold products and follow every official name to its canonical product record.",
+  description: "Oklahoma Rose Gold Connoisseur Series: meet the refined Presidential Rose Gold products and follow every name to its canonical product record.",
   intro: [
     "The Presidential Rose Gold Connoisseur Series is a deliberately edited collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
     "Every official Rose Gold product appears in the roster below. This Oklahoma property now presents every real package design in square and portrait state-specific compositions, keeping the product and series aligned.",
