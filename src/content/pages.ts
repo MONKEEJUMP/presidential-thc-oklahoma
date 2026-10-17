@@ -366,6 +366,21 @@ const moonRocksPage: PageContent = {
           ],
         },
         {
+          id: "buy-moon-rocks-at-an-oklahoma-dispensary",
+          heading: "Can you buy Moon Rocks at an Oklahoma dispensary?",
+          paragraphs: [
+            [
+              { text: "Yes, through licensed dispensaries only. Oklahoma is a medical market: a lawful purchase starts with the eligibility the Oklahoma Medical Marijuana Authority requires and takes place at an appropriately licensed dispensary. Assortments vary by dispensary, so confirm the exact Moon Rocks name and series with the store before you go. Start with " },
+              { text: "find Presidential in Oklahoma", href: "/find" },
+              { text: ", browse the " },
+              { text: "Oklahoma dispensary directory", href: "/dispensaries" },
+              { text: ", or compare the " },
+              { text: "Oklahoma Silver Flavor Series", href: "/silver" },
+              { text: "." },
+            ],
+          ],
+        },
+        {
           id: "how-do-silver-gold-and-rose-gold-moon-rocks-diff",
           heading: "How do Silver, Gold, and Rose Gold Moon Rocks differ?",
           paragraphs: [
