@@ -994,6 +994,21 @@ const silverPage: PageContent = {
         "Use the official Oklahoma locator to identify participating retailers, then ask for the exact combination shown on the product record—for example, Presidential, Silver, Blue Raspberry, and the intended format. That level of detail is more useful than a general brand inquiry and helps the store check current inventory accurately.",
         "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with every name visible.",
       ],
+      subsections: [
+        {
+          id: "silver-for-oklahoma-retailers",
+          heading: "Silver for Oklahoma retailers",
+          paragraphs: [
+            [
+              { text: "Retailers can start at the " },
+              { text: "Oklahoma retailer page", href: "/retailers" },
+              { text: ", and the " },
+              { text: "Presidential in Oklahoma overview", href: "/oklahoma" },
+              { text: " covers the state." },
+            ],
+          ],
+        },
+      ],
     },
   ],
   productRoster: silverRoster,
