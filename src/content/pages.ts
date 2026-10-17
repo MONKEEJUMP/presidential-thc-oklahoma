@@ -83,7 +83,7 @@ const homePage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Presidential THC Oklahoma is the Oklahoma guide to the " },
+          { text: "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief or diamonds. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Presidential THC Oklahoma is the Oklahoma guide to the " },
           { text: "Presidential cannabis brand", href: "/about" },
           { text: ", founded in Los Angeles in 2012." },
         ],
@@ -99,7 +99,7 @@ const homePage: PageContent = {
           heading: "Is Presidential cannabis the same brand as Presidential THC?",
           paragraphs: [
             [
-              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. Its signature is an infused construction: flower carried through with concentrate and finished with kief, across " },
+              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. Its signature is an infused construction: flower carried through with concentrate and finished with kief or diamonds, across " },
               { text: "Oklahoma Moon Rocks", href: "/moon-rocks" },
               { text: ", tobacco-free blunts, infused pre-rolls and minis. The package names the product and its series, such as the " },
               { text: "Oklahoma Gold Strain Series", href: "/gold" },
@@ -147,7 +147,7 @@ const homePage: PageContent = {
               { text: "Gold Strain Series", href: "/gold" },
               { text: " carries strain-led names, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
-              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate and finished with kief." },
+              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate and finished with kief or diamonds." },
             ],
           ],
         },
@@ -854,7 +854,7 @@ const minisPage: PageContent = {
           heading: "What's inside a Presidential mini?",
           paragraphs: [
             [
-              { text: "The same construction as the full-size format: flower carried through with cannabis concentrate and finished with kief. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
+              { text: "The same construction as the full-size format: flower carried through with cannabis concentrate and finished with kief or diamonds. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
@@ -1530,7 +1530,7 @@ const retailersPage: PageContent = {
           heading: "What makes Presidential easy to explain at the counter?",
           paragraphs: [
             [
-              { text: "The construction is simple and factual: flower carried through with cannabis concentrate and finished in kief. " },
+              { text: "The construction is simple and factual: flower carried through with cannabis concentrate and finished in kief or diamonds. " },
               { text: "Moon Rocks", href: "/moon-rocks" },
               { text: " anchor the block, while " },
               { text: "blunts" },
@@ -1750,7 +1750,7 @@ const aboutPage: PageContent = {
           heading: "Where does the crest appear?",
           paragraphs: [
             [
-              { text: "The crest appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, connecting each named product to the same official brand. That shared mark makes the three-layer construction that began in Los Angeles in 2012 recognizable in every format: flower carried through with cannabis concentrate and finished in kief. Series and product names then sit beneath the crest to identify the exact release. Keep reading with " },
+              { text: "The crest appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, connecting each named product to the same official brand. That shared mark makes the three-layer construction that began in Los Angeles in 2012 recognizable in every format: flower carried through with cannabis concentrate and finished in kief or diamonds. Series and product names then sit beneath the crest to identify the exact release. Keep reading with " },
               { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
               { text: ", " },
               { text: "tobacco-free blunt formats", href: "/blunts" },
