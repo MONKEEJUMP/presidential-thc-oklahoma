@@ -506,6 +506,21 @@ const bluntsPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "blunts-beside-oklahoma-moon-rocks-and-minis",
+          heading: "Blunts beside Oklahoma Moon Rocks and minis",
+          paragraphs: [
+            [
+              { text: "To see the blunt next to the other formats, compare " },
+              { text: "Oklahoma Moon Rocks", href: "/moon-rocks" },
+              { text: ", " },
+              { text: "Oklahoma minis", href: "/minis" },
+              { text: " and " },
+              { text: "Oklahoma infused pre-rolls", href: "/pre-rolls" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
     {
