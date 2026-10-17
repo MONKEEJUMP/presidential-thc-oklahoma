@@ -93,6 +93,23 @@ const homePage: PageContent = {
           { text: " carries the canonical product records and collection structure. This Oklahoma guide adds state context without creating a second catalog or making unsupported effects or potency promises." },
         ],
       ],
+      subsections: [
+        {
+          id: "presidential-cannabis-same-brand-as-presidential-thc",
+          heading: "Is Presidential cannabis the same brand as Presidential THC?",
+          paragraphs: [
+            [
+              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. Its signature is an infused construction: flower carried through with concentrate and finished with kief, across " },
+              { text: "Oklahoma Moon Rocks", href: "/moon-rocks" },
+              { text: ", tobacco-free blunts, infused pre-rolls and minis. The package names the product and its series, such as the " },
+              { text: "Oklahoma Gold Strain Series", href: "/gold" },
+              { text: ", so match that name at a licensed Oklahoma dispensary, where the retailer controls current inventory. Assortments can vary from one dispensary to the next. Start with " },
+              { text: "find Presidential in Oklahoma", href: "/find" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "four-formats",
