@@ -131,8 +131,8 @@ export default function DispensariesPage() {
                 <Link href="/minis">Presidential minis</Link>, the compact blunt and pre-roll family.
               </p>
               <p>
-                Across those formats, the Silver Flavor Series carries seven fruit-forward identities, the Gold
-                Strain Series nineteen cannabis-first strain names, and the Rose Gold Connoisseur Series five
+                Across those formats, the Silver Flavor Series carries fruit-forward identities, the Gold
+                Strain Series cannabis-first strain names, and the Rose Gold Connoisseur Series
                 solventless craft identities, alongside the Presidential Line and House Line.
               </p>
               <p>

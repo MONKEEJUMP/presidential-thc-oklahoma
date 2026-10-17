@@ -306,7 +306,7 @@ const moonRocksPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and kief provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
-        "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create three more ways for the same brand architecture to appear.",
+        "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
         "The series should not be confused with a public extract chart. This Oklahoma property does not explain which extract sits behind each collection, because another official property owns that technical subject. Here the useful questions are simpler: Which product is this? Which series does its official record place it in? Which package should an Oklahoma patient recognize at licensed retail?",
         "Keeping the explanation at that level also keeps the page honest. Materials and package identity can be stated directly. Effects vary by person and are not promised. Product details belong to the official record, current local availability belongs to the retailer, and Oklahoma medical-program rules belong together on the dedicated state page.",
       ],
@@ -1028,8 +1028,8 @@ const goldPage: PageContent = {
   title: "Presidential Gold Strain Series in Oklahoma | Official Guide",
   description: "Meet all nineteen cannabis-first Presidential Gold Strain Series products and follow every name to its official product record.",
   intro: [
-    "The Presidential Gold Strain Series is the largest named grouping in the current catalog: nineteen cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
-    "Every official Gold name appears in the complete roster below. Eight unique approved artworks provide a representative product gallery within the requested image range; the roster ensures the full nineteen-product series remains visible without inventing names, slugs, or format availability.",
+    "The Presidential Gold Strain Series is the largest named grouping in the current catalog: cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
+    "Every official Gold name appears in the complete roster below. Unique approved artworks provide a representative product gallery; the roster ensures the full series remains visible without inventing names, slugs, or format availability.",
   ],
   sections: [
     {
@@ -1038,7 +1038,7 @@ const goldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Gold leads with strain identity rather than fruit-series identity. That distinction gives the product name the first word and lets illustration build a visual world around it. ‘Cannabis-first’ describes how the catalog is organized; ‘balanced’ describes the relationship between individuality and shared series structure, not a promised personal outcome.",
-        "Nineteen products could easily become visually noisy. Gold avoids that by repeating a clear hierarchy: Presidential crest, Gold series cue, exact product name, format information, and a strong illustration. The art changes enough to reward browsing while the frame around it tells a buyer that the products can merchandise together.",
+        "A series this broad could easily become visually noisy. Gold avoids that by repeating a clear hierarchy: Presidential crest, Gold series cue, exact product name, format information, and a strong illustration. The art changes enough to reward browsing while the frame around it tells a buyer that the products can merchandise together.",
         [
           { text: "The series can support both a small curated order and a deeper shelf. A " },
           { text: "retailer" },
@@ -1057,9 +1057,9 @@ const goldPage: PageContent = {
       heading: "The official Gold product identities",
       imageCount: 2,
       paragraphs: [
-        "The Gold roster begins with 24K, Blue Dream, Cap Junky, Cherry Gelato, Crescendo, and Galactic Gas. Gorilla Goo, King Louis, and NYC Diesel continue the set. Orange Push Pop, Papaya Punch, and Pink Cookies bring three more distinct official identities into the middle of the collection.",
-        "Presidential OG gives the series an unmistakable brand-named anchor. Rainbow Belts, SFV OG, Skywalker, Waui, XJ-13, and XXX complete the nineteen-product official grouping. The names are reproduced exactly from the live main-site sitemap and collection structure, including capitalization and the hyphen in XJ-13.",
-        "In the complete roster below, a product without a representative gallery image is still present by name. That keeps the page complete while honoring the eight-to-ten-image brief.",
+        "The Gold roster begins with 24K, Blue Dream, Cap Junky, Cherry Gelato, Crescendo, and Galactic Gas. Gorilla Goo, King Louis, and NYC Diesel continue the set. Orange Push Pop, Papaya Punch, and Pink Cookies bring more distinct official identities into the middle of the collection.",
+        "Presidential OG gives the series an unmistakable brand-named anchor. Rainbow Belts, SFV OG, Skywalker, Waui, XJ-13, and XXX complete the official grouping. The names are reproduced exactly from the live main-site sitemap and collection structure, including capitalization and the hyphen in XJ-13.",
+        "In the complete roster below, a product without a representative gallery image is still present by name. That keeps the page complete within its image set.",
         "No product is assigned to Gold because a local asset happened to use a gold color. Series membership comes from the official main-site structure. That rule protects the catalog from creative guesswork and makes the Oklahoma page useful as a dependable brand guide rather than a decorative collage.",
       ],
       subsections: [
@@ -1068,11 +1068,11 @@ const goldPage: PageContent = {
           heading: "How is Gold different from Silver and Rose Gold?",
           paragraphs: [
             [
-              { text: "Gold leads with strain identity: nineteen cannabis-first names from 24K to XXX. " },
+              { text: "Gold leads with strain identity: cannabis-first names from 24K to XXX. " },
               { text: "Silver" },
-              { text: " is the seven-product, fruit-forward Flavor Series, and " },
+              { text: " is the fruit-forward Flavor Series, and " },
               { text: "Rose Gold", href: "/rose-gold" },
-              { text: " is the five-product Connoisseur Series. Gold names also appear across " },
+              { text: " is the Connoisseur Series. Gold names also appear across " },
               { text: "Moon Rocks", href: "/moon-rocks" },
               { text: ", " },
               { text: "blunts" },
@@ -1122,8 +1122,8 @@ const goldPage: PageContent = {
       heading: "A deep illustrated shelf",
       imageCount: 2,
       paragraphs: [
-        "Gold package art gives nineteen names room to be memorable. Some identities arrive with a long cultural history; others feel current and graphic. Illustration lets each one claim a visual territory while the gold structure prevents the collection from looking like nineteen separate brands sharing a shelf by accident.",
-        "The eight artworks on this page are representatives, not a ranked list. Each comes from a unique approved source file and appears nowhere else on the Oklahoma site. Square or portrait output preserves a product-art proportion, explicit dimensions stabilize layout, and WebP delivery keeps the page practical despite the image-heavy design.",
+        "Gold package art gives every name room to be memorable. Some identities arrive with a long cultural history; others feel current and graphic. Illustration lets each one claim a visual territory while the gold structure prevents the collection from looking like nineteen separate brands sharing a shelf by accident.",
+        "The artworks on this page are representatives, not a ranked list. Each comes from a unique approved source file and appears nowhere else on the Oklahoma site. Square or portrait output preserves a product-art proportion, explicit dimensions stabilize layout, and WebP delivery keeps the page practical despite the image-heavy design.",
         "The ornamental champagne frame never becomes a caption. It creates continuity with the Presidential Oklahoma design system while alt text remains available to assistive technology.",
         "The Oklahoma property celebrates the artwork generously but never competes with the main site for product authority.",
       ],
@@ -1152,7 +1152,7 @@ const goldPage: PageContent = {
       paragraphs: [
         "Gold reaches Oklahoma through licensed dispensaries as part of Presidential’s wholesale network. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
         "Use the official Oklahoma locator to identify current participating doors, then confirm the product by its exact name and intended format. Asking for ‘Gold’ alone describes the series. Asking for ‘Presidential Gold Skywalker pre-rolls’ gives the retailer a specific inventory check tied to a recognizable package.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with nineteen names and packaging designed to remain coherent at scale.",
+        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with a broad roster and packaging designed to remain coherent at scale.",
       ],
     },
   ],
@@ -1415,7 +1415,7 @@ const retailersPage: PageContent = {
     [
       { text: "This page is for Oklahoma " },
       { text: "dispensary owners and buyers", href: "/dispensaries" },
-      { text: ". Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, four clear formats, six coordinated groupings, and package art built to hold attention across a shelf." },
+      { text: ". Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, four clear formats, coordinated groupings, and package art built to hold attention across a shelf." },
     ],
     [
       { text: "No pricing, margin figure, term, or guaranteed sell-through claim appears here because those details have not been supplied or verified. The useful conversation is the brand proposition: " },
@@ -1460,11 +1460,11 @@ const retailersPage: PageContent = {
     },
     {
       id: "six-series-shelf",
-      heading: "Six groupings create range",
+      heading: "Groupings create range",
       imageCount: 1,
       paragraphs: [
-        "Silver is a seven-product Flavor Series with direct fruit identities and strong color. Gold is a nineteen-product Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a five-product Connoisseur Series with a smaller, refined, craft-centered position. Those three color families provide an immediate good-better-best-style visual rhythm without requiring this page to publish commercial terms.",
-        "The Presidential Line adds ten character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging. Together, the six groupings prevent the catalog from depending on one naming convention.",
+        "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families provide an immediate good-better-best-style visual rhythm without requiring this page to publish commercial terms.",
+        "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging. Together, the groupings prevent the catalog from depending on one naming convention.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The complete series pages on this Oklahoma property name every official Silver, Gold, and Rose Gold product from the current main-site sitemap. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
       ],
@@ -1658,7 +1658,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    "Presidential THC Oklahoma is the official state property for the original Presidential brand. It presents the products, explains the four formats and six catalog groupings, and connects Oklahoma patients and retailers to the main Presidential catalog and licensed retail network.",
+    "Presidential THC Oklahoma is the official state property for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and connects Oklahoma patients and retailers to the main Presidential catalog and licensed retail network.",
   ],
   sections: [
     {
@@ -1708,10 +1708,10 @@ const aboutPage: PageContent = {
     },
     {
       id: "the-catalog",
-      heading: "Six groupings, one system",
+      heading: "Groupings in one system",
       imageCount: 1,
       paragraphs: [
-        "The current catalog spans six groupings and four formats. Silver has seven fruit-forward identities, Gold has nineteen strain-led identities, and Rose Gold has five connoisseur identities. The Presidential Line adds ten products, House Line adds three core-format products, and Presidential x THC Design adds three collaboration products.",
+        "The current catalog spans multiple groupings and four formats. Silver has fruit-forward identities, Gold has strain-led identities, and Rose Gold has connoisseur identities. The Presidential Line adds its own products, House Line adds core-format products, and Presidential x THC Design adds collaboration products.",
         [
           { text: "Moon Rocks, blunts, pre-rolls, and " },
           { text: "Presidential minis", href: "/minis" },
@@ -1722,15 +1722,15 @@ const aboutPage: PageContent = {
       subsections: [
         {
           id: "six-groupings",
-          heading: "How are the six groupings organized?",
+          heading: "How are the groupings organized?",
           paragraphs: [
             [
               { text: "Silver" },
-              { text: " has seven fruit-forward identities, " },
+              { text: " has fruit-forward identities, " },
               { text: "Gold" },
-              { text: " has nineteen strain-led identities, and " },
+              { text: " has strain-led identities, and " },
               { text: "Rose Gold", href: "/rose-gold" },
-              { text: " has five connoisseur identities. The Presidential Line, House Line, and Presidential x THC Design complete the catalog, available as " },
+              { text: " has connoisseur identities. The Presidential Line, House Line, and Presidential x THC Design complete the catalog, available as " },
               { text: "Moon Rocks", href: "/moon-rocks" },
               { text: ", " },
               { text: "blunts" },
