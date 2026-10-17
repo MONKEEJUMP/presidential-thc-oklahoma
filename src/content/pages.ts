@@ -457,6 +457,25 @@ const bluntsPage: PageContent = {
         "The range visible in approved Presidential artwork includes names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, Watermelon, 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official product identities. The exact record—not a guessed filename—is the authority for each image on this page.",
         "A name appearing in the wider product catalog is not treated as a promise that every size and format is currently present at every Oklahoma retailer. This site matches the approved blunt artwork it has to official product destinations and lets each licensed dispensary answer the real-time inventory question.",
       ],
+      subsections: [
+        {
+          id: "blunt-names-by-series-in-oklahoma",
+          heading: "Blunt names by series in Oklahoma",
+          paragraphs: [
+            [
+              { text: "A blunt's package names its series. Compare the " },
+              { text: "Oklahoma Silver Flavor Series", href: "/silver" },
+              { text: ", the " },
+              { text: "Gold Strain Series", href: "/gold" },
+              { text: " and " },
+              { text: "Rose Gold", href: "/rose-gold" },
+              { text: ", then check a store with the " },
+              { text: "Oklahoma store finder", href: "/find" },
+              { text: "." },
+            ],
+          ],
+        },
+      ],
     },
     {
       id: "wrap-and-package",
