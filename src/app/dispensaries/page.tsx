@@ -126,9 +126,9 @@ export default function DispensariesPage() {
               <p>
                 Presidential is a wholesale brand, and these licensed dispensaries stock it in four formats:{" "}
                 <Link href="/moon-rocks">Moon Rocks</Link>, the flagship three-layer build of flower, cannabis
-                concentrate, and kief; <Link href="/pre-rolls">infused pre-rolls</Link> in paper; tobacco-free
-                hemp-wrap <Link href="/blunts">blunts</Link> in full and mini sizes; and{" "}
-                <Link href="/minis">minis</Link>, the compact blunt and pre-roll family.
+                concentrate, and kief; <Link href="/pre-rolls">infused pre-rolls</Link> in paper;{" "}
+                <Link href="/blunts">tobacco-free hemp-wrap blunts</Link> in full and mini sizes; and{" "}
+                <Link href="/minis">Presidential minis</Link>, the compact blunt and pre-roll family.
               </p>
               <p>
                 Across those formats, the Silver Flavor Series carries seven fruit-forward identities, the Gold
