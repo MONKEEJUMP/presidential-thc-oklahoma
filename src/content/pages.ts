@@ -907,6 +907,21 @@ const minisPage: PageContent = {
         "Use the official Oklahoma locator to identify participating licensed retailers, then confirm the exact product and format. Say whether you are asking for a mini blunt or mini pre-roll and include the official product name. That specificity gives the store a useful inventory question instead of a broad brand query.",
         "Purchases remain inside Oklahoma’s medical program and require the appropriate active OMMA patient or visitor license. The Cannabis in Oklahoma page consolidates the credential, possession, cultivation, and market details. This page can therefore do one job well: present Presidential’s compact formats as real product architecture, not filler between larger packages.",
       ],
+      subsections: [
+        {
+          id: "minis-for-oklahoma-retailers",
+          heading: "Minis for Oklahoma retailers",
+          paragraphs: [
+            [
+              { text: "Licensed dispensaries can start at the " },
+              { text: "Oklahoma retailer page", href: "/retailers" },
+              { text: ", and the " },
+              { text: "Presidential in Oklahoma overview", href: "/oklahoma" },
+              { text: " covers the state." },
+            ],
+          ],
+        },
+      ],
     },
   ],
   relatedLinks: [
