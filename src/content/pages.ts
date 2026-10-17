@@ -30,9 +30,9 @@ const formatLinks: PageLink[] = [
 ];
 
 const seriesLinks: PageLink[] = [
-  { href: "/silver", label: "Silver Flavor Series", description: "Seven vibrant, fruit-forward product identities." },
-  { href: "/gold", label: "Gold Strain Series", description: "Nineteen cannabis-first product identities." },
-  { href: "/rose-gold", label: "Rose Gold Connoisseur Series", description: "Five refined, solventless craft identities." },
+  { href: "/silver", label: "Silver Flavor Series", description: "Vibrant, fruit-forward product identities." },
+  { href: "/gold", label: "Gold Strain Series", description: "Cannabis-first product identities." },
+  { href: "/rose-gold", label: "Rose Gold Connoisseur Series", description: "Refined, solventless craft identities." },
 ];
 
 const silverRoster: RosterItem[] = [
@@ -869,8 +869,8 @@ const silverPage: PageContent = {
   title: "Presidential Silver Series Oklahoma | Official Guide",
   description: "Meet all seven vibrant, fruit-forward Presidential Silver Flavor Series products and follow each one to its official product record.",
   intro: [
-    "The Presidential Silver Flavor Series is a complete seven-product set built around direct fruit identity: Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Bright names and vivid packaging make the series easy to read as one family, even when the products appear across different Presidential formats.",
-    "Silver is flavor-first in position and bold in presentation. That describes the product identity and package language; it is not an effects or medical promise. Every official name appears below, while eight unique approved artworks show how the series carries color into the Oklahoma shelf.",
+    "The Presidential Silver Flavor Series is a complete set built around direct fruit identity: Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. Bright names and vivid packaging make the series easy to read as one family, even when the products appear across different Presidential formats.",
+    "Silver is flavor-first in position and bold in presentation. That describes the product identity and package language; it is not an effects or medical promise. Every official name appears below, while unique approved artworks show how the series carries color into the Oklahoma shelf.",
   ],
   sections: [
     {
@@ -879,7 +879,7 @@ const silverPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Silver begins with names people can recognize immediately. No decoding is required to understand the visual territory of Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, or Watermelon. Each identity creates its own palette and illustration opportunities while the Silver label and Presidential crest keep the group connected.",
-        "That balance is what makes the series stronger than seven unrelated packages. Fruit identity gives every product a distinct face. Shared hierarchy tells a patient or buyer that the faces belong together. On a shelf, the result can read as a vibrant block from a distance and as seven individual choices at closer range.",
+        "That balance is what makes the series stronger than a row of unrelated packages. Fruit identity gives every product a distinct face. Shared hierarchy tells a patient or buyer that the faces belong together. On a shelf, the result can read as a vibrant block from a distance and as individual choices at closer range.",
         "The series position should remain concrete. ‘Flavor-first’ and ‘fruit-forward’ describe naming, artwork, and catalog organization. They do not promise a particular experience or replace the official package record. This site avoids medical language and lets the product page carry the exact identity.",
         [
           { text: "Silver’s direct naming also helps across formats. A patient who first notices Watermelon on Moon Rocks can recognize the same identity when approved artwork appears on a pre-roll or mini package. The fruit name becomes the stable thread, while the format page explains what physically changes around it. That is practical " },
@@ -889,7 +889,7 @@ const silverPage: PageContent = {
         [
           { text: "The " },
           { text: "official Silver Flavor Series hub" },
-          { text: " is the canonical collection source. The roster on this page mirrors its seven names." },
+          { text: " is the canonical collection source. The roster on this page mirrors its names." },
         ],
       ],
     },
@@ -900,8 +900,8 @@ const silverPage: PageContent = {
       paragraphs: [
         "Blue Raspberry opens the set with a name that naturally supports cool blue package language. Grape moves into a deep purple world. Peach Mango combines two fruit cues in one identity, creating a warmer visual bridge between the single-fruit products and the wider Tropical name.",
         "Pineapple brings a sharp golden fruit signal. Strawberry provides an unmistakable red identity. Tropical gives the artwork room to communicate a blended, expansive fruit world without inventing a product beyond the official name. Watermelon completes the roster with strong green and pink cues.",
-        "Those are all seven names shown by the current official sitemap under the Silver series. Nothing is added, renamed, or pulled from a filename guess. The visible complete-series roster below lists Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon.",
-        "The page uses eight images because the brief calls for a product-heavy eight-to-ten-image series presentation. Seven products receive a representative place in the art set, and one official Silver identity appears in a second unique format treatment. The second image is a different source file, not a reused duplicate.",
+        "Those are all the names shown by the current official sitemap under the Silver series. Nothing is added, renamed, or pulled from a filename guess. The visible complete-series roster below lists Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon.",
+        "The page uses a product-heavy image set: every Silver product receives a representative place in the art, and one official Silver identity appears in a second unique format treatment. The second image is a different source file, not a reused duplicate.",
       ],
       subsections: [
         {
@@ -909,11 +909,11 @@ const silverPage: PageContent = {
           heading: "How is Silver different from Gold and Rose Gold?",
           paragraphs: [
             [
-              { text: "Silver is the flavor-first series: seven fruit-forward identities from Blue Raspberry to Watermelon. The " },
+              { text: "Silver is the flavor-first series: fruit-forward identities from Blue Raspberry to Watermelon. The " },
               { text: "Gold Strain Series", href: "/gold" },
-              { text: " organizes nineteen cannabis-first strain identities, and the " },
+              { text: " organizes cannabis-first strain identities, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
-              { text: " adds five refined, solventless craft identities. The crest and series label keep every package connected to the same official Presidential family, including " },
+              { text: " adds refined, solventless craft identities. The crest and series label keep every package connected to the same official Presidential family, including " },
               { text: "Presidential Moon Rocks", href: "/moon-rocks" },
               { text: "." },
             ],
@@ -992,7 +992,7 @@ const silverPage: PageContent = {
           { text: ", and each store chooses its own mix of names, formats, sizes, and reorder timing. One retailer may carry a broad flavor selection; another may focus on a few recognized identities." },
         ],
         "Use the official Oklahoma locator to identify participating retailers, then ask for the exact combination shown on the product record—for example, Presidential, Silver, Blue Raspberry, and the intended format. That level of detail is more useful than a general brand inquiry and helps the store check current inventory accurately.",
-        "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with all seven names visible.",
+        "A lawful purchase requires the proper active OMMA patient or visitor license. The Oklahoma page explains that medical framework in one place. The Silver page remains what the series deserves: a bright, complete, official product guide with every name visible.",
       ],
     },
   ],
@@ -1158,8 +1158,8 @@ const roseGoldPage: PageContent = {
   title: "Presidential Rose Gold Oklahoma | Official Guide",
   description: "Meet all five refined Presidential Rose Gold products and follow every official name to its canonical product record.",
   intro: [
-    "The Presidential Rose Gold Connoisseur Series is a deliberately edited five-product collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
-    "Every official Rose Gold product appears in the roster below. This Oklahoma property now presents all five real package designs in square and portrait state-specific compositions, keeping the product and series aligned.",
+    "The Presidential Rose Gold Connoisseur Series is a deliberately edited collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
+    "Every official Rose Gold product appears in the roster below. This Oklahoma property now presents every real package design in square and portrait state-specific compositions, keeping the product and series aligned.",
   ],
   sections: [
     {
@@ -1167,15 +1167,15 @@ const roseGoldPage: PageContent = {
       heading: "Refined and intentional",
       imageCount: 2,
       paragraphs: [
-        "Rose Gold gains strength from focus. Five products create enough range to feel like a complete series while giving each identity more room than it would receive in a nineteen-name collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
+        "Rose Gold gains strength from focus. The roster creates enough range to feel like a complete series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
         "‘Solventless craftsmanship’ is part of the series position. This page does not extend that phrase into an extract-by-series explainer, because another Presidential property owns that technical subject. The useful job here is to name the official collection accurately, show its place in the catalog, and send visitors to exact product records.",
-        "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. All three retain the Presidential crest and official catalog relationship.",
-        "That contrast gives the complete color-series family a useful rhythm. A buyer can see three different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold. The distinctions come from official collection structure and visual position, not from invented rankings or unverifiable promises.",
+        "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each retains the Presidential crest and official catalog relationship.",
+        "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold. The distinctions come from official collection structure and visual position, not from invented rankings or unverifiable promises.",
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
         [
           { text: "The " },
           { text: "official Rose Gold Connoisseur Series hub" },
-          { text: " is the canonical collection source. Its five names and slugs govern the roster here, preventing local filenames or visual assumptions from inventing series membership." },
+          { text: " is the canonical collection source. Its names and slugs govern the roster here, preventing local filenames or visual assumptions from inventing series membership." },
         ],
       ],
     },
@@ -1184,31 +1184,14 @@ const roseGoldPage: PageContent = {
       heading: "The official Rose Gold product identities",
       imageCount: 2,
       paragraphs: [
-        "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the five-product set. The apostrophe in God’s Gift is preserved in the visible name, while the official URL uses the confirmed `gods-gift` slug from the live main-site sitemap.",
+        "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the set. The apostrophe in God’s Gift is preserved in the visible name, while the official URL uses the confirmed `gods-gift` slug from the live main-site sitemap.",
         [
           { text: "Each name appears in the complete roster below. The package gallery makes that visual: a visitor can identify the exact " },
           { text: "Rose Gold blunt", href: "/blunts" },
           { text: "." },
         ],
-        "The ten artworks on this page pair a square and portrait composition for each of the five names. Every file preserves the full real package and carries accurate Rose Gold alt text.",
+        "The artworks on this page pair a square and portrait composition for each name. Every file preserves the full real package and carries accurate Rose Gold alt text.",
         "The manifest records each source package, deterministic Oklahoma backdrop, output filename, dimensions, byte size, and hash. That trace keeps the visual catalog accountable without changing the established page structure or product destinations.",
-      ],
-      subsections: [
-        {
-          id: "what-does-solventless-mean-for-the-rose-gold-ser",
-          heading: "What does solventless mean for the Rose Gold series?",
-          paragraphs: [
-            [
-              { text: "Solventless craft is the language that sets Rose Gold apart from flavor-first Silver and the nineteen strain identities of Gold. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language, and the copy stops there rather than predicting an outcome. Five products (Cereal Milk, Cosmic Cookies, God's Gift, Wedding Cake, and White Walker) give each identity more room than a nineteen-name collection would. Keep reading with " },
-              { text: "Silver Flavor Series names", href: "/silver" },
-              { text: ", " },
-              { text: "Gold Strain Series names", href: "/gold" },
-              { text: ", or " },
-              { text: "Presidential blunt formats in Oklahoma", href: "/blunts" },
-              { text: "." },
-            ],
-          ],
-        },
       ],
     },
     {
@@ -1220,9 +1203,9 @@ const roseGoldPage: PageContent = {
         [
           { text: "That discipline keeps the series premium and credible at the same time. A " },
           { text: "dispensary buyer", href: "/retailers" },
-          { text: " can understand the shelf position. A patient can recognize the five-product family. The official product page remains available for exact item context, and the licensed retailer remains the source for current Oklahoma inventory." },
+          { text: " can understand the shelf position. A patient can recognize the Rose Gold family. The official product page remains available for exact item context, and the licensed retailer remains the source for current Oklahoma inventory." },
         ],
-        "The result is a useful distinction from the other color series. Rose Gold does not need Silver’s fruit-led immediacy or Gold’s catalog depth. Its role is curation: five identities, one refined visual world, and a clear craft-centered position within the larger Presidential collection.",
+        "The result is a useful distinction from the other color series. Rose Gold does not need Silver’s fruit-led immediacy or Gold’s catalog depth. Its role is curation: a small set of identities, one refined visual world, and a clear craft-centered position within the larger Presidential collection.",
       ],
     },
     {
@@ -1230,7 +1213,7 @@ const roseGoldPage: PageContent = {
       heading: "A complete visual presentation",
       imageCount: 2,
       paragraphs: [
-        "Product sites should be generous with imagery and precise about what each image represents. The Rose Gold gallery meets both responsibilities with five real package designs shown in ten state-specific compositions.",
+        "Product sites should be generous with imagery and precise about what each image represents. The Rose Gold gallery meets both responsibilities with real package designs shown in state-specific compositions.",
         "The black, deep teal, champagne, and rose-metal package language sits clearly against the Oklahoma backdrops. The full blunt package remains uncropped and undistorted, while a restrained shadow and gold frame give each design enough separation to read cleanly.",
         [
           { text: "Use the " },
@@ -1246,7 +1229,24 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format.",
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: five named products, refined presentation, and honest imagery status.",
+        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: named products, refined presentation, and honest imagery status.",
+      ],
+      subsections: [
+        {
+          id: "asking-for-rose-gold-in-oklahoma",
+          heading: "How do you ask for a Rose Gold product in Oklahoma?",
+          paragraphs: [
+            [
+              { text: "Ask by the exact name and the series together, for example Cereal Milk or Wedding Cake in the Rose Gold Connoisseur Series, along with the format you want. Rose Gold is the solventless series and may appear selectively, so no dispensary is assumed to carry every name or format. " },
+              { text: "Find Presidential in Oklahoma", href: "/find" },
+              { text: " to reach a participating licensed dispensary first, then confirm with them that they have the product. Compare the " },
+              { text: "Silver Flavor Series in Oklahoma", href: "/silver" },
+              { text: " and the " },
+              { text: "Gold Strain Series in Oklahoma", href: "/gold" },
+              { text: "." },
+            ],
+          ],
+        },
       ],
     },
   ],
