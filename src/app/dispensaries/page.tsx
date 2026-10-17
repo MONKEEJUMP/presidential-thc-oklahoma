@@ -19,7 +19,7 @@ import styles from "./dispensaries.module.css";
 
 const PAGE_TITLE = "Presidential Dispensaries Across Oklahoma Regions";
 const PAGE_DESCRIPTION =
-  "Browse 194 Presidential retailer listings across Oklahoma's regions and confirm current product availability with each licensed dispensary.";
+  "Oklahoma Presidential dispensaries: browse retailer listings by region and confirm current product availability with each licensed dispensary.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
