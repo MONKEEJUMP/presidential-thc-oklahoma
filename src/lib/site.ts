@@ -17,12 +17,12 @@ export const primaryNavigation = [
 ] as const;
 
 export const footerProductLinks = [
-  { href: `${MAIN_SITE_URL}/moon-rocks/silver`, label: "Silver Flavor Series" },
-  { href: `${MAIN_SITE_URL}/moon-rocks/gold`, label: "Gold Strain Series" },
-  { href: `${MAIN_SITE_URL}/moon-rocks/rose-gold`, label: "Rose Gold Connoisseur Series" },
-  { href: `${MAIN_SITE_URL}/moon-rocks/presidential-line`, label: "Presidential Line" },
-  { href: `${MAIN_SITE_URL}/moon-rocks/presidential-house-line`, label: "Presidential House Line" },
-  { href: `${MAIN_SITE_URL}/moon-rocks/presidential-x-thc-design`, label: "Presidential x THC Design" },
+  { label: "Silver Flavor Series" },
+  { label: "Gold Strain Series" },
+  { label: "Rose Gold Connoisseur Series" },
+  { label: "Presidential Line" },
+  { label: "Presidential House Line" },
+  { label: "Presidential x THC Design" },
 ] as const;
 
 export function normalizePath(path: string): string {
