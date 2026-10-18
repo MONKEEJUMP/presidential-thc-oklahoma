@@ -1464,7 +1464,7 @@ const findPage: PageContent = {
               { text: " to find participating OMMA-licensed stores. Inventory changes as stores reorder, so confirm before you drive." },
             ],
           ],
-        },
+        }, { id: "when-the-menu-says-presidential-marijuana", heading: "When the menu says Presidential marijuana", paragraphs: [[{ text: "Some Oklahoma menus list the brand as Presidential marijuana. It's the same Presidential, so search the locator under the brand name and narrow by format. Moon Rocks are flower carried through with concentrate and finished with kief. The " }, { text: "Oklahoma hemp-wrap blunts", href: "/blunts" }, { text: " carry a kief or diamond finish. If you'd rather have paper, the " }, { text: "infused paper rolls", href: "/pre-rolls" }, { text: " across the lineup also carry a kief or diamond finish. Note the series and product name from the package, then confirm with the store before you go." }]] }
       ],
     },
     {
