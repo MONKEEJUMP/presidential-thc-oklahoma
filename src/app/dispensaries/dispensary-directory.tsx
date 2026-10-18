@@ -47,7 +47,7 @@ export const HUB_COPY =
   "Licensed Oklahoma retailers carry Presidential. Presidential is a cannabis brand founded in Los Angeles in 2012, known for its infused Moon Rocks, blunts, pre-rolls and minis. Each dispensary below is independently licensed and chooses its own formats and series, so bring the exact product name from the package and confirm before you go. They are grouped below by the state's six official tourism regions, so you can go straight to the part of Oklahoma you are in.";
 
 export const RED_CARPET_COPY =
-  "Red Carpet Country covers northwestern Oklahoma, the widest and least densely settled corner of the state. Licensed retailers carry Presidential across the region.";
+  "Red Carpet Country covers northwestern Oklahoma, the widest and least densely settled corner of the state. The licensed retailers listed here carry Presidential.";
 
 export const REGION_PAGES: readonly RegionDefinition[] = [
   {
@@ -68,7 +68,7 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
     imageAlt:
       "Green Country lake, forest, highway and Tulsa skyline under a blue sky",
     copy:
-      "Green Country runs across northeastern Oklahoma and takes its name from the wooded, lake-filled country around Tulsa. Licensed retailers carry Presidential across the region, and Tulsa is the densest single market outside the capital. Each store is independently owned and licensed and stocks for its own customers, so selection differs from shelf to shelf.",
+      "Green Country runs across northeastern Oklahoma and takes its name from the wooded, lake-filled country around Tulsa. The licensed retailers listed here carry Presidential. Each store is independently owned and licensed and stocks for its own customers, so selection differs from shelf to shelf.",
     metaDescription:
       "Oklahoma Presidential retailers in Green Country: find stores in the Tulsa region, then confirm current product availability with each licensed dispensary.",
   },
@@ -79,7 +79,7 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
     imageAlt:
       "Great Plains Country granite mountains, bison and red Oklahoma earth under a wide sky",
     copy:
-      "Great Plains Country covers southwestern Oklahoma, from the Wichita Mountains out toward the Texas line. Licensed retailers carry Presidential across the region, anchored by Lawton. Distances run longer here than in the metros, so the map link beside each address is the quickest route to the door.",
+      "Great Plains Country covers southwestern Oklahoma, from the Wichita Mountains out toward the Texas line. The licensed retailers listed here carry Presidential. Distances run longer here than in the metros, so the map link beside each address is the quickest route to the door.",
     metaDescription:
       "Oklahoma Presidential retailers in Great Plains Country: find stores in Lawton and southwestern Oklahoma, and confirm current product availability.",
   },
@@ -101,7 +101,7 @@ export const REGION_PAGES: readonly RegionDefinition[] = [
     imageAlt:
       "Chickasaw Country waterfall, turquoise spring creek, oak woodland and pasture",
     copy:
-      "Chickasaw Country runs through south central Oklahoma, between the capital region and the Red River. Licensed retailers carry Presidential across the region. The network here reaches across a wide area with most towns served by a single store, so check the closest address before making the drive.",
+      "Chickasaw Country runs through south central Oklahoma, between the capital region and the Red River. The licensed retailers listed here carry Presidential. Distances can be long here, so check the closest address before making the drive.",
     metaDescription:
       "Oklahoma Presidential retailers in Chickasaw Country: find stores across south-central Oklahoma and confirm current product availability before visiting.",
   },

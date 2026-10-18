@@ -269,7 +269,7 @@ const moonRocksPage: PageContent = {
   title: "Presidential Moon Rocks in Oklahoma | Official Product Guide",
   description: "Explore the flagship three-layer Presidential Moon Rocks format, official product identities, packaging, and licensed Oklahoma availability.",
   intro: [
-    "Presidential Moon Rocks are the flagship format: flower carried through with cannabis concentrate and finished in kief. That three-layer sequence established the brand’s product language and remains the clearest way to understand why a Presidential package looks and reads differently from a standard flower product.",
+    "Presidential Moon Rocks are the flagship format: flower carried through with cannabis concentrate and finished with kief. That three-layer sequence established the brand’s product language and remains the clearest way to understand why a Presidential package looks and reads differently from a standard flower product.",
     "In Oklahoma, Moon Rocks come in many names. Flavor-led Silver products, strain-led Gold products, the Rose Gold Connoisseur Series, the Presidential Line, House Line, and THC Design collaboration all use the Moon Rocks category as a shared point of reference while preserving their own names and artwork.",
   ],
   sections: [
@@ -1230,7 +1230,7 @@ const goldPage: PageContent = {
       heading: "Finding Gold in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Gold reaches Oklahoma through licensed dispensaries as part of Presidential’s wholesale network. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
+        "Gold is sold at licensed retailers in Oklahoma. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
         "Use the official Oklahoma locator to identify current participating doors, then confirm the product by its exact name and intended format. Asking for ‘Gold’ alone describes the series. Asking for ‘Presidential Gold Skywalker pre-rolls’ gives the retailer a specific inventory check tied to a recognizable package.",
         "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with a broad roster and packaging designed to remain coherent at scale.",
       ],
@@ -1385,7 +1385,7 @@ const findPage: PageContent = {
     },
     {
       id: "statewide-footprint",
-      heading: "A statewide wholesale footprint",
+      heading: "Presidential wholesale in Oklahoma",
       imageCount: 1,
       paragraphs: [
         [
@@ -1519,7 +1519,7 @@ const retailersPage: PageContent = {
       heading: "A recognizable infused-product brand",
       imageCount: 1,
       paragraphs: [
-        [{ text: "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate and finished in kief. Moon Rocks remain the flagship expression of that idea. Blunts, " }, { text: "infused pre-rolls for Oklahoma shelves", href: "/pre-rolls" }, { text: ", and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category." }],
+        [{ text: "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate and finished with kief. Moon Rocks remain the flagship expression of that idea. Blunts, " }, { text: "infused pre-rolls for Oklahoma shelves", href: "/pre-rolls" }, { text: ", and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category." }],
         "Recognition does not depend on one package. The crest, strong black ground, vivid illustration, and disciplined series architecture repeat across the family. A patient can encounter Presidential Moon Rocks in one case, a Silver mini pack in another, and a Gold pre-roll elsewhere without feeling as though three unrelated brands are competing for attention.",
         "That continuity is part of why the products can move as a shelf proposition. The catalog gives staff names and formats they can identify, gives the buyer multiple levels of assortment, and gives the patient a visual trail from previous recognition to a new product. It does not ask a retailer to manufacture the brand story at the point of sale.",
       ],
@@ -1548,7 +1548,7 @@ const retailersPage: PageContent = {
       heading: "Groupings create range",
       imageCount: 1,
       paragraphs: [
-        "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families give the shelf an immediate visual rhythm.",
+        [{ text: "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. " }, { text: "Rose Gold's live rosin names", href: "/rose-gold" }, { text: " form a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families give the shelf an immediate visual rhythm." }],
         "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The series pages on this site name every official Silver, Gold, and Rose Gold product. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
@@ -1717,11 +1717,11 @@ const oklahomaPage: PageContent = {
       imageCount: 0,
       paragraphs: [
         "Oklahoma remains a medical cannabis state. On March 7, 2023, voters rejected State Question 820, the adult-use proposal. The official election record and subsequent statewide audit confirm the result. The rejection did not repeal SQ 788 or end the existing medical framework; patients and businesses continued under OMMA licensing and regulation.",
-        "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details.",
+        [{ text: "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details. For the live rosin side of the catalog, see " }, { text: "Rose Gold in Oklahoma", href: "/rose-gold" }, { text: "." }],
         [
           { text: "This Oklahoma guide keeps state requirements in one place. Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
         ],
-        "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the package for the item; and use the licensed retailer for local inventory. A product-page count, and an editor note. Delete.",
+        "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the package for the item; and use the licensed retailer for local inventory.",
       ],
     },
   ],
@@ -1750,7 +1750,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and connects Oklahoma patients and retailers to the licensed retail network.",
+    "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail.",
   ],
   sections: [
     {
@@ -1759,7 +1759,7 @@ const aboutPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Presidential began in Los Angeles in 2012 around a memorable three-layer product construction: flower carried through with cannabis concentrate and finished in kief. " },
+          { text: "Presidential began in Los Angeles in 2012 around a memorable three-layer product construction: flower carried through with cannabis concentrate and finished with kief. " },
           { text: "Moon Rocks", href: "/moon-rocks" },
           { text: " became the flagship, and the same product language expanded into infused pre-rolls, " },
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
