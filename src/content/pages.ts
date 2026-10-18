@@ -1303,16 +1303,11 @@ const roseGoldPage: PageContent = {
     },
     {
       id: "rose-gold-presentation",
-      heading: "A complete visual presentation",
+      heading: "Visual presentation",
       imageCount: 2,
       paragraphs: [
         "Product sites should be generous with imagery and precise about what each image represents. The Rose Gold gallery meets both responsibilities with real package designs shown in state-specific compositions.",
-        "The black, deep teal, champagne, and rose-metal package language sits clearly against the Oklahoma backdrops. The full blunt package remains uncropped and undistorted, while a restrained shadow and gold frame give each design enough separation to read cleanly.",
-        [
-          { text: "Use the " },
-          { text: "complete official Rose Gold collection" },
-          { text: " as the definitive catalog source for product details." },
-        ],
+        "The black, deep teal, champagne, and rose-metal package language sits clearly against the Oklahoma backdrops. The full blunt package remains uncropped and undistorted, while a restrained shadow and gold frame give each design enough separation to read cleanly.",
       ],
     },
     {
@@ -1322,7 +1317,7 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         [{ text: "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format. For the paper format across Silver and Gold, see " }, { text: "the Oklahoma pre-roll guide", href: "/pre-rolls" }, { text: "." }],
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. Rose Gold is a smaller official series: named products and refined presentation.",
+        [{ text: "The appropriate active OMMA patient or visitor license is required for purchase. " }, { text: "Oklahoma\u2019s consolidated program page", href: "/oklahoma" }, { text: " explains that credential and the state framework. Rose Gold is a smaller official series: named products and refined presentation." }],
       ],
       subsections: [
         {
@@ -1709,7 +1704,7 @@ const oklahomaPage: PageContent = {
         "Oklahoma uses Metrc as its seed-to-sale tracking system. Licensed businesses record regulated inventory movement through that system, creating a traceability layer from commercial production into the licensed channel. Tracking does not make a public brand site the inventory authority; the retailer still controls what is actually available on its shelf.",
         "SQ 788 also authorized a 7% excise tax on retail medical marijuana and medical marijuana products sold by dispensaries to patients. OMMA publishes recurring tax reports and dated license totals.",
         [{ text: "Finding Presidential products at Oklahoma dispensaries", href: "/find" }, { text: " walks through the locator and the store check." }],
-      ], subsections: [{ id: "what-a-presidential-pack-tells-an-oklahoma-patient", heading: "What a Presidential pack tells an Oklahoma patient", paragraphs: [[{ text: "Oklahoma's medical program sets the rules, and the package explains what is inside. A Presidential pack shows the series, the format, and the exact product name, so a patient can match it with what they asked for at the counter. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and the finish for that item. Blunts use a tobacco-free hemp wrap, and the " }, { text: "Oklahoma hemp blunt guide", href: "/blunts" }, { text: " shows how that format is laid out. For the strain-led tier, the " }, { text: "Oklahoma Gold strain roster", href: "/gold" }, { text: " presents its names in one place. Batch test results stay on the label." }]] }, { id: "from-the-program-rules-to-the-presidential-catalog", heading: "From the program rules to the Presidential catalog", paragraphs: [[{ text: "Once the patient license and program rules are clear, the next step is the product. Presidential names its series Silver, Gold, and Rose Gold, and each pack shows the series color, format, and exact product name. Silver is the flavor-first tier, and the " }, { text: "Oklahoma Silver flavor names", href: "/silver" }, { text: " list its products in one place. Pre-rolls carry the same construction in paper, set out on the " }, { text: "Oklahoma pre-roll packs", href: "/pre-rolls" }, { text: " page. For the brand's Los Angeles background, read " }, { text: "who makes Presidential, for Oklahoma patients", href: "/about" }, { text: ". Each label lists the build and batch test results." }]] }],
+      ], subsections: [{ id: "what-a-presidential-pack-tells-an-oklahoma-patient", heading: "What a Presidential pack tells an Oklahoma patient", paragraphs: [[{ text: "Oklahoma's medical program sets the rules, and the package explains what is inside. A Presidential pack shows the series, the format, and the exact product name, so a patient can match it with what they asked for at the counter. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and the finish for that item. Blunts use a tobacco-free hemp wrap, and the " }, { text: "Oklahoma hemp blunt guide", href: "/blunts" }, { text: " shows how that format is laid out. For the strain-led tier, the " }, { text: "Oklahoma Gold strain roster", href: "/gold" }, { text: " presents its names in one place. Batch test results stay on the label." }]] }, { id: "from-the-program-rules-to-the-presidential-catalog", heading: "From the program rules to the Presidential catalog", paragraphs: [[{ text: "Once the patient license and program rules are clear, the next step is the product. Silver is the flavor-first tier, and the " }, { text: "Oklahoma Silver flavor names", href: "/silver" }, { text: " list its products in one place. Pre-rolls carry flower and concentrate in a paper roll, set out on the " }, { text: "Oklahoma pre-roll packs", href: "/pre-rolls" }, { text: " page. For the brand's Los Angeles background, read " }, { text: "who makes Presidential, for Oklahoma patients", href: "/about" }, { text: ". Each label lists the build and batch test results." }]] }],
     },
     {
       id: "where-it-stands",
@@ -1719,7 +1714,7 @@ const oklahomaPage: PageContent = {
         "Oklahoma remains a medical cannabis state. On March 7, 2023, voters rejected State Question 820, the adult-use proposal. The official election record and subsequent statewide audit confirm the result. The rejection did not repeal SQ 788 or end the existing medical framework; patients and businesses continued under OMMA licensing and regulation.",
         [{ text: "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details. For the live rosin side of the catalog, see " }, { text: "Rose Gold in Oklahoma", href: "/rose-gold" }, { text: "." }],
         [
-          { text: "This Oklahoma guide keeps state requirements in one place. Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
+          { text: "Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
         ],
         "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the package for the item; and use the licensed retailer for local inventory.",
       ],
