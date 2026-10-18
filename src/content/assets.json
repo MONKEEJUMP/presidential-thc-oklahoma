@@ -477,6 +477,12 @@
     "page": "/find",
     "heading": "Presidential products to ask for in Oklahoma",
     "intro": "Ask for these by format, series and name: Moon Rocks, Silver, Gold and Rose Gold, pre-rolls, blunts and minis.",
+    "introLink": {
+      "before": "Minis bring the rolled formats into a smaller pack; ask for ",
+      "label": "Oklahoma mini blunts and mini pre-rolls",
+      "href": "/minis",
+      "after": " by name."
+    },
     "productIds": [
       "043",
       "074",
