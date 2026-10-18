@@ -586,7 +586,7 @@ const bluntsPage: PageContent = {
           { text: " gives each store control of its own mix. Some retailers may carry both full-size and mini blunts; others may focus on one size, selected series, or a small number of recognizable names." },
         ],
         "Use the official Oklahoma locator for the current participating field, then ask the retailer about the exact product. Naming the format, size, series, and product is more useful than asking only whether the store carries Presidential. The package art on this page can help confirm that identity before the call or visit.",
-        "A purchase also requires the proper active Oklahoma medical credential. Eligible out-of-state patients use the 30-day OMMA visitor-license route; their home-state card by itself does not work as the dispensary credential in Oklahoma. The dedicated Oklahoma page explains the complete route and the state’s possession framework together.",
+        [{ text: "A purchase also requires the proper active Oklahoma medical credential. Eligible out-of-state patients use the 30-day OMMA visitor-license route; their home-state card by itself does not work as the dispensary credential in Oklahoma. The " }, { text: "Oklahoma medical program guide", href: "/oklahoma" }, { text: " covers licenses and visitor rules. The dedicated Oklahoma page explains the complete route and the state’s possession framework together." }],
       ],
       subsections: [
         {
@@ -623,7 +623,7 @@ const preRollsPage: PageContent = {
   title: "Presidential Pre-Rolls in Oklahoma | Official Product Guide",
   description: "Explore Presidential infused pre-rolls, sizes and packs, official product identities, packaging, and licensed Oklahoma availability.",
   intro: [
-    "Presidential Pre-Rolls take infused Presidential material into a familiar paper-rolled format. The construction becomes portable and package-led: the exact product name, series, count, and size organize the choice while the Presidential crest connects a wide range of artwork back to one official family.",
+    [{ text: "Presidential Pre-Rolls take infused Presidential material into a familiar paper-rolled format. The construction becomes portable and package-led: the exact product name, series, count, and size organize the choice while the Presidential crest connects a wide range of artwork back to one official family. Before shopping, check " }, { text: "Oklahoma patient and visitor license basics", href: "/oklahoma" }, { text: "." }],
     [
       { text: "Singles, packs, and mini expressions give " },
       { text: "Oklahoma retailers", href: "/retailers" },
@@ -1129,7 +1129,7 @@ const goldPage: PageContent = {
         ],
         "Depth also rewards return browsing. A Gold customer can recognize the shared series before learning every illustration, and a staff member can introduce another official name without leaving the visual system the patient already understands. The collection feels expansive because it contains real variety, yet orderly because each package still answers the same brand, series, product, and format questions.",
         [
-          { text: "This page mirrors every name from that official structure." },
+          { text: "The names below follow that official structure." },
         ],
       ],
     },
@@ -1379,7 +1379,7 @@ const findPage: PageContent = {
           { text: " to see the current participating retail field." },
         ],
         "Once the locator identifies relevant doors, contact the licensed dispensary before traveling when a specific item matters. Ask for Presidential, the exact product name, the series when relevant, and the intended format. A store that carries the brand may not carry every product, size, pack, or format on the same day.",
-        "That two-step route is the most accurate one: live participating network first, store-level inventory confirmation second. It also respects the wholesale model. Presidential provides the catalog and retailer relationships; each dispensary owns its current ordering and shelf decisions.",
+        "That two-step route is the reliable one: live participating network first, store-level inventory confirmation second. It also respects the wholesale model. Presidential provides the catalog and retailer relationships; each dispensary owns its current ordering and shelf decisions.",
         "The same route works whether someone begins with a format or a product name. A visitor might search after seeing Moon Rocks, a Silver flavor, a Gold strain, or a mini package. The locator answers which participating doors are relevant; the retailer answers whether that exact item is available.",
       ],
     },
@@ -1578,7 +1578,7 @@ const retailersPage: PageContent = {
       paragraphs: [
         "The package is the permanent in-store asset, but a wholesale brand can also support attention through activations, promotions, and compliant samples where allowed and properly managed. Those moments give staff a chance to connect the construction, format differences, and series architecture to the physical products already on the shelf.",
         "An activation works best when it reinforces recognition rather than creating a temporary identity that disappears afterward. Presidential’s crest, product art, and color structure give signage and conversation something consistent to point back to. The patient should still recognize the package after the event is over.",
-        "Promotions can likewise be framed around product education, a selected format, or a coordinated series. Samples and other in-store support must remain inside applicable Oklahoma rules and the retailer’s own compliance process. This page describes the brand’s available modes of support, not a universal offer or legal instruction.",
+        "Promotions can likewise be framed around product education, a selected format, or a coordinated series. Samples and other in-store support must remain inside applicable Oklahoma rules and the retailer’s own compliance process. Support options vary; none is a universal offer or legal instruction.",
         "Consistency of raw goods is the operating foundation beneath those visible moments. Reliable materials, recognizable construction, and disciplined package identity help staff speak about what is actually in front of them. The brand proposition weakens if the visual system is consistent but the supplied product story is not; both sides have to work together.",
       ],
     },
@@ -1639,7 +1639,7 @@ const oklahomaPage: PageContent = {
           { text: "retail channel", href: "/retailers" },
           { text: ". They may sell to the patient and other license holders permitted by the state framework, but a brand website is not a dispensary and does not complete an Oklahoma transaction. Presidential distributes wholesale, and its Oklahoma product pages direct licensed patients toward participating licensed retailers." },
         ],
-        "OMMA’s current rules, application materials, guidance, and licensing data are the practical source of truth. This page summarizes the high-level framework as of August 2026 and links those official sources directly rather than copying forms or presenting a legal snapshot as permanent.",
+        "OMMA’s current rules, application materials, guidance, and licensing data are the practical source of truth. Below is the high-level framework as of August 2026, with links to the official sources rather than copied forms; rules can change.",
       ],
     },
     {
@@ -1750,7 +1750,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail.",
+    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
   ],
   sections: [
     {
