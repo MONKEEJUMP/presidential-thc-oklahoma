@@ -1084,7 +1084,7 @@ const goldPage: PageContent = {
   kind: "article",
   h1: "The Presidential Gold Strain Series in Oklahoma",
   title: "Presidential Gold Strain Series in Oklahoma | Official Guide",
-  description: "Oklahoma Gold Strain Series: meet the cannabis-first Presidential Gold products and follow every name to its official product record.",
+  description: "Oklahoma Gold Strain Series: meet the cannabis-first Presidential Gold products.",
   intro: [
     "The Presidential Gold Strain Series is the largest named grouping in the current catalog: cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
     "Every official Gold name appears in the complete roster below. Approved artwork shows a representative gallery, and the roster below lists the full series.",
