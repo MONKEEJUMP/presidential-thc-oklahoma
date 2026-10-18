@@ -158,7 +158,7 @@ const homePage: PageContent = {
               { text: "Gold Strain Series", href: "/gold" },
               { text: " carries strain-led names, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
-              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate and finished with kief or diamonds." },
+              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate, with a kief or diamond finish." },
             ],
           ],
         },
@@ -171,9 +171,9 @@ const homePage: PageContent = {
       paragraphs: [
         "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority and purchase only through an appropriately licensed dispensary.",
         [
-          { text: "The package name identifies the item; the retailer controls current inventory. The " },
+          { text: "The package name identifies the item; the retailer controls current inventory. Program information is on the " },
           { text: "Cannabis in Oklahoma", href: "/oklahoma" },
-          { text: " page keeps program information together so product and format pages can remain focused." },
+          { text: " page." },
         ],
       ],
     },
@@ -569,7 +569,7 @@ const bluntsPage: PageContent = {
       heading: "What the wrap and package do",
       imageCount: 2,
       paragraphs: [
-        "The hemp wrap defines the blunt physically; the package defines it at the shelf. Before opening anything, a patient needs to recognize the brand, exact name, format, and relevant series. Presidential packaging handles those layers with a strong crest, black structural ground, vivid product art, and clear naming rather than a wall of undifferentiated copy.",
+        [{ text: "The hemp wrap defines the blunt physically; the package defines it at the shelf. Before opening anything, a patient needs to " }, { text: "recognize the brand", href: "/about" }, { text: ", exact name, format, and relevant series. Presidential packaging handles those layers with a strong crest, black structural ground, vivid product art, and clear naming rather than a wall of undifferentiated copy." }],
         "Full-size packages can emphasize the single format and product art. Mini packages must also communicate multiplicity and compact scale. Both benefit from a consistent brand frame because a dispensary may place them together, separate them by size, or merchandise them beside matching names from other formats.",
         "That consistency helps a buyer build a deliberate block. A Silver run can create a vivid fruit-led section. A Gold selection can prioritize recognized strain identities. House Line can anchor the blunt category in the core brand, while THC Design adds a visible collaboration point. The store controls the assortment; the brand architecture keeps it coherent.",
         "The Oklahoma presentation stays original in its writing.",
@@ -731,7 +731,6 @@ const preRollsPage: PageContent = {
         ],
         "Series architecture creates order across that variety. A run of Silver packages can read as a bright flavor set. Gold can create a broader strain wall with consistent hierarchy. The Line can introduce strong one-off character art. House Line gives the shelf a simple core, and THC Design creates a collaboration marker without asking the retailer to explain it from scratch.",
         "For buyers, that consistency supports several strategies. A store can select only a few proven names, merchandise one series deeply, or build a format-first block that moves across groupings. No pricing or margin assumption is needed to see the proposition: recognizable packaging and a catalog with enough structure to curate.",
-        "The Oklahoma site remains focused on what local patients and retailers need most: format recognition and honest availability language.",
       ],
     },
     {
@@ -860,7 +859,7 @@ const minisPage: PageContent = {
           heading: "What's inside a Presidential mini?",
           paragraphs: [
             [
-              { text: "The same construction as the full-size format: flower carried through with cannabis concentrate and finished with kief or diamonds. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
+              { text: "The same construction as the full-size format: flower carried through with concentrate, with a kief or diamond finish. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
@@ -1018,7 +1017,6 @@ const silverPage: PageContent = {
       paragraphs: [
         "For a dispensary buyer, Silver offers a ready-made color story. A complete run creates a vivid brand block; a smaller selection can still read coherently because the crest and Silver structure remain consistent. The retailer can choose how deep to go in each series.",
         "For a patient, the package creates a quick recognition sequence: Presidential first, Silver next, fruit identity after that, and format or pack facts alongside it. The hierarchy helps separate a Grape mini blunt from a Grape pre-roll or Moon Rocks package while keeping all three visibly related.",
-        "This Oklahoma guide supplies original product-focused context.",
       ],
       subsections: [
         {
@@ -1113,7 +1111,7 @@ const goldPage: PageContent = {
   title: "Presidential Gold Strain Series in Oklahoma | Official Guide",
   description: "Oklahoma Gold Strain Series: meet the cannabis-first Presidential Gold products.",
   intro: [
-    "The Presidential Gold Strain Series is the largest named grouping in the current catalog: cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
+    "The Presidential Gold Strain Series groups cannabis-first product identities organized under one balanced, authentic visual system. Familiar names, contemporary names, vivid illustration, and consistent gold series architecture give Oklahoma retailers a deep set that can still read as one family.",
     "Every official Gold name appears in the complete roster below. Approved artwork shows a representative gallery, and the roster below lists the full series.",
   ],
   sections: [
@@ -1123,7 +1121,7 @@ const goldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Gold leads with strain identity rather than fruit-series identity. That distinction gives the product name the first word and lets illustration build a visual world around it. ‘Cannabis-first’ describes how the catalog is organized; ‘balanced’ describes the relationship between individuality and shared series structure, not a promised personal outcome.",
-        "A series this broad could easily become visually noisy. Gold avoids that by repeating a clear hierarchy: Presidential crest, Gold series cue, exact product name, format information, and a strong illustration. The art changes enough to reward browsing while the frame around it tells a buyer that the products can merchandise together.",
+        [{ text: "A series this broad could easily become visually noisy. Gold avoids that by repeating a clear hierarchy: " }, { text: "Presidential crest", href: "/about" }, { text: ", Gold series cue, exact product name, format information, and a strong illustration. The art changes enough to reward browsing while the frame around it tells a buyer that the products can merchandise together." }],
         [
           { text: "The series can support both a small curated order and a deeper shelf. A " },
           { text: "retailer" },
@@ -1266,7 +1264,7 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Rose Gold gains strength from focus. The roster creates enough range to feel like a complete series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
         "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, and show its place in the catalog.",
-        "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each carries the Presidential crest.",
+        [{ text: "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each carries the Presidential crest. The crest's story starts on " }, { text: "the Presidential Oklahoma about page", href: "/about" }, { text: "." }],
         "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold.",
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
       ],
@@ -1403,7 +1401,7 @@ const findPage: PageContent = {
           { text: "Chickasaw Country", href: "/dispensaries/chickasaw-country" },
           { text: "." },
         ],
-        "The footprint is densest around Oklahoma’s larger population centers, where more licensed dispensaries create more possible shelf combinations. Regional markets extend that reach beyond one metropolitan corridor.",
+        "Use the locator for the stores nearest you.",
         "The package art on this site helps patients recognize Presidential before checking local availability.",
         "The regional pages cover Frontier Country around Oklahoma City, Green Country around Tulsa, and the smaller towns of Great Plains, Choctaw and Chickasaw Country.",
       ],
@@ -1550,7 +1548,7 @@ const retailersPage: PageContent = {
       heading: "Groupings create range",
       imageCount: 1,
       paragraphs: [
-        "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families provide an immediate good-better-best-style visual rhythm without requiring this page to publish commercial terms.",
+        "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families give the shelf an immediate visual rhythm.",
         "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The series pages on this site name every official Silver, Gold, and Rose Gold product. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
@@ -1768,9 +1766,6 @@ const aboutPage: PageContent = {
           { text: ", and compact minis." },
         ],
         [{ text: "Presidential is a cannabis (weed) brand founded in Los Angeles in 2012. Licensed stores that carry it are listed under " }, { text: "Oklahoma dispensaries for the Presidential brand", href: "/dispensaries" }, { text: ". From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today." }],
-        [
-          { text: "This site focuses on Oklahoma while keeping the crest and product art unmistakably official." },
-        ],
       ],
     },
     {
@@ -1847,7 +1842,7 @@ const aboutPage: PageContent = {
           { text: ". Individual Oklahoma stores choose their own assortment, so current availability is confirmed through the official Oklahoma locator and the licensed retailer rather than a fixed door-count claim." },
         ],
         "This site does not sell product. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
-        "This Oklahoma property remains focused: original in its writing, official in its identity, product-first in its design, and connected to lawful licensed retail rather than direct online sale.",
+        "Presidential sells through licensed Oklahoma retail, not direct online sale.",
         [{ text: "To find the Presidential brand at a participating dispensary, start with " }, { text: "where to find Presidential in Oklahoma", href: "/find" }, { text: "." }],
       ],
     },
