@@ -919,7 +919,7 @@ const minisPage: PageContent = {
               { text: " covers the state." },
             ],
           ],
-        },
+        }, { id: "minis-by-oklahoma-travel-region", heading: "Minis by Oklahoma travel region", paragraphs: [[{ text: "The Oklahoma dispensary guides are split by region. Start with " }, { text: "dispensaries across Green Country", href: "/dispensaries/green-country" }, { text: " or " }, { text: "Frontier Country dispensary listings", href: "/dispensaries/frontier-country" }, { text: ", and ask the licensed retailer which mini packs it carries." }]] }
       ],
     },
   ],
