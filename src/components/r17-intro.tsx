@@ -23,7 +23,7 @@ export function IntroH3({ heading, parts }: IntroBlock) {
   );
 }
 
-export const HUB_INTRO: IntroBlock | null = null;
+export const HUB_INTRO: IntroBlock | null = { heading: "Planning a visit by tourism region", parts: [{ text: "Start with the part of Oklahoma you're in. Each region groups participating licensed dispensaries, and each store chooses its own formats and series. Before you go, note the format and the product name from the package. Moon Rocks are flower carried through with concentrate and finished with kief. Blunts carry a kief or diamond finish in a tobacco-free hemp wrap. Then call or check the store's menu. A listing confirms that a store carries Presidential, not that a particular name is in stock today." }] };
 
 export const HUB_INTRO_BRAND: IntroBlock | null = { heading: "What do Oklahoma menus call the Presidential weed brand?", parts: [{ text: "Menus may list it as Presidential, Presidential THC, Presidential cannabis or Presidential marijuana; they all mean the same product family. " }, { text: "The official Presidential cannabis site for Oklahoma", href: "/" }, { text: " explains each format and series. Its signature is an infused construction: flower carried through with concentrate and finished with kief or diamonds, across " }, { text: "Oklahoma Moon Rocks", href: "/moon-rocks" }, { text: ", tobacco-free blunts, infused pre-rolls and minis. The package names the product and its series: Silver Flavor, Gold Strain or Rose Gold Connoisseur. Bring that exact name to the dispensary and confirm with the store before you go. Start with " }, { text: "find Presidential in Oklahoma", href: "/find" }, { text: " or " }, { text: "the Oklahoma retailer page", href: "/retailers" }, { text: "." }] };
 
