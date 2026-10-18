@@ -74,6 +74,7 @@ export default function DispensariesPage() {
           <section aria-label="Introduction" className={styles.intro}>
             <p>{HUB_COPY}</p>
             {HUB_INTRO ? <IntroH3 {...HUB_INTRO} /> : null}
+            <IntroH3 heading={"Knowing the brand before you visit"} parts={[{ text: "A dispensary visit goes faster when you already know what Presidential is. The brand was founded in Los Angeles in 2012 and reaches patients through licensed dispensaries, with Silver, Gold, and Rose Gold naming the series on each pack. Learning the crest, the series colors, and the exact product names ahead of time makes it easier to spot the right package on a menu or shelf. For the full background, read " }, { text: "the story behind Presidential in Oklahoma", href: "/about" }, { text: ". Each dispensary sets its own shelf, so call ahead with the exact product name and confirm what is in stock." }]} />
             {HUB_INTRO_REGIONS ? <IntroH3 {...HUB_INTRO_REGIONS} /> : null}
           </section>
 
