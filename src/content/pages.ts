@@ -1459,6 +1459,19 @@ const findPage: PageContent = {
             ],
           ],
         },
+        {
+          id: "searching-for-the-presidential-weed-brand-in-oklahoma",
+          heading: "Searching for the Presidential weed brand in Oklahoma",
+          paragraphs: [
+            [
+              { text: "Presidential is the brand name, so a search for it pulls up every format at once. Narrow it before you call or visit. Moon Rocks, covered on the " },
+              { text: "Oklahoma Moon Rocks page", href: "/moon-rocks" },
+              { text: ", are flower carried through with concentrate and finished with kief; blunts use a tobacco-free hemp wrap with a kief or diamond finish; pre-rolls use paper; minis are the compact versions. Pick the format, then the series, then the product name on the pack. Silver, Gold, and Rose Gold are separate lines, so the series name matters. With that in hand, use the locator on this page or open the " },
+              { text: "dispensary directory by region", href: "/dispensaries" },
+              { text: " to find participating OMMA-licensed stores. Inventory changes as stores reorder, so confirm before you drive." },
+            ],
+          ],
+        },
       ],
     },
     {
