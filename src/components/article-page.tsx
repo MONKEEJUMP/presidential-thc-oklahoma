@@ -169,8 +169,8 @@ function ProductRoster({ page }: { page: PageContent }) {
 
   return (
     <aside className="product-roster" aria-labelledby="product-roster-heading">
-      <p className="product-roster__eyebrow">The complete official series</p>
-      <h2 id="product-roster-heading">Every product in the series</h2>
+      <p className="product-roster__eyebrow">The official series</p>
+      <h2 id="product-roster-heading">Products in the series</h2>
       <div className="product-roster__grid">
         {page.productRoster.map((product, index) => (
           <div key={product.label}>
