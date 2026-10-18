@@ -879,9 +879,6 @@ const minisPage: PageContent = {
       paragraphs: [
         "Smaller products do not require smaller branding. Presidential mini packages still need room for the crest, exact product name, format, series cues, and package facts. The strongest designs keep that hierarchy legible while allowing vivid illustration and color to do the attention work.",
         "Multipack organization also becomes part of the shelf signal. A buyer can recognize a compact group without opening the package, and a patient can distinguish it from a single full-size presentation. That makes the exterior more than decoration: it connects the catalog to the shelf.",
-        [
-          { text: "No image source is reused elsewhere." },
-        ],
       ],
       subsections: [
         {
@@ -1268,7 +1265,7 @@ const roseGoldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Rose Gold gains strength from focus. The roster creates enough range to feel like a complete series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
-        "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, show its place in the catalog, and send visitors to exact product records.",
+        "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, and show its place in the catalog.",
         "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each retains the Presidential crest and official catalog relationship.",
         "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold. The distinctions come from official collection structure and visual position, not from invented rankings or unverifiable promises.",
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
