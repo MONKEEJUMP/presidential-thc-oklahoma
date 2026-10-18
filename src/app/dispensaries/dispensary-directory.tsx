@@ -44,7 +44,7 @@ export type RegionDefinition = Readonly<{
 const data = retailerData as unknown as RetailerData;
 
 export const HUB_COPY =
-  "Licensed Oklahoma retailers carry Presidential. They are grouped below by the state's six official tourism regions, so you can go straight to the part of Oklahoma you are in.";
+  "Licensed Oklahoma retailers carry Presidential. Presidential is a cannabis brand founded in Los Angeles in 2012, known for its infused Moon Rocks, blunts, pre-rolls and minis. Each dispensary below is independently licensed and chooses its own formats and series, so bring the exact product name from the package and confirm before you go. They are grouped below by the state's six official tourism regions, so you can go straight to the part of Oklahoma you are in.";
 
 export const RED_CARPET_COPY =
   "Red Carpet Country covers northwestern Oklahoma, the widest and least densely settled corner of the state. Licensed retailers carry Presidential across the region.";
