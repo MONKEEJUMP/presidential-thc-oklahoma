@@ -83,7 +83,7 @@ const homePage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate and finished with kief or diamonds. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Presidential THC Oklahoma is the Oklahoma guide to the " },
+          { text: "Presidential THC describes the brand's infused-cannabis construction: flower carried through with concentrate, with a kief or diamond finish. That three-layer idea appears across Moon Rocks, infused pre-rolls, tobacco-free blunts, and minis. Presidential THC Oklahoma is the Oklahoma guide to the " },
           { text: "Presidential cannabis brand", href: "/about" },
           { text: ", founded in Los Angeles in 2012." },
         ],
@@ -97,7 +97,7 @@ const homePage: PageContent = {
           heading: "Is Presidential cannabis the same brand as Presidential THC?",
           paragraphs: [
             [
-              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. " }, { text: "Oklahoma dispensaries carrying the Presidential weed brand", href: "/dispensaries" }, { text: " are grouped by region. Its signature is an infused construction: flower carried through with concentrate and finished with kief or diamonds, across " },
+              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. " }, { text: "Oklahoma dispensaries carrying the Presidential weed brand", href: "/dispensaries" }, { text: " are grouped by region. Its signature is an infused construction: flower carried through with concentrate, with a kief or diamond finish, across " },
               { text: "Oklahoma Moon Rocks", href: "/moon-rocks" },
               { text: ", tobacco-free blunts, infused pre-rolls and minis. The package names the product and its series, such as the " },
               { text: "Oklahoma Gold Strain Series", href: "/gold" },
@@ -713,7 +713,7 @@ const preRollsPage: PageContent = {
         "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it. A mini pack reduces the scale while keeping the paper format.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
         "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration.",
-      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names on distillate. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities on live resin. For the solventless side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Pick a series, then note the exact product name and pack size from the carton. Singles and packs share the same build. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
+      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names on distillate. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities on live resin. For the solventless side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Ask the store which formats it carries in Rose Gold. Pick a series, then note the exact product name and pack size from the carton. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
     },
     {
       id: "pre-roll-package-system",
@@ -1320,7 +1320,7 @@ const roseGoldPage: PageContent = {
       heading: "Finding Rose Gold in Oklahoma",
       imageCount: 1,
       paragraphs: [
-        "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format.",
+        [{ text: "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format. For the paper format across Silver and Gold, see " }, { text: "the Oklahoma pre-roll guide", href: "/pre-rolls" }, { text: "." }],
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
         "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. Rose Gold is a smaller official series: named products and refined presentation.",
       ],
@@ -1519,7 +1519,7 @@ const retailersPage: PageContent = {
       heading: "A recognizable infused-product brand",
       imageCount: 1,
       paragraphs: [
-        "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate and finished in kief. Moon Rocks remain the flagship expression of that idea. Blunts, pre-rolls, and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category.",
+        [{ text: "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate and finished in kief. Moon Rocks remain the flagship expression of that idea. Blunts, " }, { text: "infused pre-rolls for Oklahoma shelves", href: "/pre-rolls" }, { text: ", and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category." }],
         "Recognition does not depend on one package. The crest, strong black ground, vivid illustration, and disciplined series architecture repeat across the family. A patient can encounter Presidential Moon Rocks in one case, a Silver mini pack in another, and a Gold pre-roll elsewhere without feeling as though three unrelated brands are competing for attention.",
         "That continuity is part of why the products can move as a shelf proposition. The catalog gives staff names and formats they can identify, gives the buyer multiple levels of assortment, and gives the patient a visual trail from previous recognition to a new product. It does not ask a retailer to manufacture the brand story at the point of sale.",
       ],
@@ -1559,7 +1559,7 @@ const retailersPage: PageContent = {
           heading: "What makes Presidential easy to explain at the counter?",
           paragraphs: [
             [
-              { text: "The construction is simple and factual: flower carried through with cannabis concentrate and finished in kief or diamonds. " },
+              { text: "The construction is simple and factual: flower carried through with cannabis concentrate, with a kief or diamond finish. " },
               { text: "Moon Rocks", href: "/moon-rocks" },
               { text: " anchor the block, while " },
               { text: "blunts" },
@@ -1781,7 +1781,7 @@ const aboutPage: PageContent = {
           heading: "Where does the crest appear?",
           paragraphs: [
             [
-              { text: "The crest appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, connecting each named product to the same official brand. That shared mark makes the three-layer construction that began in Los Angeles in 2012 recognizable in every format: flower carried through with cannabis concentrate and finished in kief or diamonds. Series and product names then sit beneath the crest to identify the exact release. Keep reading with " },
+              { text: "The crest appears on Presidential packaging across Moon Rocks, blunts, pre-rolls, and minis, connecting each named product to the same official brand. That shared mark makes the three-layer construction that began in Los Angeles in 2012 recognizable in every format: flower carried through with cannabis concentrate, with a kief or diamond finish. Series and product names then sit beneath the crest to identify the exact release. Keep reading with " },
               { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
               { text: ", " },
               { text: "tobacco-free blunt formats", href: "/blunts" },
