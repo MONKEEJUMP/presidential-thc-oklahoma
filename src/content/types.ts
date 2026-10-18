@@ -77,5 +77,6 @@ export type CatalogProduct = {
 export type PageImagePlan = {
   page: string;
   heading: string;
+  intro?: string;
   productIds: string[];
 };
