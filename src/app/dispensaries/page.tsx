@@ -15,6 +15,7 @@ import {
   RetailerDirectory,
   retailersFor,
 } from "./dispensary-directory";
+import { HUB_INTRO_BRAND, IntroH3 } from "@/components/r17-intro";
 import styles from "./dispensaries.module.css";
 
 const PAGE_TITLE = "Presidential Dispensaries Across Oklahoma Regions";
@@ -141,6 +142,7 @@ export default function DispensariesPage() {
                 product name, the format, and the size, and bring a current{" "}
                 <Link href="/oklahoma">OMMA patient or visitor license</Link>.
               </p>
+              {HUB_INTRO_BRAND ? <IntroH3 {...HUB_INTRO_BRAND} /> : null}
             </div>
           </section>
         </div>
