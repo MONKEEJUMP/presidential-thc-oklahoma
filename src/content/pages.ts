@@ -1833,7 +1833,7 @@ const aboutPage: PageContent = {
               { text: "." },
             ],
           ],
-        },
+        }, { id: "reading-the-series-before-the-format", heading: "Reading the series before the format", paragraphs: [[{ text: "In Oklahoma, the series name says the most about a Presidential product. The " }, { text: "flavor-first Silver line", href: "/silver" }, { text: " uses distillate. The " }, { text: "strain-led Gold line", href: "/gold" }, { text: " uses live resin. Rose Gold is the connoisseur line on live rosin. Moon Rocks in every series are flower carried through with concentrate and finished with kief. The paper option, the " }, { text: "Oklahoma infused pre-roll lineup", href: "/pre-rolls" }, { text: ", carries a kief or diamond finish across its series. Pick the series, then the format, then the exact name, and confirm with the store." }]] },
       ],
     },
     {
