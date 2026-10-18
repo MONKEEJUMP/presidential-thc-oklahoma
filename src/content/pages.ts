@@ -360,7 +360,7 @@ const moonRocksPage: PageContent = {
           paragraphs: [
             "Presidential THC flower is the Moon Rocks format. Flower is selected as the physical core, concentrate is applied so it stays with that core, and kief provides the final exterior. The package identifies the exact product and series.",
           ],
-        },
+        }, { id: "reading-a-jars-build-line-in-oklahoma", heading: "Reading a jar's build line in Oklahoma", paragraphs: [[{ text: "Each jar prints its own build line. Follow that line for the finish instead of assuming one." }]] }
       ],
     },
     {
