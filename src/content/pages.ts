@@ -1182,7 +1182,7 @@ const goldPage: PageContent = {
     },
     {
       id: "gold-across-formats",
-      heading: "Gold across the four formats",
+      heading: "Gold across the formats",
       imageCount: 1,
       paragraphs: [
         [
@@ -1540,7 +1540,7 @@ const retailersPage: PageContent = {
           { text: " brings smaller hemp-wrapped and paper formats together as a size strategy while preserving the construction distinction between a blunt and a pre-roll." },
         ],
         "A buyer can merchandise by format, by series, or as a selected brand block. Format-first organization makes physical choices easy to compare. Series-first organization gives color and identity the lead. A mixed Presidential block can use the crest and black structural packaging to hold several choices together.",
-        "The four-format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
+        "The format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
       ],
     },
     {
@@ -1750,7 +1750,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. Start from " }, { text: "the Presidential THC Oklahoma product guide", href: "/" }, { text: " for the full catalog. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
+    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. Start from " }, { text: "the Presidential THC Oklahoma product guide", href: "/" }, { text: " for the full catalog. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
   ],
   sections: [
     {
@@ -1798,7 +1798,7 @@ const aboutPage: PageContent = {
       heading: "Groupings in one system",
       imageCount: 1,
       paragraphs: [
-        "The current catalog spans multiple groupings and four formats. Silver has fruit-forward identities, Gold has strain-led identities, and Rose Gold has connoisseur identities. The Presidential Line adds its own products, House Line adds core-format products, and Presidential x THC Design adds collaboration products.",
+        "The current catalog spans multiple groupings and formats. Silver has fruit-forward identities, Gold has strain-led identities, and Rose Gold has connoisseur identities. The Presidential Line adds its own products, House Line adds core-format products, and Presidential x THC Design adds collaboration products.",
         [
           { text: "Moon Rocks, blunts, pre-rolls, and " },
           { text: "Presidential minis", href: "/minis" },
