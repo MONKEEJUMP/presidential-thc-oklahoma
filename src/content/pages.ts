@@ -185,7 +185,7 @@ const homePage: PageContent = {
         [
           { text: "Use the " },
           { text: "store locator above" },
-          { text: " to begin with the current participating network, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change. The dispensary directory starts with " },
+          { text: " to find participating retailers, then confirm the desired Presidential product with the licensed dispensary. Retail participation and inventory can change. The dispensary directory starts with " },
           { text: "Frontier Country", href: "/dispensaries/frontier-country" },
           { text: ", home to the state capital region. " },
           { text: "Chickasaw Country", href: "/dispensaries/chickasaw-country" },
@@ -240,7 +240,7 @@ const homePage: PageContent = {
             [
               { text: "No. Presidential THC Oklahoma is a brand reference, not a storefront, so it publishes no prices. The licensed dispensary sets its own pricing and controls current inventory. Use the store locator to " },
               { text: "search participating Oklahoma dispensaries", href: "/find" },
-              { text: ", then confirm the product, series, and format with them. The package names the product and its series, so it's the most reliable thing to bring to the counter. Dispensaries can start with " },
+              { text: ", then confirm the product, series, and format with them. The package names the product and its series, so bring it to the counter. Dispensaries can start with " },
               { text: "the Oklahoma dispensary guide for retailers", href: "/retailers" },
               { text: "." },
             ],
@@ -255,7 +255,7 @@ const homePage: PageContent = {
     { href: "/find", label: "Finding Presidential", description: "Use the official Oklahoma locator without exposing retailer addresses." },
     { href: "/retailers", label: "For Oklahoma retailers", description: "The wholesale shelf proposition for dispensary owners and buyers." },
     { href: "/oklahoma", label: "Cannabis in Oklahoma", description: "The medical program and market picture on one page." },
-    { href: "/about", label: "About Presidential", description: "The original brand, founded in Los Angeles in 2012." },
+    { href: "/about", label: "About Presidential", description: "The Presidential brand, founded in Los Angeles in 2012." },
   ],
   sources: [
     { label: "Oklahoma Medical Marijuana Authority", href: OMMA },
@@ -292,7 +292,7 @@ const moonRocksPage: PageContent = {
           heading: "Is this the official Presidential Moon Rocks guide for Oklahoma?",
           paragraphs: [
             [
-              { text: "Yes. Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand, and Presidential appears through participating licensed Oklahoma retailers. Read " },
+              { text: "Yes. Presidential THC Oklahoma is the official Oklahoma site for the Presidential brand, and Presidential appears through participating licensed Oklahoma retailers. Read " },
               { text: "About Presidential", href: "/about" },
               { text: " for the brand behind this guide." },
             ],
@@ -653,7 +653,7 @@ const preRollsPage: PageContent = {
           { text: ". That difference shapes the roll, package silhouette, and merchandising category. It also gives a visitor an easy first filter: choose the paper pre-roll family here, or move to the blunt page when the hemp-wrapped format is the intended destination." },
         ],
         [
-          { text: "The infused construction connects pre-rolls to the flagship Moon Rocks idea without pretending the physical formats are identical. Moon Rocks present the layers in their original form. Pre-rolls organize material into a ready rolled format. Shared product identities and " },
+          { text: "The infused construction connects pre-rolls to the flagship Moon Rocks idea without pretending the physical formats are identical. Moon Rocks present the layers as loose pieces. Pre-rolls organize material into a ready rolled format. Shared product identities and " },
           { text: "brand artwork", href: "/about" },
           { text: " create continuity between them." },
         ],
@@ -745,7 +745,7 @@ const preRollsPage: PageContent = {
         ],
         "Begin with the official Oklahoma locator and then confirm the precise item. A full request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the package can narrow the check further. Package art on this page gives a visual reference when names are close.",
         "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority.",
-      ], subsections: [{ id: "finding-pre-rolls-by-oklahoma-region", heading: "Finding pre-rolls by Oklahoma region", paragraphs: [[{ text: "Oklahoma shoppers can narrow a pre-roll search by region rather than looking across the whole state. In the northeast, the " }, { text: "northeastern Green Country retailers", href: "/dispensaries/green-country" }, { text: " groups participating dispensaries by town. In the northwest, " }, { text: "northwestern Frontier Country stores", href: "/dispensaries/frontier-country" }, { text: " are grouped the same way. Regional lists make a nearby option easier to spot. Before you go, note the exact pre-roll name and series from the pack art, because assortments vary by dispensary and a specific name is easier to match on a menu or at the counter." }]] }],
+      ], subsections: [{ id: "finding-pre-rolls-by-oklahoma-region", heading: "Finding pre-rolls by Oklahoma region", paragraphs: [[{ text: "Oklahoma shoppers can narrow a pre-roll search by region. In the northeast, the " }, { text: "northeastern Green Country retailers", href: "/dispensaries/green-country" }, { text: " groups participating dispensaries by town. In the northwest, " }, { text: "northwestern Frontier Country stores", href: "/dispensaries/frontier-country" }, { text: " are grouped the same way. Regional lists make a nearby option easier to spot. Before you go, note the exact pre-roll name and series from the pack art." }]] }],
     },
   ],
   relatedLinks: [
@@ -1745,7 +1745,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. Start from " }, { text: "the Presidential THC Oklahoma product guide", href: "/" }, { text: " for the full catalog. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
+    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the Presidential brand. It presents the products, explains the formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. Start from " }, { text: "the Presidential THC Oklahoma product guide", href: "/" }, { text: " for the full catalog. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
   ],
   sections: [
     {
@@ -1844,7 +1844,7 @@ const aboutPage: PageContent = {
   ],
   relatedLinks: [
     upLink,
-    { href: "/moon-rocks", label: "Presidential Moon Rocks", description: "Begin with the original flagship format." },
+    { href: "/moon-rocks", label: "Presidential Moon Rocks", description: "Begin with the flagship format." },
     { href: "/retailers", label: "For Oklahoma retailers", description: "Read the wholesale shelf proposition for licensed buyers." },
   ],
   sources: [
