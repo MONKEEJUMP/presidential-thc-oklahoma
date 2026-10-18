@@ -1224,7 +1224,7 @@ const goldPage: PageContent = {
               { text: "." },
             ],
           ],
-        },
+        }, { id: "finding-gold-by-oklahoma-region", heading: "Finding Gold by Oklahoma region", paragraphs: [[{ text: "Bring the exact Gold name from the package, then browse " }, { text: "Green Country dispensaries", href: "/dispensaries/green-country" }, { text: " or " }, { text: "dispensaries in Frontier Country", href: "/dispensaries/frontier-country" }, { text: ", and compare " }, { text: "the Oklahoma pre-roll format", href: "/pre-rolls" }, { text: " if you want the name in paper." }]] }
       ],
     },
     {
