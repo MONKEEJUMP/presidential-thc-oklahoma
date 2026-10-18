@@ -1541,7 +1541,7 @@ const retailersPage: PageContent = {
         ],
         "A buyer can merchandise by format, by series, or as a selected brand block. Format-first organization makes physical choices easy to compare. Series-first organization gives color and identity the lead. A mixed Presidential block can use the crest and black structural packaging to hold several choices together.",
         "The four-format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
-      ],
+      ], subsections: [{ id: "blunts-as-an-anchor-format-for-oklahoma-shelves", heading: "Blunts as an anchor format for Oklahoma shelves", paragraphs: [[{ text: "Tobacco-free blunts give an Oklahoma counter an easy way to talk about Presidential. Each one pairs flower and concentrate inside a hemp wrap with a kief or diamond finish, and the series color on the pack tells a patient which tier they are looking at before anyone opens a menu. Buyers planning an opening order can review the " }, { text: "Oklahoma Gold series", href: "/gold" }, { text: " to see how series and strain names sit together on the shelf. Package art carries the exact product name, which helps budtenders match a patient's request to the right pack. Product details and batch results stay on each label for patients to check." }]] }],
     },
     {
       id: "six-series-shelf",
