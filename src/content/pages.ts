@@ -340,7 +340,7 @@ const moonRocksPage: PageContent = {
             "Start with the official Oklahoma locator, identify licensed participating retailers in the relevant region, and confirm the exact product before traveling. Use the package name and series when asking. ‘Presidential Moon Rocks’ identifies the format; ‘Blue Raspberry Silver Moon Rocks’ or ‘24K Gold Moon Rocks’ gives the retailer the fuller identity needed to check inventory.",
             "A current OMMA patient or visitor license is part of the purchase path. An out-of-state medical card alone is not the credential used at an Oklahoma dispensary. The Cannabis in Oklahoma page keeps those licensing and possession details in one place so this format page can stay centered on product recognition and licensed availability.",
           ],
-        },
+        }, { id: "moon-rocks-beyond-frontier-country", heading: "Moon Rocks beyond Frontier Country", paragraphs: [[{ text: "The dispensary guide also covers the " }, { text: "Green Country dispensary list", href: "/dispensaries/green-country" }, { text: ", " }, { text: "Chickasaw Country stores", href: "/dispensaries/chickasaw-country" }, { text: ", " }, { text: "Choctaw Country dispensaries", href: "/dispensaries/choctaw-country" }, { text: " and " }, { text: "Great Plains Country stores", href: "/dispensaries/great-plains-country" }, { text: ". For the wider state picture, see the " }, { text: "Presidential Oklahoma overview", href: "/oklahoma" }, { text: "." }]] },
       ],
     },
     {
