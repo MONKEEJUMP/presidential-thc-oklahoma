@@ -124,7 +124,7 @@ const homePage: PageContent = {
     },
     {
       id: "four-formats",
-      heading: "The four formats",
+      heading: "The formats",
       imageCount: 2,
       paragraphs: [
         [
@@ -175,7 +175,7 @@ const homePage: PageContent = {
           { text: "Cannabis in Oklahoma", href: "/oklahoma" },
           { text: " page." },
         ],
-      ],
+      ], subsections: [{ id: "starting-from-a-region-in-green-country", heading: "Starting from a region in Green Country", paragraphs: [[{ text: "Oklahoma's dispensary listings are grouped by region, which makes it easier to start from where you are. The Green Country list runs town by town. Before calling a store, write down the series and the exact product name from the pack art, so the request is short. The " }, { text: "dispensaries by town in Green Country", href: "/dispensaries/green-country" }, { text: " shows participating stores by town, and each one sets its own shelf. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and finish for that item. Confirm the product with the store before you make the trip." }]] }],
     },
     {
       id: "find-it",
@@ -193,7 +193,7 @@ const homePage: PageContent = {
           { text: "Choctaw Country", href: "/dispensaries/choctaw-country" },
           { text: " also have their own directories." },
         ],
-      ], subsections: [{ id: "starting-from-a-region-in-green-country", heading: "Starting from a region in Green Country", paragraphs: [[{ text: "Oklahoma's dispensary listings are grouped by region, which makes it easier to start from where you are. The Green Country list runs town by town. Before calling a store, write down the series and the exact product name from the pack art, so the request is short. The " }, { text: "dispensaries by town in Green Country", href: "/dispensaries/green-country" }, { text: " shows participating stores by town, and each one sets its own shelf. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and finish for that item. Confirm the product with the store before you make the trip." }]] }],
+      ],
     },
     {
       id: "for-dispensaries",
@@ -1379,7 +1379,7 @@ const findPage: PageContent = {
           { text: " to see the current participating retail field." },
         ],
         "Once the locator identifies relevant doors, contact the licensed dispensary before traveling when a specific item matters. Ask for Presidential, the exact product name, the series when relevant, and the intended format. A store that carries the brand may not carry every product, size, pack, or format on the same day.",
-        "That two-step route is the reliable one: live participating network first, store-level inventory confirmation second. It also respects the wholesale model. Presidential provides the catalog and retailer relationships; each dispensary owns its current ordering and shelf decisions.",
+        "That two-step route is the reliable one: the live locator first, store-level inventory confirmation second. It also respects the wholesale model. Presidential provides the catalog and retailer relationships; each dispensary owns its current ordering and shelf decisions.",
         "The same route works whether someone begins with a format or a product name. A visitor might search after seeing Moon Rocks, a Silver flavor, a Gold strain, or a mini package. The locator answers which participating doors are relevant; the retailer answers whether that exact item is available.",
       ],
     },
@@ -1389,7 +1389,7 @@ const findPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Presidential appears through participating licensed Oklahoma retailers. The network changes as stores order, pause, restock, or change status, so the official locator is the place to check. Retailers are listed by region, including " },
+          { text: "Presidential appears through participating licensed Oklahoma retailers. Participating stores change as they order, pause, restock, or change status, so the official locator is the place to check. Retailers are listed by region, including " },
           { text: "Frontier Country", href: "/dispensaries/frontier-country" },
           { text: ", " },
           { text: "Green Country", href: "/dispensaries/green-country" },
@@ -1403,7 +1403,7 @@ const findPage: PageContent = {
         ],
         "Use the locator for the stores nearest you.",
         "The package art on this site helps patients recognize Presidential before checking local availability.",
-        "The regional pages cover Frontier Country around Oklahoma City, Green Country around Tulsa, and the smaller towns of Great Plains, Choctaw and Chickasaw Country.",
+        [{ text: "The regional pages cover Frontier Country around Oklahoma City, Green Country around Tulsa, and the smaller towns of Great Plains, Choctaw and Chickasaw Country. To pick a product first, use " }, { text: "the Oklahoma Presidential home guide", href: "/" }, { text: "." }],
       ],
     },
     {
@@ -1750,7 +1750,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
+    [{ text: "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and points Oklahoma patients and retailers to licensed retail. Start from " }, { text: "the Presidential THC Oklahoma product guide", href: "/" }, { text: " for the full catalog. For the state rules behind every purchase, read " }, { text: "how Oklahoma's medical cannabis program works", href: "/oklahoma" }, { text: "." }],
   ],
   sections: [
     {
