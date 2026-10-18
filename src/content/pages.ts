@@ -636,7 +636,7 @@ const preRollsPage: PageContent = {
       heading: "What is a Presidential pre-roll?",
       imageCount: 0,
       paragraphs: [
-        "A Presidential pre-roll is an infused roll in paper: flower, concentrate, and a kief or diamond finish carried into a ready rolled format. It is one of four Presidential formats in Oklahoma, beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis, and the paper is what separates it from a blunt on the shelf.",
+        "A Presidential pre-roll is an infused roll in paper: flower, concentrate, and a kief or diamond finish carried into a ready rolled format. It sits beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis in the Oklahoma lineup, and the paper is what separates it from a blunt on the shelf.",
         "Every package names the product, its series, and the count or size. Silver pre-rolls carry fruit-forward flavor names such as Watermelon and Blue Raspberry, Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and the Presidential Line and House Line add brand-first identities. Singles, multipacks, and mini packs keep the same paper format at different scales.",
         [{ text: "Presidential pre-rolls are sold through " }, { text: "licensed Oklahoma dispensaries that carry Presidential", href: "/dispensaries" }, { text: ", not online. Ask the store for Presidential, the product name, and the pre-roll format, and treat the package and the retailer’s current inventory as the record of what is on the shelf." }],
       ],
@@ -764,11 +764,11 @@ const minisPage: PageContent = {
   title: "Presidential Minis in Oklahoma | Official Product Guide",
   description: "Explore compact Presidential mini blunts and mini pre-rolls, official product identities, package systems, and Oklahoma retail availability.",
   intro: [
-    "Presidential Minis bring two rolled formats into a compact scale: tobacco-free hemp-wrap mini blunts and paper mini pre-rolls. Size is the organizing idea. The products remain tied to their official names, series, and wrap categories while smaller pieces and multipack structures create a distinct shelf proposition.",
+    "Presidential Minis bring rolled formats into a compact scale: tobacco-free hemp-wrap mini blunts and paper mini pre-rolls. Size is the organizing idea. The products remain tied to their official names, series, and wrap categories while smaller pieces and multipack structures create a distinct shelf proposition.",
     [
       { text: "The format works because it stays easy to read. A mini blunt is still identified by its hemp wrap; a mini pre-roll remains a paper format. Presidential artwork, count information, and package shape then help an Oklahoma patient or " },
       { text: "dispensary buyer", href: "/dispensaries" },
-      { text: " tell the two compact families apart." },
+      { text: " tell the compact families apart." },
     ],
   ],
   sections: [
@@ -1266,7 +1266,7 @@ const roseGoldPage: PageContent = {
         "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, and show its place in the catalog.",
         [{ text: "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each carries the Presidential crest. The crest's story starts on " }, { text: "the Presidential Oklahoma about page", href: "/about" }, { text: "." }],
         "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold.",
-        "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
+        "Rose Gold therefore feels selective by design, not incomplete beside the larger Silver and Gold series.",
       ],
     },
     {
@@ -1548,7 +1548,7 @@ const retailersPage: PageContent = {
       heading: "Groupings create range",
       imageCount: 1,
       paragraphs: [
-        [{ text: "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. " }, { text: "Rose Gold's live rosin names", href: "/rose-gold" }, { text: " form a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families give the shelf an immediate visual rhythm." }],
+        [{ text: "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. " }, { text: "Rose Gold's live rosin names", href: "/rose-gold" }, { text: " form a Connoisseur Series with a smaller, refined, craft-centered position. Those color families give the shelf an immediate visual rhythm." }],
         "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The series pages on this site name every official Silver, Gold, and Rose Gold product. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
