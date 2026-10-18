@@ -78,5 +78,6 @@ export type PageImagePlan = {
   page: string;
   heading: string;
   intro?: string;
+  introLink?: { before: string; label: string; href: string; after: string };
   productIds: string[];
 };

@@ -270,7 +270,7 @@ const moonRocksPage: PageContent = {
   description: "Explore the flagship three-layer Presidential Moon Rocks format, official product identities, packaging, and licensed Oklahoma availability.",
   intro: [
     "Presidential Moon Rocks are the flagship format: flower carried through with cannabis concentrate and finished in kief. That three-layer sequence established the brand’s product language and remains the clearest way to understand why a Presidential package looks and reads differently from a standard flower product.",
-    "For Oklahoma, the format arrives inside a much larger official catalog. Flavor-led Silver products, strain-led Gold products, the Rose Gold Connoisseur Series, the Presidential Line, House Line, and THC Design collaboration all use the Moon Rocks category as a shared point of reference while preserving their own names and artwork.",
+    "In Oklahoma, Moon Rocks come in many names. Flavor-led Silver products, strain-led Gold products, the Rose Gold Connoisseur Series, the Presidential Line, House Line, and THC Design collaboration all use the Moon Rocks category as a shared point of reference while preserving their own names and artwork.",
   ],
   sections: [
     {
@@ -350,8 +350,8 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and kief provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
         "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
-        "The series should not be confused with a public extract chart. Here the useful questions are simpler: Which product is this? Which series does its official record place it in? Which package should an Oklahoma patient recognize at licensed retail?",
-        "Materials and package identity can be stated directly. Effects vary by person and are not promised. Product details belong to the official record, current local availability belongs to the retailer, and Oklahoma medical-program rules belong together on the dedicated state page.",
+        "The series should not be confused with a public extract chart. Here the useful questions are simpler: Which product is this? Which series does the package name? Which package should an Oklahoma patient recognize at licensed retail?",
+        "Materials and package identity can be stated directly. Effects vary by person and are not promised. The package gives product details, the retailer gives local availability, and the Oklahoma page covers medical-program rules.",
       ],
       subsections: [
         {
@@ -369,7 +369,7 @@ const moonRocksPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "The official catalog gives Moon Rocks a broad field of names. " },
+          { text: "Moon Rocks come in a broad field of names. " },
           { text: "Silver" },
           { text: " includes Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon. " },
           { text: "Gold" },
@@ -501,7 +501,7 @@ const bluntsPage: PageContent = {
         [
           { text: "The Minis page brings " },
           { text: "Presidential mini blunts", href: "/minis" },
-          { text: " and mini pre-rolls together for visitors who want to compare compact formats. This page stays focused on the complete blunt family, showing how full-size and smaller options can share visual language while serving different shelf spaces." },
+          { text: " and mini pre-rolls together for visitors who want to compare compact formats. Full-size and smaller blunts share visual language while serving different shelf spaces." },
         ],
       ],
       subsections: [
@@ -540,7 +540,7 @@ const bluntsPage: PageContent = {
       heading: "Blunt names across the catalog",
       imageCount: 1,
       paragraphs: [
-        "Presidential Blunts appear through several official catalog groupings. Silver fruit identities give the format bright package color. Gold strain identities bring cannabis-first names and illustrated worlds. Selected Presidential Line products introduce character-led artwork, while the House Line states the core blunt directly and THC Design packaging makes the collaboration unmistakable.",
+        "Presidential blunts come in several series. Silver fruit identities give the format bright package color. Gold strain identities bring cannabis-first names and illustrated worlds. Selected Presidential Line products introduce character-led artwork, while the House Line states the core blunt directly and THC Design packaging makes the collaboration unmistakable.",
         "The range visible in approved Presidential artwork includes names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, Watermelon, 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official product identities.",
         "A name appearing in the wider product catalog is not treated as a promise that every size and format is currently present at every Oklahoma retailer. Each licensed dispensary answers the real-time inventory question.",
       ],
@@ -636,7 +636,7 @@ const preRollsPage: PageContent = {
       heading: "What is a Presidential pre-roll?",
       imageCount: 0,
       paragraphs: [
-        "A Presidential pre-roll is an infused roll in paper: the brand’s flower, concentrate, and kief language carried into a ready rolled format. It is one of four Presidential formats in Oklahoma, beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis, and the paper is what separates it from a blunt on the shelf.",
+        "A Presidential pre-roll is an infused roll in paper: flower, concentrate, and a kief or diamond finish carried into a ready rolled format. It is one of four Presidential formats in Oklahoma, beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis, and the paper is what separates it from a blunt on the shelf.",
         "Every package names the product, its series, and the count or size. Silver pre-rolls carry fruit-forward flavor names such as Watermelon and Blue Raspberry, Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and the Presidential Line and House Line add brand-first identities. Singles, multipacks, and mini packs keep the same paper format at different scales.",
         [{ text: "Presidential pre-rolls are sold through " }, { text: "licensed Oklahoma dispensaries that carry Presidential", href: "/dispensaries" }, { text: ", not online. Ask the store for Presidential, the product name, and the pre-roll format, and treat the package and the retailer’s current inventory as the record of what is on the shelf." }],
       ],
@@ -646,7 +646,7 @@ const preRollsPage: PageContent = {
       heading: "The infused pre-roll format",
       imageCount: 2,
       paragraphs: [
-        "A Presidential Pre-Roll brings the brand’s flower, concentrate, and kief language into a rolled paper format. The package identifies how that material appears in a specific item. This Oklahoma site stays with what can be responsibly seen and sourced rather than adding effects, medical, or universal potency claims.",
+        "A Presidential Pre-Roll brings flower, concentrate, and a kief or diamond finish into a rolled paper format. The package identifies how that material appears in a specific item.",
         [
           { text: "Paper is the clearest physical distinction from a blunt’s " },
           { text: "tobacco-free hemp wrap", href: "/blunts" },
@@ -667,7 +667,7 @@ const preRollsPage: PageContent = {
         [
           { text: "The material around the roll. A Presidential pre-roll uses rolling paper, while a " },
           { text: "Presidential blunt", href: "/blunts" },
-          { text: " uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and finished with kief." },
+          { text: " uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and a kief or diamond finish." },
         ],
         [
           { text: "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On " },
@@ -721,7 +721,7 @@ const preRollsPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         [
-          { text: "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away. The package identifies how flower, concentrate, and kief appear in that specific item. Read the crest, the exact product name, the series, and the size: a single emphasizes one roll, while a multipack organizes several pieces under one name. Keep reading with " },
+          { text: "Pre-roll packages tend to be tall, which gives illustration and typography a different canvas from square Moon Rocks art or wider mini packs. Presidential uses that surface to make the product identity visible while keeping the crest and format cues stable enough for a patient to recognize the family from several feet away. The package identifies how flower, concentrate, and the finish appear in that specific item. Read the crest, the exact product name, the series, and the size: a single emphasizes one roll, while a multipack organizes several pieces under one name. Keep reading with " },
           { text: "Presidential retailer guide", href: "/retailers" },
           { text: ", " },
           { text: "find a participating dispensary", href: "/find" },
@@ -745,7 +745,7 @@ const preRollsPage: PageContent = {
           { text: ". Presidential products reach Oklahoma through licensed dispensaries, not direct online sale, and current inventory belongs to each retailer." },
         ],
         "Begin with the official Oklahoma locator and then confirm the precise item. A complete request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the package can narrow the check further. Package art on this page gives a visual reference when names are close.",
-        "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority. The consolidated Oklahoma page keeps state-program information together while this page stays focused on Presidential pre-roll products and licensed availability.",
+        "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority.",
       ],
     },
   ],
@@ -1266,8 +1266,8 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Rose Gold gains strength from focus. The roster creates enough range to feel like a complete series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
         "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, and show its place in the catalog.",
-        "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each retains the Presidential crest and official catalog relationship.",
-        "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold. The distinctions come from official collection structure and visual position, not from invented rankings or unverifiable promises.",
+        "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each carries the Presidential crest.",
+        "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold.",
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
       ],
     },
@@ -1291,10 +1291,10 @@ const roseGoldPage: PageContent = {
     },
     {
       id: "craft-position",
-      heading: "Craft without an invented promise",
+      heading: "Craft in a smaller series",
       imageCount: 1,
       paragraphs: [
-        "A connoisseur series can communicate care through product selection and presentation without predicting an outcome for the patient. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language. The copy stops there rather than making potency, health, or experience claims that the official record does not support.",
+        "A connoisseur series can communicate care through product selection and presentation without predicting an outcome for the patient. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language.",
         [
           { text: "That discipline keeps the series premium and credible at the same time. A " },
           { text: "dispensary buyer", href: "/retailers" },
@@ -1483,7 +1483,7 @@ const findPage: PageContent = {
           { text: "Cannabis in Oklahoma guide", href: "/oklahoma" },
           { text: " covers the license, visitor route, possession and cultivation allowances, market history, tracking, and excise tax together. Here the operating rule stays simple: use the official locator, choose a licensed retailer, confirm the exact product, and purchase only with the proper active credential." },
         ],
-      ],
+      ], subsections: [{ id: "do-you-need-an-omma-patient-license-to-buy", heading: "Do you need an OMMA patient license to buy?", paragraphs: [[{ text: "Yes. Oklahoma runs a medical program, so licensed dispensaries ask for a state patient license and ID; eligible visitors use OMMA's temporary license. License rules are set by OMMA." }]] }],
     },
   ],
   relatedLinks: [
@@ -1533,7 +1533,7 @@ const retailersPage: PageContent = {
       paragraphs: [
         [
           { text: "Moon Rocks", href: "/moon-rocks" },
-          { text: " provide the flagship and can anchor a Presidential block. Their flower, concentrate, and kief construction gives staff a simple factual starting point. The package carries the product identity while the format carries the brand’s origin story." },
+          { text: " provide the flagship and can anchor a Presidential block. Their construction (flower, concentrate, and kief on Moon Rocks or a kief or diamond finish on the rolled formats) gives staff a simple factual starting point. The package carries the product identity while the format carries the brand’s origin story." },
         ],
         [
           { text: "Tobacco-free hemp-wrap blunts", href: "/blunts" },

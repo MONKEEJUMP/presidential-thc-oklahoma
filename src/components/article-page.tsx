@@ -4,7 +4,7 @@ import { Fragment, Suspense } from "react";
 
 import { FindUsNationwideVideo } from "@/components/presidential/media/find-us-nationwide-video";
 import { STATE } from "@/config/state";
-import { pageCatalogHeadings, pageCatalogIntros } from "@/content/assets";
+import { pageCatalogHeadings, pageCatalogIntroLinks, pageCatalogIntros } from "@/content/assets";
 import { schemaEntitiesFor } from "@/content/schema-entities";
 import type { ContentImage, ContentParagraph, PageContent } from "@/content/types";
 import { absoluteUrl, escapeJsonLd, imageUrl, SITE_URL } from "@/lib/site";
@@ -183,7 +183,7 @@ function ProductRoster({ page }: { page: PageContent }) {
   );
 }
 
-function ProductCatalogGrid({ heading, intro, images }: { heading?: string; intro?: string; images: ContentImage[] }) {
+function ProductCatalogGrid({ heading, intro, introLink, images }: { heading?: string; intro?: string; introLink?: { before: string; label: string; href: string; after: string }; images: ContentImage[] }) {
   if (!heading || images.length === 0) return null;
   const headingId = `product-catalog-${images[0].page.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "") || "home"}`;
 
@@ -191,6 +191,13 @@ function ProductCatalogGrid({ heading, intro, images }: { heading?: string; intr
     <section className="product-catalog" aria-labelledby={headingId}>
       <h2 id={headingId}>{heading}</h2>
       {intro ? <p className="product-catalog__intro">{intro}</p> : null}
+      {introLink ? (
+        <p className="product-catalog__intro">
+          {introLink.before}
+          <Link href={introLink.href}>{introLink.label}</Link>
+          {introLink.after}
+        </p>
+      ) : null}
       <div className="product-catalog__grid">
         {images.map((image) => (
           <Image
@@ -348,7 +355,7 @@ export function ArticlePage({ page, images }: { page: PageContent; images: Conte
           <ProductRoster page={page} />
           <Sources page={page} />
           <LinkDirectory page={page} />
-          <ProductCatalogGrid heading={pageCatalogHeadings[page.path]} intro={pageCatalogIntros[page.path]} images={gridImages} />
+          <ProductCatalogGrid heading={pageCatalogHeadings[page.path]} intro={pageCatalogIntros[page.path]} introLink={pageCatalogIntroLinks[page.path]} images={gridImages} />
         </article>
       </main>
       <StructuredData images={images} page={page} />
