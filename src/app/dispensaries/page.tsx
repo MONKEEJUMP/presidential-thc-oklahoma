@@ -143,7 +143,7 @@ export default function DispensariesPage() {
               <p>
                 Across those formats, the Silver Flavor Series carries fruit-forward identities, the Gold
                 Strain Series cannabis-first strain names, and the{" "}
-                <Link href="/rose-gold">solventless Rose Gold identities</Link>, alongside the Presidential Line and House Line.
+                <Link href="/rose-gold">connoisseur Rose Gold identities</Link>, alongside the Presidential Line and House Line.
               </p>
               <p>
                 Every store listed here is independently owned and licensed and chooses its own mix of formats,

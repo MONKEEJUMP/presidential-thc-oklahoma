@@ -32,7 +32,7 @@ const formatLinks: PageLink[] = [
 const seriesLinks: PageLink[] = [
   { href: "/silver", label: "Silver Flavor Series", description: "Vibrant, fruit-forward product identities." },
   { href: "/gold", label: "Gold Strain Series", description: "Cannabis-first product identities." },
-  { href: "/rose-gold", label: "Rose Gold Connoisseur Series", description: "Refined, solventless craft identities." },
+  { href: "/rose-gold", label: "Rose Gold Connoisseur Series", description: "Refined connoisseur identities." },
 ];
 
 const silverRoster: RosterItem[] = [
@@ -158,7 +158,7 @@ const homePage: PageContent = {
               { text: "Gold Strain Series", href: "/gold" },
               { text: " carries strain-led names, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
-              { text: " is the solventless tier. Every series uses the same three-layer idea: flower carried through with concentrate, with a kief or diamond finish." },
+              { text: " is the connoisseur tier. Every series uses the same three-layer idea: flower carried through with concentrate, with a kief or diamond finish." },
             ],
           ],
         },
@@ -349,7 +349,7 @@ const moonRocksPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and a kief or diamond finish provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
-        "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
+        "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on connoisseur craft. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
         "The series should not be confused with a public extract chart. Here the useful questions are simpler: Which product is this? Which series does the package name? Which package should an Oklahoma patient recognize at licensed retail?",
         "Materials and package identity can be stated directly. Effects vary by person and are not promised. The package gives product details, the retailer gives local availability, and the Oklahoma page covers medical-program rules.",
       ],
@@ -421,7 +421,7 @@ const moonRocksPage: PageContent = {
           heading: "How do Silver, Gold, and Rose Gold Moon Rocks differ?",
           paragraphs: [
             [
-              { text: "Silver is the flavor-first series, with fruit-forward names from Blue Raspberry to Watermelon. Gold leads with strain identity, so a name such as Presidential OG or King Louis comes first on the pack. Rose Gold is the smaller connoisseur series, set apart by restrained design and solventless craft language. Keep reading with " },
+              { text: "Silver is the flavor-first series, with fruit-forward names from Blue Raspberry to Watermelon. Gold leads with strain identity, so a name such as Presidential OG or King Louis comes first on the pack. Rose Gold is the smaller connoisseur series, set apart by restrained design and connoisseur craft language. Keep reading with " },
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
@@ -713,7 +713,7 @@ const preRollsPage: PageContent = {
         "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it. A mini pack reduces the scale while keeping the paper format.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
         "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration.",
-      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities. For the solventless side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Ask the store which formats it carries in Rose Gold. Pick a series, then note the exact product name and pack size from the carton. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
+      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities. For the connoisseur side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Ask the store which formats it carries in Rose Gold. Pick a series, then note the exact product name and pack size from the carton. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
     },
     {
       id: "pre-roll-package-system",
@@ -981,7 +981,7 @@ const silverPage: PageContent = {
               { text: "Gold Strain Series", href: "/gold" },
               { text: " organizes cannabis-first strain identities, and the " },
               { text: "Rose Gold Connoisseur Series", href: "/rose-gold" },
-              { text: " adds refined, solventless craft identities. The crest and series label keep every package connected to the same official Presidential family, including " },
+              { text: " adds refined connoisseur identities. The crest and series label keep every package connected to the same official Presidential family, including " },
               { text: "Presidential Moon Rocks", href: "/moon-rocks" },
               { text: "." },
             ],
@@ -1253,7 +1253,7 @@ const roseGoldPage: PageContent = {
   title: "Presidential Rose Gold Oklahoma | Official Guide",
   description: "Oklahoma Rose Gold Connoisseur Series: meet the refined Presidential Rose Gold products, name by name.",
   intro: [
-    "The Presidential Rose Gold Connoisseur Series is a deliberately edited collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on solventless craftsmanship distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
+    "The Presidential Rose Gold Connoisseur Series is a deliberately edited collection: Cereal Milk, Cosmic Cookies, God’s Gift, Wedding Cake, and White Walker. Refined visual language, intentional scale, and a position centered on connoisseur craft distinguish it from fruit-forward Silver and the much larger strain-led Gold series.",
     "Every official Rose Gold product appears in the roster below. This Oklahoma property now presents every real package design in square and portrait state-specific compositions, keeping the product and series aligned.",
   ],
   sections: [
@@ -1263,7 +1263,7 @@ const roseGoldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Rose Gold gains strength from focus. The roster creates enough range to read as a series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
-        "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, and show its place in the catalog.",
+        "The useful job here is to name the official collection accurately, and show its place in the catalog.",
         [{ text: "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each carries the Presidential crest. The crest's story starts on " }, { text: "the Presidential Oklahoma about page", href: "/about" }, { text: "." }],
         "That contrast gives the color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold.",
         "Rose Gold therefore feels selective by design, not incomplete beside the larger Silver and Gold series.",
@@ -1292,7 +1292,7 @@ const roseGoldPage: PageContent = {
       heading: "Craft in a smaller series",
       imageCount: 1,
       paragraphs: [
-        "A connoisseur series can communicate care through product selection and presentation without predicting an outcome for the patient. Rose Gold uses a smaller roster, restrained design, exact naming, and solventless craft language.",
+        "A connoisseur series can communicate care through product selection and presentation without predicting an outcome for the patient. Rose Gold uses a smaller roster, restrained design, exact naming, and connoisseur craft language.",
         [
           { text: "That discipline keeps the series premium and credible at the same time. A " },
           { text: "dispensary buyer", href: "/retailers" },
@@ -1325,7 +1325,7 @@ const roseGoldPage: PageContent = {
           heading: "How do you ask for a Rose Gold product in Oklahoma?",
           paragraphs: [
             [
-              { text: "Ask by the exact name and the series together, for example Cereal Milk or Wedding Cake in the Rose Gold Connoisseur Series, along with the format you want. Rose Gold is the solventless series and may appear selectively, so no dispensary is assumed to carry every name or format. Start with " }, { text: "Oklahoma dispensaries that stock the Presidential brand", href: "/dispensaries" }, { text: ", then confirm the Rose Gold name with the store. " },
+              { text: "Ask by the exact name and the series together, for example Cereal Milk or Wedding Cake in the Rose Gold Connoisseur Series, along with the format you want. Rose Gold is the connoisseur series and may appear selectively, so no dispensary is assumed to carry every name or format. Start with " }, { text: "Oklahoma dispensaries that stock the Presidential brand", href: "/dispensaries" }, { text: ", then confirm the Rose Gold name with the store. " },
               { text: "Find Presidential in Oklahoma", href: "/find" },
               { text: " to reach a participating licensed dispensary first, then confirm with them that they have the product. Compare the " },
               { text: "Silver Flavor Series in Oklahoma", href: "/silver" },
@@ -1334,7 +1334,7 @@ const roseGoldPage: PageContent = {
               { text: "." },
             ],
           ],
-        }, { id: "planning-a-rose-gold-trip-by-region", heading: "Planning a Rose Gold trip by region", paragraphs: [[{ text: "Rose Gold is the solventless side of the Presidential catalog, under names like Cereal Milk, Wedding Cake, and White Walker. When you're hunting for one at licensed retailers in Oklahoma, start with the region you're in. " }, { text: "Green Country store listings", href: "/dispensaries/green-country" }, { text: " cover the northeast. Each store chooses its own assortment, so bring the exact name and format from the package and confirm with the store. For a shorter session in the wider catalog, the " }, { text: "Oklahoma compact minis", href: "/minis" }, { text: " use the same infused idea at a smaller size, with a kief or diamond finish across the lineup." }]] }
+        }, { id: "planning-a-rose-gold-trip-by-region", heading: "Planning a Rose Gold trip by region", paragraphs: [[{ text: "Rose Gold is the connoisseur series, under names like Cereal Milk, Wedding Cake, and White Walker. When you're hunting for one at licensed retailers in Oklahoma, start with the region you're in. " }, { text: "Green Country store listings", href: "/dispensaries/green-country" }, { text: " cover the northeast. Each store chooses its own assortment, so bring the exact name and format from the package and confirm with the store. For a shorter session in the wider catalog, the " }, { text: "Oklahoma compact minis", href: "/minis" }, { text: " use the same infused idea at a smaller size, with a kief or diamond finish across the lineup." }]] }
       ],
     },
   ],
