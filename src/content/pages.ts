@@ -1090,7 +1090,7 @@ const silverPage: PageContent = {
               { text: " covers the state." },
             ],
           ],
-        }, { id: "silver-flavors-in-a-hemp-wrap-blunt", heading: "Silver flavors in a hemp-wrap blunt", paragraphs: [[{ text: "Silver names also come as " }, { text: "tobacco-free Oklahoma blunts", href: "/blunts" }, { text: ", and which flavors a store carries depends on that store." }]] },
+        }, { id: "silver-flavors-in-a-hemp-wrap-blunt", heading: "Silver flavors in a hemp-wrap blunt", paragraphs: [[{ text: "Silver names also come as " }, { text: "tobacco-free Oklahoma blunts", href: "/blunts" }, { text: ", and which flavors a store carries depends on that store." }]] }, { id: "silver-in-more-oklahoma-regions", heading: "Silver in more Oklahoma regions", paragraphs: [[{ text: "Regional guides help you find a licensed retailer in Oklahoma. See the " }, { text: "Frontier Country retailer list", href: "/dispensaries/frontier-country" }, { text: ", the " }, { text: "Choctaw Country retailer list", href: "/dispensaries/choctaw-country" }, { text: " and the " }, { text: "Great Plains Country retailer list", href: "/dispensaries/great-plains-country" }, { text: ", and check a store's menu for the Silver name you want." }]] }
       ],
     },
   ],
