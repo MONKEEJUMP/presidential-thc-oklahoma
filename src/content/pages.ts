@@ -1061,7 +1061,7 @@ const silverPage: PageContent = {
               { text: "." },
             ],
           ],
-        },
+        }, { id: "silver-in-green-country-and-chickasaw-country", heading: "Silver in Green Country and Chickasaw Country", paragraphs: [[{ text: "Regional guides help you find a licensed retailer in Oklahoma. See " }, { text: "retailers around Tulsa in Green Country", href: "/dispensaries/green-country" }, { text: " and " }, { text: "Chickasaw Country dispensaries", href: "/dispensaries/chickasaw-country" }, { text: "." }]] }
       ],
     },
     {
