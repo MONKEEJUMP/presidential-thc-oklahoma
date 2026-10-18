@@ -112,7 +112,7 @@ const homePage: PageContent = {
           heading: "Reading a Presidential listing on an Oklahoma menu",
           paragraphs: [
             [
-              { text: "One brand can appear several ways on an Oklahoma dispensary menu: Presidential cannabis, Presidential marijuana, or Presidential THC. After the brand, look at the format. Moon Rocks are flower carried through with concentrate and finished with kief. Blunts use a tobacco-free hemp wrap with a kief or diamond finish, and pre-rolls use paper. Then check the series. Silver leads with fruit-forward flavor names, Gold with strain names, and the " },
+              { text: "One brand can appear several ways on an Oklahoma dispensary menu: Presidential cannabis, Presidential marijuana, or Presidential THC. After the brand, look at the format. Moon Rocks are flower carried through with concentrate, with a kief or diamond finish. Blunts use a tobacco-free hemp wrap with a kief or diamond finish, and pre-rolls use paper. Then check the series. Silver leads with fruit-forward flavor names, Gold with strain names, and the " },
               { text: "Rose Gold connoisseur line", href: "/rose-gold" },
               { text: " with craft names. If a menu doesn't show the series, ask for it by name, because it's the fastest way to confirm you have the right product. Then use the " },
               { text: "Oklahoma store locator", href: "/find" },
@@ -129,7 +129,7 @@ const homePage: PageContent = {
       paragraphs: [
         [
           { text: "Presidential THC flower (Moon Rocks)", href: "/moon-rocks" },
-          { text: " shows the flower, concentrate, and kief construction directly. " },
+          { text: " shows the flower, the concentrate, and a kief or diamond finish directly. " },
           { text: "Blunts" },
           { text: " place infused cannabis inside a tobacco-free hemp wrap, while infused pre-rolls use paper. Minis, including " },
           { text: "Presidential mini blunts", href: "/minis" },
@@ -175,7 +175,7 @@ const homePage: PageContent = {
           { text: "Cannabis in Oklahoma", href: "/oklahoma" },
           { text: " page." },
         ],
-      ], subsections: [{ id: "starting-from-a-region-in-green-country", heading: "Starting from a region in Green Country", paragraphs: [[{ text: "Oklahoma's dispensary listings are grouped by region, which makes it easier to start from where you are. The Green Country list runs town by town. Before calling a store, write down the series and the exact product name from the pack art, so the request is short. The " }, { text: "dispensaries by town in Green Country", href: "/dispensaries/green-country" }, { text: " shows participating stores by town, and each one sets its own shelf. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and finish for that item. Confirm the product with the store before you make the trip." }]] }, { id: "starting-from-great-plains-country", heading: "Starting from Great Plains Country", paragraphs: [[{ text: "Shoppers in western Oklahoma can start from a regional list rather than the whole state. The " }, { text: "Great Plains Country dispensary list", href: "/dispensaries/great-plains-country" }, { text: " groups participating stores in that part of the state by town, which helps when the nearest option is a drive away. Before you set out, choose a format and a series, and note the exact product name from the pack art. Long distances between towns make a specific request more useful than a general one, and a clear name makes a listing easier to match at the counter." }]] }],
+      ], subsections: [{ id: "starting-from-a-region-in-green-country", heading: "Starting from a region in Green Country", paragraphs: [[{ text: "Oklahoma's dispensary listings are grouped by region, which makes it easier to start from where you are. The Green Country list runs town by town. Before calling a store, write down the series and the exact product name from the pack art, so the request is short. The " }, { text: "dispensaries by town in Green Country", href: "/dispensaries/green-country" }, { text: " shows participating stores by town, and each one sets its own shelf. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and finish for that item. Confirm the product with the store before you make the trip." }]] }, { id: "starting-from-great-plains-country", heading: "Starting from Great Plains Country", paragraphs: [[{ text: "Shoppers in western Oklahoma can start from a regional list rather than the whole state. The " }, { text: "Great Plains Country dispensary list", href: "/dispensaries/great-plains-country" }, { text: " groups participating stores in that part of the state by town, which helps when the nearest option is a drive away." }]] }],
     },
     {
       id: "find-it",
@@ -215,7 +215,7 @@ const homePage: PageContent = {
         [
           { text: "Presidential " },
           { text: "Moon Rocks", href: "/moon-rocks" },
-          { text: " are the flagship format: cannabis flower carried through with concentrate and finished with kief. The packages name the product and its series, and the licensed retailer controls current inventory." },
+          { text: " are the flagship format: cannabis flower carried through with concentrate, with a kief or diamond finish. The packages name the product and its series, and the licensed retailer controls current inventory." },
         ],
       ],
     },
@@ -269,7 +269,7 @@ const moonRocksPage: PageContent = {
   title: "Presidential Moon Rocks in Oklahoma | Official Product Guide",
   description: "Explore the flagship three-layer Presidential Moon Rocks format, official product identities, packaging, and licensed Oklahoma availability.",
   intro: [
-    "Presidential Moon Rocks are the flagship format: flower carried through with cannabis concentrate and finished with kief. That three-layer sequence established the brand’s product language and remains the clearest way to understand why a Presidential package looks and reads differently from a standard flower product.",
+    "Presidential Moon Rocks are the flagship format: flower carried through with cannabis concentrate, with a kief or diamond finish. That three-layer sequence established the brand’s product language and remains the clearest way to understand why a Presidential package looks and reads differently from a standard flower product.",
     "In Oklahoma, Moon Rocks come in many names. Flavor-led Silver products, strain-led Gold products, the Rose Gold Connoisseur Series, the Presidential Line, House Line, and THC Design collaboration all use the Moon Rocks category as a shared point of reference while preserving their own names and artwork.",
   ],
   sections: [
@@ -281,7 +281,7 @@ const moonRocksPage: PageContent = {
         [
           { text: "Moon Rocks sit at the beginning of the Presidential story because the construction is both visible and memorable. Flower supplies the foundation. " },
           { text: "Cannabis concentrate carries across that foundation" },
-          { text: ". Kief completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source." },
+          { text: ". A kief or diamond finish completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source." },
         ],
         "The layers matter more than any dramatic promise around them. It explains what can be responsibly described: the components, the order of construction, the identity on the package, and the licensed Oklahoma channel where the product is sold.",
         "That material clarity gives the flagship unusual visual weight. A Moon Rock package can lead a shelf block, anchor a broader collection, or introduce a patient to the logic behind the rolled formats. Even when the product name changes, the Presidential crest and format language keep the family recognizable.",
@@ -303,7 +303,7 @@ const moonRocksPage: PageContent = {
           heading: "Brand searches that lead to Moon Rocks",
           paragraphs: [
             [
-              { text: "Shoppers who search for the Presidential weed brand often end up looking at Moon Rocks, because Moon Rocks are where the brand began in Los Angeles in 2012. In Oklahoma, each Moon Rock is cannabis flower carried through with concentrate and finished with kief. The series tells you the style: Silver carries fruit-forward flavor names, Gold carries strain names, and Rose Gold is the connoisseur line. Bring the series and product name together when you ask. To see the same names in a hemp wrap, compare the " },
+              { text: "Shoppers who search for the Presidential weed brand often end up looking at Moon Rocks, because Moon Rocks are where the brand began in Los Angeles in 2012. In Oklahoma, each Moon Rock is cannabis flower carried through with concentrate, with a kief or diamond finish. The series tells you the style: Silver carries fruit-forward flavor names, Gold carries strain names, and Rose Gold is the connoisseur line. Bring the series and product name together when you ask. To see the same names in a hemp wrap, compare the " },
               { text: "tobacco-free blunt lineup", href: "/blunts" },
               { text: ", which carries a kief or diamond finish. To shop, open the " },
               { text: "regional dispensary list", href: "/dispensaries" },
@@ -348,7 +348,7 @@ const moonRocksPage: PageContent = {
       heading: "Three layers, one construction",
       imageCount: 2,
       paragraphs: [
-        "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and kief provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
+        "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and a kief or diamond finish provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
         "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
         "The series should not be confused with a public extract chart. Here the useful questions are simpler: Which product is this? Which series does the package name? Which package should an Oklahoma patient recognize at licensed retail?",
         "Materials and package identity can be stated directly. Effects vary by person and are not promised. The package gives product details, the retailer gives local availability, and the Oklahoma page covers medical-program rules.",
@@ -358,7 +358,7 @@ const moonRocksPage: PageContent = {
           id: "what-is-presidential-thc-flower",
           heading: "What is Presidential THC flower?",
           paragraphs: [
-            "Presidential THC flower is the Moon Rocks format. Flower is selected as the physical core, concentrate is applied so it stays with that core, and kief provides the final exterior. The package identifies the exact product and series.",
+            "Presidential THC flower is the Moon Rocks format. Flower is selected as the physical core, concentrate is applied so it stays with that core, and a kief or diamond finish provides the final exterior. The package identifies the exact product and series.",
           ],
         }, { id: "reading-a-jars-build-line-in-oklahoma", heading: "Reading a jar's build line in Oklahoma", paragraphs: [[{ text: "Each jar prints its own build line. Follow that line for the finish instead of assuming one." }]] }
       ],
@@ -397,7 +397,7 @@ const moonRocksPage: PageContent = {
               { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
               { text: ", and compact " },
               { text: "minis" },
-              { text: ". The physical package changes with the format, but the product name, series cue, and core artwork preserve recognition. Moon Rocks remain the flagship construction: flower, concentrate, and kief." },
+              { text: ". The physical package changes with the format, but the product name, series cue, and core artwork preserve recognition. Moon Rocks remain the flagship construction: flower, concentrate, and a kief or diamond finish." },
             ],
           ],
         },
@@ -421,7 +421,7 @@ const moonRocksPage: PageContent = {
           heading: "How do Silver, Gold, and Rose Gold Moon Rocks differ?",
           paragraphs: [
             [
-              { text: "Silver is the flavor-first series, with fruit-forward names from Blue Raspberry to Watermelon. Gold leads with strain identity, so a name such as Presidential OG or King Louis comes first on the pack. Rose Gold is the smaller connoisseur series, set apart by restrained design and solventless craft language. The three-layer construction is the same in all three. Keep reading with " },
+              { text: "Silver is the flavor-first series, with fruit-forward names from Blue Raspberry to Watermelon. Gold leads with strain identity, so a name such as Presidential OG or King Louis comes first on the pack. Rose Gold is the smaller connoisseur series, set apart by restrained design and solventless craft language. Keep reading with " },
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
@@ -448,7 +448,7 @@ const moonRocksPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Moon Rocks are the flagship format: flower carried through with concentrate and finished with kief, with no wrap. " },
+          { text: "Moon Rocks are the flagship format: flower carried through with concentrate, with a kief or diamond finish, with no wrap. " },
           { text: "Oklahoma tobacco-free blunts", href: "/blunts" },
           { text: " place infused cannabis inside a tobacco-free hemp wrap, and " },
           { text: "Oklahoma infused pre-rolls", href: "/pre-rolls" },
@@ -713,7 +713,7 @@ const preRollsPage: PageContent = {
         "The approved Presidential pre-roll artwork spans fruit-forward Silver names, Gold names drawn from cannabis strains, individual Presidential Line identities, the direct House Line, and the THC Design collaboration. That spread lets the same physical format move through several visual moods without losing the brand system around it. A mini pack reduces the scale while keeping the paper format.",
         "Silver names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, and Watermelon make color a central package cue. Gold products use strain names including 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official identities in a deeper collection.",
         "The Presidential Line adds names with their own character worlds, while House Line pre-rolls state the core category directly. THC Design packaging identifies the cultivation collaboration.",
-      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names on distillate. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities on live resin. For the solventless side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Ask the store which formats it carries in Rose Gold. Pick a series, then note the exact product name and pack size from the carton. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
+      ], subsections: [{ id: "choosing-a-pre-roll-by-series-in-oklahoma", heading: "Choosing a pre-roll by series in Oklahoma", paragraphs: [[{ text: "Across the lineup, Presidential pre-rolls carry a kief or diamond finish in paper, and the roll arrives ready to light. What changes from roll to roll is the series. Silver leads with fruit-forward flavor names. The " }, { text: "Gold strain names for Oklahoma", href: "/gold" }, { text: " lead with cannabis-first identities. For the solventless side of the catalog, read about the " }, { text: "Rose Gold connoisseur line in Oklahoma", href: "/rose-gold" }, { text: ". Ask the store which formats it carries in Rose Gold. Pick a series, then note the exact product name and pack size from the carton. Then confirm with the store, since each dispensary chooses its own pre-roll assortment." }]] }],
     },
     {
       id: "pre-roll-package-system",
@@ -859,7 +859,7 @@ const minisPage: PageContent = {
           heading: "What's inside a Presidential mini?",
           paragraphs: [
             [
-              { text: "The same construction as the full-size format: flower carried through with concentrate, with a kief or diamond finish. Silver is the distillate series, so a Silver mini carries that build under a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
+              { text: "The same construction as the full-size format: flower carried through with concentrate, with a kief or diamond finish. Silver is the fruit-named series, so a Silver mini carries a fruit name, while a Gold mini carries a strain name. Mini describes physical scale, not a new series, so read the pack the same way you would a full-size one. Keep reading with " },
               { text: "Silver Flavor Series names", href: "/silver" },
               { text: ", " },
               { text: "Gold Strain Series names", href: "/gold" },
@@ -1021,10 +1021,10 @@ const silverPage: PageContent = {
       subsections: [
         {
           id: "silver-is-the-distillate-series",
-          heading: "Silver is the distillate series",
+          heading: "Silver is the fruit-named series",
           paragraphs: [
             [
-              { text: "Silver is the Presidential distillate series, organized by fruit name. Ask for the exact name and format, then check the " },
+              { text: "Silver is the Presidential series organized by fruit name. Ask for the exact name and format, then check the " },
               { text: "Oklahoma dispensary guide", href: "/dispensaries" },
               { text: "." },
             ],
@@ -1037,7 +1037,7 @@ const silverPage: PageContent = {
             [
               { text: "Menus may list them under Presidential THC, " },
               { text: "Presidential cannabis in Oklahoma", href: "/" },
-              { text: " or Presidential marijuana, but the product is the same: a Silver item from the Presidential distillate series, named by fruit. Ask for the exact name, such as Peach Mango or Watermelon, along with the format: Moon Rocks, an infused pre-roll, a tobacco-free blunt or a mini. Each licensed Oklahoma dispensary chooses its own mix of names, formats and sizes, so confirm with the store before you go. The package confirms the series and the exact name at the counter. Keep reading with " },
+              { text: " or Presidential marijuana, but the product is the same: a Silver item from the fruit-named series. Ask for the exact name, such as Peach Mango or Watermelon, along with the format: Moon Rocks, an infused pre-roll, a tobacco-free blunt or a mini. Each licensed Oklahoma dispensary chooses its own mix of names, formats and sizes, so confirm with the store before you go. The package confirms the series and the exact name at the counter. Keep reading with " },
               { text: "find Presidential in Oklahoma", href: "/find" },
               { text: ", the " },
               { text: "Oklahoma dispensary guide", href: "/dispensaries" },
@@ -1052,7 +1052,7 @@ const silverPage: PageContent = {
           heading: "What's inside a Silver product?",
           paragraphs: [
             [
-              { text: "Every Silver product uses the Presidential construction: flower carried through with cannabis concentrate and finished with kief. In Silver, that concentrate is distillate, which is why the series is organized by fruit name rather than strain. The format sets the outside: Moon Rocks show the layers directly, pre-rolls use paper, blunts use a tobacco-free hemp wrap, and minis are the compact versions. Keep reading with " },
+              { text: "Every Silver product uses the Presidential construction: flower carried through with cannabis concentrate, with a kief or diamond finish. The format sets the outside: Moon Rocks show the layers directly, pre-rolls use paper, blunts use a tobacco-free hemp wrap, and minis are the compact versions. Keep reading with " },
               { text: "Presidential Moon Rocks in Oklahoma", href: "/moon-rocks" },
               { text: ", " },
               { text: "Presidential infused pre-rolls", href: "/pre-rolls" },
@@ -1334,7 +1334,7 @@ const roseGoldPage: PageContent = {
               { text: "." },
             ],
           ],
-        }, { id: "planning-a-rose-gold-trip-by-region", heading: "Planning a Rose Gold trip by region", paragraphs: [[{ text: "Rose Gold is the live rosin series, the solventless side of the Presidential catalog, under names like Cereal Milk, Wedding Cake, and White Walker. When you're hunting for one at licensed retailers in Oklahoma, start with the region you're in. " }, { text: "Green Country store listings", href: "/dispensaries/green-country" }, { text: " cover the northeast. Each store chooses its own assortment, so bring the exact name and format from the package and confirm with the store. For a shorter session in the wider catalog, the " }, { text: "Oklahoma compact minis", href: "/minis" }, { text: " use the same infused idea at a smaller size, with a kief or diamond finish across the lineup." }]] }
+        }, { id: "planning-a-rose-gold-trip-by-region", heading: "Planning a Rose Gold trip by region", paragraphs: [[{ text: "Rose Gold is the solventless side of the Presidential catalog, under names like Cereal Milk, Wedding Cake, and White Walker. When you're hunting for one at licensed retailers in Oklahoma, start with the region you're in. " }, { text: "Green Country store listings", href: "/dispensaries/green-country" }, { text: " cover the northeast. Each store chooses its own assortment, so bring the exact name and format from the package and confirm with the store. For a shorter session in the wider catalog, the " }, { text: "Oklahoma compact minis", href: "/minis" }, { text: " use the same infused idea at a smaller size, with a kief or diamond finish across the lineup." }]] }
       ],
     },
   ],
@@ -1514,7 +1514,7 @@ const retailersPage: PageContent = {
       heading: "A recognizable infused-product brand",
       imageCount: 1,
       paragraphs: [
-        [{ text: "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate and finished with kief. Moon Rocks remain the flagship expression of that idea. Blunts, " }, { text: "infused pre-rolls for Oklahoma shelves", href: "/pre-rolls" }, { text: ", and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category." }],
+        [{ text: "Presidential began in Los Angeles in 2012 around a direct three-layer construction: flower carried through with cannabis concentrate, with a kief or diamond finish. Moon Rocks remain the flagship expression of that idea. Blunts, " }, { text: "infused pre-rolls for Oklahoma shelves", href: "/pre-rolls" }, { text: ", and minis extend it into rolled formats whose wrap, scale, count, and package profile give buyers additional ways to build the category." }],
         "Recognition does not depend on one package. The crest, strong black ground, vivid illustration, and disciplined series architecture repeat across the family. A patient can encounter Presidential Moon Rocks in one case, a Silver mini pack in another, and a Gold pre-roll elsewhere without feeling as though three unrelated brands are competing for attention.",
         "That continuity is part of why the products can move as a shelf proposition. The catalog gives staff names and formats they can identify, gives the buyer multiple levels of assortment, and gives the patient a visual trail from previous recognition to a new product. It does not ask a retailer to manufacture the brand story at the point of sale.",
       ],
@@ -1543,7 +1543,7 @@ const retailersPage: PageContent = {
       heading: "Groupings create range",
       imageCount: 1,
       paragraphs: [
-        [{ text: "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. " }, { text: "Rose Gold's live rosin names", href: "/rose-gold" }, { text: " form a Connoisseur Series with a smaller, refined, craft-centered position. Those color families give the shelf an immediate visual rhythm." }],
+        [{ text: "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. " }, { text: "Rose Gold's connoisseur names", href: "/rose-gold" }, { text: " form a Connoisseur Series with a smaller, refined, craft-centered position. Those color families give the shelf an immediate visual rhythm." }],
         "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The series pages on this site name every official Silver, Gold, and Rose Gold product. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
@@ -1712,7 +1712,7 @@ const oklahomaPage: PageContent = {
       imageCount: 0,
       paragraphs: [
         "Oklahoma remains a medical cannabis state. On March 7, 2023, voters rejected State Question 820, the adult-use proposal. The official election record and subsequent statewide audit confirm the result. The rejection did not repeal SQ 788 or end the existing medical framework; patients and businesses continued under OMMA licensing and regulation.",
-        [{ text: "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details. For the live rosin side of the catalog, see " }, { text: "Rose Gold in Oklahoma", href: "/rose-gold" }, { text: "." }],
+        [{ text: "That status shapes every product page on this site. Presidential products are promoted for licensed retail, not direct sale. The appropriate active patient or visitor license comes first, a participating licensed dispensary completes the lawful transaction, and current OMMA rules control the program details. For the connoisseur side of the catalog, see " }, { text: "Rose Gold in Oklahoma", href: "/rose-gold" }, { text: "." }],
         [
           { text: "Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
         ],
@@ -1754,7 +1754,7 @@ const aboutPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         [
-          { text: "Presidential began in Los Angeles in 2012 around a memorable three-layer product construction: flower carried through with cannabis concentrate and finished with kief. " },
+          { text: "Presidential began in Los Angeles in 2012 around a memorable three-layer product construction: flower carried through with cannabis concentrate, with a kief or diamond finish. " },
           { text: "Moon Rocks", href: "/moon-rocks" },
           { text: " became the flagship, and the same product language expanded into infused pre-rolls, " },
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
@@ -1823,7 +1823,7 @@ const aboutPage: PageContent = {
               { text: "." },
             ],
           ],
-        }, { id: "reading-the-series-before-the-format", heading: "Reading the series before the format", paragraphs: [[{ text: "In Oklahoma, the series name says the most about a Presidential product. The " }, { text: "flavor-first Silver line", href: "/silver" }, { text: " uses distillate. The " }, { text: "strain-led Gold line", href: "/gold" }, { text: " uses live resin. Rose Gold is the connoisseur line on live rosin. Moon Rocks in every series are flower carried through with concentrate and finished with kief. The paper option, the " }, { text: "Oklahoma infused pre-roll lineup", href: "/pre-rolls" }, { text: ", carries a kief or diamond finish across its series. Pick the series, then the format, then the exact name, and confirm with the store." }]] },
+        }, { id: "reading-the-series-before-the-format", heading: "Reading the series before the format", paragraphs: [[{ text: "In Oklahoma, the series name tells you how a product is named: " }, { text: "flavor-first Silver line", href: "/silver" }, { text: ", " }, { text: "strain-led Gold line", href: "/gold" }, { text: ", connoisseur Rose Gold line. Each pack prints its own build. Moon Rocks are flower carried through with concentrate, with a kief or diamond finish. The paper option, the " }, { text: "Oklahoma infused pre-roll lineup", href: "/pre-rolls" }, { text: ", carries a kief or diamond finish across its series. Pick the series, then the format, then the exact name, and confirm with the store." }]] },
       ],
     },
     {
