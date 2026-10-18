@@ -193,7 +193,7 @@ const homePage: PageContent = {
           { text: "Choctaw Country", href: "/dispensaries/choctaw-country" },
           { text: " also have their own directories." },
         ],
-      ],
+      ], subsections: [{ id: "starting-from-a-region-in-green-country", heading: "Starting from a region in Green Country", paragraphs: [[{ text: "Oklahoma's dispensary listings are grouped by region, which makes it easier to start from where you are. The Green Country list runs town by town. Before calling a store, write down the series and the exact product name from the pack art, so the request is short. The " }, { text: "dispensaries by town in Green Country", href: "/dispensaries/green-country" }, { text: " shows participating stores by town, and each one sets its own shelf. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and finish for that item. Confirm the product with the store before you make the trip." }]] }],
     },
     {
       id: "for-dispensaries",
