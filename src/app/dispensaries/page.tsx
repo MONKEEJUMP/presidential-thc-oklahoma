@@ -15,7 +15,7 @@ import {
   RetailerDirectory,
   retailersFor,
 } from "./dispensary-directory";
-import { HUB_INTRO, HUB_INTRO_BRAND, IntroH3 } from "@/components/r17-intro";
+import { HUB_INTRO, HUB_INTRO_BRAND, HUB_INTRO_REGIONS, IntroH3 } from "@/components/r17-intro";
 import styles from "./dispensaries.module.css";
 
 const PAGE_TITLE = "Presidential Dispensaries Across Oklahoma Regions";
@@ -74,6 +74,7 @@ export default function DispensariesPage() {
           <section aria-label="Introduction" className={styles.intro}>
             <p>{HUB_COPY}</p>
             {HUB_INTRO ? <IntroH3 {...HUB_INTRO} /> : null}
+            {HUB_INTRO_REGIONS ? <IntroH3 {...HUB_INTRO_REGIONS} /> : null}
           </section>
 
           <div className={styles.regionStack}>

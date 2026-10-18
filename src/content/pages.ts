@@ -350,7 +350,7 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         "Construction starts with flower selected as the physical core. Concentrate is applied so the second component stays with that core, and kief provides the final exterior. The result is not a loose kit or a group of separate ingredients. It is a finished product whose layers are meant to be understood together.",
         "Presidential carries that logic consistently across names and series. Silver communicates fruit-forward identity. Gold organizes a large cannabis-first strain collection. Rose Gold introduces a smaller connoisseur grouping centered on solventless craftsmanship. The Line, House Line, and THC Design collaboration create more ways for the same brand architecture to appear.",
-        "The series should not be confused with a public extract chart. This Oklahoma property does not explain which extract sits behind each collection, because another official property owns that technical subject. Here the useful questions are simpler: Which product is this? Which series does its official record place it in? Which package should an Oklahoma patient recognize at licensed retail?",
+        "The series should not be confused with a public extract chart. Here the useful questions are simpler: Which product is this? Which series does its official record place it in? Which package should an Oklahoma patient recognize at licensed retail?",
         "Materials and package identity can be stated directly. Effects vary by person and are not promised. Product details belong to the official record, current local availability belongs to the retailer, and Oklahoma medical-program rules belong together on the dedicated state page.",
       ],
       subsections: [
@@ -485,7 +485,7 @@ const bluntsPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "The defining exterior of a Presidential Blunt is a tobacco-free hemp wrap. That fact is concrete and useful: it tells a patient what surrounds the rolled material, gives a buyer a clear format distinction, and lets the package speak accurately without leaning on effects, medical claims, or assumptions about why any individual chooses one format over another.",
-        "Inside, the blunt carries the Presidential infused-product idea into a rolled form. The product name and official record identify the specific item. The package tells the rest of the shelf story through series color, illustration, count or size information, and the Presidential crest. Those cues work together; none has to carry the whole explanation alone.",
+        "Inside, the blunt carries the Presidential infused-product idea into a rolled form. The product name identifies the specific item. The package tells the rest of the shelf story through series color, illustration, count or size information, and the Presidential crest. Those cues work together; none has to carry the whole explanation alone.",
         "Hemp wrap also creates a different physical presence from paper. It gives the blunt a larger, more substantial silhouette and makes the full-size package easy to distinguish from a pre-roll pack. The mini version retains the format identity while changing scale and package organization.",
       ],
     },
@@ -542,7 +542,7 @@ const bluntsPage: PageContent = {
       paragraphs: [
         "Presidential Blunts appear through several official catalog groupings. Silver fruit identities give the format bright package color. Gold strain identities bring cannabis-first names and illustrated worlds. Selected Presidential Line products introduce character-led artwork, while the House Line states the core blunt directly and THC Design packaging makes the collaboration unmistakable.",
         "The range visible in approved Presidential artwork includes names such as Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, Watermelon, 24K, Blue Dream, Cherry Gelato, King Louis, Presidential OG, Rainbow Belts, Skywalker, and other official product identities.",
-        "A name appearing in the wider product catalog is not treated as a promise that every size and format is currently present at every Oklahoma retailer. This site matches the approved blunt artwork it has to official product destinations and lets each licensed dispensary answer the real-time inventory question.",
+        "A name appearing in the wider product catalog is not treated as a promise that every size and format is currently present at every Oklahoma retailer. Each licensed dispensary answers the real-time inventory question.",
       ],
       subsections: [
         {
@@ -744,7 +744,7 @@ const preRollsPage: PageContent = {
           { text: "official Oklahoma locator" },
           { text: ". Presidential products reach Oklahoma through licensed dispensaries, not direct online sale, and current inventory belongs to each retailer." },
         ],
-        "Begin with the official Oklahoma locator and then confirm the precise item. A complete request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the official record can narrow the check further. Package art on this page gives a visual reference when names are close.",
+        "Begin with the official Oklahoma locator and then confirm the precise item. A complete request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the package can narrow the check further. Package art on this page gives a visual reference when names are close.",
         "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority. The consolidated Oklahoma page keeps state-program information together while this page stays focused on Presidential pre-roll products and licensed availability.",
       ],
     },
@@ -785,7 +785,7 @@ const minisPage: PageContent = {
         ],
         "Clarity matters because ‘mini’ can otherwise become vague. Presidential separates the formats through wrap language and package cues. Hemp-wrapped mini blunts belong to the blunt family. Paper mini pre-rolls belong to the pre-roll family. The crest and artwork connect them, while the physical construction keeps them distinct.",
         "That structure gives a buyer flexibility. Minis can occupy a dedicated compact-format block, sit beside their full-size relatives, or extend a strong product name across another package type. The catalog does not require one merchandising answer; it provides a visual system capable of supporting several.",
-        "For a patient, the benefit is legibility before purchase. The official record shows the exact product. The package identifies name, format, and count or size. The licensed retailer confirms current inventory. No unsupported promise is needed to explain why a smaller package can be a purposeful part of the line.",
+        "For a patient, the benefit is legibility before purchase. The package identifies name, format, and count or size. The licensed retailer confirms current inventory. No unsupported promise is needed to explain why a smaller package can be a purposeful part of the line.",
         "Compact scale also puts more pressure on design discipline. Product name, series, format, and count must stay readable even when the package has less surface area. Presidential minis use strong color and a stable crest hierarchy to retain identity, proving that the smaller format can remain visually complete rather than becoming a reduced afterthought.",
       ],
     },
@@ -852,7 +852,7 @@ const minisPage: PageContent = {
       paragraphs: [
         "Mini pre-rolls use paper rather than a hemp wrap. That simple material distinction separates them from mini blunts even when both appear as compact multipacks. Tall or structured package artwork makes product identity visible while count and format details complete the practical comparison.",
         "The same series logic applies here. Silver can build a vibrant fruit-led mini collection. Gold can bring strain-first names into a compact pre-roll package. Presidential Line art can give individual products their own characters, and House Line can keep the category anchored in the core brand.",
-        "Because mini pre-rolls and mini blunts share the size idea, this page places them together. Because they do not share the same wrap, it never collapses them into one construction. Visitors can compare compact formats here and then move to the complete pre-roll or blunt page for the larger family story.",
+        "Mini pre-rolls and mini blunts share the size but not the wrap. Visitors can compare compact formats here and then move to the complete pre-roll or blunt page for the larger family story.",
       ],
       subsections: [
         {
@@ -905,7 +905,7 @@ const minisPage: PageContent = {
       paragraphs: [
         "Presidential mini inventory varies across participating Oklahoma retailers. A dispensary may favor mini blunts, mini pre-rolls, selected Silver names, selected Gold names, or a compact mix. A static count cannot reliably describe those local purchasing decisions.",
         "Use the official Oklahoma locator to identify participating licensed retailers, then confirm the exact product and format. Say whether you are asking for a mini blunt or mini pre-roll and include the official product name. That specificity gives the store a useful inventory question instead of a broad brand query.",
-        "Purchases remain inside Oklahoma’s medical program and require the appropriate active OMMA patient or visitor license. The Cannabis in Oklahoma page consolidates the credential, possession, cultivation, and market details. This page can therefore do one job well: present Presidential’s compact formats as real product architecture, not filler between larger packages.",
+        "Purchases remain inside Oklahoma’s medical program and require the appropriate active OMMA patient or visitor license. The Cannabis in Oklahoma page consolidates the credential, possession, cultivation, and market details.",
       ],
       subsections: [
         {
@@ -1286,8 +1286,7 @@ const roseGoldPage: PageContent = {
           { text: "Rose Gold blunt", href: "/blunts" },
           { text: "." },
         ],
-        "The artworks on this page pair a square and portrait composition for each name. Every image shows the full real package.",
-        "That trace keeps the visual catalog accountable without changing the established page structure or product destinations.",
+        "The artworks on this page pair a square and portrait composition for each name. Every image shows the full real package.",
       ],
     },
     {
@@ -1325,7 +1324,7 @@ const roseGoldPage: PageContent = {
       paragraphs: [
         "Presidential distributes through licensed Oklahoma dispensaries only, and the Rose Gold connoisseur series may appear selectively within that wholesale field. No participating location is assumed to carry the complete series or every available format.",
         "Use the official Oklahoma locator to identify current participating licensed retailers, then ask for Presidential Rose Gold and the exact product name. That complete phrasing gives a buyer or budtender a precise inventory question and avoids confusing the series color with an unrelated product description.",
-        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. This page stays devoted to a smaller official series whose position is clear: named products, refined presentation, and honest imagery status.",
+        "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s consolidated program page explains that credential and the state framework. Rose Gold is a smaller official series: named products and refined presentation.",
       ],
       subsections: [
         {
@@ -1671,6 +1670,11 @@ const oklahomaPage: PageContent = {
           { text: "the Oklahoma Moon Rocks guide", href: "/moon-rocks" },
           { text: "." },
         ],
+        [
+          { text: "Once your license is active, " },
+          { text: "find a participating dispensary by tourism region", href: "/dispensaries" },
+          { text: "." },
+        ],
       ],
     },
     {
@@ -1719,7 +1723,7 @@ const oklahomaPage: PageContent = {
         [
           { text: "This Oklahoma guide keeps state requirements in one place. Product discovery and legal eligibility are connected steps, but neither should be mistaken for the other." },
         ],
-        "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the official product page for the item; and use the licensed retailer for local inventory. A product-page count, and an editor note. Delete.",
+        "The best final check is always current and specific. Use OMMA for license status, rules, fees, and market requirements; use the package for the item; and use the licensed retailer for local inventory. A product-page count, and an editor note. Delete.",
       ],
     },
   ],
