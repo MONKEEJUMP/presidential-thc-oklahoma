@@ -299,6 +299,19 @@ const moonRocksPage: PageContent = {
           ],
         },
         {
+          id: "brand-searches-that-lead-to-moon-rocks",
+          heading: "Brand searches that lead to Moon Rocks",
+          paragraphs: [
+            [
+              { text: "Shoppers who search for the Presidential weed brand often end up looking at Moon Rocks, because they're the product the brand built its name on. In Oklahoma, each Moon Rock is cannabis flower carried through with concentrate and finished with kief. The series tells you the style: Silver carries fruit-forward flavor names, Gold carries strain names, and Rose Gold is the connoisseur line. Bring the series and product name together when you ask. To see the same names in a hemp wrap, compare the " },
+              { text: "tobacco-free blunt lineup", href: "/blunts" },
+              { text: ", which carries a kief or diamond finish. To shop, open the " },
+              { text: "regional dispensary list", href: "/dispensaries" },
+              { text: " for your part of the state." },
+            ],
+          ],
+        },
+        {
           id: "finding-moon-rocks-ok",
           heading: "Finding Presidential Moon Rocks in Oklahoma",
           paragraphs: [
