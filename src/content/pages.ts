@@ -171,7 +171,7 @@ const homePage: PageContent = {
       paragraphs: [
         "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority and purchase only through an appropriately licensed dispensary.",
         [
-          { text: "The official product record identifies the item; the retailer controls current inventory. The " },
+          { text: "The package name identifies the item; the retailer controls current inventory. The " },
           { text: "Cannabis in Oklahoma", href: "/oklahoma" },
           { text: " page keeps program information together so product and format pages can remain focused." },
         ],
@@ -239,7 +239,7 @@ const homePage: PageContent = {
           paragraphs: [
             [
               { text: "No. Presidential THC Oklahoma is a brand reference, not a storefront, so it publishes no prices. The licensed dispensary sets its own pricing and controls current inventory. Use the store locator to " },
-              { text: "find Presidential in Oklahoma", href: "/find" },
+              { text: "search participating Oklahoma dispensaries", href: "/find" },
               { text: ", then confirm the product, series, and format with them. The package names the product and its series, so it's the most reliable thing to bring to the counter. Dispensaries can start with " },
               { text: "the Oklahoma dispensary guide for retailers", href: "/retailers" },
               { text: "." },
@@ -283,7 +283,7 @@ const moonRocksPage: PageContent = {
           { text: "Cannabis concentrate carries across that foundation" },
           { text: ". Kief completes the outer layer. The name describes the finished form, while the package identifies the exact product, series, and official brand source." },
         ],
-        "The layers matter more than any dramatic promise around them. This site does not use medical language, guarantee an effect, or reduce a product to a single unsupported potency line. It explains what can be responsibly described: the components, the order of construction, the identity on the package, and the licensed Oklahoma channel where the product is sold.",
+        "The layers matter more than any dramatic promise around them. It explains what can be responsibly described: the components, the order of construction, the identity on the package, and the licensed Oklahoma channel where the product is sold.",
         "That material clarity gives the flagship unusual visual weight. A Moon Rock package can lead a shelf block, anchor a broader collection, or introduce a patient to the logic behind the rolled formats. Even when the product name changes, the Presidential crest and format language keep the family recognizable.",
       ],
       subsections: [
@@ -657,7 +657,11 @@ const preRollsPage: PageContent = {
           { text: "Presidential blunt", href: "/blunts" },
           { text: " uses a tobacco-free hemp wrap: a thicker blunt wrap that holds more material and burns slower than paper. Inside both, the same infused construction applies, with cannabis flower carried through with concentrate and finished with kief." },
         ],
-        "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On Presidential cannabis products, the package names the format, series, and product, so read that line first when comparing a pre-roll with a blunt.",
+        [
+          { text: "Strain and flavor names travel separately from the format. Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and Silver pre-rolls carry fruit-forward names such as Watermelon, while Silver and Gold names also appear across the blunt shelf. On " },
+          { text: "Presidential cannabis products sold in Oklahoma", href: "/" },
+          { text: ", the package names the format, series, and product, so read that line first when comparing a pre-roll with a blunt." },
+        ],
       ],
       subsections: [
         {
@@ -862,7 +866,7 @@ const minisPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Smaller products do not require smaller branding. Presidential mini packages still need room for the crest, exact product name, format, series cues, and package facts. The strongest designs keep that hierarchy legible while allowing vivid illustration and color to do the attention work.",
-        "Multipack organization also becomes part of the shelf signal. A buyer can recognize a compact group without opening the package, and a patient can distinguish it from a single full-size presentation. That makes the exterior more than decoration: it is the practical interface between catalog, shelf, and official product record.",
+        "Multipack organization also becomes part of the shelf signal. A buyer can recognize a compact group without opening the package, and a patient can distinguish it from a single full-size presentation. That makes the exterior more than decoration: it connects the catalog to the shelf.",
         [
           { text: "No image source is reused elsewhere." },
         ],
@@ -939,7 +943,7 @@ const silverPage: PageContent = {
       paragraphs: [
         "Silver begins with names people can recognize immediately. No decoding is required to understand the visual territory of Blue Raspberry, Grape, Peach Mango, Pineapple, Strawberry, Tropical, or Watermelon. Each identity creates its own palette and illustration opportunities while the Silver label and Presidential crest keep the group connected.",
         "That balance is what makes the series stronger than a row of unrelated packages. Fruit identity gives every product a distinct face. Shared hierarchy tells a patient or buyer that the faces belong together. On a shelf, the result can read as a vibrant block from a distance and as individual choices at closer range.",
-        "The series position should remain concrete. ‘Flavor-first’ and ‘fruit-forward’ describe naming, artwork, and catalog organization. They do not promise a particular experience or replace the official package record. This site avoids medical language and lets the product page carry the exact identity.",
+        "The series position should remain concrete. ‘Flavor-first’ and ‘fruit-forward’ describe naming, artwork, and catalog organization. They do not promise a particular experience or replace the official package record.",
         [
           { text: "Silver’s direct naming also helps across formats. A patient who first notices Watermelon on Moon Rocks can recognize the same identity when approved artwork appears on a pre-roll or mini package. The fruit name becomes the stable thread, while the format page explains what physically changes around it. That is practical " },
           { text: "brand continuity", href: "/about" },
@@ -1025,7 +1029,9 @@ const silverPage: PageContent = {
           heading: "What do Oklahoma menus call Silver products?",
           paragraphs: [
             [
-              { text: "Menus may list them under Presidential THC, Presidential cannabis or Presidential marijuana, but the product is the same: a Silver item from the Presidential distillate series, named by fruit. Ask for the exact name, such as Peach Mango or Watermelon, along with the format: Moon Rocks, an infused pre-roll, a tobacco-free blunt or a mini. Each licensed Oklahoma dispensary chooses its own mix of names, formats and sizes, so confirm with the store before you go. The package confirms the series and the exact name at the counter. Keep reading with " },
+              { text: "Menus may list them under Presidential THC, " },
+              { text: "Presidential cannabis in Oklahoma", href: "/" },
+              { text: " or Presidential marijuana, but the product is the same: a Silver item from the Presidential distillate series, named by fruit. Ask for the exact name, such as Peach Mango or Watermelon, along with the format: Moon Rocks, an infused pre-roll, a tobacco-free blunt or a mini. Each licensed Oklahoma dispensary chooses its own mix of names, formats and sizes, so confirm with the store before you go. The package confirms the series and the exact name at the counter. Keep reading with " },
               { text: "find Presidential in Oklahoma", href: "/find" },
               { text: ", the " },
               { text: "Oklahoma dispensary guide", href: "/dispensaries" },
@@ -1117,9 +1123,7 @@ const goldPage: PageContent = {
         ],
         "Depth also rewards return browsing. A Gold customer can recognize the shared series before learning every illustration, and a staff member can introduce another official name without leaving the visual system the patient already understands. The collection feels expansive because it contains real variety, yet orderly because each package still answers the same brand, series, product, and format questions.",
         [
-          { text: "The " },
-          { text: "official Gold Strain Series hub" },
-          { text: " is the source for the complete collection. This page mirrors every name from that official structure." },
+          { text: "This page mirrors every name from that official structure." },
         ],
       ],
     },
@@ -1131,7 +1135,7 @@ const goldPage: PageContent = {
         "The Gold roster begins with 24K, Blue Dream, Cap Junky, Cherry Gelato, Crescendo, and Galactic Gas. Gorilla Goo, King Louis, and NYC Diesel continue the set. Orange Push Pop, Papaya Punch, and Pink Cookies bring more distinct official identities into the middle of the collection.",
         "Presidential OG gives the series an unmistakable brand-named anchor. Rainbow Belts, SFV OG, Skywalker, Waui, XJ-13, and XXX complete the official grouping. The names match the official product names exactly, including capitalization and the hyphen in XJ-13.",
         "In the complete roster below, a product without a representative gallery image is still present by name.",
-        "No product is assigned to Gold because a local asset happened to use a gold color. Series membership follows the official Presidential catalog. That rule protects the catalog from creative guesswork and makes the Oklahoma page useful as a dependable brand guide rather than a decorative collage.",
+        "No product is assigned to Gold because a local asset happened to use a gold color. Series membership follows the official Presidential catalog.",
       ],
       subsections: [
         {
@@ -1185,7 +1189,7 @@ const goldPage: PageContent = {
           { text: ". Package shape changes with each format, but the exact strain name and Gold architecture preserve continuity. A patient can recognize the family while still distinguishing the physical product." },
         ],
         "That format breadth creates useful shelf relationships. A retailer might place all Gold products together, build a blunt or pre-roll block that mixes series, or carry one identity across multiple formats when the current wholesale catalog and local demand support it. The brand system can handle all three approaches.",
-        "The official product record is the authority for any exact item. A name in this series does not guarantee every format, size, or pack, and it does not guarantee that a specific Oklahoma dispensary has it today. This guide names the collection accurately and directs availability questions to the licensed store.",
+        "A name in this series does not guarantee every format, size, or pack, and it does not guarantee that a specific Oklahoma dispensary has it today. This guide names the collection accurately and directs availability questions to the licensed store.",
       ],
     },
     {
@@ -1253,7 +1257,7 @@ const roseGoldPage: PageContent = {
       imageCount: 2,
       paragraphs: [
         "Rose Gold gains strength from focus. The roster creates enough range to feel like a complete series while giving each identity more room than it would receive in a much larger collection. The connoisseur position is communicated through editing, typography, color, and craft language—not through medical promises or guaranteed effects.",
-        "‘Solventless craftsmanship’ is part of the series position. This page does not extend that phrase into an extract-by-series explainer, because another Presidential property owns that technical subject. The useful job here is to name the official collection accurately, show its place in the catalog, and send visitors to exact product records.",
+        "‘Solventless craftsmanship’ is part of the series position. The useful job here is to name the official collection accurately, show its place in the catalog, and send visitors to exact product records.",
         "Rose Gold also creates a third visual register beside Silver and Gold. Silver is vibrant and fruit-forward. Gold is broad and cannabis-first. Rose Gold is smaller, quieter, and more deliberately premium in tone. Each retains the Presidential crest and official catalog relationship.",
         "That contrast gives the complete color-series family a useful rhythm. A buyer can see different reasons for a product to exist without presenting them as competing brands: immediacy in Silver, depth in Gold, and curation in Rose Gold. The distinctions come from official collection structure and visual position, not from invented rankings or unverifiable promises.",
         "Rose Gold therefore feels selective by design, not incomplete beside the two larger color series.",
@@ -1368,7 +1372,6 @@ const findPage: PageContent = {
         "Once the locator identifies relevant doors, contact the licensed dispensary before traveling when a specific item matters. Ask for Presidential, the exact product name, the series when relevant, and the intended format. A store that carries the brand may not carry every product, size, pack, or format on the same day.",
         "That two-step route is the most accurate one: live participating network first, store-level inventory confirmation second. It also respects the wholesale model. Presidential provides the catalog and retailer relationships; each dispensary owns its current ordering and shelf decisions.",
         "The same route works whether someone begins with a format or a product name. A visitor might search after seeing Moon Rocks, a Silver flavor, a Gold strain, or a mini package. The locator answers which participating doors are relevant; the retailer answers whether that exact item is available.",
-        "It also protects store information from being duplicated into a public list that can be copied wholesale, indexed after it becomes stale, or separated from the live system that maintains it.",
       ],
     },
     {
@@ -1537,7 +1540,7 @@ const retailersPage: PageContent = {
       imageCount: 1,
       paragraphs: [
         "Silver is a Flavor Series with direct fruit identities and strong color. Gold is a Strain Series whose depth supports a broad cannabis-first shelf. Rose Gold is a Connoisseur Series with a smaller, refined, craft-centered position. Those three color families provide an immediate good-better-best-style visual rhythm without requiring this page to publish commercial terms.",
-        "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging. Together, the groupings prevent the catalog from depending on one naming convention.",
+        "The Presidential Line adds character-led identities outside the color series. House Line states the core Moon Rocks, pre-roll, and blunt formats directly. Presidential x THC Design makes a focused cultivation collaboration visible through co-branded packaging.",
         "For a buyer, that creates several curation paths. A vivid Silver run can make fruit identity the entrance. A deep Gold set can emphasize strain selection. Rose Gold can add a deliberately edited tier. House Line can ground the block in the core brand, while the Line and THC Design create individual and collaborative points of interest.",
         "The series pages on this site name every official Silver, Gold, and Rose Gold product. That gives staff a clean reference and protects ordering conversations from guessed series assignments or outdated third-party lists.",
       ],
@@ -1566,7 +1569,7 @@ const retailersPage: PageContent = {
       paragraphs: [
         "The package is the permanent in-store asset, but a wholesale brand can also support attention through activations, promotions, and compliant samples where allowed and properly managed. Those moments give staff a chance to connect the construction, format differences, and series architecture to the physical products already on the shelf.",
         "An activation works best when it reinforces recognition rather than creating a temporary identity that disappears afterward. Presidential’s crest, product art, and color structure give signage and conversation something consistent to point back to. The patient should still recognize the package after the event is over.",
-        "Promotions can likewise be framed around product education, a selected format, or a coordinated series without making unsupported effects claims. Samples and other in-store support must remain inside applicable Oklahoma rules and the retailer’s own compliance process. This page describes the brand’s available modes of support, not a universal offer or legal instruction.",
+        "Promotions can likewise be framed around product education, a selected format, or a coordinated series. Samples and other in-store support must remain inside applicable Oklahoma rules and the retailer’s own compliance process. This page describes the brand’s available modes of support, not a universal offer or legal instruction.",
         "Consistency of raw goods is the operating foundation beneath those visible moments. Reliable materials, recognizable construction, and disciplined package identity help staff speak about what is actually in front of them. The brand proposition weakens if the visual system is consistent but the supplied product story is not; both sides have to work together.",
       ],
     },
@@ -1607,7 +1610,7 @@ const oklahomaPage: PageContent = {
   title: "Cannabis in Oklahoma | Medical Program and Market Guide",
   description: "Oklahoma’s medical cannabis program, patient and visitor licenses, possession limits, market structure, moratorium, tracking, tax, and current status.",
   intro: [
-    "Oklahoma’s cannabis framework is medical. This page keeps the complete state picture together so product and series pages can remain product-first: the 2018 program, patient and visitor credentials, possession and cultivation allowances, the commercial market, and where the state stands after voters rejected adult-use State Question 820 in 2023.",
+    "Oklahoma’s cannabis framework is medical. Oklahoma at a glance: the 2018 program, patient and visitor credentials, possession and cultivation allowances, the commercial market, and where the state stands after voters rejected adult-use State Question 820 in 2023.",
     [
       { text: "This is an " },
       { text: "official Presidential brand guide", href: "/" },
@@ -1688,7 +1691,7 @@ const oklahomaPage: PageContent = {
         "The state began a moratorium on new grower, processor, and dispensary licenses in August 2022. HB 2095 extended the endpoint in 2023. HB 3143, approved in May 2026, extended it again to August 1, 2028 unless OMMA’s executive director determines the named licensing-review, inspection, and investigation conditions are complete earlier.",
         "The moratorium does not erase existing licensees. Current businesses can renew, and ownership transfer remains possible only through the required OMMA process. HB 3143 added restrictions around transfer applications and requires written approval; pending administrative actions or appeals can affect whether and when an application may be submitted.",
         "Oklahoma uses Metrc as its seed-to-sale tracking system. Licensed businesses record regulated inventory movement through that system, creating a traceability layer from commercial production into the licensed channel. Tracking does not make a public brand site the inventory authority; the retailer still controls what is actually available on its shelf.",
-        "SQ 788 also authorized a 7% excise tax on retail medical marijuana and medical marijuana products sold by dispensaries to patients. OMMA publishes recurring tax reports alongside archived license data, which is why this page avoids freezing a current patient or dispensary count into marketing copy when the agency maintains dated totals directly.",
+        "SQ 788 also authorized a 7% excise tax on retail medical marijuana and medical marijuana products sold by dispensaries to patients. OMMA publishes recurring tax reports and dated license totals.",
         [{ text: "Finding Presidential products at Oklahoma dispensaries", href: "/find" }, { text: " walks through the locator and the store check." }],
       ],
     },
@@ -1825,7 +1828,7 @@ const aboutPage: PageContent = {
           { text: "licensed retailers", href: "/retailers" },
           { text: ". Individual Oklahoma stores choose their own assortment, so current availability is confirmed through the official Oklahoma locator and the licensed retailer rather than a fixed door-count claim." },
         ],
-        "This site does not sell product, publish a copied retailer address table, or impersonate a neutral review outlet. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
+        "This site does not sell product. It gives the brand an Oklahoma home, makes the product family understandable, and routes each next step to the source that actually owns it.",
         "This Oklahoma property remains focused: original in its writing, official in its identity, product-first in its design, and connected to lawful licensed retail rather than direct online sale.",
         [{ text: "To find the Presidential brand at a participating dispensary, start with " }, { text: "where to find Presidential in Oklahoma", href: "/find" }, { text: "." }],
       ],
