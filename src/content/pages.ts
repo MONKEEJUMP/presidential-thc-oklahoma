@@ -1709,7 +1709,7 @@ const oklahomaPage: PageContent = {
         "Oklahoma uses Metrc as its seed-to-sale tracking system. Licensed businesses record regulated inventory movement through that system, creating a traceability layer from commercial production into the licensed channel. Tracking does not make a public brand site the inventory authority; the retailer still controls what is actually available on its shelf.",
         "SQ 788 also authorized a 7% excise tax on retail medical marijuana and medical marijuana products sold by dispensaries to patients. OMMA publishes recurring tax reports and dated license totals.",
         [{ text: "Finding Presidential products at Oklahoma dispensaries", href: "/find" }, { text: " walks through the locator and the store check." }],
-      ],
+      ], subsections: [{ id: "what-a-presidential-pack-tells-an-oklahoma-patient", heading: "What a Presidential pack tells an Oklahoma patient", paragraphs: [[{ text: "Oklahoma's medical program sets the rules, and the package explains what is inside. A Presidential pack shows the series, the format, and the exact product name, so a patient can match it with what they asked for at the counter. Silver, Gold, and Rose Gold name the series, and the label lists the concentrate and the finish for that item. Blunts use a tobacco-free hemp wrap, and the " }, { text: "Oklahoma hemp blunt guide", href: "/blunts" }, { text: " shows how that format is laid out. For the strain-led tier, the " }, { text: "Oklahoma Gold strain roster", href: "/gold" }, { text: " presents its names in one place. Batch test results stay on the label." }]] }],
     },
     {
       id: "where-it-stands",
