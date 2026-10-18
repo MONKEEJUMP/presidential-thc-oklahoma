@@ -127,7 +127,7 @@ export default function DispensariesPage() {
                 carry it.
               </p>
               <p>
-                Presidential is a wholesale brand, and these licensed dispensaries stock it in four formats:{" "}
+                Presidential is a wholesale brand, and these licensed dispensaries stock it in these formats:{" "}
                 <Link href="/moon-rocks">Moon Rocks</Link>, the flagship three-layer build of flower, cannabis
                 concentrate, and kief; <Link href="/pre-rolls">infused pre-rolls</Link> in paper;{" "}
                 <Link href="/blunts">tobacco-free hemp-wrap blunts</Link> in full and mini sizes; and{" "}
