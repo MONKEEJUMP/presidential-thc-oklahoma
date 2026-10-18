@@ -1339,7 +1339,7 @@ const roseGoldPage: PageContent = {
               { text: "." },
             ],
           ],
-        },
+        }, { id: "planning-a-rose-gold-trip-by-region", heading: "Planning a Rose Gold trip by region", paragraphs: [[{ text: "Rose Gold is the live rosin series, the solventless side of the Presidential catalog, under names like Cereal Milk, Wedding Cake, and White Walker. When you're hunting for one at licensed retailers in Oklahoma, start with the region you're in. " }, { text: "Green Country store listings", href: "/dispensaries/green-country" }, { text: " cover the northeast. Each store chooses its own assortment, so bring the exact name and format from the package and confirm with the store. For a shorter session in the wider catalog, the " }, { text: "Oklahoma compact minis", href: "/minis" }, { text: " use the same infused idea at a smaller size, with a kief or diamond finish across the lineup." }]] }
       ],
     },
   ],
