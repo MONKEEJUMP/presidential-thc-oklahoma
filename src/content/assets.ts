@@ -60,6 +60,10 @@ export const pageCatalogHeadings = Object.fromEntries(
   plans.map((plan) => [plan.page, plan.heading]),
 ) as Record<string, string>;
 
+export const pageCatalogIntros = Object.fromEntries(
+  plans.filter((plan) => plan.intro).map((plan) => [plan.page, plan.intro]),
+) as Record<string, string>;
+
 export const allProductImages: ContentImage[] = plans.flatMap((plan) => plan.productIds.map((productId) => {
   const product = productsById.get(productId);
   if (!product) throw new Error(`Unknown product id ${productId} on ${plan.page}`);
