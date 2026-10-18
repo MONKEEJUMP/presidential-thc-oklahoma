@@ -1233,7 +1233,7 @@ const goldPage: PageContent = {
         "Gold is sold at licensed retailers in Oklahoma. Multiple names and formats create many possible local assortments, so a participating retailer may carry a focused Gold selection rather than the complete series.",
         "Use the official Oklahoma locator to identify current participating doors, then confirm the product by its exact name and intended format. Asking for ‘Gold’ alone describes the series. Asking for ‘Presidential Gold Skywalker pre-rolls’ gives the retailer a specific inventory check tied to a recognizable package.",
         "The appropriate active OMMA patient or visitor license is required for purchase. Oklahoma’s dedicated page on this site holds the full medical-program explanation. Gold can therefore stay centered on what it is: a broad, cannabis-first official series with a broad roster and packaging designed to remain coherent at scale.",
-      ],
+      ], subsections: [{ id: "gold-and-the-oklahoma-guide-home", heading: "Gold and the Oklahoma guide home", paragraphs: [[{ text: "For how Presidential presents its series in Oklahoma, start at the " }, { text: "Oklahoma guide home", href: "/oklahoma" }, { text: "." }]] }],
     },
   ],
   productRoster: goldRoster,
