@@ -107,6 +107,19 @@ const homePage: PageContent = {
             ],
           ],
         },
+        {
+          id: "reading-a-presidential-listing-on-an-oklahoma-menu",
+          heading: "Reading a Presidential listing on an Oklahoma menu",
+          paragraphs: [
+            [
+              { text: "One brand can appear several ways on an Oklahoma dispensary menu: Presidential cannabis, Presidential marijuana, or Presidential THC. After the brand, look at the format. Moon Rocks are flower carried through with concentrate and finished with kief. Blunts use a tobacco-free hemp wrap with a kief or diamond finish, and pre-rolls use paper. Then check the series. Silver leads with fruit-forward flavor names, Gold with strain names, and the " },
+              { text: "Rose Gold connoisseur line", href: "/rose-gold" },
+              { text: " with craft names. If a menu doesn't show the series, ask for it by name, because it's the fastest way to confirm you have the right product. Then use the " },
+              { text: "Oklahoma store locator", href: "/find" },
+              { text: " to find a participating OMMA-licensed dispensary." },
+            ],
+          ],
+        },
       ],
     },
     {
