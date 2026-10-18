@@ -99,7 +99,7 @@ const homePage: PageContent = {
           heading: "Is Presidential cannabis the same brand as Presidential THC?",
           paragraphs: [
             [
-              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. Its signature is an infused construction: flower carried through with concentrate and finished with kief or diamonds, across " },
+              { text: "Yes. Dispensary menus in Oklahoma may list the brand as Presidential THC, Presidential cannabis or Presidential marijuana, but they all point to the same Presidential product family. " }, { text: "Oklahoma dispensaries carrying the Presidential weed brand", href: "/dispensaries" }, { text: " are grouped by region. Its signature is an infused construction: flower carried through with concentrate and finished with kief or diamonds, across " },
               { text: "Oklahoma Moon Rocks", href: "/moon-rocks" },
               { text: ", tobacco-free blunts, infused pre-rolls and minis. The package names the product and its series, such as the " },
               { text: "Oklahoma Gold Strain Series", href: "/gold" },
@@ -626,7 +626,7 @@ const preRollsPage: PageContent = {
       paragraphs: [
         "A Presidential pre-roll is an infused roll in paper: the brand’s flower, concentrate, and kief language carried into a ready rolled format. It is one of four Presidential formats in Oklahoma, beside Moon Rocks, tobacco-free hemp-wrap blunts, and minis, and the paper is what separates it from a blunt on the shelf.",
         "Every package names the product, its series, and the count or size. Silver pre-rolls carry fruit-forward flavor names such as Watermelon and Blue Raspberry, Gold pre-rolls carry strain names such as Blue Dream, Cherry Gelato, and Skywalker, and the Presidential Line and House Line add brand-first identities. Singles, multipacks, and mini packs keep the same paper format at different scales.",
-        "Presidential pre-rolls are sold through licensed Oklahoma dispensaries, not online. Ask the store for Presidential, the product name, and the pre-roll format, and treat the package and the retailer’s current inventory as the record of what is on the shelf.",
+        [{ text: "Presidential pre-rolls are sold through " }, { text: "licensed Oklahoma dispensaries that carry Presidential", href: "/dispensaries" }, { text: ", not online. Ask the store for Presidential, the product name, and the pre-roll format, and treat the package and the retailer’s current inventory as the record of what is on the shelf." }],
       ],
     },
     {
@@ -1338,7 +1338,7 @@ const roseGoldPage: PageContent = {
           heading: "How do you ask for a Rose Gold product in Oklahoma?",
           paragraphs: [
             [
-              { text: "Ask by the exact name and the series together, for example Cereal Milk or Wedding Cake in the Rose Gold Connoisseur Series, along with the format you want. Rose Gold is the solventless series and may appear selectively, so no dispensary is assumed to carry every name or format. " },
+              { text: "Ask by the exact name and the series together, for example Cereal Milk or Wedding Cake in the Rose Gold Connoisseur Series, along with the format you want. Rose Gold is the solventless series and may appear selectively, so no dispensary is assumed to carry every name or format. Start with " }, { text: "Oklahoma dispensaries that stock the Presidential brand", href: "/dispensaries" }, { text: ", then confirm the Rose Gold name with the store. " },
               { text: "Find Presidential in Oklahoma", href: "/find" },
               { text: " to reach a participating licensed dispensary first, then confirm with them that they have the product. Compare the " },
               { text: "Silver Flavor Series in Oklahoma", href: "/silver" },
@@ -1759,7 +1759,7 @@ const aboutPage: PageContent = {
           { text: "tobacco-free hemp-wrap blunts", href: "/blunts" },
           { text: ", and compact minis." },
         ],
-        "Presidential is a cannabis (weed) brand founded in Los Angeles in 2012. From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today.",
+        [{ text: "Presidential is a cannabis (weed) brand founded in Los Angeles in 2012. Licensed stores that carry it are listed under " }, { text: "Oklahoma dispensaries for the Presidential brand", href: "/dispensaries" }, { text: ". From the beginning, the package had to carry more than a logo. It needed to make the product recognizable, give individual names their own character, and hold several formats inside one identity. That combination of construction and visual presence is the thread the Oklahoma property preserves today." }],
         [
           { text: "The " },
           { text: "official Presidential story" },
