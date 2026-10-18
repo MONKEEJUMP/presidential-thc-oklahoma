@@ -440,7 +440,7 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         "A Presidential Moon Rocks package has several jobs at once. It must identify Presidential, distinguish the named product, signal its series or collaboration, and make the Moon Rocks format legible. The crest creates the first point of recognition. Color, illustration, typography, and product naming do the finer sorting.",
         "Silver packages lean into vibrant fruit identity. Gold gives strain names strong illustrated worlds within a coordinated series. Rose Gold uses a more restrained connoisseur position. The Presidential Line makes individual character art prominent, while House Line and THC Design use direct brand and collaboration cues. Those differences help a retailer build variety without making the shelf look unrelated.",
-      ],
+      ], subsections: [{ id: "keeping-an-oklahoma-jar-with-its-label", heading: "Keeping an Oklahoma jar with its label", paragraphs: [[{ text: "Keep the jar closed, away from heat and light, and with its label, so the name and series stay with the product." }]] }],
     },
     {
       id: "moon-rocks-or-an-infused-blunt",
