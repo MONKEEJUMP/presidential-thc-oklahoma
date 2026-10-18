@@ -745,7 +745,7 @@ const preRollsPage: PageContent = {
         ],
         "Begin with the official Oklahoma locator and then confirm the precise item. A full request includes Presidential, the product name, and the pre-roll format; adding the pack or size shown on the package can narrow the check further. Package art on this page gives a visual reference when names are close.",
         "Oklahoma cannabis eligibility and retail rules can change. Confirm current requirements directly with the Oklahoma Medical Marijuana Authority.",
-      ],
+      ], subsections: [{ id: "finding-pre-rolls-by-oklahoma-region", heading: "Finding pre-rolls by Oklahoma region", paragraphs: [[{ text: "Oklahoma shoppers can narrow a pre-roll search by region rather than looking across the whole state. In the northeast, the " }, { text: "northeastern Green Country retailers", href: "/dispensaries/green-country" }, { text: " groups participating dispensaries by town. In the northwest, " }, { text: "northwestern Frontier Country stores", href: "/dispensaries/frontier-country" }, { text: " are grouped the same way. Regional lists make a nearby option easier to spot. Before you go, note the exact pre-roll name and series from the pack art, because assortments vary by dispensary and a specific name is easier to match on a menu or at the counter." }]] }],
     },
   ],
   relatedLinks: [
