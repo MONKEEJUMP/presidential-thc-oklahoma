@@ -303,7 +303,7 @@ const moonRocksPage: PageContent = {
           heading: "Brand searches that lead to Moon Rocks",
           paragraphs: [
             [
-              { text: "Shoppers who search for the Presidential weed brand often end up looking at Moon Rocks, because they're the product the brand built its name on. In Oklahoma, each Moon Rock is cannabis flower carried through with concentrate and finished with kief. The series tells you the style: Silver carries fruit-forward flavor names, Gold carries strain names, and Rose Gold is the connoisseur line. Bring the series and product name together when you ask. To see the same names in a hemp wrap, compare the " },
+              { text: "Shoppers who search for the Presidential weed brand often end up looking at Moon Rocks, because Moon Rocks are where the brand began in Los Angeles in 2012. In Oklahoma, each Moon Rock is cannabis flower carried through with concentrate and finished with kief. The series tells you the style: Silver carries fruit-forward flavor names, Gold carries strain names, and Rose Gold is the connoisseur line. Bring the series and product name together when you ask. To see the same names in a hemp wrap, compare the " },
               { text: "tobacco-free blunt lineup", href: "/blunts" },
               { text: ", which carries a kief or diamond finish. To shop, open the " },
               { text: "regional dispensary list", href: "/dispensaries" },
@@ -440,7 +440,6 @@ const moonRocksPage: PageContent = {
       paragraphs: [
         "A Presidential Moon Rocks package has several jobs at once. It must identify Presidential, distinguish the named product, signal its series or collaboration, and make the Moon Rocks format legible. The crest creates the first point of recognition. Color, illustration, typography, and product naming do the finer sorting.",
         "Silver packages lean into vibrant fruit identity. Gold gives strain names strong illustrated worlds within a coordinated series. Rose Gold uses a more restrained connoisseur position. The Presidential Line makes individual character art prominent, while House Line and THC Design use direct brand and collaboration cues. Those differences help a retailer build variety without making the shelf look unrelated.",
-        "The Oklahoma site provides the format story; the main catalog remains the definitive product destination.",
       ],
     },
     {
@@ -883,7 +882,6 @@ const minisPage: PageContent = {
         [
           { text: "No image source is reused elsewhere." },
         ],
-        "The main catalog remains the definitive destination while this page makes the compact comparison easy to see in one place.",
       ],
       subsections: [
         {
@@ -1281,7 +1279,11 @@ const roseGoldPage: PageContent = {
       heading: "The official Rose Gold product identities",
       imageCount: 2,
       paragraphs: [
-        "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the set.",
+        [
+          { text: "Cereal Milk begins the official roster, followed by Cosmic Cookies and God’s Gift. Wedding Cake and White Walker complete the set. Each name also comes as " },
+          { text: "Rose Gold Moon Rocks in Oklahoma", href: "/moon-rocks" },
+          { text: "." },
+        ],
         [
           { text: "Each name appears in the complete roster below. The package gallery makes that visual: a visitor can identify the exact " },
           { text: "Rose Gold blunt", href: "/blunts" },
@@ -1668,7 +1670,9 @@ const oklahomaPage: PageContent = {
         [
           { text: "After the proper Oklahoma credential is active, the " },
           { text: "official Presidential Oklahoma locator" },
-          { text: " can identify participating licensed retailers. The locator is not a substitute for the license, and a home-state card is not a shortcut around OMMA’s visitor process." },
+          { text: " can identify participating licensed retailers. The locator is not a substitute for the license, and a home-state card is not a shortcut around OMMA’s visitor process. Bring a series and product name from " },
+          { text: "the Oklahoma Moon Rocks guide", href: "/moon-rocks" },
+          { text: "." },
         ],
       ],
     },
@@ -1747,7 +1751,7 @@ const aboutPage: PageContent = {
   title: "About Presidential | The Official Oklahoma Brand Site",
   description: "The original Presidential brand, founded in Los Angeles in 2012 and carried through licensed Oklahoma dispensaries.",
   intro: [
-    "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and connects Oklahoma patients and retailers to the main Presidential catalog and licensed retail network.",
+    "Presidential THC Oklahoma is the official Oklahoma site for the original Presidential brand. It presents the products, explains the four formats and the catalog groupings, and connects Oklahoma patients and retailers to the licensed retail network.",
   ],
   sections: [
     {
