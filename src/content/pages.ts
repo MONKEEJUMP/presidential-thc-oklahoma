@@ -1090,7 +1090,7 @@ const silverPage: PageContent = {
               { text: " covers the state." },
             ],
           ],
-        },
+        }, { id: "silver-flavors-in-a-hemp-wrap-blunt", heading: "Silver flavors in a hemp-wrap blunt", paragraphs: [[{ text: "Silver names also come as " }, { text: "tobacco-free Oklahoma blunts", href: "/blunts" }, { text: ", and which flavors a store carries depends on that store." }]] },
       ],
     },
   ],
