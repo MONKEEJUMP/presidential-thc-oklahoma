@@ -894,7 +894,7 @@ const minisPage: PageContent = {
               { text: "." },
             ],
           ],
-        },
+        }, { id: "more-oklahoma-regions-for-minis", heading: "More Oklahoma regions for minis", paragraphs: [[{ text: "Regional guides help you find a licensed retailer in Oklahoma. See the " }, { text: "Chickasaw Country dispensary guide", href: "/dispensaries/chickasaw-country" }, { text: ", the " }, { text: "Choctaw Country dispensary guide", href: "/dispensaries/choctaw-country" }, { text: " and the " }, { text: "Great Plains Country dispensary guide", href: "/dispensaries/great-plains-country" }, { text: "." }]] }
       ],
     },
     {
