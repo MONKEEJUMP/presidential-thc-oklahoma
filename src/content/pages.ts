@@ -1503,9 +1503,9 @@ const retailersPage: PageContent = {
   description: "A product-first wholesale overview for Oklahoma dispensary owners and buyers considering Presidential formats, series, and in-store support.",
   intro: [
     [
-      { text: "This page is for Oklahoma " },
+      { text: "Presidential for Oklahoma " },
       { text: "dispensary owners and buyers", href: "/dispensaries" },
-      { text: ". Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, four clear formats, coordinated groupings, and package art built to hold attention across a shelf." },
+      { text: ". Presidential is a wholesale brand sold through licensed retailers, and the proposition begins with a product family patients can recognize before they reach the counter: a flagship construction, clear formats, coordinated groupings, and package art built to hold attention across a shelf." },
     ],
     [
       { text: "No pricing, margin figure, term, or guaranteed sell-through claim appears here because those details have not been supplied or verified. The useful conversation is the brand proposition: " },
@@ -1526,7 +1526,7 @@ const retailersPage: PageContent = {
     },
     {
       id: "four-format-shelf",
-      heading: "Four formats create a real shelf",
+      heading: "Clear formats create a real shelf",
       imageCount: 1,
       paragraphs: [
         [
@@ -1541,7 +1541,7 @@ const retailersPage: PageContent = {
         ],
         "A buyer can merchandise by format, by series, or as a selected brand block. Format-first organization makes physical choices easy to compare. Series-first organization gives color and identity the lead. A mixed Presidential block can use the crest and black structural packaging to hold several choices together.",
         "The four-format architecture also supports disciplined depth. A store does not need every available name to make the brand legible. It can establish Moon Rocks as the anchor, add one rolled category, use minis as a compact extension, and expand as local demand and current wholesale availability justify it.",
-      ], subsections: [{ id: "blunts-as-an-anchor-format-for-oklahoma-shelves", heading: "Blunts as an anchor format for Oklahoma shelves", paragraphs: [[{ text: "Tobacco-free blunts give an Oklahoma counter an easy way to talk about Presidential. Each one pairs flower and concentrate inside a hemp wrap with a kief or diamond finish, and the series color on the pack tells a patient which tier they are looking at before anyone opens a menu. Buyers planning an opening order can review the " }, { text: "Oklahoma Gold series", href: "/gold" }, { text: " to see how series and strain names sit together on the shelf. Package art carries the exact product name, which helps budtenders match a patient's request to the right pack. Product details and batch results stay on each label for patients to check." }]] }],
+      ],
     },
     {
       id: "six-series-shelf",
@@ -1568,7 +1568,7 @@ const retailersPage: PageContent = {
               { text: " extend the same idea into rolled formats. Exact product name, series, and format give staff a precise way to answer a request." },
             ],
           ],
-        },
+        }, { id: "blunts-as-an-anchor-format-for-oklahoma-shelves", heading: "Blunts as an anchor format for Oklahoma shelves", paragraphs: [[{ text: "Tobacco-free blunts give an Oklahoma counter an easy way to talk about Presidential. Each one pairs flower and concentrate inside a hemp wrap with a kief or diamond finish, and the series color on the pack tells a patient which tier they are looking at. Buyers planning an opening order can review the " }, { text: "Oklahoma Gold series", href: "/gold" }, { text: " to see how series and strain names sit together on the shelf. Package art carries the exact product name, which helps budtenders match a patient's request to the right pack. Product details and batch results stay on each label for patients to check." }]] }
       ],
     },
     {
